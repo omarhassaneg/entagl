@@ -32,7 +32,6 @@ export function FormInput({ step, value, onChange, onEnter }: FormInputProps) {
         value={value}
         onlyCountries={['us', 'gb', 'ca', 'au', 'fr', 'de', 'it', 'es', 'br', 'mx', 'jp', 'kr', 'cn', 'in']}
         disableDropdown={false}
-        displayFormat="INTERNATIONAL"
         enableSearch={true}
         enableAreaCodes={false}
         countryCodeEditable={false}
