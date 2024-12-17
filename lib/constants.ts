@@ -26,6 +26,10 @@ export const NAV_ITEMS: NavItem[] = [
     title: 'blog',
     href: '/blog',
   },
+  {
+    title: 'contact',
+    href: '/contact',
+  },
 ];
 
 export const SERVICES = [

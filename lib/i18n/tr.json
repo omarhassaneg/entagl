@@ -14,7 +14,8 @@
     "features": "Özellikler",
     "pricing": "Fiyatlandırma",
     "blog": "Blog",
-    "compare": "Karşılaştır"
+    "compare": "Karşılaştır",
+    "contact": "İletişim"
   },
   "footer": {
     "newsletter": "Bültenimize abone olun",
@@ -334,7 +335,8 @@
       "businessWebsite": "İşletmenizin web sitesi nedir? (opsiyonel)",
       "additionalInfo": "Eklemek istediğiniz başka bir şey var mı? (opsiyonel)",
       "thankYou": "İlginiz için teşekkür ederiz!",
-      "confirmation": "En kısa sürede size geri döneceğiz."
+      "confirmation": "En kısa sürede size geri döneceğiz.",
+      "error": "Form gönderilemedi. Lütfen tekrar deneyin."
     }
   }
 }

@@ -14,7 +14,8 @@
     "features": "Features",
     "pricing": "Pricing",
     "blog": "Blog",
-    "compare": "Compare"
+    "compare": "Compare",
+    "contact": "Contact"
   },
   "footer": {
     "newsletter": "Subscribe to our newsletter",
@@ -334,7 +335,8 @@
       "businessWebsite": "What's your business website? (optional)",
       "additionalInfo": "Anything else you'd like to share? (optional)",
       "thankYou": "Thank you for reaching out!",
-      "confirmation": "We'll get back to you as soon as possible."
+      "confirmation": "We'll get back to you as soon as possible.",
+      "error": "Failed to submit form. Please try again."
     }
   }
 }

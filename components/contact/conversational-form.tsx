@@ -1,14 +1,54 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useTranslations } from '@/lib/hooks/use-translations';
+import { useLanguage } from '@/components/providers/language-provider';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { z } from 'zod';
 import { Button } from '@/components/ui/button';
+
+const QUESTION_KEYS = [
+  {
+    key: 'firstName',
+    type: 'text',
+    required: true,
+    translationKey: 'contact.form.firstName'
+  },
+  {
+    key: 'email',
+    type: 'email',
+    required: true,
+    translationKey: 'contact.form.email'
+  },
+  {
+    key: 'phone',
+    type: 'phone',
+    required: true,
+    translationKey: 'contact.form.phone'
+  },
+  {
+    key: 'businessName',
+    type: 'text',
+    required: false,
+    translationKey: 'contact.form.businessName'
+  },
+  {
+    key: 'businessWebsite',
+    type: 'url',
+    required: false,
+    translationKey: 'contact.form.businessWebsite'
+  },
+  {
+    key: 'additionalInfo',
+    type: 'textarea',
+    required: false,
+    translationKey: 'contact.form.additionalInfo'
+  }
+];
 
 interface FormData {
   firstName: string;
@@ -26,6 +66,7 @@ const validationSchema = {
 
 export function ConversationalForm() {
   const { t } = useTranslations();
+  const { language } = useLanguage();
   const [step, setStep] = useState(0);
   const [error, setError] = useState<string>('');
   const [formData, setFormData] = useState<FormData>({
@@ -38,50 +79,37 @@ export function ConversationalForm() {
   });
   const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement | null>(null);
 
+  // Memoize translated questions
+  const questions = useMemo(() => 
+    QUESTION_KEYS.map(q => ({
+      ...q,
+      question: t(q.translationKey)
+    }))
+  , [t]);
+
+  // Reset form when language changes
+  useEffect(() => {
+    setStep(0);
+    setFormData({
+      firstName: '',
+      email: '',
+      phone: '',
+      businessName: '',
+      businessWebsite: '',
+      additionalInfo: '',
+    });
+    setError('');
+  }, [language]);
+
+  // Focus input on step change
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();
     }
   }, [step]);
 
-  const questions = [
-    {
-      key: 'firstName',
-      question: t('contact.form.firstName'),
-      type: 'text',
-      required: true,
-    },
-    {
-      key: 'email',
-      question: t('contact.form.email'),
-      type: 'email',
-      required: true,
-    },
-    {
-      key: 'phone',
-      question: t('contact.form.phone'),
-      type: 'phone',
-      required: true,
-    },
-    {
-      key: 'businessName',
-      question: t('contact.form.businessName'),
-      type: 'text',
-      required: false,
-    },
-    {
-      key: 'businessWebsite',
-      question: t('contact.form.businessWebsite'),
-      type: 'url',
-      required: false,
-    },
-    {
-      key: 'additionalInfo',
-      question: t('contact.form.additionalInfo'),
-      type: 'textarea',
-      required: false,
-    },
-  ];
+
+  const currentQuestion = questions[step];
 
   const validateField = (key: string, value: string) => {
     setError('');
@@ -104,7 +132,6 @@ export function ConversationalForm() {
   };
 
   const handleNext = () => {
-    const currentQuestion = questions[step];
     const currentValue = formData[currentQuestion.key as keyof FormData] as string;
     
     // Allow skipping optional fields
@@ -163,6 +190,7 @@ export function ConversationalForm() {
 
   const handleSubmit = async () => {
     try {
+      setError('');
       const response = await fetch('https://hook.us1.make.com/yyqy6vn8ysaijlm457aixb5psqofdfyz', {
         method: 'POST',
         headers: {
@@ -176,9 +204,12 @@ export function ConversationalForm() {
 
       if (response.ok) {
         setStep(questions.length);
+      } else {
+        throw new Error('Failed to submit form');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
+      setError(t('contact.form.error') || 'Failed to submit form');
     }
   };
 
@@ -278,10 +309,10 @@ export function ConversationalForm() {
               className="space-y-8"
             >
               <h2 className="text-3xl font-medium mb-8">
-                {questions[step].question}
+                {currentQuestion.question}
               </h2>
               <div className="space-y-2">
-                {renderInput(questions[step])}
+                {renderInput(currentQuestion)}
                 {error && (
                   <p className="text-sm text-destructive">
                     {error}
