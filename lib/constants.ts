@@ -15,10 +15,6 @@ export const LANGUAGES: Language[] = [
 
 export const NAV_ITEMS: NavItem[] = [
   {
-    title: 'home',
-    href: '/',
-  },
-  {
     title: 'features',
     href: '/features',
   },
@@ -29,10 +25,6 @@ export const NAV_ITEMS: NavItem[] = [
   {
     title: 'blog',
     href: '/blog',
-  },
-  {
-    title: 'compare',
-    href: '/compare',
   },
 ];
 
