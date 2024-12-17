@@ -89,3 +89,129 @@
     background-size: 4rem 4rem;
   }
 }
+
+/* Phone Input Overrides */
+.react-tel-input .country-list {
+  @apply bg-background border-border text-foreground;
+  max-height: 240px;
+}
+
+.react-tel-input .country-list .country:hover {
+  @apply bg-accent/50;
+}
+
+.react-tel-input .country-list .country.highlight {
+  @apply bg-accent/50;
+}
+
+.react-tel-input .search-box {
+  @apply bg-background text-foreground border-border;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.react-tel-input .search-box:focus {
+  @apply outline-none border-primary;
+}
+
+.dark .react-tel-input .country-list {
+  @apply bg-card border-border;
+}
+
+.dark .react-tel-input .country-list .country {
+  @apply text-foreground;
+}
+
+.dark .react-tel-input .country-list .country:hover,
+.dark .react-tel-input .country-list .country.highlight {
+  @apply bg-accent text-accent-foreground;
+}
+
+.dark .react-tel-input .search-box {
+  @apply bg-card text-foreground border-border;
+}
+
+.dark .react-tel-input .selected-flag:hover,
+.dark .react-tel-input .selected-flag:focus,
+.dark .react-tel-input .flag-dropdown.open .selected-flag {
+  @apply bg-transparent;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+  @apply bg-transparent;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  @apply bg-transparent;
+}
+
+.react-tel-input .country-list .country {
+  @apply text-sm;
+}
+
+.react-tel-input .country-list .country .dial-code {
+  @apply text-muted-foreground;
+}
+
+/* Form Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+/* Typography Enhancements */
+.prose {
+  @apply max-w-none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  @apply font-bold text-foreground;
+}
+
+.prose p,
+.prose ul,
+.prose ol {
+  @apply text-muted-foreground;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
+
+/* Focus Styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+}
+
+/* Selection Styles */
+::selection {
+  @apply bg-primary/20 text-foreground;
+}

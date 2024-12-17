@@ -6,7 +6,10 @@
     "subscribe": "Abone Ol",
     "emailPlaceholder": "E-posta adresiniz",
     "month": "/ay",
-    "setupFee": "tek seferlik kurulum ücreti"
+    "setupFee": "tek seferlik kurulum ücreti",
+    "continue": "Devam Et",
+    "back": "Geri",
+    "submit": "Gönder"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -123,6 +126,33 @@
     "cta": {
       "title": "Sosyal Medyanızı Dönüştürmeye Hazır mısınız?",
       "subtitle": "Sosyal medya varlıklarını Entagl ile otomatikleştiren binlerce işletmeye katılın ve daha fazla müşteri kazanın."
+    },
+    "contact": {
+      "title": "Yapay Zeka",
+      "titleHighlight": "Yolculuğunuza Başlayın",
+      "subtitle": "Bize işletmenizden bahsedin, yapay zeka çözümlerimizin sosyal medya varlığınızı nasıl dönüştürebileceğini gösterelim",
+      "form": {
+        "step": "Adım {{current}}/{{total}}",
+        "firstName": "Adınız nedir?",
+        "firstNamePlaceholder": "Adınızı girin",
+        "lastName": "Soyadınız nedir?",
+        "lastNamePlaceholder": "Soyadınızı girin",
+        "email": "E-posta adresiniz nedir?",
+        "emailPlaceholder": "E-posta adresinizi girin",
+        "phone": "Telefon numaranız nedir?",
+        "phonePlaceholder": "Telefon numaranızı girin",
+        "businessName": "İşletmenizin adı nedir?",
+        "businessNamePlaceholder": "İşletme adınızı girin",
+        "website": "Web siteniz var mı? (İsteğe bağlı)",
+        "websitePlaceholder": "Web site adresinizi girin",
+        "interestedProducts": "Hangi çözümlerle ilgileniyorsunuz?",
+        "additionalInfo": "Bize başka söylemek istediğiniz bir şey var mı? (İsteğe bağlı)",
+        "additionalInfoPlaceholder": "Sorularınızı veya özel gereksinimlerinizi paylaşın..."
+      },
+      "success": {
+        "title": "Teşekkürler! 🎉",
+        "message": "Mesajınızı aldık, 24 saat içinde size geri döneceğiz."
+      }
     }
   },
   "features": {

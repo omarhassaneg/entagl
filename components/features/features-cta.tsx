@@ -5,17 +5,17 @@ import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { useTranslations } from '@/lib/hooks/use-translations';
 
-export function CTASection() {
+export function FeaturesCTA() {
   const { t } = useTranslations();
 
   return (
     <section className="py-24 bg-gradient-to-r from-teal-500 to-blue-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-          {t('home.cta.title')}
+          {t('pricing.cta.title')}
         </h2>
         <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-          {t('home.cta.subtitle')}
+          {t('pricing.cta.subtitle')}
         </p>
         <Link href="/demo">
           <Button

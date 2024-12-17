@@ -6,7 +6,10 @@
     "subscribe": "Subscribe",
     "emailPlaceholder": "Enter your email",
     "month": "/month",
-    "setupFee": "one-time setup fee"
+    "setupFee": "one-time setup fee",
+    "continue": "Continue",
+    "back": "Back",
+    "submit": "Submit"
   },
   "nav": {
     "home": "Home",
@@ -122,7 +125,34 @@
     },
     "cta": {
       "title": "Ready to Transform Your Social Media?",
-      "subtitle": "Join thousands of businesses already using Entagl to automate their social media presence and generate more leads."
+      "subtitle": "Start your 14-day free trial today. No credit card required."
+    },
+    "contact": {
+      "title": "Let's Start Your",
+      "titleHighlight": "AI Journey",
+      "subtitle": "Tell us about your business and we'll show you how our AI solutions can transform your social media presence",
+      "form": {
+        "step": "Step {{current}} of {{total}}",
+        "firstName": "What's your first name?",
+        "firstNamePlaceholder": "Enter your first name",
+        "lastName": "And your last name?",
+        "lastNamePlaceholder": "Enter your last name",
+        "email": "What's your email address?",
+        "emailPlaceholder": "Enter your email address",
+        "phone": "What's your phone number?",
+        "phonePlaceholder": "Enter your phone number",
+        "businessName": "What's your business name?",
+        "businessNamePlaceholder": "Enter your business name",
+        "website": "Do you have a website? (Optional)",
+        "websitePlaceholder": "Enter your website URL",
+        "interestedProducts": "Which solutions interest you?",
+        "additionalInfo": "Anything else you'd like to tell us? (Optional)",
+        "additionalInfoPlaceholder": "Share any questions or specific requirements..."
+      },
+      "success": {
+        "title": "Thank You! 🎉",
+        "message": "We've received your message and will get back to you within 24 hours."
+      }
     }
   },
   "features": {
