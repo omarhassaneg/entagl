@@ -2,7 +2,6 @@
 
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
 import { useTranslations } from '@/lib/hooks/use-translations';
 
 export function PricingCTA() {
@@ -18,12 +17,13 @@ export function PricingCTA() {
           <p className="text-xl text-muted-foreground mb-8">
             {t('pricing.cta.subtitle')}
           </p>
-          <div className="flex justify-center">
-            <Button size="lg" className="group" asChild>
-              <Link href="/demo">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="group">
               {t('common.getStarted')}
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
+            </Button>
+            <Button size="lg" variant="outline">
+              {t('common.viewDemo')}
             </Button>
           </div>
         </div>

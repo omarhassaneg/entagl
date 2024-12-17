@@ -6,10 +6,7 @@
     "subscribe": "Abone Ol",
     "emailPlaceholder": "E-posta adresiniz",
     "month": "/ay",
-    "setupFee": "tek seferlik kurulum ücreti",
-    "continue": "Devam Et",
-    "back": "Geri",
-    "submit": "Gönder"
+    "setupFee": "tek seferlik kurulum ücreti"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -78,6 +75,24 @@
     }
   },
   "home": {
+    "features": {
+      "title": "Büyüme için Güçlü Özellikler",
+      "subtitle": "Sosyal medya varlığınızı ölçeklendirmek için ihtiyacınız olan her şey",
+      "items": {
+        "smartContent": {
+          "title": "Akıllı İçerik Üretimi",
+          "description": "Marka sesinize ve hedef kitlenizin tercihlerine uygun yüksek kaliteli içerik oluşturun"
+        },
+        "analytics": {
+          "title": "Etkileşim Analitiği",
+          "description": "Performansınızı detaylı analizler ve uygulanabilir içgörülerle takip edin"
+        },
+        "scheduling": {
+          "title": "Otomatik Planlama",
+          "description": "Maksimum etkileşim ve erişim için içeriğinizi optimal zamanlarda planlayın"
+        }
+      }
+    },
     "hero": {
       "title": "Sosyal Medyanızı",
       "titleHighlight": "Yapay Zeka ile Dönüştürün",
@@ -95,27 +110,49 @@
           "title": "Otomatik İş Akışları",
           "description": "Bir kez ayarlayın, sosyal medya varlığınızı yapay zekaya bırakın"
         }
+      },
+      "items": {
+        "smartContent": {
+          "title": "Akıllı İçerik Üretimi",
+          "description": "Marka sesinize ve hedef kitlenizin tercihlerine uygun yüksek kaliteli içerik oluşturun"
+        },
+        "analytics": {
+          "title": "Etkileşim Analitiği",
+          "description": "Performansınızı detaylı analizler ve uygulanabilir içgörülerle takip edin"
+        },
+        "scheduling": {
+          "title": "Otomatik Planlama",
+          "description": "Maksimum etkileşim ve erişim için içeriğinizi optimal zamanlarda planlayın"
+        }
       }
     },
     "benefits": {
       "title": "İşinizi Yapay Zeka ile Dönüştürün",
       "subtitle": "Manuel sosyal medya yönetimine zaman ve para harcamayı bırakın. Yapay zeka çözümlerimiz gerçek, ölçülebilir sonuçlar sunar.",
       "items": {
-        "time": {
+        "aiContent": {
+          "title": "Yapay Zeka Destekli İçerik Üretimi",
+          "description": "Gelişmiş yapay zeka teknolojimizle saniyeler içinde etkileyici sosyal medya içeriği oluşturun"
+        },
+        "engagement": {
+          "title": "Etkileşim Artışı",
+          "description": "Veri odaklı içerik optimizasyonu ile etkileşim oranlarınızı artırın"
+        },
+        "analytics": {
+          "title": "Analitik ve İçgörüler",
+          "description": "Büyümenizi takip edin ve stratejinizi detaylı analizlerle optimize edin"
+        },
+        "audience": {
+          "title": "Takipçi Kazanımı",
+          "description": "Hedefli içerik ve etkileşim stratejileriyle takipçi kitlenizi büyütün"
+        },
+        "timeSaving": {
           "title": "Haftada 20+ Saat Kazanın",
           "description": "Tekrarlayan görevleri ve içerik oluşturmayı otomatikleştirin"
         },
-        "cost": {
-          "title": "Maliyetleri %60 Azaltın",
-          "description": "Yapay zeka ile pazarlama ekibi giderlerini düşürün"
-        },
-        "engagement": {
-          "title": "3 Kat Etkileşim",
-          "description": "Yapay zeka optimize içeriklerle sosyal medya etkileşiminizi artırın"
-        },
-        "leads": {
-          "title": "7/24 Müşteri Kazanımı",
-          "description": "Her zaman aktif yapay zeka satış asistanlarıyla daha çok müşteri kazanın"
+        "automation": {
+          "title": "Akıllı Otomasyon",
+          "description": "Sosyal medya varlığınızı otantikliği koruyarak otomatikleştirin"
         }
       }
     },
@@ -126,33 +163,6 @@
     "cta": {
       "title": "Sosyal Medyanızı Dönüştürmeye Hazır mısınız?",
       "subtitle": "Sosyal medya varlıklarını Entagl ile otomatikleştiren binlerce işletmeye katılın ve daha fazla müşteri kazanın."
-    },
-    "contact": {
-      "title": "Yapay Zeka",
-      "titleHighlight": "Yolculuğunuza Başlayın",
-      "subtitle": "Bize işletmenizden bahsedin, yapay zeka çözümlerimizin sosyal medya varlığınızı nasıl dönüştürebileceğini gösterelim",
-      "form": {
-        "step": "Adım {{current}}/{{total}}",
-        "firstName": "Adınız nedir?",
-        "firstNamePlaceholder": "Adınızı girin",
-        "lastName": "Soyadınız nedir?",
-        "lastNamePlaceholder": "Soyadınızı girin",
-        "email": "E-posta adresiniz nedir?",
-        "emailPlaceholder": "E-posta adresinizi girin",
-        "phone": "Telefon numaranız nedir?",
-        "phonePlaceholder": "Telefon numaranızı girin",
-        "businessName": "İşletmenizin adı nedir?",
-        "businessNamePlaceholder": "İşletme adınızı girin",
-        "website": "Web siteniz var mı? (İsteğe bağlı)",
-        "websitePlaceholder": "Web site adresinizi girin",
-        "interestedProducts": "Hangi çözümlerle ilgileniyorsunuz?",
-        "additionalInfo": "Bize başka söylemek istediğiniz bir şey var mı? (İsteğe bağlı)",
-        "additionalInfoPlaceholder": "Sorularınızı veya özel gereksinimlerinizi paylaşın..."
-      },
-      "success": {
-        "title": "Teşekkürler! 🎉",
-        "message": "Mesajınızı aldık, 24 saat içinde size geri döneceğiz."
-      }
     }
   },
   "features": {
@@ -310,6 +320,20 @@
     "cta": {
       "title": "Sosyal Medyanızı Dönüştürmeye Hazır mısınız?",
       "subtitle": "14 günlük ücretsiz deneme sürenizi bugün başlatın. Kredi kartı gerekmez."
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Sorularınız mı var? Sizden haber almaktan mutluluk duyarız. Bize mesaj gönderin, en kısa sürede yanıt verelim.",
+    "form": {
+      "firstName": "İsminiz nedir?",
+      "email": "E-posta",
+      "phone": "Telefon numaranız nedir?",
+      "businessName": "İşletmenizin adı nedir? (opsiyonel)",
+      "businessWebsite": "İşletmenizin web sitesi nedir? (opsiyonel)",
+      "additionalInfo": "Eklemek istediğiniz başka bir şey var mı? (opsiyonel)",
+      "thankYou": "İlginiz için teşekkür ederiz!",
+      "confirmation": "En kısa sürede size geri döneceğiz."
     }
   }
 }

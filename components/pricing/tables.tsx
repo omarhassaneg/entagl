@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Check, Bot, Zap, MessageSquare, BrainCircuit } from 'lucide-react';
-import Link from 'next/link';
 import { useTranslations } from '@/lib/hooks/use-translations';
 import { SERVICES } from '@/lib/constants';
 
@@ -64,9 +63,7 @@ export function PricingTables() {
                       </li>
                     ))}
                   </ul>
-                  <Button className="w-full" asChild>
-                    <Link href="/demo">{t('common.getStarted')}</Link>
-                  </Button>
+                  <Button className="w-full">{t('common.getStarted')}</Button>
                 </Card>
               </motion.div>
             );

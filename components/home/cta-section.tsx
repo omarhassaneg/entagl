@@ -2,7 +2,6 @@
 
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
 import { useTranslations } from '@/lib/hooks/use-translations';
 
 export function CTASection() {
@@ -17,16 +16,14 @@ export function CTASection() {
         <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
           {t('home.cta.subtitle')}
         </p>
-        <Link href="/demo">
-          <Button
-            size="lg"
-            variant="secondary"
-            className="group bg-white text-teal-500 hover:bg-white/90"
-          >
-            {t('common.getStartedNow')}
-            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </Button>
-        </Link>
+        <Button
+          size="lg"
+          variant="secondary"
+          className="group bg-white text-teal-500 hover:bg-white/90"
+        >
+          {t('common.getStartedNow')}
+          <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+        </Button>
       </div>
     </section>
   );

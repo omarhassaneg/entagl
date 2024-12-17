@@ -59,9 +59,7 @@ export function Navbar() {
               )}
             </Button>
 
-            <Button variant="default" asChild>
-              <Link href="/demo">{t('common.getStarted')}</Link>
-            </Button>
+            <Button variant="default">{t('common.getStarted')}</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -105,9 +103,7 @@ export function Navbar() {
                 )}
               </Button>
             </div>
-            <Button className="w-full mt-4" asChild>
-              <Link href="/demo">{t('common.getStarted')}</Link>
-            </Button>
+            <Button className="w-full mt-4">{t('common.getStarted')}</Button>
           </div>
         </div>
       )}
