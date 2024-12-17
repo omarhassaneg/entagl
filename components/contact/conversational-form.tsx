@@ -8,6 +8,7 @@ import { useTranslations } from '@/lib/hooks/use-translations';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { z } from 'zod';
+import { Button } from '@/components/ui/button';
 
 interface FormData {
   firstName: string;
@@ -184,24 +185,35 @@ export function ConversationalForm() {
   const renderInput = (question: typeof questions[0]) => {
     const value = formData[question.key as keyof FormData] || '';
     const commonProps = {
-      className: 'w-full bg-transparent border-b-2 border-primary/20 focus:border-primary outline-none text-2xl py-2 transition-colors',
+      className: 'w-full bg-transparent border-b-2 border-primary/20 focus:border-primary outline-none text-2xl py-2 transition-colors mb-4',
       onKeyPress: handleKeyPress,
     };
 
     if (question.type === 'phone') {
       return (
-        <PhoneInput
-          autoFocus
-          value={value as string}
-          onChange={(phone) => setFormData({ ...formData, [question.key]: phone || '' })}
-          onKeyDown={(e: any) => {
-            if (e.key === 'Enter' && !error) {
-              e.preventDefault();
-              handleNext();
-            }
-          }}
-          className="text-2xl"
-        />
+        <div className="space-y-4">
+          <PhoneInput
+            autoFocus
+            value={value as string}
+            onChange={(phone) => setFormData({ ...formData, [question.key]: phone || '' })}
+            onKeyDown={(e: any) => {
+              if (e.key === 'Enter' && !error) {
+                e.preventDefault();
+                handleNext();
+              }
+            }}
+            className="text-2xl"
+          />
+          <div className="md:hidden">
+            <Button
+              onClick={handleNext}
+              disabled={!value || !!error}
+              className="w-full"
+            >
+              {t('common.next')}
+            </Button>
+          </div>
+        </div>
       );
     }
 
