@@ -1,4 +1,4 @@
-import { NavItem, Language } from './types';
+import { NavItem, Language, BlogCategory } from './types';
 
 export const LANGUAGES: Language[] = [
   {
