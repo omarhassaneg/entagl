@@ -1,0 +1,285 @@
+{
+  "common": {
+    "getStarted": "Get Started",
+    "viewDemo": "View Demo",
+    "getStartedNow": "Get Started Now",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email",
+    "month": "/month",
+    "setupFee": "one-time setup fee"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "compare": "Compare"
+  },
+  "footer": {
+    "newsletter": "Subscribe to our newsletter",
+    "rights": "All rights reserved",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "description": "Revolutionizing social media management with AI-powered automation",
+    "demo": "Demo",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "services": {
+    "basic-automation": {
+      "title": "Basic Social Media Automation",
+      "description": "Automated posting with AI-generated content and scheduling",
+      "features": {
+        "captions": "AI-generated captions",
+        "templates": "Custom post templates",
+        "images": "Automated image generation",
+        "scheduling": "Smart scheduling system",
+        "delivery": "24/7 content delivery"
+      }
+    },
+    "advanced-automation": {
+      "title": "Advanced Social Media Automation",
+      "description": "Enhanced automation with WhatsApp integration and voice features",
+      "features": {
+        "basic": "All Basic Automation features",
+        "whatsapp": "Daily WhatsApp notifications",
+        "voice": "Voice note to content conversion",
+        "scripts": "AI video script generation",
+        "voiceover": "Automated voiceover creation"
+      }
+    },
+    "basic-agent": {
+      "title": "Basic AI Agent",
+      "description": "24/7 AI assistant for customer engagement",
+      "features": {
+        "comments": "Comment engagement",
+        "dm": "DM response automation",
+        "platforms": "Multi-platform support",
+        "availability": "24/7 availability",
+        "conversations": "Concurrent conversation handling"
+      }
+    },
+    "advanced-agent": {
+      "title": "Advanced AI Agent",
+      "description": "Intelligent lead qualification and conversion",
+      "features": {
+        "basic": "All Basic Agent features",
+        "qualification": "Lead qualification",
+        "conversion": "Conversion optimization",
+        "crm": "CRM integration",
+        "analytics": "Advanced analytics"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Transform Your Social Media with",
+      "titleHighlight": "AI-Powered Automation",
+      "subtitle": "Stop struggling with manual social media management. Let AI handle your content creation, engagement, and lead generation while you focus on growing your business.",
+      "features": {
+        "aiAssistance": {
+          "title": "24/7 AI Assistance",
+          "description": "Never miss a customer inquiry with our always-on AI agents"
+        },
+        "contentCreation": {
+          "title": "Instant Content Creation",
+          "description": "Generate engaging content in seconds with AI-powered tools"
+        },
+        "workflows": {
+          "title": "Automated Workflows",
+          "description": "Set up once, let AI handle your social media presence"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Transform Your Business with AI",
+      "subtitle": "Stop losing time and money on manual social media management. Our AI solutions deliver real, measurable results.",
+      "items": {
+        "time": {
+          "title": "Save 20+ Hours Weekly",
+          "description": "Automate repetitive tasks and content creation to focus on strategy"
+        },
+        "cost": {
+          "title": "Reduce Costs by 60%",
+          "description": "Cut down on marketing team expenses with AI-powered automation"
+        },
+        "engagement": {
+          "title": "3x Engagement Rate",
+          "description": "Increase your social media engagement with AI-optimized content"
+        },
+        "leads": {
+          "title": "24/7 Lead Generation",
+          "description": "Convert more leads with always-on AI sales assistants"
+        }
+      }
+    },
+    "services": {
+      "title": "Tailored Solutions for Your Business",
+      "subtitle": "Choose the perfect AI automation package to transform your social media presence"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Social Media?",
+      "subtitle": "Join thousands of businesses already using Entagl to automate their social media presence and generate more leads."
+    }
+  },
+  "features": {
+    "hero": {
+      "title": "Powerful Features for",
+      "titleHighlight": "Social Media Success",
+      "subtitle": "Discover how our AI-powered tools can transform your social media presence and free up your valuable time."
+    },
+    "services": {
+      "title": "Comprehensive AI Solutions",
+      "subtitle": "Explore our range of powerful features designed to automate and enhance your social media presence",
+      "basic": {
+        "title": "Basic Social Media Automation",
+        "description": "Streamline your social media with AI-powered content creation and scheduling"
+      },
+      "advanced": {
+        "title": "Advanced Social Media Automation",
+        "description": "Take your automation to the next level with voice features and WhatsApp integration"
+      },
+      "basicAgent": {
+        "title": "Basic AI Agent",
+        "description": "24/7 customer engagement across multiple social platforms"
+      },
+      "advancedAgent": {
+        "title": "Advanced AI Agent",
+        "description": "Intelligent lead qualification and conversion optimization"
+      },
+      "features": {
+        "captions": "AI-generated engaging captions",
+        "templates": "Custom post templates",
+        "images": "Automated image generation",
+        "scheduling": "Smart scheduling system",
+        "whatsapp": "WhatsApp integration",
+        "voice": "Voice note conversion",
+        "scripts": "Video script generation",
+        "voiceover": "AI voiceover creation",
+        "comments": "Comment engagement",
+        "dm": "DM automation",
+        "platforms": "Multi-platform support",
+        "availability": "24/7 availability",
+        "qualification": "Lead qualification",
+        "conversion": "Conversion optimization",
+        "crm": "CRM integration",
+        "analytics": "Advanced analytics"
+      }
+    },
+    "benefits": {
+      "title": "Transform Your Business",
+      "subtitle": "See how our AI solutions address your biggest social media challenges",
+      "time": {
+        "title": "Reclaim Your Time",
+        "pain": "Feeling overwhelmed by endless hours of social media management?",
+        "solution": "Let AI handle the routine tasks while you focus on growing your business"
+      },
+      "money": {
+        "title": "Reduce Costs",
+        "pain": "Tired of expensive social media management tools and agencies?",
+        "solution": "Cut costs by up to 60% with our efficient AI automation"
+      },
+      "stress": {
+        "title": "Eliminate Stress",
+        "pain": "Stressed about maintaining consistent social media presence?",
+        "solution": "Enjoy peace of mind with reliable 24/7 AI management"
+      },
+      "growth": {
+        "title": "Accelerate Growth",
+        "pain": "Struggling to scale your social media impact?",
+        "solution": "Multiply your reach and engagement with AI-optimized content"
+      }
+    },
+    "cases": {
+      "title": "Real Success Stories",
+      "subtitle": "See how small businesses like yours are thriving with our AI solutions",
+      "retail": {
+        "title": "Retail Stores",
+        "description": "How local retailers automate their social media presence",
+        "benefits": {
+          "retail1": "Automated product showcase posts",
+          "retail2": "24/7 customer inquiry handling",
+          "retail3": "Personalized promotional campaigns"
+        }
+      },
+      "cafe": {
+        "title": "Cafes & Coffee Shops",
+        "description": "Perfect for busy cafe owners managing multiple locations",
+        "benefits": {
+          "cafe1": "Daily menu and special promotions",
+          "cafe2": "Instant response to customer reviews",
+          "cafe3": "Automated event announcements"
+        }
+      },
+      "salon": {
+        "title": "Beauty Salons",
+        "description": "Ideal for salon owners focusing on client experience",
+        "benefits": {
+          "salon1": "Automated booking reminders",
+          "salon2": "Before/after content creation",
+          "salon3": "Style inspiration posts"
+        }
+      },
+      "restaurant": {
+        "title": "Restaurants",
+        "description": "Essential for restaurants wanting to boost online presence",
+        "benefits": {
+          "restaurant1": "Menu highlight automation",
+          "restaurant2": "Reservation management",
+          "restaurant3": "Food photography scheduling"
+        }
+      }
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Latest Insights & Updates",
+      "subtitle": "Discover the latest trends, strategies, and success stories in AI-powered social media management"
+    },
+    "search": {
+      "placeholder": "Search articles..."
+    },
+    "categories": {
+      "title": "Categories",
+      "all": "All Categories",
+      "ai-technology": "AI Technology",
+      "business": "Business",
+      "case-studies": "Case Studies",
+      "industry-news": "Industry News"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Simple Pricing for",
+      "titleHighlight": "Every Business",
+      "subtitle": "Choose the perfect plan for your business. All plans include our core features with flexible options for growth."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our pricing and services",
+      "billing": {
+        "question": "How does billing work?",
+        "answer": "We bill monthly with a one-time setup fee. You'll be billed on the same date each month. You can upgrade or downgrade your plan at any time."
+      },
+      "channels": {
+        "question": "What are additional channels?",
+        "answer": "Additional channels are social media platforms beyond your first one. For example, if you start with Instagram, adding Facebook would be an additional channel."
+      },
+      "cancel": {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. You'll continue to have access until the end of your billing period."
+      },
+      "support": {
+        "question": "What kind of support do you offer?",
+        "answer": "We offer 24/7 email support for all plans. Premium plans include priority support with faster response times."
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Social Media?",
+      "subtitle": "Start your 14-day free trial today. No credit card required."
+    }
+  }
+}

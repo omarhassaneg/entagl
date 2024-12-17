@@ -1,0 +1,285 @@
+{
+  "common": {
+    "getStarted": "Hemen Başla",
+    "viewDemo": "Demo İzle",
+    "getStartedNow": "Şimdi Başla",
+    "subscribe": "Abone Ol",
+    "emailPlaceholder": "E-posta adresiniz",
+    "month": "/ay",
+    "setupFee": "tek seferlik kurulum ücreti"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "blog": "Blog",
+    "compare": "Karşılaştır"
+  },
+  "footer": {
+    "newsletter": "Bültenimize abone olun",
+    "rights": "Tüm hakları saklıdır",
+    "product": "Ürün",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "description": "Yapay zeka destekli otomasyon ile sosyal medya yönetimini dönüştürüyoruz",
+    "demo": "Demo",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları"
+  },
+  "services": {
+    "basic-automation": {
+      "title": "Temel Sosyal Medya Otomasyonu",
+      "description": "Yapay zeka destekli içerik ve planlama ile otomatik paylaşım",
+      "features": {
+        "captions": "Yapay zeka destekli açıklamalar",
+        "templates": "Özel gönderi şablonları",
+        "images": "Otomatik görsel oluşturma",
+        "scheduling": "Akıllı planlama sistemi",
+        "delivery": "7/24 içerik dağıtımı"
+      }
+    },
+    "advanced-automation": {
+      "title": "Gelişmiş Sosyal Medya Otomasyonu",
+      "description": "WhatsApp entegrasyonu ve ses özellikleri ile gelişmiş otomasyon",
+      "features": {
+        "basic": "Tüm Temel Otomasyon özellikleri",
+        "whatsapp": "Günlük WhatsApp bildirimleri",
+        "voice": "Ses notundan içerik dönüşümü",
+        "scripts": "Yapay zeka video senaryo üretimi",
+        "voiceover": "Otomatik seslendirme oluşturma"
+      }
+    },
+    "basic-agent": {
+      "title": "Temel Yapay Zeka Asistanı",
+      "description": "7/24 müşteri etkileşimi için yapay zeka asistanı",
+      "features": {
+        "comments": "Yorum etkileşimi",
+        "dm": "DM yanıt otomasyonu",
+        "platforms": "Çoklu platform desteği",
+        "availability": "7/24 erişilebilirlik",
+        "conversations": "Eşzamanlı görüşme yönetimi"
+      }
+    },
+    "advanced-agent": {
+      "title": "Gelişmiş Yapay Zeka Asistanı",
+      "description": "Akıllı müşteri adayı değerlendirme ve dönüşüm",
+      "features": {
+        "basic": "Tüm Temel Asistan özellikleri",
+        "qualification": "Müşteri adayı değerlendirme",
+        "conversion": "Dönüşüm optimizasyonu",
+        "crm": "CRM entegrasyonu",
+        "analytics": "Gelişmiş analitik"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Sosyal Medyanızı",
+      "titleHighlight": "Yapay Zeka ile Dönüştürün",
+      "subtitle": "Manuel sosyal medya yönetimiyle uğraşmayı bırakın. İçerik oluşturma, etkileşim ve müşteri kazanımını yapay zekaya bırakın, siz işinizi büyütmeye odaklanın.",
+      "features": {
+        "aiAssistance": {
+          "title": "7/24 Yapay Zeka Asistanı",
+          "description": "Her zaman aktif yapay zeka asistanlarımızla müşteri mesajlarını kaçırmayın"
+        },
+        "contentCreation": {
+          "title": "Anında İçerik Oluşturma",
+          "description": "Yapay zeka destekli araçlarla saniyeler içinde etkileyici içerikler oluşturun"
+        },
+        "workflows": {
+          "title": "Otomatik İş Akışları",
+          "description": "Bir kez ayarlayın, sosyal medya varlığınızı yapay zekaya bırakın"
+        }
+      }
+    },
+    "benefits": {
+      "title": "İşinizi Yapay Zeka ile Dönüştürün",
+      "subtitle": "Manuel sosyal medya yönetimine zaman ve para harcamayı bırakın. Yapay zeka çözümlerimiz gerçek, ölçülebilir sonuçlar sunar.",
+      "items": {
+        "time": {
+          "title": "Haftada 20+ Saat Kazanın",
+          "description": "Tekrarlayan görevleri ve içerik oluşturmayı otomatikleştirin"
+        },
+        "cost": {
+          "title": "Maliyetleri %60 Azaltın",
+          "description": "Yapay zeka ile pazarlama ekibi giderlerini düşürün"
+        },
+        "engagement": {
+          "title": "3 Kat Etkileşim",
+          "description": "Yapay zeka optimize içeriklerle sosyal medya etkileşiminizi artırın"
+        },
+        "leads": {
+          "title": "7/24 Müşteri Kazanımı",
+          "description": "Her zaman aktif yapay zeka satış asistanlarıyla daha çok müşteri kazanın"
+        }
+      }
+    },
+    "services": {
+      "title": "İşinize Özel Çözümler",
+      "subtitle": "Sosyal medya varlığınızı dönüştürmek için mükemmel yapay zeka paketini seçin"
+    },
+    "cta": {
+      "title": "Sosyal Medyanızı Dönüştürmeye Hazır mısınız?",
+      "subtitle": "Sosyal medya varlıklarını Entagl ile otomatikleştiren binlerce işletmeye katılın ve daha fazla müşteri kazanın."
+    }
+  },
+  "features": {
+    "hero": {
+      "title": "Sosyal Medya Başarısı için",
+      "titleHighlight": "Güçlü Özellikler",
+      "subtitle": "Yapay zeka destekli araçlarımızın sosyal medya varlığınızı nasıl dönüştürebileceğini ve değerli zamanınızı nasıl özgürleştirebileceğini keşfedin."
+    },
+    "services": {
+      "title": "Kapsamlı Yapay Zeka Çözümleri",
+      "subtitle": "Sosyal medya varlığınızı otomatikleştirmek ve geliştirmek için tasarlanmış güçlü özelliklerimizi keşfedin",
+      "basic": {
+        "title": "Temel Sosyal Medya Otomasyonu",
+        "description": "Yapay zeka destekli içerik oluşturma ve planlama ile sosyal medyanızı düzenleyin"
+      },
+      "advanced": {
+        "title": "Gelişmiş Sosyal Medya Otomasyonu",
+        "description": "Ses özellikleri ve WhatsApp entegrasyonu ile otomasyonunuzu bir üst seviyeye taşıyın"
+      },
+      "basicAgent": {
+        "title": "Temel Yapay Zeka Asistanı",
+        "description": "Birden fazla sosyal platformda 7/24 müşteri etkileşimi"
+      },
+      "advancedAgent": {
+        "title": "Gelişmiş Yapay Zeka Asistanı",
+        "description": "Akıllı müşteri adayı değerlendirme ve dönüşüm optimizasyonu"
+      },
+      "features": {
+        "captions": "Yapay zeka ile oluşturulan etkileyici açıklamalar",
+        "templates": "Özel gönderi şablonları",
+        "images": "Otomatik görsel oluşturma",
+        "scheduling": "Akıllı planlama sistemi",
+        "whatsapp": "WhatsApp entegrasyonu",
+        "voice": "Ses notu dönüşümü",
+        "scripts": "Video senaryo oluşturma",
+        "voiceover": "Yapay zeka seslendirme",
+        "comments": "Yorum etkileşimi",
+        "dm": "DM otomasyonu",
+        "platforms": "Çoklu platform desteği",
+        "availability": "7/24 erişilebilirlik",
+        "qualification": "Müşteri adayı değerlendirme",
+        "conversion": "Dönüşüm optimizasyonu",
+        "crm": "CRM entegrasyonu",
+        "analytics": "Gelişmiş analitik"
+      }
+    },
+    "benefits": {
+      "title": "İşinizi Dönüştürün",
+      "subtitle": "Yapay zeka çözümlerimizin en büyük sosyal medya zorluklarınızı nasıl çözdüğünü görün",
+      "time": {
+        "title": "Zamanınızı Geri Kazanın",
+        "pain": "Sonsuz sosyal medya yönetimi saatlerinden bunaldınız mı?",
+        "solution": "Rutin işleri yapay zekaya bırakın, siz işinizi büyütmeye odaklanın"
+      },
+      "money": {
+        "title": "Maliyetleri Azaltın",
+        "pain": "Pahalı sosyal medya yönetim araçları ve ajanslardan bıktınız mı?",
+        "solution": "Verimli yapay zeka otomasyonu ile maliyetleri %60'a kadar düşürün"
+      },
+      "stress": {
+        "title": "Stresi Ortadan Kaldırın",
+        "pain": "Tutarlı sosyal medya varlığını sürdürmek için stres mi yaşıyorsunuz?",
+        "solution": "7/24 yapay zeka yönetimi ile içiniz rahat olsun"
+      },
+      "growth": {
+        "title": "Büyümeyi Hızlandırın",
+        "pain": "Sosyal medya etkinizi ölçeklendirmekte zorlanıyor musunuz?",
+        "solution": "Yapay zeka optimize içeriklerle erişiminizi ve etkileşiminizi katlayın"
+      }
+    },
+    "cases": {
+      "title": "Gerçek Başarı Hikayeleri",
+      "subtitle": "Sizin gibi küçük işletmelerin yapay zeka çözümlerimizle nasıl başarıya ulaştığını görün",
+      "retail": {
+        "title": "Perakende Mağazaları",
+        "description": "Yerel perakendecilerin sosyal medya varlıklarını nasıl otomatikleştirdiği",
+        "benefits": {
+          "retail1": "Otomatik ürün tanıtım gönderileri",
+          "retail2": "7/24 müşteri sorgusu yönetimi",
+          "retail3": "Kişiselleştirilmiş promosyon kampanyaları"
+        }
+      },
+      "cafe": {
+        "title": "Kafeler",
+        "description": "Birden fazla şubeyi yöneten meşgul kafe sahipleri için mükemmel",
+        "benefits": {
+          "cafe1": "Günlük menü ve özel promosyonlar",
+          "cafe2": "Müşteri yorumlarına anında yanıt",
+          "cafe3": "Otomatik etkinlik duyuruları"
+        }
+      },
+      "salon": {
+        "title": "Güzellik Salonları",
+        "description": "Müşteri deneyimine odaklanan salon sahipleri için ideal",
+        "benefits": {
+          "salon1": "Otomatik randevu hatırlatmaları",
+          "salon2": "Öncesi/sonrası içerik oluşturma",
+          "salon3": "Stil ilham gönderileri"
+        }
+      },
+      "restaurant": {
+        "title": "Restoranlar",
+        "description": "Çevrimiçi varlığını artırmak isteyen restoranlar için gerekli",
+        "benefits": {
+          "restaurant1": "Menü öne çıkarma otomasyonu",
+          "restaurant2": "Rezervasyon yönetimi",
+          "restaurant3": "Yemek fotoğrafı planlama"
+        }
+      }
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Son Gelişmeler ve Güncellemeler",
+      "subtitle": "Yapay zeka destekli sosyal medya yönetiminde son trendleri, stratejileri ve başarı hikayelerini keşfedin"
+    },
+    "search": {
+      "placeholder": "Makalelerde ara..."
+    },
+    "categories": {
+      "title": "Kategoriler",
+      "all": "Tüm Kategoriler",
+      "ai-technology": "Yapay Zeka Teknolojisi",
+      "business": "İş Dünyası",
+      "case-studies": "Vaka Çalışmaları",
+      "industry-news": "Sektör Haberleri"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Her İşletme için",
+      "titleHighlight": "Basit Fiyatlandırma",
+      "subtitle": "İşletmeniz için mükemmel planı seçin. Tüm planlar, büyüme için esnek seçeneklerle temel özelliklerimizi içerir."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "Fiyatlandırma ve hizmetlerimiz hakkında sık sorulan soruların cevaplarını bulun",
+      "billing": {
+        "question": "Faturalandırma nasıl çalışır?",
+        "answer": "Aylık faturalandırma ve tek seferlik kurulum ücreti uyguluyoruz. Her ay aynı tarihte faturalandırılırsınız. Planınızı istediğiniz zaman yükseltebilir veya düşürebilirsiniz."
+      },
+      "channels": {
+        "question": "Ek kanallar nelerdir?",
+        "answer": "Ek kanallar, ilk platformunuzun ötesindeki sosyal medya platformlarıdır. Örneğin, Instagram ile başlarsanız, Facebook eklemek ek bir kanal olacaktır."
+      },
+      "cancel": {
+        "question": "İstediğim zaman iptal edebilir miyim?",
+        "answer": "Evet, aboneliğinizi istediğiniz zaman iptal edebilirsiniz. Fatura döneminin sonuna kadar erişiminiz devam edecektir."
+      },
+      "support": {
+        "question": "Ne tür destek sunuyorsunuz?",
+        "answer": "Tüm planlar için 7/24 e-posta desteği sunuyoruz. Premium planlar, daha hızlı yanıt süreleriyle öncelikli destek içerir."
+      }
+    },
+    "cta": {
+      "title": "Sosyal Medyanızı Dönüştürmeye Hazır mısınız?",
+      "subtitle": "14 günlük ücretsiz deneme sürenizi bugün başlatın. Kredi kartı gerekmez."
+    }
+  }
+}
