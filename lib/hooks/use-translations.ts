@@ -6,11 +6,18 @@ import en from '../i18n/en.json';
 import tr from '../i18n/tr.json';
 
 type TranslationType = typeof en;
-type NestedKeyOf<ObjectType extends object> = {
-  [Key in keyof ObjectType & (string | number)]: ObjectType[Key] extends object
-    ? `${Key}` | `${Key}.${NestedKeyOf<ObjectType[Key]>}`
-    : `${Key}`;
-}[keyof ObjectType & (string | number)];
+
+// Helper type to extract valid category slugs
+type CategorySlugs = 'ai-technology' | 'business' | 'case-studies' | 'industry-news';
+
+// Modified to handle both static paths and dynamic category paths
+type TranslationKey = {
+  [K in keyof TranslationType]: TranslationType[K] extends object
+    ? K extends 'blog' 
+      ? `${K}.categories.${CategorySlugs}` | `${K}.${keyof TranslationType[K] & string}`
+      : `${K}.${keyof TranslationType[K] & string}`
+    : K;
+}[keyof TranslationType];
 
 const translations = {
   en,
@@ -20,7 +27,7 @@ const translations = {
 export function useTranslations() {
   const { language } = useLanguage();
 
-  const t = useCallback((key: NestedKeyOf<TranslationType>) => {
+  const t = useCallback((key: TranslationKey | string) => {
     const keys = key.split('.');
     let value: any = translations[language as keyof typeof translations];
 
