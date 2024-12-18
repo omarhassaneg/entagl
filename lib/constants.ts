@@ -11,6 +11,11 @@ export const LANGUAGES: Language[] = [
     name: 'Türkçe',
     flag: '🇹🇷',
   },
+  {
+    code: 'ru',
+    name: 'Русский',
+    flag: '🇷🇺',
+  },
 ];
 
 export const NAV_ITEMS: NavItem[] = [

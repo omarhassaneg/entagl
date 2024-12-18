@@ -4,6 +4,7 @@ import { useCallback } from 'react';
 import { useLanguage } from '../../components/providers/language-provider';
 import en from '../i18n/en.json';
 import tr from '../i18n/tr.json';
+import ru from '../i18n/ru.json';
 
 type TranslationType = typeof en;
 
@@ -22,6 +23,7 @@ type TranslationKey = {
 const translations = {
   en,
   tr,
+  ru,
 } as const;
 
 export function useTranslations() {
