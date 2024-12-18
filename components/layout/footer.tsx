@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { Logo } from './logo';
 import { useTranslations } from '@/lib/hooks/use-translations';
 import Link from 'next/link';
 
@@ -40,9 +41,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent">
-              Entagl
-            </h3>
+            <Logo />
             <p className="text-muted-foreground">
               {t('footer.description')}
             </p>
