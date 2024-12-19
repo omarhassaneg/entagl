@@ -151,6 +151,17 @@
   "cta": {
     "title": "Ready to Simplify Social Media?",
     "subtitle": "Join thousands of small businesses automating their social media with Entagl."
+  },
+  "testimonials": {
+    "quote1": "Entagl's AI Agents transformed our customer support, allowing us to respond to inquiries 24/7. Our efficiency has skyrocketed, and our customers are happier than ever!",
+    "author1": "John Doe",
+    "position1": "CEO, Tech Solutions",
+    "quote2": "The AI integration has revolutionized how we handle customer interactions. Response times are down 80% and satisfaction is up!",
+    "author2": "Jane Smith",
+    "position2": "CTO, Digital Solutions",
+    "playVideo": "Play testimonial video",
+    "previous": "Previous testimonial",
+    "next": "Next testimonial"
   }
 },
 "features": {

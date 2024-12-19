@@ -151,6 +151,17 @@
   "cta": {
     "title": "Sosyal Medyayı Kolaylaştırmaya Hazır mısınız?",
     "subtitle": "Entagl ile sosyal medyalarını otomatikleştiren binlerce küçük işletmeye katılın."
+  },
+  "testimonials": {
+    "quote1": "Entagl'ın Yapay Zeka Asistanları müşteri desteğimizi dönüştürdü, 7/24 sorulara yanıt verebilmemizi sağladı. Verimliliğimiz arttı ve müşterilerimiz her zamankinden daha mutlu!",
+    "author1": "John Doe",
+    "position1": "CEO, Tech Solutions",
+    "quote2": "Yapay zeka entegrasyonu müşteri etkileşimlerimizi kökten değiştirdi. Yanıt süreleri %80 azaldı ve memnuniyet arttı!",
+    "author2": "Jane Smith",
+    "position2": "CTO, Digital Solutions",
+    "playVideo": "Referans videosunu oynat",
+    "previous": "Önceki referans",
+    "next": "Sonraki referans"
   }
 },
 "features": {
