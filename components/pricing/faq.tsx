@@ -14,25 +14,41 @@ export function PricingFAQ() {
 
   const faqs = [
     {
+      question: t('pricing.faq.trial.question'),
+      answer: t('pricing.faq.trial.answer'),
+    },
+    {
       question: t('pricing.faq.billing.question'),
       answer: t('pricing.faq.billing.answer'),
+    },
+    {
+      question: t('pricing.faq.payment.question'),
+      answer: t('pricing.faq.payment.answer'),
     },
     {
       question: t('pricing.faq.channels.question'),
       answer: t('pricing.faq.channels.answer'),
     },
     {
+      question: t('pricing.faq.refund.question'),
+      answer: t('pricing.faq.refund.answer'),
+    },
+    {
       question: t('pricing.faq.cancel.question'),
       answer: t('pricing.faq.cancel.answer'),
     },
     {
+      question: t('pricing.faq.dispute.question'),
+      answer: t('pricing.faq.dispute.answer'),
+    },
+    {
       question: t('pricing.faq.support.question'),
       answer: t('pricing.faq.support.answer'),
-    },
+    }
   ];
 
   return (
-    <section className="py-24 bg-muted/50">
+    <section id="faq" className="py-24 bg-muted/50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

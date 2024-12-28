@@ -37,9 +37,17 @@ export default function TermsOfService() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">3. Payment Terms</h2>
           <h3 className="text-xl font-semibold mb-3">3.1 Payment Processing</h3>
-          <p>
-            We use Stripe as our payment processor for all transactions. By making a payment, you agree to Stripe's services agreement and privacy policy.
+          <p className="mb-4">
+            We use Stripe as our payment processor for all transactions. By making a payment, you agree to Stripe's services agreement and privacy policy. All payments are processed securely through Stripe's PCI-compliant platform.
           </p>
+          <p className="mb-4">
+            For any payment-related issues or disputes, please contact our customer service team at:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Email: info@entagl.com</li>
+            <li>Phone: +16476863366 (Mon-Fri, 9 AM - 5 PM EST)</li>
+            <li>Contact Form: Available on our contact page</li>
+          </ul>
           
           <h3 className="text-xl font-semibold mb-3 mt-4">3.2 Subscription Terms</h3>
           <p>
@@ -47,36 +55,81 @@ export default function TermsOfService() {
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-4">3.3 Refund Policy</h3>
-          <p>
-            We handle refund requests on a case-by-case basis according to the following guidelines:
-          </p>
+          <p className="mb-4">Our refund policy is designed to be fair and transparent:</p>
           <ul className="list-disc pl-6 mb-4">
-            <li>Requests must be submitted within 14 days of purchase</li>
-            <li>Service must not have been substantially used</li>
-            <li>Account must be in good standing</li>
-            <li>Refunds will be processed through the original payment method</li>
+            <li>14-day money-back guarantee for all new subscriptions</li>
+            <li>Refund requests must be submitted through our customer service channels</li>
+            <li>Refunds are processed within 5-10 business days</li>
+            <li>Refunds are issued to the original payment method</li>
+            <li>Partial refunds may be offered for unused portion of service</li>
+            <li>Setup fees are non-refundable after service activation</li>
           </ul>
+          <p className="mb-4">
+            To request a refund:
+          </p>
+          <ol className="list-decimal pl-6 mb-4">
+            <li>Contact our customer service team</li>
+            <li>Provide your account details and reason for refund</li>
+            <li>Allow up to 2 business days for review</li>
+          </ol>
+          
+          <h3 className="text-xl font-semibold mb-3 mt-4">3.4 Dispute Resolution</h3>
+          <p className="mb-4">
+            If you have a dispute regarding charges:
+          </p>
+          <ol className="list-decimal pl-6 mb-4">
+            <li>Contact our billing team first at info@entagl.com</li>
+            <li>Provide detailed information about the dispute</li>
+            <li>Allow up to 48 hours for initial response</li>
+            <li>We will work to resolve the issue promptly and fairly</li>
+          </ol>
+          <p className="mb-4">
+            We aim to resolve all disputes amicably. If we cannot reach a resolution, you may have the right to file a dispute with your payment provider.
+          </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-4">3.4 Cancellation Policy</h3>
-          <p>
-            You may cancel your subscription at any time. Upon cancellation:
-          </p>
+          <p className="mb-4">To cancel your subscription:</p>
+          <ol className="list-decimal pl-6 mb-4">
+            <li>Log into your account dashboard</li>
+            <li>Go to Subscription Settings</li>
+            <li>Click "Cancel Subscription"</li>
+            <li>Follow the confirmation steps</li>
+          </ol>
+          <p className="mb-4">Upon cancellation:</p>
           <ul className="list-disc pl-6 mb-4">
             <li>Access to premium features will continue until the end of the current billing period</li>
             <li>No partial refunds will be issued for unused time</li>
             <li>You will not be charged for future billing periods</li>
+            <li>Your data will be retained for 30 days before deletion</li>
+            <li>You can reactivate your subscription at any time</li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold mb-3 mt-4">3.5 Promotional Terms</h3>
+          <p className="mb-4">For any promotional offers:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Promotions cannot be combined with other offers</li>
+            <li>Discounts apply to specified billing periods only</li>
+            <li>We reserve the right to modify or end promotions</li>
+            <li>Eligibility requirements must be met</li>
+            <li>Promotional pricing will revert to standard rates after the promotional period</li>
           </ul>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">4. Customer Service</h2>
-          <p>
-            For any questions, concerns, or support needs:
-          </p>
+          <p className="mb-4">We are committed to providing excellent customer service:</p>
           <ul className="list-disc pl-6 mb-4">
-            <li>Email: info@entagl.com</li>
-            <li>Contact form: Available on our contact page</li>
-            <li>Response time: Within 24 hours during business days</li>
+            <li>Email Support: info@entagl.com (24/7)</li>
+            <li>Phone Support: +16476863366 (Mon-Fri, 9 AM - 5 PM EST)</li>
+            <li>Live Chat: Available on website (24/7)</li>
+            <li>Response Time: Within 2 hours for priority support, 24 hours for standard support</li>
+            <li>Emergency Support: Available 24/7 for critical issues</li>
+          </ul>
+          <p className="mb-4">Support Channels by Plan:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Basic Plans: Email and chat support</li>
+            <li>Premium Plans: Priority email, chat, and phone support</li>
+            <li>Enterprise Plans: Dedicated account manager</li>
           </ul>
         </section>
 
@@ -113,13 +166,16 @@ export default function TermsOfService() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">7. Content Guidelines</h2>
-          <p>You agree not to use the Service to:</p>
+          <p className="mb-4">Content Restrictions and Guidelines:</p>
           <ul className="list-disc pl-6 mb-4">
-            <li>Violate any laws or regulations</li>
-            <li>Infringe on intellectual property rights</li>
-            <li>Harass, abuse, or harm others</li>
-            <li>Spread malware or viruses</li>
-            <li>Generate spam or unauthorized advertising</li>
+            <li>No illegal or harmful content</li>
+            <li>No copyright or trademark infringement</li>
+            <li>No hate speech or harassment</li>
+            <li>No malware or malicious content</li>
+            <li>No spam or unauthorized advertising</li>
+            <li>No adult or explicit content</li>
+            <li>No misleading or fraudulent content</li>
+            <li>No content promoting illegal activities</li>
           </ul>
         </section>
 
@@ -169,7 +225,8 @@ export default function TermsOfService() {
           </p>
           <p className="mt-2">
             Email: info@entagl.com<br />
-            Address: Toronto, Ontario
+            Address: 123 Tech Street, Toronto, Ontario, M5V 1J2<br />
+            Phone: +16476863366
           </p>
         </section>
       </div>
