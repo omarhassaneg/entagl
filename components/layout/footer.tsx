@@ -1,10 +1,11 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Logo } from './logo';
-import { useTranslations } from '@/lib/hooks/use-translations';
+import { useTranslations } from "@/lib/hooks/use-translations";
 import Link from 'next/link';
+import { Instagram } from "lucide-react";
 
 export function Footer() {
   const { t } = useTranslations();
@@ -79,8 +80,19 @@ export function Footer() {
                 <Button>{t('common.subscribe')}</Button>
               </div>
             </div>
-            <div className="text-right text-muted-foreground">
-              © {new Date().getFullYear()} Entagl. {t('footer.rights')}
+            <div className="flex items-center justify-end space-x-6">
+              <Link 
+                href="https://www.instagram.com/entagl_ai/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
+              </Link>
+              <div className="text-muted-foreground">
+                © {new Date().getFullYear()} Entagl. {t('footer.rights')}
+              </div>
             </div>
           </div>
         </div>
