@@ -2,12 +2,207 @@
   "common": {
     "getStarted": "Get Started",
     "viewDemo": "View Demo",
+    "back": "Back",
+    "pressEnter": "Press Enter ↵",
+    "scheduleDemo": "Schedule a Demo",
+    "learnMore": "Learn More About Our AI Solutions",
+    "contactUs": "Contact Us to Learn More",
+    "contactQuote": "Contact Us for a Quote",
     "getStartedNow": "Get Started Now",
     "subscribe": "Subscribe",
     "emailPlaceholder": "Enter your email",
     "next": "Next",
     "month": "/month",
-    "setupFee": "one-time setup fee"
+    "setupFee": "one-time setup fee",
+    "aiAssistantActive": "AI Assistant Active"
+  },
+  "landing": {
+    "hero": {
+      "title": "Turn Conversations into Conversions with Entagl AI",
+      "subtitle": "For businesses overwhelmed by endless customer inquiries on social media and WhatsApp, Entagl AI takes over—handling conversations like a trained team member to answer questions, create tickets, manage reservations, update orders, and deliver 24/7 support seamlessly—and so much more.",
+      "features": {
+        "support": "24/7 Support",
+        "multilingual": "Multilingual",
+        "aiPowered": "AI-Powered"
+      }
+    },
+    "problems": {
+      "title": "Is Your Business Missing Opportunities?",
+      "subtitle": "Delayed responses, missed inquiries, and scattered communication channels cost your business revenue every day.",
+      "items": {
+        "opportunities": {
+          "title": "Missed Opportunities",
+          "description": "Responding in hours or days leads to lost bookings and sales."
+        },
+        "language": {
+          "title": "Limited Language Support",
+          "description": "Customers speak multiple languages, but your team can't keep up."
+        },
+        "systems": {
+          "title": "Scattered Systems",
+          "description": "Managing inquiries across Instagram, WhatsApp, and your website is inefficient."
+        }
+      }
+    },
+    "solution": {
+      "title": "Meet Entagl: The AI Assistant That Works Around the Clock",
+      "subtitle": "Engage every customer, on every platform, in every language—instantly.",
+      "features": {
+        "chat": {
+          "title": "Unified Chat Management",
+          "description": "Manage Instagram, WhatsApp, and website inquiries in one place."
+        },
+        "availability": {
+          "title": "24/7 Availability",
+          "description": "Never miss a customer inquiry again."
+        },
+        "multilingual": {
+          "title": "Multilingual AI",
+          "description": "Communicate seamlessly in over 6 languages."
+        },
+        "cost": {
+          "title": "Cost Efficiency",
+          "description": "Scale your customer support without hiring additional staff."
+        }
+      },
+      "comparison": {
+        "title": "Traditional Support vs Entagl AI",
+        "traditional": {
+          "title": "Traditional Support",
+          "items": [
+            "Limited working hours",
+            "Language barriers",
+            "High operational costs",
+            "Slow response times"
+          ]
+        },
+        "entagl": {
+          "title": "Entagl AI",
+          "items": [
+            "24/7 availability",
+            "Multilingual support",
+            "Cost-effective scaling",
+            "Instant responses"
+          ]
+        }
+      }
+    },
+    "features": {
+      "title": "Why Businesses Love Entagl AI",
+      "subtitle": "Powerful features that drive real business results",
+      "items": {
+        "inbox": {
+          "title": "Unified Inbox",
+          "description": "Respond to inquiries from multiple channels in one place.",
+          "highlight": "Save 4+ hours daily on message management"
+        },
+        "automation": {
+          "title": "AI Automation",
+          "description": "Handle inquiries, complaints, and bookings automatically.",
+          "highlight": "Automate up to 80% of routine interactions"
+        },
+        "workflows": {
+          "title": "Customizable Workflows",
+          "description": "Tailor AI responses to specific scenarios like support tickets or lead qualification.",
+          "highlight": "Boost conversion rates by 40%"
+        },
+        "analytics": {
+          "title": "Analytics and Insights",
+          "description": "Access real-time data on customer behavior, response times, and team performance.",
+          "highlight": "Make data-driven decisions"
+        },
+        "scalability": {
+          "title": "Scalability",
+          "description": "Support thousands of inquiries daily without increasing overhead.",
+          "highlight": "Save up to 50% on support costs"
+        }
+      }
+    },
+    "process": {
+      "title": "How We Work With You",
+      "subtitle": "Quick, seamless setup tailored to your business needs",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "Understand your processes, systems, and goals."
+        },
+        "roadmap": {
+          "title": "Roadmap",
+          "description": "Deliver a simplified Phase 1 product within 2 weeks."
+        },
+        "enhancements": {
+          "title": "Enhancements",
+          "description": "Upgrade the AI over 60 days to meet your evolving needs."
+        },
+        "support": {
+          "title": "Ongoing Support",
+          "description": "Continuous monitoring, refinement, and updates."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Flexible Plans for Every Business",
+      "subtitle": "Choose the perfect plan to scale your customer engagement",
+      "tiers": {
+        "starter": {
+          "name": "Starter",
+          "description": "Perfect for small businesses just getting started.",
+          "features": [
+            "Single channel integration",
+            "Basic AI responses",
+            "Business hours support",
+            "Standard analytics"
+          ]
+        },
+        "small": {
+          "name": "Small Business",
+          "description": "Ideal for growing businesses with multiple channels.",
+          "features": [
+            "Multiple channel integration",
+            "Advanced AI customization",
+            "24/7 priority support",
+            "Advanced analytics",
+            "Custom workflows"
+          ]
+        },
+        "medium": {
+          "name": "Medium Business",
+          "description": "For established businesses needing comprehensive solutions.",
+          "features": [
+            "Enterprise integrations",
+            "Custom AI training",
+            "Dedicated account manager",
+            "Advanced reporting",
+            "API access",
+            "White-label options"
+          ]
+        }
+      }
+    },
+    "cta": {
+      "title": "Take Your Customer Engagement to the Next Level",
+      "subtitle": "Join thousands of businesses using Entagl AI to transform their customer engagement"
+    },
+    "solutions": {
+      "title": "Custom AI Solutions Tailored to Your Business Needs",
+      "subtitle": "From streamlining customer conversations to automating complex workflows, our AI solutions are fully customized to fit your unique goals and challenges.",
+      "description": "Every business is unique, and so are our solutions. Whether you need help managing social media interactions, automating inquiries, or integrating AI into your operations, we start by understanding your needs. Schedule a free consultation, and we'll create a tailored solution just for you.",
+      "features": {
+        "automation": "AI-driven automation",
+        "automationDesc": "Seamless customer interactions with intelligent automation",
+        "multilingual": "Multilingual support",
+        "multilingualDesc": "Engage a global audience in their preferred language",
+        "scalable": "Scalable solutions",
+        "scalableDesc": "Perfect for businesses of any size or complexity",
+        "integration": "System integration",
+        "integrationDesc": "Seamless integration with your CRM and eCommerce platforms",
+        "insights": "Actionable insights",
+        "insightsDesc": "Track performance and ROI with detailed analytics"
+      },
+      "cta": "Get a Free Quote",
+      "aiActive": "AI Assistant Active",
+      "aiActiveDesc": "Our AI is currently processing customer inquiries and optimizing responses based on your business rules."
+    }
   },
   "nav": {
     "home": "Home",
@@ -24,6 +219,7 @@
     "company": "Company",
     "legal": "Legal",
     "description": "Revolutionizing social media management with AI-powered automation",
+    "socialMediaAutomation": "Social Media Automation",
     "demo": "Demo",
     "about": "About",
     "contact": "Contact",
@@ -78,202 +274,202 @@
     }
   },
   "home": {
+    "features": {
+      "title": "Effortless Social Media Automation",
+      "subtitle": "No budget for agencies? Let AI handle it all—posting, engaging, and saving you time.",
+      "items": {
+        "smartContent": {
+          "title": "Stress-Free Content Creation",
+          "description": "AI-crafted posts tailored to your brand voice, ready to engage your audience."
+        },
+        "analytics": {
+          "title": "Track What Matters",
+          "description": "Get clear insights into your social media performance and grow smarter."
+        },
+        "scheduling": {
+          "title": "Post at the Perfect Time",
+          "description": "Automatically schedule your content for when your audience is most active."
+        }
+      }
+    },
+    "hero": {
+      "title": "No Budget for Agencies?",
+      "titleHighlight": "Let AI Save You Time—24/7",
+      "subtitle": "Say goodbye to social media stress. Entagl creates, posts, and manages your content and DMs automatically—so you focus on growing your small business.",
+      "features": {
+        "aiAssistance": {
+          "title": "AI That Never Sleeps",
+          "description": "Engage your audience 24/7 with AI-powered DMs, comments, and customer interactions."
+        },
+        "contentCreation": {
+          "title": "Instant, On-Brand Posts",
+          "description": "We write and post engaging captions, stories, and updates—no effort required."
+        },
+        "workflows": {
+          "title": "Hassle-Free Automation",
+          "description": "Set it up once and let AI keep your social media presence thriving."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Simplify Social Media with AI",
+      "subtitle": "Stop losing time and money on manual social media management. Entagl delivers real, measurable results.",
+      "items": {
+        "aiContent": {
+          "title": "Content That Works",
+          "description": "Engaging posts tailored to your audience, delivered daily by AI."
+        },
+        "engagement": {
+          "title": "24/7 Engagement",
+          "description": "Let AI respond to DMs and comments while you focus on your business."
+        },
+        "analytics": {
+          "title": "Clear Performance Insights",
+          "description": "Understand what's working with easy-to-use analytics."
+        },
+        "audience": {
+          "title": "Grow Your Audience",
+          "description": "Reach more customers with consistent, targeted social media activity."
+        },
+        "timeSaving": {
+          "title": "Save Time & Money",
+          "description": "Automate your tasks and skip the agency fees, freeing up time for what matters."
+        },
+        "automation": {
+          "title": "Smart Automation, Big Results",
+          "description": "AI manages your presence so you can manage your business."
+        }
+      }
+    },
+    "services": {
+      "title": "Tailored AI Solutions for Small Businesses",
+      "subtitle": "Choose the perfect package to streamline your social media management."
+    },
+    "cta": {
+      "title": "Ready to Simplify Social Media?",
+      "subtitle": "Join thousands of small businesses automating their social media with Entagl."
+    },
+    "testimonials": {
+      "quote1": "Entagl's AI Agents transformed our customer support, allowing us to respond to inquiries 24/7. Our efficiency has skyrocketed, and our customers are happier than ever!",
+      "author1": "John Doe",
+      "position1": "CEO, Tech Solutions",
+      "quote2": "The AI integration has revolutionized how we handle customer interactions. Response times are down 80% and satisfaction is up!",
+      "author2": "Jane Smith",
+      "position2": "CTO, Digital Solutions",
+      "playVideo": "Play testimonial video",
+      "previous": "Previous testimonial",
+      "next": "Next testimonial"
+    }
+  },
   "features": {
-    "title": "Effortless Social Media Automation",
-    "subtitle": "No budget for agencies? Let AI handle it all—posting, engaging, and saving you time.",
-    "items": {
-      "smartContent": {
-        "title": "Stress-Free Content Creation",
-        "description": "AI-crafted posts tailored to your brand voice, ready to engage your audience."
+    "hero": {
+      "title": "Effortless Features for",
+      "titleHighlight": "Social Media Success",
+      "subtitle": "Discover how our AI-powered tools can transform your social media and free up your valuable time."
+    },
+    "services": {
+      "title": "Comprehensive AI Solutions",
+      "subtitle": "Explore our range of features designed to automate and enhance your social media presence.",
+      "basic": {
+        "title": "Essential Social Media Automation",
+        "description": "Streamline your social media with AI-powered content creation and scheduling."
       },
-      "analytics": {
-        "title": "Track What Matters",
-        "description": "Get clear insights into your social media performance and grow smarter."
+      "advanced": {
+        "title": "Advanced AI-Driven Management",
+        "description": "Take your automation to the next level with voice features and WhatsApp integration."
       },
-      "scheduling": {
-        "title": "Post at the Perfect Time",
-        "description": "Automatically schedule your content for when your audience is most active."
+      "basicAgent": {
+        "title": "Round-the-Clock AI Agent",
+        "description": "Engage customers 24/7 across all your social platforms."
+      },
+      "advancedAgent": {
+        "title": "Smart Lead Management",
+        "description": "Convert more leads with AI that qualifies and nurtures automatically."
+      },
+      "features": {
+        "captions": "On-brand AI-generated captions.",
+        "templates": "Customizable post templates.",
+        "images": "Automated visual content creation.",
+        "scheduling": "Smart content scheduling.",
+        "whatsapp": "WhatsApp customer engagement.",
+        "voice": "Convert voice notes into content.",
+        "scripts": "Video script generation.",
+        "voiceover": "AI voiceovers for your content.",
+        "comments": "Intelligent comment replies.",
+        "dm": "24/7 DM handling.",
+        "platforms": "Multi-platform publishing.",
+        "availability": "Always-on presence.",
+        "qualification": "AI lead qualification.",
+        "conversion": "Enhanced conversion optimization.",
+        "crm": "Seamless CRM integration.",
+        "analytics": "Advanced social media analytics."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Entagl?",
+      "subtitle": "AI solutions that eliminate stress and maximize your results.",
+      "time": {
+        "title": "Save Precious Time",
+        "pain": "Feeling overwhelmed by endless hours managing your social media?",
+        "solution": "Let AI handle routine tasks while you focus on growing your business."
+      },
+      "money": {
+        "title": "Cut Costs",
+        "pain": "Tired of wasting money on agencies or complex tools?",
+        "solution": "Save up to 60% with AI automation tailored for small businesses."
+      },
+      "stress": {
+        "title": "Eliminate the Hassle",
+        "pain": "Stressed about keeping up with your social media presence?",
+        "solution": "Enjoy peace of mind with reliable 24/7 AI management."
+      },
+      "growth": {
+        "title": "Drive Growth Effortlessly",
+        "pain": "Struggling to expand your social media impact?",
+        "solution": "Multiply your reach and engagement with AI-optimized content."
+      }
+    },
+    "cases": {
+      "title": "Success Stories from Small Businesses",
+      "subtitle": "See how businesses like yours thrive with Entagl.",
+      "retail": {
+        "title": "Retail Stores",
+        "description": "Local retailers saving time and increasing sales with automated social posts.",
+        "benefits": {
+          "retail1": "Daily product showcase posts.",
+          "retail2": "24/7 customer inquiry handling.",
+          "retail3": "Personalized promotional campaigns."
+        }
+      },
+      "cafe": {
+        "title": "Cafes & Coffee Shops",
+        "description": "Helping busy cafe owners stay connected with their customers online.",
+        "benefits": {
+          "cafe1": "Daily menu and specials updates.",
+          "cafe2": "Automated responses to reviews.",
+          "cafe3": "Instant event announcements."
+        }
+      },
+      "salon": {
+        "title": "Beauty Salons",
+        "description": "Making life easier for salon owners focused on creating great client experiences.",
+        "benefits": {
+          "salon1": "Automated booking reminders.",
+          "salon2": "Effortless before/after content.",
+          "salon3": "Style inspiration posts."
+        }
+      },
+      "restaurant": {
+        "title": "Restaurants",
+        "description": "Boosting online presence for restaurants big and small.",
+        "benefits": {
+          "restaurant1": "Menu highlight automation.",
+          "restaurant2": "Reservation management.",
+          "restaurant3": "Professional food photography scheduling."
+        }
       }
     }
   },
-  "hero": {
-    "title": "No Budget for Agencies?",
-    "titleHighlight": "Let AI Save You Time—24/7",
-    "subtitle": "Say goodbye to social media stress. Entagl creates, posts, and manages your content and DMs automatically—so you focus on growing your small business.",
-    "features": {
-      "aiAssistance": {
-        "title": "AI That Never Sleeps",
-        "description": "Engage your audience 24/7 with AI-powered DMs, comments, and customer interactions."
-      },
-      "contentCreation": {
-        "title": "Instant, On-Brand Posts",
-        "description": "We write and post engaging captions, stories, and updates—no effort required."
-      },
-      "workflows": {
-        "title": "Hassle-Free Automation",
-        "description": "Set it up once and let AI keep your social media presence thriving."
-      }
-    }
-  },
-  "benefits": {
-    "title": "Simplify Social Media with AI",
-    "subtitle": "Stop losing time and money on manual social media management. Entagl delivers real, measurable results.",
-    "items": {
-      "aiContent": {
-        "title": "Content That Works",
-        "description": "Engaging posts tailored to your audience, delivered daily by AI."
-      },
-      "engagement": {
-        "title": "24/7 Engagement",
-        "description": "Let AI respond to DMs and comments while you focus on your business."
-      },
-      "analytics": {
-        "title": "Clear Performance Insights",
-        "description": "Understand what's working with easy-to-use analytics."
-      },
-      "audience": {
-        "title": "Grow Your Audience",
-        "description": "Reach more customers with consistent, targeted social media activity."
-      },
-      "timeSaving": {
-        "title": "Save Time & Money",
-        "description": "Automate your tasks and skip the agency fees, freeing up time for what matters."
-      },
-      "automation": {
-        "title": "Smart Automation, Big Results",
-        "description": "AI manages your presence so you can manage your business."
-      }
-    }
-  },
-  "services": {
-    "title": "Tailored AI Solutions for Small Businesses",
-    "subtitle": "Choose the perfect package to streamline your social media management."
-  },
-  "cta": {
-    "title": "Ready to Simplify Social Media?",
-    "subtitle": "Join thousands of small businesses automating their social media with Entagl."
-  },
-  "testimonials": {
-    "quote1": "Entagl's AI Agents transformed our customer support, allowing us to respond to inquiries 24/7. Our efficiency has skyrocketed, and our customers are happier than ever!",
-    "author1": "John Doe",
-    "position1": "CEO, Tech Solutions",
-    "quote2": "The AI integration has revolutionized how we handle customer interactions. Response times are down 80% and satisfaction is up!",
-    "author2": "Jane Smith",
-    "position2": "CTO, Digital Solutions",
-    "playVideo": "Play testimonial video",
-    "previous": "Previous testimonial",
-    "next": "Next testimonial"
-  }
-},
-"features": {
-  "hero": {
-    "title": "Effortless Features for",
-    "titleHighlight": "Social Media Success",
-    "subtitle": "Discover how our AI-powered tools can transform your social media and free up your valuable time."
-  },
-  "services": {
-    "title": "Comprehensive AI Solutions",
-    "subtitle": "Explore our range of features designed to automate and enhance your social media presence.",
-    "basic": {
-      "title": "Essential Social Media Automation",
-      "description": "Streamline your social media with AI-powered content creation and scheduling."
-    },
-    "advanced": {
-      "title": "Advanced AI-Driven Management",
-      "description": "Take your automation to the next level with voice features and WhatsApp integration."
-    },
-    "basicAgent": {
-      "title": "Round-the-Clock AI Agent",
-      "description": "Engage customers 24/7 across all your social platforms."
-    },
-    "advancedAgent": {
-      "title": "Smart Lead Management",
-      "description": "Convert more leads with AI that qualifies and nurtures automatically."
-    },
-    "features": {
-      "captions": "On-brand AI-generated captions.",
-      "templates": "Customizable post templates.",
-      "images": "Automated visual content creation.",
-      "scheduling": "Smart content scheduling.",
-      "whatsapp": "WhatsApp customer engagement.",
-      "voice": "Convert voice notes into content.",
-      "scripts": "Video script generation.",
-      "voiceover": "AI voiceovers for your content.",
-      "comments": "Intelligent comment replies.",
-      "dm": "24/7 DM handling.",
-      "platforms": "Multi-platform publishing.",
-      "availability": "Always-on presence.",
-      "qualification": "AI lead qualification.",
-      "conversion": "Enhanced conversion optimization.",
-      "crm": "Seamless CRM integration.",
-      "analytics": "Advanced social media analytics."
-    }
-  },
-  "benefits": {
-    "title": "Why Choose Entagl?",
-    "subtitle": "AI solutions that eliminate stress and maximize your results.",
-    "time": {
-      "title": "Save Precious Time",
-      "pain": "Feeling overwhelmed by endless hours managing your social media?",
-      "solution": "Let AI handle routine tasks while you focus on growing your business."
-    },
-    "money": {
-      "title": "Cut Costs",
-      "pain": "Tired of wasting money on agencies or complex tools?",
-      "solution": "Save up to 60% with AI automation tailored for small businesses."
-    },
-    "stress": {
-      "title": "Eliminate the Hassle",
-      "pain": "Stressed about keeping up with your social media presence?",
-      "solution": "Enjoy peace of mind with reliable 24/7 AI management."
-    },
-    "growth": {
-      "title": "Drive Growth Effortlessly",
-      "pain": "Struggling to expand your social media impact?",
-      "solution": "Multiply your reach and engagement with AI-optimized content."
-    }
-  },
-  "cases": {
-    "title": "Success Stories from Small Businesses",
-    "subtitle": "See how businesses like yours thrive with Entagl.",
-    "retail": {
-      "title": "Retail Stores",
-      "description": "Local retailers saving time and increasing sales with automated social posts.",
-      "benefits": {
-        "retail1": "Daily product showcase posts.",
-        "retail2": "24/7 customer inquiry handling.",
-        "retail3": "Personalized promotional campaigns."
-      }
-    },
-    "cafe": {
-      "title": "Cafes & Coffee Shops",
-      "description": "Helping busy cafe owners stay connected with their customers online.",
-      "benefits": {
-        "cafe1": "Daily menu and specials updates.",
-        "cafe2": "Automated responses to reviews.",
-        "cafe3": "Instant event announcements."
-      }
-    },
-    "salon": {
-      "title": "Beauty Salons",
-      "description": "Making life easier for salon owners focused on creating great client experiences.",
-      "benefits": {
-        "salon1": "Automated booking reminders.",
-        "salon2": "Effortless before/after content.",
-        "salon3": "Style inspiration posts."
-      }
-    },
-    "restaurant": {
-      "title": "Restaurants",
-      "description": "Boosting online presence for restaurants big and small.",
-      "benefits": {
-        "restaurant1": "Menu highlight automation.",
-        "restaurant2": "Reservation management.",
-        "restaurant3": "Professional food photography scheduling."
-      }
-    }
-  }
-},
   "blog": {
     "header": {
       "title": "Latest Insights & Updates",
@@ -343,11 +539,11 @@
     "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
     "form": {
       "firstName": "What's your first name?",
-      "email": "Email",
+      "email": "What's your work email?",
       "phone": "What's your phone number?",
-      "businessName": "What's your business name? (optional)",
-      "businessWebsite": "What's your business website? (optional)",
-      "additionalInfo": "Anything else you'd like to share? (optional)",
+      "businessName": "What's your business name?",
+      "businessWebsite": "What's your business website?",
+      "additionalInfo": "Tell us about your challenges and what you're looking for",
       "thankYou": "Thank you for reaching out!",
       "confirmation": "We'll get back to you as soon as possible.",
       "error": "Failed to submit form. Please try again."

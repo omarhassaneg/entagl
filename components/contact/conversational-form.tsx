@@ -10,6 +10,7 @@ import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { z } from 'zod';
 import { Button } from '@/components/ui/button';
+import { ArrowLeft } from 'lucide-react';
 
 const QUESTION_KEYS = [
   {
@@ -33,13 +34,13 @@ const QUESTION_KEYS = [
   {
     key: 'businessName',
     type: 'text',
-    required: false,
+    required: true,
     translationKey: 'contact.form.businessName'
   },
   {
     key: 'businessWebsite',
     type: 'url',
-    required: false,
+    required: true,
     translationKey: 'contact.form.businessWebsite'
   },
   {
@@ -54,8 +55,8 @@ interface FormData {
   firstName: string;
   email: string;
   phone: string;
-  businessName?: string;
-  businessWebsite?: string;
+  businessName: string;
+  businessWebsite: string;
   additionalInfo?: string;
 }
 
@@ -108,7 +109,6 @@ export function ConversationalForm() {
     }
   }, [step]);
 
-
   const currentQuestion = questions[step];
 
   const validateField = (key: string, value: string) => {
@@ -120,9 +120,25 @@ export function ConversationalForm() {
         setError('Invalid email format');
         return false;
       }
-    } else if (key === 'businessWebsite' && value) {
+    } else if (key === 'businessWebsite') {
       try {
-        validationSchema.website.parse(value);
+        // Ensure URL has protocol
+        let urlToValidate = value;
+        if (!/^https?:\/\//i.test(value)) {
+          urlToValidate = `https://${value}`;
+        }
+        
+        const url = new URL(urlToValidate);
+        if (!url.hostname.includes('.')) {
+          throw new Error('Invalid domain');
+        }
+        
+        // Update form data with properly formatted URL
+        setFormData(prev => ({
+          ...prev,
+          [key]: urlToValidate
+        }));
+        
       } catch (err) {
         setError('Invalid URL format');
         return false;
@@ -134,29 +150,6 @@ export function ConversationalForm() {
   const handleNext = () => {
     const currentValue = formData[currentQuestion.key as keyof FormData] as string;
     
-    // Allow skipping optional fields
-    if (!currentQuestion.required && !currentValue) {
-      if (step < questions.length - 1) {
-        setStep(step + 1);
-        setError('');
-      } else {
-        handleSubmit();
-      }
-      return;
-    }
-
-    if (currentQuestion.type === 'url' && currentValue) {
-      try {
-        const url = new URL(currentValue);
-        if (!url.protocol.startsWith('http')) {
-          throw new Error('Invalid protocol');
-        }
-      } catch {
-        setError('Please enter a valid website URL');
-        return;
-      }
-    }
-
     if (currentQuestion.required && !currentValue) {
       setError('This field is required');
       return;
@@ -171,6 +164,13 @@ export function ConversationalForm() {
       setError('');
     } else {
       handleSubmit();
+    }
+  };
+
+  const handleBack = () => {
+    if (step > 0) {
+      setStep(step - 1);
+      setError('');
     }
   };
 
@@ -209,7 +209,7 @@ export function ConversationalForm() {
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      setError(t('contact.form.error') || 'Failed to submit form');
+      setError(t('contact.form.error'));
     }
   };
 
@@ -235,15 +235,6 @@ export function ConversationalForm() {
             }}
             className="text-2xl"
           />
-          <div className="md:hidden">
-            <Button
-              onClick={handleNext}
-              disabled={!value || !!error}
-              className="w-full"
-            >
-              {t('common.next')}
-            </Button>
-          </div>
         </div>
       );
     }
@@ -308,7 +299,18 @@ export function ConversationalForm() {
               transition={{ duration: 0.3 }}
               className="space-y-8"
             >
-              <h2 className="text-3xl font-medium mb-8">
+              {step > 0 && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={handleBack}
+                  className="flex items-center gap-2"
+                >
+                  <ArrowLeft className="h-4 w-4" />
+                  {t('common.back')}
+                </Button>
+              )}
+              <h2 className="text-3xl font-medium">
                 {currentQuestion.question}
               </h2>
               <div className="space-y-2">
@@ -320,7 +322,7 @@ export function ConversationalForm() {
                 )}
               </div>
               <div className="text-sm text-muted-foreground">
-                {step + 1} / {questions.length} · Press Enter ↵
+                {step + 1} / {questions.length} · {t('common.pressEnter')}
               </div>
             </motion.div>
           ) : (

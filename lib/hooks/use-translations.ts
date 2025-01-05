@@ -1,48 +1,41 @@
 'use client';
 
-import { useCallback } from 'react';
-import { useLanguage } from '../../components/providers/language-provider';
-import en from '../i18n/en.json';
-import tr from '../i18n/tr.json';
-import ru from '../i18n/ru.json';
-
-type TranslationType = typeof en;
-
-// Helper type to extract valid category slugs
-type CategorySlugs = 'ai-technology' | 'business' | 'case-studies' | 'industry-news';
-
-// Modified to handle both static paths and dynamic category paths
-type TranslationKey = {
-  [K in keyof TranslationType]: TranslationType[K] extends object
-    ? K extends 'blog' 
-      ? `${K}.categories.${CategorySlugs}` | `${K}.${keyof TranslationType[K] & string}`
-      : `${K}.${keyof TranslationType[K] & string}`
-    : K;
-}[keyof TranslationType];
-
-const translations = {
-  en,
-  tr,
-  ru,
-} as const;
+import { useCallback, useMemo } from 'react';
+import { useLanguage } from '@/components/providers/language-provider';
+import translations from '../i18n';
 
 export function useTranslations() {
-  const { language } = useLanguage();
+  const { language, isLoading } = useLanguage();
 
-  const t = useCallback((key: TranslationKey | string) => {
+  const currentTranslations = useMemo(() => {
+    return translations[language as keyof typeof translations] || translations.en;
+  }, [language]);
+
+  const t = useCallback((key: string) => {
+    if (isLoading) return '';
+
     const keys = key.split('.');
-    let value: any = translations[language as keyof typeof translations];
-
+    let value: any = currentTranslations;
+    
     for (const k of keys) {
       if (value && typeof value === 'object' && k in value) {
         value = value[k];
       } else {
-        return key;
+        // Try English fallback
+        value = translations.en;
+        for (const fallbackKey of keys) {
+          if (value && typeof value === 'object' && fallbackKey in value) {
+            value = value[fallbackKey];
+          } else {
+            console.warn(`Missing translation for key: ${key} in language: ${language}`);
+            return key;
+          }
+        }
       }
     }
 
     return value as string;
-  }, [language]);
+  }, [language, currentTranslations, isLoading]);
 
   return { t };
 }
