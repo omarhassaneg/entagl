@@ -362,6 +362,74 @@
     }
   },
   "features": {
+    "comprehensive": {
+      "title": "Kapsamlı AI Özellikleri",
+      "subtitle": "Müşteri iletişimlerinizi otomatikleştirmek ve geliştirmek için ihtiyacınız olan her şey",
+      "stats": {
+        "availability": "Erişilebilirlik",
+        "languages": "Dil",
+        "conversations": "Aylık Görüşme",
+        "uptime": "Çalışma Süresi"
+      },
+      "sections": {
+        "aiCommunication": {
+          "title": "AI Destekli İletişim",
+          "description": "Gelişmiş niyet algılama ile tüm kanallarda akıllı görüşmeler",
+          "features": [
+            "Aylık 2,500'den 40,000+ görüşmeye kadar yönetim",
+            "Sorular, rezervasyonlar ve şikayetler gibi yaygın etkileşimleri otomatikleştirme",
+            "SMART niyet algılama",
+            "AI bilgi tabanı",
+            "Sürekli kendini geliştirme"
+          ]
+        },
+        "multichannel": {
+          "title": "Çok Kanallı Entegrasyon",
+          "description": "Müşterilerle nerede olurlarsa olsunlar, tüm platformlarda bağlantı kurun",
+          "features": [
+            "Instagram DM Entegrasyonu",
+            "FB Messenger DM Desteği",
+            "WhatsApp DM Entegrasyonu",
+            "Telegram DM Desteği",
+            "Website Sohbet Widgetı",
+            "E-posta Entegrasyonu"
+          ]
+        },
+        "smartFeatures": {
+          "title": "Akıllı Özellikler",
+          "description": "En son teknoloji araçlarla müşteri etkileşimini geliştirin",
+          "features": [
+            "Çok Dilli Görüşmeler",
+            "Müşteri Bilgi Toplama",
+            "24/7/365 Erişilebilirlik",
+            "Anahtar Kelime Bazlı Görüşme Başlatıcı",
+            "AI Duraklat/Devam Et Özelliği"
+          ]
+        },
+        "teamCollaboration": {
+          "title": "Takım İş Birliği",
+          "description": "Birleşik takım platformu ile iletişimi verimli bir şekilde yönetin",
+          "features": [
+            "Birleşik Sohbet Arayüzü",
+            "Masaüstü ve Mobil Erişim",
+            "Çoklu Kullanıcı Erişimi",
+            "Canlı Sohbet Koltukları",
+            "Görüşme Atama"
+          ]
+        },
+        "businessIntegration": {
+          "title": "İş Entegrasyonu",
+          "description": "Mevcut araçlarınız ve iş akışlarınızla sorunsuz bağlantı",
+          "features": [
+            "Facebook Dönüşüm Takibi",
+            "Takvim Entegrasyonu",
+            "Google Sheets Güncellemeleri",
+            "Otomatik Görev Yönetimi",
+            "Özel İş Akışı Desteği"
+          ]
+        }
+      }
+    },
     "hero": {
       "title": "Sosyal Medya Başarısı için",
       "titleHighlight": "Zahmetsiz Özellikler",

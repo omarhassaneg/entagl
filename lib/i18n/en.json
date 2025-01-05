@@ -362,6 +362,74 @@
     }
   },
   "features": {
+    "comprehensive": {
+      "title": "Comprehensive AI Features",
+      "subtitle": "Everything you need to automate and enhance your customer communications",
+      "stats": {
+        "availability": "Availability",
+        "languages": "Languages",
+        "conversations": "Monthly Conversations",
+        "uptime": "Uptime"
+      },
+      "sections": {
+        "aiCommunication": {
+          "title": "AI-Powered Communication",
+          "description": "Intelligent conversations across all channels with advanced intention detection",
+          "features": [
+            "Manage from 2,500 to 40,000+ conversations monthly",
+            "Automate common interactions like inquiries, bookings, and complaints",
+            "SMART intention Detection",
+            "AI Knowledge Awareness",
+            "Constant Self Improvement"
+          ]
+        },
+        "multichannel": {
+          "title": "Multichannel Integration",
+          "description": "Connect with customers wherever they are, across multiple platforms",
+          "features": [
+            "Instagram DM Integration",
+            "FB Messenger DM Support",
+            "WhatsApp DM Integration",
+            "Telegram DM Support",
+            "Website Chat Widget",
+            "Email Integration"
+          ]
+        },
+        "smartFeatures": {
+          "title": "Smart Features",
+          "description": "Enhance customer engagement with cutting-edge tools",
+          "features": [
+            "Multilingual Conversations",
+            "Customer Information Collection",
+            "24/7/365 Availability",
+            "Keyword Based Conversation Starter",
+            "Pause/Resume AI Capability"
+          ]
+        },
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Efficiently manage communication with a unified team platform",
+          "features": [
+            "Unified Chat Interface",
+            "Desktop & Mobile Access",
+            "Multiple User Access",
+            "Live Chat Seats",
+            "Conversation Assignment"
+          ]
+        },
+        "businessIntegration": {
+          "title": "Business Integration",
+          "description": "Seamless connectivity with your existing tools and workflows",
+          "features": [
+            "Facebook Conversion Tracking",
+            "Calendar Integration",
+            "Google Sheets Updates",
+            "Automated Task Management",
+            "Custom Workflow Support"
+          ]
+        }
+      }
+    },
     "hero": {
       "title": "Effortless Features for",
       "titleHighlight": "Social Media Success",

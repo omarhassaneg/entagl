@@ -22,75 +22,50 @@ import { useTranslations } from '@/lib/hooks/use-translations';
 export function FeaturesSection() {
   const { t } = useTranslations();
 
+  // Helper function to ensure we get an array of strings from translation
+  const getFeaturesList = (key: string): string[] => {
+    const features = t(key);
+    return Array.isArray(features) ? features : [];
+  };
+
   const features = [
     {
-      title: "AI-Powered Communication",
-      description: "Intelligent conversations across all channels with advanced intention detection",
+      title: t('features.comprehensive.sections.aiCommunication.title'),
+      description: t('features.comprehensive.sections.aiCommunication.description'),
       icon: Bot,
-      features: [
-        "Manage from 2,500 to 40,000+ conversations monthly",
-        "Automate common interactions like inquiries, bookings, and complaints",
-        "SMART Intention Detection",
-        "AI Knowledge Awareness",
-        "Constant Self Improvement"
-      ]
+      features: getFeaturesList('features.comprehensive.sections.aiCommunication.features')
     },
     {
-      title: "Multichannel Integration",
-      description: "Connect with customers wherever they are, across multiple platforms",
+      title: t('features.comprehensive.sections.multichannel.title'),
+      description: t('features.comprehensive.sections.multichannel.description'),
       icon: MessagesSquare,
-      features: [
-        "Instagram DM Integration",
-        "FB Messenger DM Support",
-        "WhatsApp DM Integration",
-        "Telegram DM Support",
-        "Website Chat Widget",
-        "Email Integration"
-      ]
+      features: getFeaturesList('features.comprehensive.sections.multichannel.features')
     },
     {
-      title: "Smart Features",
-      description: "Enhance customer engagement with cutting-edge tools",
+      title: t('features.comprehensive.sections.smartFeatures.title'),
+      description: t('features.comprehensive.sections.smartFeatures.description'),
       icon: BrainCircuit,
-      features: [
-        "Multilingual Conversations",
-        "Customer Information Collection",
-        "24/7/365 Availability",
-        "Keyword Based Conversation Starter",
-        "Pause/Resume AI Capability"
-      ]
+      features: getFeaturesList('features.comprehensive.sections.smartFeatures.features')
     },
     {
-      title: "Team Collaboration",
-      description: "Efficiently manage communication with a unified team platform",
+      title: t('features.comprehensive.sections.teamCollaboration.title'),
+      description: t('features.comprehensive.sections.teamCollaboration.description'),
       icon: Users,
-      features: [
-        "Unified Chat Interface",
-        "Desktop & Mobile Access",
-        "Multiple User Access",
-        "Live Chat Seats",
-        "Conversation Assignment"
-      ]
+      features: getFeaturesList('features.comprehensive.sections.teamCollaboration.features')
     },
     {
-      title: "Business Integration",
-      description: "Seamless connectivity with your existing tools and workflows",
+      title: t('features.comprehensive.sections.businessIntegration.title'),
+      description: t('features.comprehensive.sections.businessIntegration.description'),
       icon: Zap,
-      features: [
-        "Facebook Conversion Tracking",
-        "Calendar Integration",
-        "Google Sheets Updates",
-        "Automated Task Management",
-        "Custom Workflow Support"
-      ]
+      features: getFeaturesList('features.comprehensive.sections.businessIntegration.features')
     }
   ];
 
   const stats = [
-    { value: "24/7", label: "Availability" },
-    { value: "6+", label: "Languages" },
-    { value: "40,000+", label: "Monthly Conversations" },
-    { value: "99.9%", label: "Uptime" }
+    { value: "24/7", label: t('features.comprehensive.stats.availability') },
+    { value: "6+", label: t('features.comprehensive.stats.languages') },
+    { value: "40,000+", label: t('features.comprehensive.stats.conversations') },
+    { value: "99.9%", label: t('features.comprehensive.stats.uptime') }
   ];
 
   return (
@@ -103,9 +78,9 @@ export function FeaturesSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Comprehensive AI Features</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('features.comprehensive.title')}</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to automate and enhance your customer communications
+            {t('features.comprehensive.subtitle')}
           </p>
         </motion.div>
 
