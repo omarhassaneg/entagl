@@ -1,0 +1,15 @@
+{
+  "title": "Bize Ulaşın",
+  "subtitle": "Sorularınız mı var? Sizden haber almayı çok isteriz. Bize bir mesaj gönderin, en kısa sürede yanıt vereceğiz.",
+  "form": {
+    "firstName": "Adınız nedir?",
+    "email": "Çalışma e-postanız nedir?",
+    "phone": "Telefon numaranız nedir?",
+    "businessName": "İşletmenizin adı nedir?",
+    "businessWebsite": "İşletme web siteniz nedir?",
+    "additionalInfo": "Zorluklarınızı ve aradığınız şeyleri bize anlatın",
+    "thankYou": "Bizimle iletişime geçtiğiniz için teşekkür ederiz!",
+    "confirmation": "Size en kısa sürede geri döneceğiz.",
+    "error": "Form gönderilemedi. Lütfen tekrar deneyin."
+  }
+}

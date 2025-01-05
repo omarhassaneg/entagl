@@ -1,0 +1,177 @@
+{
+  "comprehensive": {
+    "title": "Comprehensive AI Features",
+    "subtitle": "Everything you need to automate and enhance your customer communications",
+    "stats": {
+      "availability": "Availability",
+      "languages": "Languages",
+      "conversations": "Monthly Conversations",
+      "uptime": "Uptime"
+    },
+    "sections": {
+      "aiCommunication": {
+        "title": "AI-Powered Communication",
+        "description": "Intelligent conversations across all channels with advanced intention detection",
+        "features": [
+          "Manage from 2,500 to 40,000+ conversations monthly",
+          "Automate common interactions like inquiries, bookings, and complaints",
+          "SMART intention Detection",
+          "AI Knowledge Awareness",
+          "Constant Self Improvement"
+        ]
+      },
+      "multichannel": {
+        "title": "Multichannel Integration",
+        "description": "Connect with customers wherever they are, across multiple platforms",
+        "features": [
+          "Instagram DM Integration",
+          "FB Messenger DM Support",
+          "WhatsApp DM Integration",
+          "Telegram DM Support",
+          "Website Chat Widget",
+          "Email Integration"
+        ]
+      },
+      "smartFeatures": {
+        "title": "Smart Features",
+        "description": "Enhance customer engagement with cutting-edge tools",
+        "features": [
+          "Multilingual Conversations",
+          "Customer Information Collection",
+          "24/7/365 Availability",
+          "Keyword Based Conversation Starter",
+          "Pause/Resume AI Capability"
+        ]
+      },
+      "teamCollaboration": {
+        "title": "Team Collaboration",
+        "description": "Efficiently manage communication with a unified team platform",
+        "features": [
+          "Unified Chat Interface",
+          "Desktop & Mobile Access",
+          "Multiple User Access",
+          "Live Chat Seats",
+          "Conversation Assignment"
+        ]
+      },
+      "businessIntegration": {
+        "title": "Business Integration",
+        "description": "Seamless connectivity with your existing tools and workflows",
+        "features": [
+          "Facebook Conversion Tracking",
+          "Calendar Integration",
+          "Google Sheets Updates",
+          "Automated Task Management",
+          "Custom Workflow Support"
+        ]
+      }
+    }
+  },
+  "hero": {
+    "title": "Effortless Features for",
+    "titleHighlight": "Social Media Success",
+    "subtitle": "Discover how our AI-powered tools can transform your social media and free up your valuable time."
+  },
+  "services": {
+    "title": "Comprehensive AI Solutions",
+    "subtitle": "Explore our range of features designed to automate and enhance your social media presence.",
+    "basic": {
+      "title": "Essential Social Media Automation",
+      "description": "Streamline your social media with AI-powered content creation and scheduling."
+    },
+    "advanced": {
+      "title": "Advanced AI-Driven Management",
+      "description": "Take your automation to the next level with voice features and WhatsApp integration."
+    },
+    "basicAgent": {
+      "title": "Round-the-Clock AI Agent",
+      "description": "Engage customers 24/7 across all your social platforms."
+    },
+    "advancedAgent": {
+      "title": "Smart Lead Management",
+      "description": "Convert more leads with AI that qualifies and nurtures automatically."
+    },
+    "features": {
+      "captions": "On-brand AI-generated captions.",
+      "templates": "Customizable post templates.",
+      "images": "Automated visual content creation.",
+      "scheduling": "Smart content scheduling.",
+      "whatsapp": "WhatsApp customer engagement.",
+      "voice": "Convert voice notes into content.",
+      "scripts": "Video script generation.",
+      "voiceover": "AI voiceovers for your content.",
+      "comments": "Intelligent comment replies.",
+      "dm": "24/7 DM handling.",
+      "platforms": "Multi-platform publishing.",
+      "availability": "Always-on presence.",
+      "qualification": "AI lead qualification.",
+      "conversion": "Enhanced conversion optimization.",
+      "crm": "Seamless CRM integration.",
+      "analytics": "Advanced social media analytics."
+    }
+  },
+  "benefits": {
+    "title": "Why Choose Entagl?",
+    "subtitle": "AI solutions that eliminate stress and maximize your results.",
+    "time": {
+      "title": "Save Precious Time",
+      "pain": "Feeling overwhelmed by endless hours managing your social media?",
+      "solution": "Let AI handle routine tasks while you focus on growing your business."
+    },
+    "money": {
+      "title": "Cut Costs",
+      "pain": "Tired of wasting money on agencies or complex tools?",
+      "solution": "Save up to 60% with AI automation tailored for small businesses."
+    },
+    "stress": {
+      "title": "Eliminate the Hassle",
+      "pain": "Stressed about keeping up with your social media presence?",
+      "solution": "Enjoy peace of mind with reliable 24/7 AI management."
+    },
+    "growth": {
+      "title": "Drive Growth Effortlessly",
+      "pain": "Struggling to expand your social media impact?",
+      "solution": "Multiply your reach and engagement with AI-optimized content."
+    }
+  },
+  "cases": {
+    "title": "Success Stories from Small Businesses",
+    "subtitle": "See how businesses like yours thrive with Entagl.",
+    "retail": {
+      "title": "Retail Stores",
+      "description": "Local retailers saving time and increasing sales with automated social posts.",
+      "benefits": {
+        "retail1": "Daily product showcase posts.",
+        "retail2": "24/7 customer inquiry handling.",
+        "retail3": "Personalized promotional campaigns."
+      }
+    },
+    "cafe": {
+      "title": "Cafes & Coffee Shops",
+      "description": "Helping busy cafe owners stay connected with their customers online.",
+      "benefits": {
+        "cafe1": "Daily menu and specials updates.",
+        "cafe2": "Automated responses to reviews.",
+        "cafe3": "Instant event announcements."
+      }
+    },
+    "salon": {
+      "title": "Beauty Salons",
+      "description": "Making life easier for salon owners focused on creating great client experiences.",
+      "benefits": {
+        "salon1": "Automated booking reminders.",
+        "salon2": "Effortless before/after content.",
+        "salon3": "Style inspiration posts."
+      }
+    },
+    "restaurant": {
+      "title": "Restaurants",
+      "description": "Boosting online presence for restaurants big and small.",
+      "benefits": {
+        "restaurant1": "Menu highlight automation.",
+        "restaurant2": "Reservation management.",
+        "restaurant3": "Professional food photography scheduling."
+      }
+    }
+  }
+}

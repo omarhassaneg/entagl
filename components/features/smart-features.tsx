@@ -1,45 +1,63 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { Globe, Clock, Bot, Database } from 'lucide-react';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function SmartFeatures() {
+  const { t } = useTranslations();
+
   const features = [
     {
       icon: Globe,
-      title: 'Multilingual Support',
-      description: 'Engage with customers in their preferred language'
+      title: t('features.comprehensive.sections.smartFeatures.features.0'),
+      description: t('features.comprehensive.sections.smartFeatures.description')
     },
     {
       icon: Database,
-      title: 'Customer Data Collection',
-      description: 'Gather insights to personalize interactions'
+      title: t('features.comprehensive.sections.smartFeatures.features.1'),
+      description: t('features.comprehensive.sections.smartFeatures.description')
     },
     {
       icon: Clock,
-      title: '24/7 Availability',
-      description: 'Always-on customer support access'
+      title: t('features.comprehensive.sections.smartFeatures.features.2'),
+      description: t('features.comprehensive.sections.smartFeatures.description')
     },
     {
       icon: Bot,
-      title: 'Human-AI Collaboration',
-      description: 'Seamless transition between AI and human agents'
+      title: t('features.comprehensive.sections.smartFeatures.features.4'),
+      description: t('features.comprehensive.sections.smartFeatures.description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Global Customer Base',
-      description: 'Serve international clients in multiple languages'
+      title: t('features.cases.retail.title'),
+      description: t('features.cases.retail.description'),
+      benefits: [
+        t('features.cases.retail.benefits.retail1'),
+        t('features.cases.retail.benefits.retail2'),
+        t('features.cases.retail.benefits.retail3')
+      ]
     },
     {
-      title: 'Lead Generation',
-      description: 'Collect and qualify leads through automated interactions'
+      title: t('features.cases.cafe.title'),
+      description: t('features.cases.cafe.description'),
+      benefits: [
+        t('features.cases.cafe.benefits.cafe1'),
+        t('features.cases.cafe.benefits.cafe2'),
+        t('features.cases.cafe.benefits.cafe3')
+      ]
     },
     {
-      title: 'Proactive Engagement',
-      description: 'Initiate conversations based on user behavior'
+      title: t('features.cases.salon.title'),
+      description: t('features.cases.salon.description'),
+      benefits: [
+        t('features.cases.salon.benefits.salon1'),
+        t('features.cases.salon.benefits.salon2'),
+        t('features.cases.salon.benefits.salon3')
+      ]
     }
   ];
 
@@ -53,9 +71,9 @@ export function SmartFeatures() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Smart Features</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('features.comprehensive.sections.smartFeatures.title')}</h2>
           <p className="text-xl text-muted-foreground">
-            Advanced capabilities that enhance customer engagement
+            {t('features.comprehensive.sections.smartFeatures.description')}
           </p>
         </motion.div>
 
@@ -90,20 +108,14 @@ export function SmartFeatures() {
                 <h3 className="text-xl font-semibold mb-4">{useCase.title}</h3>
                 <p className="text-muted-foreground">{useCase.description}</p>
                 <div className="mt-6 pt-6 border-t">
-                  <h4 className="font-semibold mb-2">Benefits:</h4>
+                  <h4 className="font-semibold mb-2">{t('features.benefits.title')}:</h4>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-sm">Personalized customer experience</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-sm">Increased engagement rates</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-sm">Higher conversion rates</span>
-                    </li>
+                    {useCase.benefits.map((benefit, i) => (
+                      <li key={i} className="flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                        <span className="text-sm">{benefit}</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </Card>

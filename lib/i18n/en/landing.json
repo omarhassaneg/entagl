@@ -1,0 +1,188 @@
+{
+  "hero": {
+    "title": "Turn Conversations into Conversions with Entagl AI",
+    "subtitle": "For businesses overwhelmed by endless customer inquiries on social media and WhatsApp, Entagl AI takes over—handling conversations like a trained team member to answer questions, create tickets, manage reservations, update orders, and deliver 24/7 support seamlessly—and so much more.",
+    "features": {
+      "support": "24/7 Support",
+      "multilingual": "Multilingual",
+      "aiPowered": "AI-Powered"
+    }
+  },
+  "problems": {
+    "title": "Is Your Business Missing Opportunities?",
+    "subtitle": "Delayed responses, missed inquiries, and scattered communication channels cost your business revenue every day.",
+    "items": {
+      "opportunities": {
+        "title": "Missed Opportunities",
+        "description": "Responding in hours or days leads to lost bookings and sales."
+      },
+      "language": {
+        "title": "Limited Language Support",
+        "description": "Customers speak multiple languages, but your team can't keep up."
+      },
+      "systems": {
+        "title": "Scattered Systems",
+        "description": "Managing inquiries across Instagram, WhatsApp, and your website is inefficient."
+      }
+    }
+  },
+  "solution": {
+    "title": "Meet Entagl: The AI Assistant That Works Around the Clock",
+    "subtitle": "Engage every customer, on every platform, in every language—instantly.",
+    "features": {
+      "chat": {
+        "title": "Unified Chat Management",
+        "description": "Manage Instagram, WhatsApp, and website inquiries in one place."
+      },
+      "availability": {
+        "title": "24/7 Availability",
+        "description": "Never miss a customer inquiry again."
+      },
+      "multilingual": {
+        "title": "Multilingual AI",
+        "description": "Communicate seamlessly in over 6 languages."
+      },
+      "cost": {
+        "title": "Cost Efficiency",
+        "description": "Scale your customer support without hiring additional staff."
+      }
+    },
+    "comparison": {
+      "title": "Traditional Support vs Entagl AI",
+      "traditional": {
+        "title": "Traditional Support",
+        "items": [
+          "Limited working hours",
+          "Language barriers",
+          "High operational costs",
+          "Slow response times"
+        ]
+      },
+      "entagl": {
+        "title": "Entagl AI",
+        "items": [
+          "24/7 availability",
+          "Multilingual support",
+          "Cost-effective scaling",
+          "Instant responses"
+        ]
+      }
+    }
+  },
+  "features": {
+    "title": "Why Businesses Love Entagl AI",
+    "subtitle": "Powerful features that drive real business results",
+    "items": {
+      "inbox": {
+        "title": "Unified Inbox",
+        "description": "Respond to inquiries from multiple channels in one place.",
+        "highlight": "Save 4+ hours daily on message management"
+      },
+      "automation": {
+        "title": "AI Automation",
+        "description": "Handle inquiries, complaints, and bookings automatically.",
+        "highlight": "Automate up to 80% of routine interactions"
+      },
+      "workflows": {
+        "title": "Customizable Workflows",
+        "description": "Tailor AI responses to specific scenarios like support tickets or lead qualification.",
+        "highlight": "Boost conversion rates by 40%"
+      },
+      "analytics": {
+        "title": "Analytics and Insights",
+        "description": "Access real-time data on customer behavior, response times, and team performance.",
+        "highlight": "Make data-driven decisions"
+      },
+      "scalability": {
+        "title": "Scalability",
+        "description": "Support thousands of inquiries daily without increasing overhead.",
+        "highlight": "Save up to 50% on support costs"
+      }
+    }
+  },
+  "process": {
+    "title": "How We Work With You",
+    "subtitle": "Quick, seamless setup tailored to your business needs",
+    "steps": {
+      "consultation": {
+        "title": "Consultation",
+        "description": "Understand your processes, systems, and goals."
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "description": "Deliver a simplified Phase 1 product within 2 weeks."
+      },
+      "enhancements": {
+        "title": "Enhancements",
+        "description": "Upgrade the AI over 60 days to meet your evolving needs."
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "description": "Continuous monitoring, refinement, and updates."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Flexible Plans for Every Business",
+    "subtitle": "Choose the perfect plan to scale your customer engagement",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for small businesses just getting started.",
+        "features": [
+          "Single channel integration",
+          "Basic AI responses",
+          "Business hours support",
+          "Standard analytics"
+        ]
+      },
+      "small": {
+        "name": "Small Business",
+        "description": "Ideal for growing businesses with multiple channels.",
+        "features": [
+          "Multiple channel integration",
+          "Advanced AI customization",
+          "24/7 priority support",
+          "Advanced analytics",
+          "Custom workflows"
+        ]
+      },
+      "medium": {
+        "name": "Medium Business",
+        "description": "For established businesses needing comprehensive solutions.",
+        "features": [
+          "Enterprise integrations",
+          "Custom AI training",
+          "Dedicated account manager",
+          "Advanced reporting",
+          "API access",
+          "White-label options"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "title": "Take Your Customer Engagement to the Next Level",
+    "subtitle": "Join thousands of businesses using Entagl AI to transform their customer engagement"
+  },
+  "solutions": {
+    "title": "Custom AI Solutions Tailored to Your Business Needs",
+    "subtitle": "From streamlining customer conversations to automating complex workflows, our AI solutions are fully customized to fit your unique goals and challenges.",
+    "description": "Every business is unique, and so are our solutions. Whether you need help managing social media interactions, automating inquiries, or integrating AI into your operations, we start by understanding your needs. Schedule a free consultation, and we'll create a tailored solution just for you.",
+    "features": {
+      "automation": "AI-driven automation",
+      "automationDesc": "Seamless customer interactions with intelligent automation",
+      "multilingual": "Multilingual support",
+      "multilingualDesc": "Engage a global audience in their preferred language",
+      "scalable": "Scalable solutions",
+      "scalableDesc": "Perfect for businesses of any size or complexity",
+      "integration": "System integration",
+      "integrationDesc": "Seamless integration with your CRM and eCommerce platforms",
+      "insights": "Actionable insights",
+      "insightsDesc": "Track performance and ROI with detailed analytics"
+    },
+    "cta": "Get a Free Quote",
+    "aiActive": "AI Assistant Active",
+    "aiActiveDesc": "Our AI is currently processing customer inquiries and optimizing responses based on your business rules."
+  }
+}

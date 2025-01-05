@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { Store, Coffee, Scissors, Utensils } from 'lucide-react';
-import { useTranslations } from '@/lib/hooks/use-translations';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function UseCases() {
   const { t } = useTranslations();

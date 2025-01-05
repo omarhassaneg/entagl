@@ -1,31 +1,34 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { MessageSquare, Instagram, Mail, Phone } from 'lucide-react';
 import Image from 'next/image';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function MultiChannelFeatures() {
+  const { t } = useTranslations();
+
   const platforms = [
     {
       icon: Instagram,
-      name: 'Instagram & Facebook',
-      description: 'Manage social media interactions seamlessly'
+      name: t('features.comprehensive.sections.multichannel.features.0'),
+      description: t('features.comprehensive.sections.multichannel.description')
     },
     {
       icon: MessageSquare,
-      name: 'WhatsApp & Telegram',
-      description: 'Handle messaging app communications'
+      name: t('features.comprehensive.sections.multichannel.features.2'),
+      description: t('features.comprehensive.sections.multichannel.description')
     },
     {
       icon: Mail,
-      name: 'Email Integration',
-      description: 'Coordinate email correspondence'
+      name: t('features.comprehensive.sections.multichannel.features.5'),
+      description: t('features.comprehensive.sections.multichannel.description')
     },
     {
       icon: Phone,
-      name: 'Website Chat',
-      description: 'Embed live chat on your website'
+      name: t('features.comprehensive.sections.multichannel.features.4'),
+      description: t('features.comprehensive.sections.multichannel.description')
     }
   ];
 
@@ -40,9 +43,9 @@ export function MultiChannelFeatures() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <h2 className="text-3xl md:text-4xl font-bold">Multichannel Integration</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">{t('features.comprehensive.sections.multichannel.title')}</h2>
             <p className="text-xl text-muted-foreground">
-              Unify all your customer communications in one powerful platform
+              {t('features.comprehensive.sections.multichannel.description')}
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -64,25 +67,25 @@ export function MultiChannelFeatures() {
             </div>
 
             <Card className="p-6 bg-muted">
-              <h3 className="text-xl font-semibold mb-4">Key Benefits</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('features.benefits.title')}</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center">
                     <div className="h-2 w-2 rounded-full bg-primary" />
                   </div>
-                  <span>Increased reach across multiple platforms</span>
+                  <span>{t('features.benefits.time.solution')}</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center">
                     <div className="h-2 w-2 rounded-full bg-primary" />
                   </div>
-                  <span>Consistent messaging across all channels</span>
+                  <span>{t('features.benefits.money.solution')}</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center">
                     <div className="h-2 w-2 rounded-full bg-primary" />
                   </div>
-                  <span>Unified dashboard for all communications</span>
+                  <span>{t('features.benefits.stress.solution')}</span>
                 </li>
               </ul>
             </Card>
@@ -98,7 +101,7 @@ export function MultiChannelFeatures() {
             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1553877522-43269d4ea984"
-                alt="Multichannel Integration"
+                alt={t('features.comprehensive.sections.multichannel.title')}
                 fill
                 className="object-cover"
               />
@@ -108,10 +111,10 @@ export function MultiChannelFeatures() {
             <div className="absolute -bottom-8 -right-8 bg-card p-8 rounded-2xl shadow-xl border max-w-sm">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
-                <span className="font-medium">Unified Communications Active</span>
+                <span className="font-medium">{t('landing.solutions.aiActive')}</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                All your customer interactions are being managed efficiently through our integrated platform.
+                {t('landing.solutions.aiActiveDesc')}
               </p>
             </div>
           </motion.div>

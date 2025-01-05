@@ -1,31 +1,34 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { Users, MessageSquare, UserPlus, ArrowLeftRight } from 'lucide-react';
 import Image from 'next/image';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function TeamFeatures() {
+  const { t } = useTranslations();
+
   const features = [
     {
       icon: MessageSquare,
-      title: 'Unified Chat Interface',
-      description: 'Centralize all conversations for easy team access'
+      title: t('features.comprehensive.sections.teamCollaboration.features.0'),
+      description: t('features.comprehensive.sections.teamCollaboration.description')
     },
     {
       icon: Users,
-      title: 'Multi-User Access',
-      description: 'Support multiple team members managing interactions'
+      title: t('features.comprehensive.sections.teamCollaboration.features.2'),
+      description: t('features.comprehensive.sections.teamCollaboration.description')
     },
     {
       icon: ArrowLeftRight,
-      title: 'Live Chat Integration',
-      description: 'Enable real-time human intervention when needed'
+      title: t('features.comprehensive.sections.teamCollaboration.features.3'),
+      description: t('features.comprehensive.sections.teamCollaboration.description')
     },
     {
       icon: UserPlus,
-      title: 'Conversation Assignment',
-      description: 'Distribute inquiries to appropriate team members'
+      title: t('features.comprehensive.sections.teamCollaboration.features.4'),
+      description: t('features.comprehensive.sections.teamCollaboration.description')
     }
   ];
 
@@ -43,7 +46,7 @@ export function TeamFeatures() {
             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
-                alt="Team Collaboration"
+                alt={t('features.comprehensive.sections.teamCollaboration.title')}
                 fill
                 className="object-cover"
               />
@@ -53,10 +56,10 @@ export function TeamFeatures() {
             <div className="absolute -bottom-8 -left-8 bg-card p-8 rounded-2xl shadow-xl border max-w-sm">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
-                <span className="font-medium">Team Activity</span>
+                <span className="font-medium">{t('landing.solutions.aiActive')}</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Your team is efficiently managing customer interactions with improved coordination and response times.
+                {t('landing.solutions.aiActiveDesc')}
               </p>
             </div>
           </motion.div>
@@ -69,9 +72,9 @@ export function TeamFeatures() {
             className="space-y-8 order-1 lg:order-2"
           >
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Team Collaboration</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('features.comprehensive.sections.teamCollaboration.title')}</h2>
               <p className="text-xl text-muted-foreground">
-                Empower your team with tools for efficient customer service management
+                {t('features.comprehensive.sections.teamCollaboration.description')}
               </p>
             </div>
 
@@ -94,18 +97,18 @@ export function TeamFeatures() {
             </div>
 
             <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Use Cases</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('features.cases.title')}</h3>
               <div className="space-y-4">
                 <div className="p-4 bg-muted rounded-lg">
-                  <h4 className="font-semibold mb-2">Customer Service Teams</h4>
+                  <h4 className="font-semibold mb-2">{t('features.cases.retail.title')}</h4>
                   <p className="text-sm text-muted-foreground">
-                    Collaborate effectively to manage high volumes of inquiries and maintain quality service.
+                    {t('features.cases.retail.description')}
                   </p>
                 </div>
                 <div className="p-4 bg-muted rounded-lg">
-                  <h4 className="font-semibold mb-2">Sales Departments</h4>
+                  <h4 className="font-semibold mb-2">{t('features.cases.cafe.title')}</h4>
                   <p className="text-sm text-muted-foreground">
-                    Assign leads to specific sales representatives for personalized follow-up and conversion.
+                    {t('features.cases.cafe.description')}
                   </p>
                 </div>
               </div>

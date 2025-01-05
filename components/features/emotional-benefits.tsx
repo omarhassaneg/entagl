@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { Clock, DollarSign, HeartHandshake, Brain } from 'lucide-react';
-import { useTranslations } from '@/lib/hooks/use-translations';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function EmotionalBenefits() {
   const { t } = useTranslations();

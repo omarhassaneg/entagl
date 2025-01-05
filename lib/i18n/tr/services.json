@@ -1,0 +1,46 @@
+{
+  "basic-automation": {
+    "title": "Temel Sosyal Medya Otomasyonu",
+    "description": "AI tarafından oluşturulan içerik ve planlama ile otomatik paylaşım",
+    "features": {
+      "captions": "AI tarafından oluşturulan açıklamalar",
+      "templates": "Özel gönderi şablonları",
+      "images": "Otomatik görsel oluşturma",
+      "scheduling": "Akıllı planlama sistemi",
+      "delivery": "7/24 içerik dağıtımı"
+    }
+  },
+  "advanced-automation": {
+    "title": "Gelişmiş Sosyal Medya Otomasyonu",
+    "description": "WhatsApp entegrasyonu ve ses özellikleri ile gelişmiş otomasyon",
+    "features": {
+      "basic": "Tüm Temel Otomasyon özellikleri",
+      "whatsapp": "Günlük WhatsApp bildirimleri",
+      "voice": "Ses notundan içerik dönüşümü",
+      "scripts": "AI video senaryo oluşturma",
+      "voiceover": "Otomatik seslendirme oluşturma"
+    }
+  },
+  "basic-agent": {
+    "title": "Temel AI Asistan",
+    "description": "Müşteri etkileşimi için 7/24 AI asistan",
+    "features": {
+      "comments": "Yorum etkileşimi",
+      "dm": "DM yanıt otomasyonu",
+      "platforms": "Çoklu platform desteği",
+      "availability": "7/24 erişilebilirlik",
+      "conversations": "Eşzamanlı görüşme yönetimi"
+    }
+  },
+  "advanced-agent": {
+    "title": "Gelişmiş AI Asistan",
+    "description": "Akıllı potansiyel müşteri değerlendirme ve dönüşüm",
+    "features": {
+      "basic": "Tüm Temel Asistan özellikleri",
+      "qualification": "Potansiyel müşteri değerlendirme",
+      "conversion": "Dönüşüm optimizasyonu",
+      "crm": "CRM entegrasyonu",
+      "analytics": "Gelişmiş analitik"
+    }
+  }
+}

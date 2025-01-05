@@ -1,0 +1,46 @@
+{
+  "basic-automation": {
+    "title": "Basic Social Media Automation",
+    "description": "Automated posting with AI-generated content and scheduling",
+    "features": {
+      "captions": "AI-generated captions",
+      "templates": "Custom post templates",
+      "images": "Automated image generation",
+      "scheduling": "Smart scheduling system",
+      "delivery": "24/7 content delivery"
+    }
+  },
+  "advanced-automation": {
+    "title": "Advanced Social Media Automation",
+    "description": "Enhanced automation with WhatsApp integration and voice features",
+    "features": {
+      "basic": "All Basic Automation features",
+      "whatsapp": "Daily WhatsApp notifications",
+      "voice": "Voice note to content conversion",
+      "scripts": "AI video script generation",
+      "voiceover": "Automated voiceover creation"
+    }
+  },
+  "basic-agent": {
+    "title": "Basic AI Agent",
+    "description": "24/7 AI assistant for customer engagement",
+    "features": {
+      "comments": "Comment engagement",
+      "dm": "DM response automation",
+      "platforms": "Multi-platform support",
+      "availability": "24/7 availability",
+      "conversations": "Concurrent conversation handling"
+    }
+  },
+  "advanced-agent": {
+    "title": "Advanced AI Agent",
+    "description": "Intelligent lead qualification and conversion",
+    "features": {
+      "basic": "All Basic Agent features",
+      "qualification": "Lead qualification",
+      "conversion": "Conversion optimization",
+      "crm": "CRM integration",
+      "analytics": "Advanced analytics"
+    }
+  }
+}

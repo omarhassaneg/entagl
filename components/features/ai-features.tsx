@@ -1,56 +1,59 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { Bot, Brain, Zap, BarChart } from 'lucide-react';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function AIFeatures() {
+  const { t } = useTranslations();
+
   const features = [
     {
       icon: Bot,
-      title: 'Intelligent Conversations',
-      description: 'Automate interactions with human-like responses for inquiries, bookings, and complaints.'
+      title: t('features.comprehensive.sections.aiCommunication.features.0'),
+      description: t('features.comprehensive.sections.aiCommunication.description')
     },
     {
       icon: Brain,
-      title: 'SMART Intention Detection',
-      description: 'Accurately understand and act on customer needs in real-time.'
+      title: t('features.comprehensive.sections.aiCommunication.features.2'),
+      description: t('features.comprehensive.sections.aiCommunication.features.3')
     },
     {
       icon: Zap,
-      title: 'AI Knowledge Awareness',
-      description: 'Access vast knowledge base for instant, precise answers.'
+      title: t('features.comprehensive.sections.aiCommunication.features.3'),
+      description: t('features.comprehensive.sections.aiCommunication.features.4')
     },
     {
       icon: BarChart,
-      title: 'Continuous Learning',
-      description: 'Improve over time through ongoing updates and machine learning.'
+      title: t('features.comprehensive.sections.aiCommunication.features.4'),
+      description: t('features.comprehensive.sections.aiCommunication.description')
     }
   ];
 
   const useCases = [
     {
-      title: 'E-commerce Customer Service',
-      description: 'Provide 24/7 assistance, resolving common issues without human intervention.'
+      title: t('features.cases.retail.title'),
+      description: t('features.cases.retail.description')
     },
     {
-      title: 'Order Management',
-      description: 'Assist customers with placing, tracking, and modifying orders seamlessly.'
+      title: t('features.cases.cafe.title'),
+      description: t('features.cases.cafe.description')
     },
     {
-      title: 'Reservations & Bookings',
-      description: 'Automate appointment scheduling and reservations for businesses.'
+      title: t('features.cases.salon.title'),
+      description: t('features.cases.salon.description')
     },
     {
-      title: 'Lead Qualification',
-      description: 'Engage potential customers and qualify leads for the sales team.'
+      title: t('features.cases.restaurant.title'),
+      description: t('features.cases.restaurant.description')
     }
   ];
 
   const benefits = [
-    'Enhanced Efficiency: Reduces response times and operational costs',
-    'Scalability: Handles up to 40,000+ conversations per month',
-    'Improved Customer Satisfaction: Delivers prompt and accurate responses'
+    t('features.benefits.time.solution'),
+    t('features.benefits.money.solution'),
+    t('features.benefits.stress.solution')
   ];
 
   return (
@@ -63,8 +66,8 @@ export function AIFeatures() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">AI-Powered Communication</h2>
-          <p className="text-xl text-muted-foreground">Transform your customer interactions with intelligent automation</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('features.comprehensive.sections.aiCommunication.title')}</h2>
+          <p className="text-xl text-muted-foreground">{t('features.comprehensive.sections.aiCommunication.description')}</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -92,7 +95,7 @@ export function AIFeatures() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-semibold mb-6">Use Cases</h3>
+            <h3 className="text-2xl font-semibold mb-6">{t('features.cases.title')}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {useCases.map((useCase, index) => (
                 <Card key={useCase.title} className="p-6">
@@ -109,7 +112,7 @@ export function AIFeatures() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-semibold mb-6">Key Benefits</h3>
+            <h3 className="text-2xl font-semibold mb-6">{t('features.benefits.title')}</h3>
             <Card className="p-6">
               <ul className="space-y-4">
                 {benefits.map((benefit) => (

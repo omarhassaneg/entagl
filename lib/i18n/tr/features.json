@@ -1,0 +1,177 @@
+{
+  "comprehensive": {
+    "title": "Kapsamlı AI Özellikleri",
+    "subtitle": "Müşteri iletişimlerinizi otomatikleştirmek ve geliştirmek için ihtiyacınız olan her şey",
+    "stats": {
+      "availability": "Erişilebilirlik",
+      "languages": "Dil",
+      "conversations": "Aylık Görüşme",
+      "uptime": "Çalışma Süresi"
+    },
+    "sections": {
+      "aiCommunication": {
+        "title": "AI Destekli İletişim",
+        "description": "Gelişmiş niyet algılama ile tüm kanallarda akıllı görüşmeler",
+        "features": [
+          "Aylık 2,500'den 40,000+ görüşmeye kadar yönetim",
+          "Sorular, rezervasyonlar ve şikayetler gibi yaygın etkileşimleri otomatikleştirme",
+          "SMART niyet algılama",
+          "AI bilgi tabanı",
+          "Sürekli kendini geliştirme"
+        ]
+      },
+      "multichannel": {
+        "title": "Çok Kanallı Entegrasyon",
+        "description": "Müşterilerle nerede olurlarsa olsunlar, tüm platformlarda bağlantı kurun",
+        "features": [
+          "Instagram DM Entegrasyonu",
+          "FB Messenger DM Desteği",
+          "WhatsApp DM Entegrasyonu",
+          "Telegram DM Desteği",
+          "Website Sohbet Widgetı",
+          "E-posta Entegrasyonu"
+        ]
+      },
+      "smartFeatures": {
+        "title": "Akıllı Özellikler",
+        "description": "En son teknoloji araçlarla müşteri etkileşimini geliştirin",
+        "features": [
+          "Çok Dilli Görüşmeler",
+          "Müşteri Bilgi Toplama",
+          "24/7/365 Erişilebilirlik",
+          "Anahtar Kelime Bazlı Görüşme Başlatıcı",
+          "AI Duraklat/Devam Et Özelliği"
+        ]
+      },
+      "teamCollaboration": {
+        "title": "Takım İş Birliği",
+        "description": "Birleşik takım platformu ile iletişimi verimli bir şekilde yönetin",
+        "features": [
+          "Birleşik Sohbet Arayüzü",
+          "Masaüstü ve Mobil Erişim",
+          "Çoklu Kullanıcı Erişimi",
+          "Canlı Sohbet Koltukları",
+          "Görüşme Atama"
+        ]
+      },
+      "businessIntegration": {
+        "title": "İş Entegrasyonu",
+        "description": "Mevcut araçlarınız ve iş akışlarınızla sorunsuz bağlantı",
+        "features": [
+          "Facebook Dönüşüm Takibi",
+          "Takvim Entegrasyonu",
+          "Google Sheets Güncellemeleri",
+          "Otomatik Görev Yönetimi",
+          "Özel İş Akışı Desteği"
+        ]
+      }
+    }
+  },
+  "hero": {
+    "title": "Sosyal Medya Başarısı için",
+    "titleHighlight": "Zahmetsiz Özellikler",
+    "subtitle": "AI destekli araçlarımızın sosyal medyanızı nasıl dönüştürebileceğini ve değerli zamanınızı nasıl özgürleştirebileceğini keşfedin."
+  },
+  "services": {
+    "title": "Kapsamlı AI Çözümleri",
+    "subtitle": "Sosyal medya varlığınızı otomatikleştirmek ve geliştirmek için tasarlanmış özelliklerimizi keşfedin.",
+    "basic": {
+      "title": "Temel Sosyal Medya Otomasyonu",
+      "description": "AI destekli içerik oluşturma ve planlama ile sosyal medyanızı düzenleyin."
+    },
+    "advanced": {
+      "title": "Gelişmiş AI Destekli Yönetim",
+      "description": "Ses özellikleri ve WhatsApp entegrasyonu ile otomasyonunuzu bir üst seviyeye taşıyın."
+    },
+    "basicAgent": {
+      "title": "7/24 AI Asistan",
+      "description": "Tüm sosyal platformlarınızda müşterilerle 7/24 etkileşimde kalın."
+    },
+    "advancedAgent": {
+      "title": "Akıllı Potansiyel Müşteri Yönetimi",
+      "description": "Otomatik olarak değerlendiren ve besleyen AI ile daha fazla potansiyel müşteriyi dönüştürün."
+    },
+    "features": {
+      "captions": "Markaya uygun AI tarafından oluşturulan açıklamalar.",
+      "templates": "Özelleştirilebilir gönderi şablonları.",
+      "images": "Otomatik görsel içerik oluşturma.",
+      "scheduling": "Akıllı içerik planlama.",
+      "whatsapp": "WhatsApp müşteri etkileşimi.",
+      "voice": "Ses notlarını içeriğe dönüştürün.",
+      "scripts": "Video senaryo oluşturma.",
+      "voiceover": "İçeriğiniz için AI seslendirme.",
+      "comments": "Akıllı yorum yanıtları.",
+      "dm": "7/24 DM yönetimi.",
+      "platforms": "Çoklu platform yayınlama.",
+      "availability": "Sürekli aktif varlık.",
+      "qualification": "AI potansiyel müşteri değerlendirme.",
+      "conversion": "Gelişmiş dönüşüm optimizasyonu.",
+      "crm": "Sorunsuz CRM entegrasyonu.",
+      "analytics": "Gelişmiş sosyal medya analitikleri."
+    }
+  },
+  "benefits": {
+    "title": "Neden Entagl'ı Seçmelisiniz?",
+    "subtitle": "Stresi ortadan kaldıran ve sonuçlarınızı maksimize eden AI çözümleri.",
+    "time": {
+      "title": "Değerli Zamandan Tasarruf",
+      "pain": "Sosyal medya yönetiminde sonsuz saatler harcamaktan bunaldınız mı?",
+      "solution": "Siz işinizi büyütmeye odaklanırken rutin görevleri AI'ye bırakın."
+    },
+    "money": {
+      "title": "Maliyetleri Azaltın",
+      "pain": "Ajanslara veya karmaşık araçlara para harcamaktan bıktınız mı?",
+      "solution": "Küçük işletmelere özel AI otomasyonu ile %60'a varan tasarruf sağlayın."
+    },
+    "stress": {
+      "title": "Zahmeti Ortadan Kaldırın",
+      "pain": "Sosyal medya varlığınızı sürdürmek sizi strese sokuyor mu?",
+      "solution": "Güvenilir 7/24 AI yönetimi ile içiniz rahat olsun."
+    },
+    "growth": {
+      "title": "Zahmetsizce Büyüyün",
+      "pain": "Sosyal medya etkinizi artırmakta zorlanıyor musunuz?",
+      "solution": "AI ile optimize edilmiş içerikle erişiminizi ve etkileşiminizi katlayın."
+    }
+  },
+  "cases": {
+    "title": "Küçük İşletmelerden Başarı Hikayeleri",
+    "subtitle": "Sizin gibi işletmelerin Entagl ile nasıl başarıya ulaştığını görün.",
+    "retail": {
+      "title": "Perakende Mağazaları",
+      "description": "Otomatik sosyal medya gönderileri ile zaman kazanan ve satışlarını artıran yerel perakendeciler.",
+      "benefits": {
+        "retail1": "Günlük ürün tanıtım gönderileri.",
+        "retail2": "7/24 müşteri soruları yönetimi.",
+        "retail3": "Kişiselleştirilmiş promosyon kampanyaları."
+      }
+    },
+    "cafe": {
+      "title": "Kafeler ve Kahve Dükkanları",
+      "description": "Yoğun kafe sahiplerinin müşterileriyle çevrimiçi bağlantıda kalmasına yardımcı oluyoruz.",
+      "benefits": {
+        "cafe1": "Günlük menü ve özel teklifler güncellemeleri.",
+        "cafe2": "Yorumlara otomatik yanıtlar.",
+        "cafe3": "Anında etkinlik duyuruları."
+      }
+    },
+    "salon": {
+      "title": "Güzellik Salonları",
+      "description": "Harika müşteri deneyimleri yaratmaya odaklanan salon sahiplerinin hayatını kolaylaştırıyoruz.",
+      "benefits": {
+        "salon1": "Otomatik randevu hatırlatmaları.",
+        "salon2": "Zahmetsiz öncesi/sonrası içerik.",
+        "salon3": "Stil ilham gönderileri."
+      }
+    },
+    "restaurant": {
+      "title": "Restoranlar",
+      "description": "Büyük ve küçük restoranların çevrimiçi varlığını güçlendiriyoruz.",
+      "benefits": {
+        "restaurant1": "Menü öne çıkarma otomasyonu.",
+        "restaurant2": "Rezervasyon yönetimi.",
+        "restaurant3": "Profesyonel yemek fotoğrafı planlama."
+      }
+    }
+  }
+}

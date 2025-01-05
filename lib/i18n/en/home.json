@@ -1,0 +1,88 @@
+{
+  "features": {
+    "title": "Effortless Social Media Automation",
+    "subtitle": "No budget for agencies? Let AI handle it all—posting, engaging, and saving you time.",
+    "items": {
+      "smartContent": {
+        "title": "Stress-Free Content Creation",
+        "description": "AI-crafted posts tailored to your brand voice, ready to engage your audience."
+      },
+      "analytics": {
+        "title": "Track What Matters",
+        "description": "Get clear insights into your social media performance and grow smarter."
+      },
+      "scheduling": {
+        "title": "Post at the Perfect Time",
+        "description": "Automatically schedule your content for when your audience is most active."
+      }
+    }
+  },
+  "hero": {
+    "title": "No Budget for Agencies?",
+    "titleHighlight": "Let AI Save You Time—24/7",
+    "subtitle": "Say goodbye to social media stress. Entagl creates, posts, and manages your content and DMs automatically—so you focus on growing your small business.",
+    "features": {
+      "aiAssistance": {
+        "title": "AI That Never Sleeps",
+        "description": "Engage your audience 24/7 with AI-powered DMs, comments, and customer interactions."
+      },
+      "contentCreation": {
+        "title": "Instant, On-Brand Posts",
+        "description": "We write and post engaging captions, stories, and updates—no effort required."
+      },
+      "workflows": {
+        "title": "Hassle-Free Automation",
+        "description": "Set it up once and let AI keep your social media presence thriving."
+      }
+    }
+  },
+  "benefits": {
+    "title": "Simplify Social Media with AI",
+    "subtitle": "Stop losing time and money on manual social media management. Entagl delivers real, measurable results.",
+    "items": {
+      "aiContent": {
+        "title": "Content That Works",
+        "description": "Engaging posts tailored to your audience, delivered daily by AI."
+      },
+      "engagement": {
+        "title": "24/7 Engagement",
+        "description": "Let AI respond to DMs and comments while you focus on your business."
+      },
+      "analytics": {
+        "title": "Clear Performance Insights",
+        "description": "Understand what's working with easy-to-use analytics."
+      },
+      "audience": {
+        "title": "Grow Your Audience",
+        "description": "Reach more customers with consistent, targeted social media activity."
+      },
+      "timeSaving": {
+        "title": "Save Time & Money",
+        "description": "Automate your tasks and skip the agency fees, freeing up time for what matters."
+      },
+      "automation": {
+        "title": "Smart Automation, Big Results",
+        "description": "AI manages your presence so you can manage your business."
+      }
+    }
+  },
+  "services": {
+    "title": "Tailored AI Solutions for Small Businesses",
+    "subtitle": "Choose the perfect package to streamline your social media management."
+  },
+  "cta": {
+    "title": "Ready to Simplify Social Media?",
+    "subtitle": "Join thousands of small businesses automating their social media with Entagl."
+  },
+  "testimonials": {
+    "quote1": "Entagl's AI Agents transformed our customer support, allowing us to respond to inquiries 24/7. Our efficiency has skyrocketed, and our customers are happier than ever!",
+    "author1": "John Doe",
+    "position1": "CEO, Tech Solutions",
+    "quote2": "The AI integration has revolutionized how we handle customer interactions. Response times are down 80% and satisfaction is up!",
+    "author2": "Jane Smith",
+    "position2": "CTO, Digital Solutions",
+    "playVideo": "Play testimonial video",
+    "previous": "Previous testimonial",
+    "next": "Next testimonial"
+  }
+}

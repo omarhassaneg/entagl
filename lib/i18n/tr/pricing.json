@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "title": "Her İşletme için",
+    "titleHighlight": "Basit Fiyatlandırma",
+    "subtitle": "İşletmeniz için mükemmel planı seçin. Tüm planlar, büyüme için esnek seçeneklerle temel özelliklerimizi içerir."
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Fiyatlandırma ve hizmetlerimizle ilgili yaygın soruların cevaplarını bulun",
+    "trial": {
+      "question": "Ücretsiz deneme var mı?",
+      "answer": "Evet! Tüm planlar için 14 günlük ücretsiz deneme sunuyoruz. Başlamak için kredi kartı gerekmez. Deneme süresi boyunca tüm özelliklere tam erişim sağlayabilirsiniz."
+    },
+    "payment": {
+      "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+      "answer": "Güvenli ödeme sağlayıcımız Stripe aracılığıyla tüm büyük kredi kartlarını (Visa, Mastercard, American Express) kabul ediyoruz. Kurumsal planlar için banka havalesini de kabul ediyoruz."
+    },
+    "billing": {
+      "question": "Faturalandırma nasıl çalışır?",
+      "answer": "Bir defalık kurulum ücreti ile aylık olarak faturalandırıyoruz. Her ay aynı tarihte faturalandırılırsınız. Tüm ücretler ekstrede 'Entagl' olarak görünecektir. Planınızı istediğiniz zaman yükseltebilir veya düşürebilirsiniz, ve ücretler orantılı olarak ayarlanır."
+    },
+    "channels": {
+      "question": "Ek kanallar nedir?",
+      "answer": "Ek kanallar, ilk kanalınızın ötesindeki sosyal medya platformlarıdır. Örneğin, Instagram ile başlarsanız, Facebook eklemek ek bir kanal olarak sayılır."
+    },
+    "refund": {
+      "question": "İade politikası nedir?",
+      "answer": "Tüm yeni abonelikler için 14 günlük para iade garantisi sunuyoruz. Memnun kalmazsanız, satın alma tarihinden itibaren 14 gün içinde destek ekibimize başvurarak tam iade alabilirsiniz. Hizmet aktif edildikten sonra kurulum ücretleri iade edilmez. İadeler, 5-10 iş günü içinde orijinal ödeme yöntemine işlenir."
+    },
+    "cancel": {
+      "question": "Aboneliği istediğim zaman iptal edebilir miyim?",
+      "answer": "Evet, aboneliğinizi istediğiniz zaman hesap panelinizden veya destek ekibiyle iletişime geçerek iptal edebilirsiniz. Mevcut fatura döneminizin sonuna kadar tüm özelliklere erişim sağlarsınız. Kısmi aylar için geri ödeme yapmıyoruz, ancak iptalden sonra tekrar ücret alınmaz."
+    },
+    "dispute": {
+      "question": "Fatura ile ilgili bir sorunum olursa ne yapmalıyım?",
+      "answer": "Faturalandırma ile ilgili herhangi bir konuda info@entagl.com adresinden veya +16476863366 numaralı telefondan faturalandırma ekibimizle iletişime geçin. Tüm sorunları 48 saat içinde çözmeyi hedefliyoruz. Gerekirse, ödeme sağlayıcınız aracılığıyla resmi bir ihtilaf başlatabilirsiniz."
+    },
+    "support": {
+      "question": "Ne tür destek sağlıyorsunuz?",
+      "answer": "Birden fazla kanal üzerinden kapsamlı destek sunuyoruz: 7/24 e-posta desteği (info@entagl.com), canlı sohbet ve iş saatlerinde telefon desteği (+16476863366). Premium planlar, 2 saatlik yanıt süresi ve özel bir hesap yöneticisi ile öncelikli destek içerir."
+    }
+  },
+  "cta": {
+    "title": "Sosyal Medyanızı Dönüştürmeye Hazır mısınız?",
+    "subtitle": "Bugün 14 günlük ücretsiz denemenizi başlatın. Kredi kartı gerekmez."
+  }
+}

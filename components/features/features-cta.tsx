@@ -1,10 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from '../ui/button';
 import { ArrowRight, CalendarClock, Calculator } from 'lucide-react';
 import Link from 'next/link';
-import { useTranslations } from '@/lib/hooks/use-translations';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function FeaturesCTA() {
   const { t } = useTranslations();
@@ -23,10 +23,10 @@ export function FeaturesCTA() {
           className="text-center space-y-8"
         >
           <h2 className="text-3xl md:text-4xl font-bold">
-            Ready to Transform Your Customer Experience?
+            {t('pricing.cta.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get started with Entagl today and see how our AI-powered solutions can revolutionize your business communications.
+            {t('pricing.cta.subtitle')}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -41,12 +41,12 @@ export function FeaturesCTA() {
               <Link href="/demo" className="relative block">
                 <div className="bg-card border rounded-lg p-8 h-full">
                   <CalendarClock className="h-12 w-12 text-primary mb-4" />
-                  <h3 className="text-2xl font-semibold mb-2">Schedule a Demo</h3>
+                  <h3 className="text-2xl font-semibold mb-2">{t('common.scheduleDemo')}</h3>
                   <p className="text-muted-foreground mb-6">
-                    See our AI in action with a personalized demonstration.
+                    {t('landing.solutions.description')}
                   </p>
                   <Button className="w-full group">
-                    Book Your Demo
+                    {t('common.scheduleDemo')}
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>
@@ -64,12 +64,12 @@ export function FeaturesCTA() {
               <Link href="/free-quote" className="relative block">
                 <div className="bg-card border rounded-lg p-8 h-full">
                   <Calculator className="h-12 w-12 text-primary mb-4" />
-                  <h3 className="text-2xl font-semibold mb-2">Get a Free Quote</h3>
+                  <h3 className="text-2xl font-semibold mb-2">{t('landing.solutions.cta')}</h3>
                   <p className="text-muted-foreground mb-6">
-                    Receive a customized quote tailored to your business needs.
+                    {t('landing.solutions.subtitle')}
                   </p>
                   <Button className="w-full group">
-                    Request Quote
+                    {t('common.contactQuote')}
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>

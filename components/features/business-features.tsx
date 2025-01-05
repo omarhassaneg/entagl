@@ -1,59 +1,62 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/card';
 import { Link2, Calendar, Database, Workflow } from 'lucide-react';
+import { useTranslations } from '../../lib/hooks/use-translations';
 
 export function BusinessFeatures() {
+  const { t } = useTranslations();
+
   const features = [
     {
       icon: Link2,
-      title: 'CRM Integration',
-      description: 'Sync with customer relationship management systems'
+      title: t('features.comprehensive.sections.businessIntegration.features.0'),
+      description: t('features.comprehensive.sections.businessIntegration.description')
     },
     {
       icon: Calendar,
-      title: 'Calendar Syncing',
-      description: 'Automate scheduling and appointment management'
+      title: t('features.comprehensive.sections.businessIntegration.features.1'),
+      description: t('features.comprehensive.sections.businessIntegration.description')
     },
     {
       icon: Database,
-      title: 'Data Management',
-      description: 'Update records automatically in various tools'
+      title: t('features.comprehensive.sections.businessIntegration.features.2'),
+      description: t('features.comprehensive.sections.businessIntegration.description')
     },
     {
       icon: Workflow,
-      title: 'Automated Workflows',
-      description: 'Execute tasks based on predefined triggers'
+      title: t('features.comprehensive.sections.businessIntegration.features.4'),
+      description: t('features.comprehensive.sections.businessIntegration.description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Sales Automation',
-      description: 'Integrate with CRM to manage leads and customer data efficiently',
+      title: t('features.cases.retail.title'),
+      description: t('features.cases.retail.description'),
       benefits: [
-        'Automated lead tracking',
-        'Seamless data synchronization',
-        'Enhanced sales pipeline visibility'
+        t('features.cases.retail.benefits.retail1'),
+        t('features.cases.retail.benefits.retail2'),
+        t('features.cases.retail.benefits.retail3')
       ]
     },
     {
-      title: 'Appointment Scheduling',
-      description: 'Automate booking processes for services',
+      title: t('features.cases.cafe.title'),
+      description: t('features.cases.cafe.description'),
       benefits: [
-        'Reduced scheduling conflicts',
-        'Automated reminders',
-        'Calendar integration'
+        t('features.cases.cafe.benefits.cafe1'),
+        t('features.cases.cafe.benefits.cafe2'),
+        t('features.cases.cafe.benefits.cafe3')
       ]
     },
     {
-      title: 'Data Management',
-      description: 'Reduce manual data entry by automating updates',
+      title: t('features.cases.salon.title'),
+      description: t('features.cases.salon.description'),
       benefits: [
-        'Improved accuracy',
-        'Time savings',
-        'Real-time updates'
+        t('features.cases.salon.benefits.salon1'),
+        t('features.cases.salon.benefits.salon2'),
+        t('features.cases.salon.benefits.salon3')
       ]
     }
   ];
@@ -68,9 +71,9 @@ export function BusinessFeatures() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Business Integration</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('features.comprehensive.sections.businessIntegration.title')}</h2>
           <p className="text-xl text-muted-foreground">
-            Seamlessly connect your existing tools and automate workflows
+            {t('features.comprehensive.sections.businessIntegration.description')}
           </p>
         </motion.div>
 

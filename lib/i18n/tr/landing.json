@@ -1,0 +1,188 @@
+{
+  "hero": {
+    "title": "Entagl AI ile Sohbetleri Satışa Dönüştürün",
+    "subtitle": "Sosyal medya ve WhatsApp'ta sonu gelmeyen müşteri sorularından bunalan işletmeler için Entagl AI devreye giriyor—soruları yanıtlama, bilet oluşturma, rezervasyon yönetimi, sipariş güncelleme ve 7/24 destek sağlama gibi işlemleri eğitimli bir ekip üyesi gibi yönetiyor—ve çok daha fazlası.",
+    "features": {
+      "support": "7/24 Destek",
+      "multilingual": "Çok Dilli",
+      "aiPowered": "AI Destekli"
+    }
+  },
+  "problems": {
+    "title": "İşletmeniz Fırsatları Kaçırıyor mu?",
+    "subtitle": "Gecikmeli yanıtlar, kaçırılan sorular ve dağınık iletişim kanalları işletmenize her gün gelir kaybettiriyor.",
+    "items": {
+      "opportunities": {
+        "title": "Kaçan Fırsatlar",
+        "description": "Saatler veya günler içinde yanıt vermek, rezervasyon ve satış kaybına yol açar."
+      },
+      "language": {
+        "title": "Sınırlı Dil Desteği",
+        "description": "Müşteriler birden fazla dil konuşuyor, ancak ekibiniz yetişemiyor."
+      },
+      "systems": {
+        "title": "Dağınık Sistemler",
+        "description": "Instagram, WhatsApp ve web siteniz üzerinden gelen soruları yönetmek verimsiz."
+      }
+    }
+  },
+  "solution": {
+    "title": "Entagl ile Tanışın: 7/24 Çalışan AI Asistan",
+    "subtitle": "Her müşteriyle, her platformda, her dilde anında iletişim kurun.",
+    "features": {
+      "chat": {
+        "title": "Birleşik Sohbet Yönetimi",
+        "description": "Instagram, WhatsApp ve web sitesi sorularını tek bir yerden yönetin."
+      },
+      "availability": {
+        "title": "7/24 Erişilebilirlik",
+        "description": "Artık hiçbir müşteri sorusunu kaçırmayın."
+      },
+      "multilingual": {
+        "title": "Çok Dilli AI",
+        "description": "6'dan fazla dilde sorunsuz iletişim kurun."
+      },
+      "cost": {
+        "title": "Maliyet Verimliliği",
+        "description": "Ek personel almadan müşteri desteğinizi ölçeklendirin."
+      }
+    },
+    "comparison": {
+      "title": "Geleneksel Destek vs Entagl AI",
+      "traditional": {
+        "title": "Geleneksel Destek",
+        "items": [
+          "Sınırlı çalışma saatleri",
+          "Dil engelleri",
+          "Yüksek operasyonel maliyetler",
+          "Yavaş yanıt süreleri"
+        ]
+      },
+      "entagl": {
+        "title": "Entagl AI",
+        "items": [
+          "7/24 erişilebilirlik",
+          "Çok dilli destek",
+          "Uygun maliyetli ölçeklendirme",
+          "Anında yanıtlar"
+        ]
+      }
+    }
+  },
+  "features": {
+    "title": "İşletmeler Neden Entagl AI'yi Seviyor",
+    "subtitle": "Gerçek iş sonuçları sağlayan güçlü özellikler",
+    "items": {
+      "inbox": {
+        "title": "Birleşik Gelen Kutusu",
+        "description": "Birden fazla kanaldan gelen soruları tek bir yerden yanıtlayın.",
+        "highlight": "Mesaj yönetiminde günde 4+ saat tasarruf edin"
+      },
+      "automation": {
+        "title": "AI Otomasyonu",
+        "description": "Soruları, şikayetleri ve rezervasyonları otomatik olarak yönetin.",
+        "highlight": "Rutin etkileşimlerin %80'ine kadar otomatikleştirin"
+      },
+      "workflows": {
+        "title": "Özelleştirilebilir İş Akışları",
+        "description": "AI yanıtlarını destek bileti veya potansiyel müşteri değerlendirmesi gibi özel senaryolara göre uyarlayın.",
+        "highlight": "Dönüşüm oranlarını %40 artırın"
+      },
+      "analytics": {
+        "title": "Analitik ve İçgörüler",
+        "description": "Müşteri davranışı, yanıt süreleri ve ekip performansı hakkında gerçek zamanlı verilere erişin.",
+        "highlight": "Veri odaklı kararlar alın"
+      },
+      "scalability": {
+        "title": "Ölçeklenebilirlik",
+        "description": "Ek maliyet olmadan günlük binlerce soruyu destekleyin.",
+        "highlight": "Destek maliyetlerinde %50'ye varan tasarruf"
+      }
+    }
+  },
+  "process": {
+    "title": "Sizinle Nasıl Çalışıyoruz",
+    "subtitle": "İşletme ihtiyaçlarınıza özel hızlı ve sorunsuz kurulum",
+    "steps": {
+      "consultation": {
+        "title": "Danışmanlık",
+        "description": "Süreçlerinizi, sistemlerinizi ve hedeflerinizi anlayın."
+      },
+      "roadmap": {
+        "title": "Yol Haritası",
+        "description": "2 hafta içinde basitleştirilmiş Faz 1 ürününü teslim edin."
+      },
+      "enhancements": {
+        "title": "Geliştirmeler",
+        "description": "Değişen ihtiyaçlarınızı karşılamak için AI'yi 60 gün boyunca geliştirin."
+      },
+      "support": {
+        "title": "Sürekli Destek",
+        "description": "Sürekli izleme, iyileştirme ve güncellemeler."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Her İşletmeye Uygun Esnek Planlar",
+    "subtitle": "Müşteri etkileşiminizi ölçeklendirmek için mükemmel planı seçin",
+    "tiers": {
+      "starter": {
+        "name": "Başlangıç",
+        "description": "Yeni başlayan küçük işletmeler için mükemmel.",
+        "features": [
+          "Tek kanal entegrasyonu",
+          "Temel AI yanıtları",
+          "Mesai saatleri desteği",
+          "Standart analitik"
+        ]
+      },
+      "small": {
+        "name": "Küçük İşletme",
+        "description": "Birden fazla kanalla büyüyen işletmeler için ideal.",
+        "features": [
+          "Çoklu kanal entegrasyonu",
+          "Gelişmiş AI özelleştirme",
+          "7/24 öncelikli destek",
+          "Gelişmiş analitik",
+          "Özel iş akışları"
+        ]
+      },
+      "medium": {
+        "name": "Orta Ölçekli İşletme",
+        "description": "Kapsamlı çözümlere ihtiyaç duyan yerleşik işletmeler için.",
+        "features": [
+          "Kurumsal entegrasyonlar",
+          "Özel AI eğitimi",
+          "Özel hesap yöneticisi",
+          "Gelişmiş raporlama",
+          "API erişimi",
+          "White-label seçenekleri"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "title": "Müşteri Etkileşiminizi Bir Üst Seviyeye Taşıyın",
+    "subtitle": "Müşteri etkileşimlerini dönüştürmek için Entagl AI'yi kullanan binlerce işletmeye katılın"
+  },
+  "solutions": {
+    "title": "İşletme İhtiyaçlarınıza Özel AI Çözümleri",
+    "subtitle": "Müşteri görüşmelerinin düzenlenmesinden karmaşık iş akışlarının otomatikleştirilmesine kadar, AI çözümlerimiz benzersiz hedeflerinize ve zorluklarınıza göre tamamen özelleştirilmiştir.",
+    "description": "Her işletme benzersizdir ve çözümlerimiz de öyle. Sosyal medya etkileşimlerini yönetme, soruları otomatikleştirme veya AI'yi operasyonlarınıza entegre etme konusunda yardıma ihtiyacınız olsun, önce ihtiyaçlarınızı anlayarak başlıyoruz. Ücretsiz bir danışmanlık planlayın, size özel bir çözüm oluşturalım.",
+    "features": {
+      "automation": "AI destekli otomasyon",
+      "automationDesc": "Akıllı otomasyon ile sorunsuz müşteri etkileşimleri",
+      "multilingual": "Çok dilli destek",
+      "multilingualDesc": "Global kitlenizle tercih ettikleri dilde iletişim kurun",
+      "scalable": "Ölçeklenebilir çözümler",
+      "scalableDesc": "Her boyut ve karmaşıklıktaki işletmeler için mükemmel",
+      "integration": "Sistem entegrasyonu",
+      "integrationDesc": "CRM ve e-Ticaret platformlarınızla sorunsuz entegrasyon",
+      "insights": "Uygulanabilir içgörüler",
+      "insightsDesc": "Detaylı analitiklerle performans ve ROI'yi takip edin"
+    },
+    "cta": "Ücretsiz Teklif Alın",
+    "aiActive": "AI Asistan Aktif",
+    "aiActiveDesc": "AI'miz şu anda müşteri sorularını işliyor ve işletme kurallarınıza göre yanıtları optimize ediyor."
+  }
+}

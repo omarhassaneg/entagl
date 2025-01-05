@@ -1,0 +1,15 @@
+{
+  "title": "Get in Touch",
+  "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "form": {
+    "firstName": "What's your first name?",
+    "email": "What's your work email?",
+    "phone": "What's your phone number?",
+    "businessName": "What's your business name?",
+    "businessWebsite": "What's your business website?",
+    "additionalInfo": "Tell us about your challenges and what you're looking for",
+    "thankYou": "Thank you for reaching out!",
+    "confirmation": "We'll get back to you as soon as possible.",
+    "error": "Failed to submit form. Please try again."
+  }
+}

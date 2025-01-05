@@ -1,0 +1,88 @@
+{
+  "features": {
+    "title": "Zahmetsiz Sosyal Medya Otomasyonu",
+    "subtitle": "Ajans bütçeniz yok mu? Paylaşım, etkileşim ve zaman tasarrufu—hepsini AI'ye bırakın.",
+    "items": {
+      "smartContent": {
+        "title": "Stressiz İçerik Oluşturma",
+        "description": "Kitlenizi etkilemek için marka sesinize uygun AI tarafından hazırlanan gönderiler."
+      },
+      "analytics": {
+        "title": "Önemli Olanı Takip Edin",
+        "description": "Sosyal medya performansınız hakkında net içgörüler edinin ve daha akıllıca büyüyün."
+      },
+      "scheduling": {
+        "title": "Mükemmel Zamanda Paylaşın",
+        "description": "İçeriğinizi kitlenizin en aktif olduğu zamanlarda otomatik olarak planlayın."
+      }
+    }
+  },
+  "hero": {
+    "title": "Ajans Bütçeniz Yok mu?",
+    "titleHighlight": "AI ile 7/24 Zamandan Tasarruf Edin",
+    "subtitle": "Sosyal medya stresine veda edin. Entagl içeriğinizi ve DM'lerinizi otomatik olarak oluşturur, paylaşır ve yönetir—böylece siz küçük işletmenizi büyütmeye odaklanabilirsiniz.",
+    "features": {
+      "aiAssistance": {
+        "title": "Asla Uyumayan AI",
+        "description": "AI destekli DM'ler, yorumlar ve müşteri etkileşimleri ile kitlenizle 7/24 iletişimde kalın."
+      },
+      "contentCreation": {
+        "title": "Anında, Markaya Uygun Gönderiler",
+        "description": "Çaba harcamadan ilgi çekici açıklamalar, hikayeler ve güncellemeler yazıp paylaşıyoruz."
+      },
+      "workflows": {
+        "title": "Zahmetsiz Otomasyon",
+        "description": "Bir kez ayarlayın ve AI'nin sosyal medya varlığınızı canlı tutmasına izin verin."
+      }
+    }
+  },
+  "benefits": {
+    "title": "AI ile Sosyal Medyayı Basitleştirin",
+    "subtitle": "Manuel sosyal medya yönetiminde zaman ve para kaybetmeyi bırakın. Entagl gerçek, ölçülebilir sonuçlar sunar.",
+    "items": {
+      "aiContent": {
+        "title": "İşe Yarayan İçerik",
+        "description": "AI tarafından günlük olarak kitlenize özel hazırlanan ilgi çekici gönderiler."
+      },
+      "engagement": {
+        "title": "7/24 Etkileşim",
+        "description": "Siz işinize odaklanırken DM'leri ve yorumları AI'ye bırakın."
+      },
+      "analytics": {
+        "title": "Net Performans İçgörüleri",
+        "description": "Kullanımı kolay analitiklerle neyin işe yaradığını anlayın."
+      },
+      "audience": {
+        "title": "Kitlenizi Büyütün",
+        "description": "Tutarlı, hedefli sosyal medya aktivitesi ile daha fazla müşteriye ulaşın."
+      },
+      "timeSaving": {
+        "title": "Zaman ve Para Tasarrufu",
+        "description": "Görevlerinizi otomatikleştirin ve ajans ücretlerinden kurtulun, önemli işlere zaman ayırın."
+      },
+      "automation": {
+        "title": "Akıllı Otomasyon, Büyük Sonuçlar",
+        "description": "Siz işletmenizi yönetirken AI sosyal medya varlığınızı yönetsin."
+      }
+    }
+  },
+  "services": {
+    "title": "Küçük İşletmelere Özel AI Çözümleri",
+    "subtitle": "Sosyal medya yönetiminizi düzenlemek için mükemmel paketi seçin."
+  },
+  "cta": {
+    "title": "Sosyal Medyayı Basitleştirmeye Hazır mısınız?",
+    "subtitle": "Sosyal medyalarını Entagl ile otomatikleştiren binlerce küçük işletmeye katılın."
+  },
+  "testimonials": {
+    "quote1": "Entagl'ın AI Asistanları müşteri desteğimizi dönüştürdü ve 7/24 sorulara yanıt vermemizi sağladı. Verimliliğimiz zirveye ulaştı ve müşterilerimiz her zamankinden daha mutlu!",
+    "author1": "John Doe",
+    "position1": "CEO, Tech Solutions",
+    "quote2": "AI entegrasyonu müşteri etkileşimlerimizi yönetme şeklimizi devrimleştirdi. Yanıt süreleri %80 düştü ve memnuniyet arttı!",
+    "author2": "Jane Smith",
+    "position2": "CTO, Digital Solutions",
+    "playVideo": "Referans videosunu oynat",
+    "previous": "Önceki referans",
+    "next": "Sonraki referans"
+  }
+}

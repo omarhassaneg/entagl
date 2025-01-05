@@ -19,13 +19,13 @@ export function HeroFeatures() {
           className="text-center space-y-6"
         >
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            Revolutionize Your{' '}
+            {t('features.hero.title')}{' '}
             <span className="bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent">
-              Customer Engagement
+              {t('features.hero.titleHighlight')}
             </span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover how our AI-powered solutions streamline operations and transform customer interactions across industries
+            {t('features.hero.subtitle')}
           </p>
         </motion.div>
       </div>

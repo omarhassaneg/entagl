@@ -1,0 +1,17 @@
+{
+  "header": {
+    "title": "Latest Insights & Updates",
+    "subtitle": "Discover the latest trends, strategies, and success stories in AI-powered social media management"
+  },
+  "search": {
+    "placeholder": "Search articles..."
+  },
+  "categories": {
+    "title": "Categories",
+    "all": "All Categories",
+    "ai-technology": "AI Technology",
+    "business": "Business",
+    "case-studies": "Case Studies",
+    "industry-news": "Industry News"
+  }
+}
