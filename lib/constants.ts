@@ -24,10 +24,6 @@ export const NAV_ITEMS: NavItem[] = [
     href: '/features',
   },
   {
-    title: 'pricing',
-    href: '/pricing',
-  },
-  {
     title: 'blog',
     href: '/blog',
   },
