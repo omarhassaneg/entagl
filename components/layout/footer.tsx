@@ -15,7 +15,6 @@ export function Footer() {
       title: t('footer.product'),
       links: [
         { label: t('nav.features'), href: '/features' },
-        { label: t('nav.pricing'), href: '/pricing' },
         { label: t('footer.socialMediaAutomation'), href: '/social-media-automation' },
         { label: t('footer.demo'), href: '/demo' },
         { label: t('landing.solutions.cta'), href: '/free-quote' },
