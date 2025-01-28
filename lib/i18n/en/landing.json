@@ -122,45 +122,6 @@
       }
     }
   },
-  "pricing": {
-    "title": "Flexible Plans for Every Business",
-    "subtitle": "Choose the perfect plan to scale your customer engagement",
-    "tiers": {
-      "starter": {
-        "name": "Starter",
-        "description": "Perfect for small businesses just getting started.",
-        "features": [
-          "Single channel integration",
-          "Basic AI responses",
-          "Business hours support",
-          "Standard analytics"
-        ]
-      },
-      "small": {
-        "name": "Small Business",
-        "description": "Ideal for growing businesses with multiple channels.",
-        "features": [
-          "Multiple channel integration",
-          "Advanced AI customization",
-          "24/7 priority support",
-          "Advanced analytics",
-          "Custom workflows"
-        ]
-      },
-      "medium": {
-        "name": "Medium Business",
-        "description": "For established businesses needing comprehensive solutions.",
-        "features": [
-          "Enterprise integrations",
-          "Custom AI training",
-          "Dedicated account manager",
-          "Advanced reporting",
-          "API access",
-          "White-label options"
-        ]
-      }
-    }
-  },
   "cta": {
     "title": "Take Your Customer Engagement to the Next Level",
     "subtitle": "Join thousands of businesses using Entagl AI to transform their customer engagement"

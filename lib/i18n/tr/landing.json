@@ -122,45 +122,6 @@
       }
     }
   },
-  "pricing": {
-    "title": "Her İşletmeye Uygun Esnek Planlar",
-    "subtitle": "Müşteri etkileşiminizi ölçeklendirmek için mükemmel planı seçin",
-    "tiers": {
-      "starter": {
-        "name": "Başlangıç",
-        "description": "Yeni başlayan küçük işletmeler için mükemmel.",
-        "features": [
-          "Tek kanal entegrasyonu",
-          "Temel AI yanıtları",
-          "Mesai saatleri desteği",
-          "Standart analitik"
-        ]
-      },
-      "small": {
-        "name": "Küçük İşletme",
-        "description": "Birden fazla kanalla büyüyen işletmeler için ideal.",
-        "features": [
-          "Çoklu kanal entegrasyonu",
-          "Gelişmiş AI özelleştirme",
-          "7/24 öncelikli destek",
-          "Gelişmiş analitik",
-          "Özel iş akışları"
-        ]
-      },
-      "medium": {
-        "name": "Orta Ölçekli İşletme",
-        "description": "Kapsamlı çözümlere ihtiyaç duyan yerleşik işletmeler için.",
-        "features": [
-          "Kurumsal entegrasyonlar",
-          "Özel AI eğitimi",
-          "Özel hesap yöneticisi",
-          "Gelişmiş raporlama",
-          "API erişimi",
-          "White-label seçenekleri"
-        ]
-      }
-    }
-  },
   "cta": {
     "title": "Müşteri Etkileşiminizi Bir Üst Seviyeye Taşıyın",
     "subtitle": "Müşteri etkileşimlerini dönüştürmek için Entagl AI'yi kullanan binlerce işletmeye katılın"
