@@ -1,11 +1,19 @@
-import { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy | Entagl",
-  description: "Privacy Policy for Entagl's use of Facebook and Instagram APIs",
-};
+import { useEffect } from "react";
 
-export default function PrivacyPolicy() {
+const PrivacyPolicy = () => {
+  useEffect(() => {
+    if (window.location.hash) {
+      const element = document.querySelector(window.location.hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, []);
+
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl scroll-smooth">
       <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
@@ -41,7 +49,7 @@ export default function PrivacyPolicy() {
             <li>Messages (when using our messaging features)</li>
           </ul>
 
-          <h3 className="text-xl font-semibold mb-3">2.2 Permissions We Request</h3>
+          <h3 className="text-xl font-semibold mb-3">2.3 Permissions We Request</h3>
           <p>We request the following permissions through Facebook and Instagram APIs:</p>
           <ul className="list-disc pl-6 mb-4">
             <li>Basic profile information access</li>
@@ -168,4 +176,6 @@ export default function PrivacyPolicy() {
       </div>
     </div>
   );
-}
+};
+
+export default PrivacyPolicy;
