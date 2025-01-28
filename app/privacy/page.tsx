@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 py-8 max-w-4xl scroll-smooth">
       <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
       
       <div className="prose dark:prose-invert max-w-none">
@@ -111,6 +111,58 @@ export default function PrivacyPolicy() {
           <p className="mt-2">
             Email: info@entagl.com<br />
             Address: Toronto, Ontario
+          </p>
+        </section>
+
+        <section id="deletemyinfo" className="mb-8 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-4">9. Data Deletion Policy for Meta Developer Apps</h2>
+          <p className="mb-4">
+            In compliance with Meta's Developer Policies, we provide users with the ability to request the deletion of their data. Below are the instructions and procedures for users to request data deletion from our application.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-3">How to Request Data Deletion</h3>
+          <p className="mb-4">
+            If you would like to request the deletion of your personal data from our app, please follow the steps below:
+          </p>
+
+          <ol className="list-decimal pl-6 mb-4">
+            <li className="mb-2">
+              <strong>Contact Us by Email:</strong><br />
+              Send an email to <strong>info@entagl.com</strong> with the subject line: "Data Deletion Request."
+            </li>
+            <li className="mb-2">
+              <strong>Include Necessary Details:</strong><br />
+              In your email, please provide the following information to help us process your request:
+              <ul className="list-disc pl-6 mt-2">
+                <li>Your full name</li>
+                <li>Your account username or email associated with the app</li>
+                <li>Any additional details to help identify your account or data (e.g., specific activity or service you used within the app)</li>
+              </ul>
+            </li>
+            <li className="mb-2">
+              <strong>Processing Your Request:</strong><br />
+              Once we receive your request, we will:
+              <ul className="list-disc pl-6 mt-2">
+                <li>Verify your identity to ensure the request is legitimate</li>
+                <li>Remove your data from our records in accordance with applicable laws and our data retention policies</li>
+                <li>Confirm the completion of your data deletion request via email</li>
+              </ul>
+            </li>
+          </ol>
+
+          <h3 className="text-xl font-semibold mb-3">Data Deletion Timeline</h3>
+          <p className="mb-4">
+            We aim to process all data deletion requests within <strong>30 days</strong> of receipt. However, in rare cases, additional time may be required depending on the complexity of the request or technical constraints.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-3">Additional Notes</h3>
+          <ul className="list-disc pl-6 mb-4">
+            <li><strong>Third-Party Services:</strong> If you used third-party services integrated with our app, you may need to contact those services directly to request data deletion from their records.</li>
+            <li><strong>Data Retention Requirements:</strong> Certain data may be retained as required by law or for legitimate business purposes, such as preventing fraud or resolving disputes.</li>
+          </ul>
+
+          <p>
+            If you have any questions about our Data Deletion Policy or need further assistance, please don't hesitate to reach out to us at <strong>info@entagl.com</strong>.
           </p>
         </section>
       </div>
