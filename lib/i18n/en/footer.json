@@ -11,5 +11,10 @@
   "contact": "Contact",
   "privacy": "Privacy Policy",
   "terms": "Terms of Service",
-  "faq": "FAQ"
+  "faq": "FAQ",
+  "phones": {
+    "title": "Contact Numbers",
+    "turkey": "Turkey: +905462073902",
+    "canada": "Canada: +16478304916"
+  }
 }

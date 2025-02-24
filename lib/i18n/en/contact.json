@@ -1,6 +1,12 @@
 {
   "title": "Get in Touch",
   "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "phones": {
+    "title": "Call Us",
+    "description": "Feel free to call us directly at any of our offices:",
+    "turkey": "Turkey Office: +905462073902",
+    "canada": "Canada Office: +16478304916"
+  },
   "form": {
     "firstName": "What's your first name?",
     "email": "What's your work email?",

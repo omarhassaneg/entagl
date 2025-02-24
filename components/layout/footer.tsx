@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Logo } from './logo';
 import { useTranslations } from "@/lib/hooks/use-translations";
 import Link from 'next/link';
-import { Instagram } from "lucide-react";
+import { Instagram, Phone } from "lucide-react";
 
 export function Footer() {
   const { t } = useTranslations();
@@ -46,6 +46,21 @@ export function Footer() {
             <p className="text-muted-foreground">
               {t('footer.description')}
             </p>
+            <div className="space-y-2">
+              <h4 className="font-semibold">{t('footer.phones.title')}</h4>
+              <div className="flex items-center space-x-2 text-muted-foreground">
+                <Phone className="h-4 w-4" />
+                <a href="tel:+905462073902" className="hover:text-foreground transition-colors">
+                  {t('footer.phones.turkey')}
+                </a>
+              </div>
+              <div className="flex items-center space-x-2 text-muted-foreground">
+                <Phone className="h-4 w-4" />
+                <a href="tel:+16478304916" className="hover:text-foreground transition-colors">
+                  {t('footer.phones.canada')}
+                </a>
+              </div>
+            </div>
           </div>
 
           {footerSections.map((section) => (

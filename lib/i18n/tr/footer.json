@@ -11,5 +11,10 @@
   "contact": "İletişim",
   "privacy": "Gizlilik Politikası",
   "terms": "Kullanım Koşulları",
-  "faq": "SSS"
+  "faq": "SSS",
+  "phones": {
+    "title": "İletişim Numaraları",
+    "turkey": "Türkiye: +905462073902",
+    "canada": "Kanada: +16478304916"
+  }
 }

@@ -1,15 +1,21 @@
 {
-  "title": "Bize Ulaşın",
-  "subtitle": "Sorularınız mı var? Sizden haber almayı çok isteriz. Bize bir mesaj gönderin, en kısa sürede yanıt vereceğiz.",
+  "title": "İletişime Geçin",
+  "subtitle": "Sorularınız mı var? Sizden haber almaktan mutluluk duyarız. Bize mesaj gönderin, en kısa sürede yanıt vereceğiz.",
+  "phones": {
+    "title": "Bizi Arayın",
+    "description": "Ofislerimizden herhangi birini doğrudan arayabilirsiniz:",
+    "turkey": "Türkiye Ofisi: +905462073902",
+    "canada": "Kanada Ofisi: +16478304916"
+  },
   "form": {
     "firstName": "Adınız nedir?",
-    "email": "Çalışma e-postanız nedir?",
+    "email": "İş e-posta adresiniz nedir?",
     "phone": "Telefon numaranız nedir?",
     "businessName": "İşletmenizin adı nedir?",
-    "businessWebsite": "İşletme web siteniz nedir?",
-    "additionalInfo": "Zorluklarınızı ve aradığınız şeyleri bize anlatın",
-    "thankYou": "Bizimle iletişime geçtiğiniz için teşekkür ederiz!",
-    "confirmation": "Size en kısa sürede geri döneceğiz.",
-    "error": "Form gönderilemedi. Lütfen tekrar deneyin."
+    "businessWebsite": "İşletmenizin web sitesi nedir?",
+    "additionalInfo": "Karşılaştığınız zorlukları ve ne aradığınızı bize anlatın",
+    "thankYou": "İletişime geçtiğiniz için teşekkür ederiz!",
+    "confirmation": "En kısa sürede size geri döneceğiz.",
+    "error": "Form gönderimi başarısız oldu. Lütfen tekrar deneyin."
   }
 }
