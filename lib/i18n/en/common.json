@@ -13,5 +13,7 @@
   "next": "Next",
   "month": "/month",
   "setupFee": "one-time setup fee",
-  "aiAssistantActive": "AI Assistant Active"
+  "aiAssistantActive": "AI Assistant Active",
+  "add": "Add",
+  "submit": "Submit"
 }

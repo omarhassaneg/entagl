@@ -321,8 +321,17 @@ export function ConversationalForm() {
                   </p>
                 )}
               </div>
-              <div className="text-sm text-muted-foreground">
-                {step + 1} / {questions.length} · {t('common.pressEnter')}
+              <div className="flex items-center justify-between">
+                <div className="text-sm text-muted-foreground">
+                  {step + 1} / {questions.length} · {t('common.pressEnter')}
+                </div>
+                <Button
+                  onClick={handleNext}
+                  size="sm"
+                  className="ml-4"
+                >
+                  {currentQuestion.key === 'additionalInfo' ? t('common.submit') : t('common.add')}
+                </Button>
               </div>
             </motion.div>
           ) : (
