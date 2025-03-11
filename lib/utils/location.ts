@@ -26,9 +26,9 @@ export async function detectUserLanguage(): Promise<string> {
       }
     }
     
-    return 'en';
+    return 'tr';
   } catch (error) {
     // Silently fail and return default language
-    return 'en';
+    return 'tr';
   }
 }
