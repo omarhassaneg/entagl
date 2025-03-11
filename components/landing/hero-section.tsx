@@ -6,7 +6,7 @@ import { ArrowRight, Clock, Globe, MessageSquare } from 'lucide-react';
 import { useTranslations } from '@/lib/hooks/use-translations';
 import Link from 'next/link';
 import { useLanguage } from '@/components/providers/language-provider';
-import { ChatVisualization } from './chat-visualization';
+import { SimpleSwitcher } from './simple-switcher';
 
 export function HeroSection() {
   const { t } = useTranslations();
@@ -71,7 +71,7 @@ export function HeroSection() {
             transition={{ duration: 0.5 }}
             className="relative w-full"
           >
-            <ChatVisualization />
+            <SimpleSwitcher />
             <div className="absolute -bottom-4 -right-4 bg-card p-4 rounded-lg shadow-lg border">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-green-500" />
