@@ -135,11 +135,15 @@ export function ChatVisualization() {
 
   useEffect(() => {
     let messageIndex = 0;
-    let timeoutId: NodeJS.Timeout;
+    let timeoutId: NodeJS.Timeout | null = null;
+    let isActive = true;
 
     const showNextMessage = () => {
+      if (!isActive) return;
+      
       if (messageIndex >= scenario.messages.length) {
         timeoutId = setTimeout(() => {
+          if (!isActive) return;
           setCurrentMessages([]);
           setCurrentScenario((prev) => (prev + 1) % scenarios.length);
         }, PLATFORM_SWITCH_DELAY);
@@ -150,6 +154,7 @@ export function ChatVisualization() {
       setIsTyping(true);
 
       timeoutId = setTimeout(() => {
+        if (!isActive) return;
         setIsTyping(false);
         setCurrentMessages(prev => [...prev, { ...currentMessage, platform: scenario.platform }]);
         messageIndex++;
@@ -159,8 +164,12 @@ export function ChatVisualization() {
 
     timeoutId = setTimeout(showNextMessage, MESSAGE_DELAY);
 
-    return () => clearTimeout(timeoutId);
-  }, [currentScenario, scenario, scenarios.length]);
+    // Clean up function
+    return () => {
+      isActive = false;
+      if (timeoutId) clearTimeout(timeoutId);
+    };
+  }, [currentScenario, scenario, scenarios.length, language]);
 
   const Icon = scenario.icon;
 

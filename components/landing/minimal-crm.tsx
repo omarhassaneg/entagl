@@ -87,18 +87,24 @@ export function MinimalCrmVisualization() {
   
   // Animation sequence
   useEffect(() => {
+    let isActive = true;
+    let timer: NodeJS.Timeout | null = null;
+    
     const sequence = [
       // Step 0: Initial state - no patient selected
       () => {
+        if (!isActive) return;
         setSelectedPatient(null);
         setHighlightedPatient(null);
       },
       // Step 1: Highlight first patient
       () => {
+        if (!isActive) return;
         setHighlightedPatient(1);
       },
       // Step 2: Select first patient
       () => {
+        if (!isActive) return;
         setSelectedPatient(1);
         setHighlightedPatient(null);
       },
@@ -108,10 +114,12 @@ export function MinimalCrmVisualization() {
       },
       // Step 4: Highlight second patient
       () => {
+        if (!isActive) return;
         setHighlightedPatient(2);
       },
       // Step 5: Select second patient
       () => {
+        if (!isActive) return;
         setSelectedPatient(2);
         setHighlightedPatient(null);
       },
@@ -121,19 +129,25 @@ export function MinimalCrmVisualization() {
       },
       // Step 7: Reset to start the sequence again
       () => {
+        if (!isActive) return;
         setSelectedPatient(null);
         setHighlightedPatient(null);
       }
     ];
 
     // Progress through animation steps
-    const timer = setTimeout(() => {
+    timer = setTimeout(() => {
+      if (!isActive) return;
       sequence[animationStep]();
       setAnimationStep((prev) => (prev + 1) % sequence.length);
     }, 2000); // 2 seconds per step
 
-    return () => clearTimeout(timer);
-  }, [animationStep]);
+    // More comprehensive cleanup
+    return () => {
+      isActive = false;
+      if (timer) clearTimeout(timer);
+    };
+  }, [animationStep, language]); // Add language dependency
 
   // Find the selected patient data
   const selectedPatientData = selectedPatient

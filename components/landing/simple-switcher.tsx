@@ -3,42 +3,54 @@
 import { useState, useEffect } from 'react';
 import { ChatVisualization } from './chat-visualization';
 import { MinimalCrmVisualization } from './minimal-crm';
+import { useLanguage } from '@/components/providers/language-provider';
 
 // Animation constants
 const SWITCH_INTERVAL = 15000; // ms between visualization switches
 
 export function SimpleSwitcher() {
   const [activeVisualization, setActiveVisualization] = useState<'chat' | 'crm'>('chat');
+  const { language } = useLanguage();
+
+  // Reset visualization state when language changes
+  useEffect(() => {
+    setActiveVisualization('chat');
+  }, [language]);
 
   // Set up the switching interval
   useEffect(() => {
+    let intervalId: NodeJS.Timeout | null = null;
+    let timerId: NodeJS.Timeout | null = null;
+    
     // First switch after SWITCH_INTERVAL
-    const timer = setTimeout(() => {
+    timerId = setTimeout(() => {
       setActiveVisualization('crm');
       
       // Then set up an interval to switch back and forth
-      const interval = setInterval(() => {
+      intervalId = setInterval(() => {
         setActiveVisualization(prev => prev === 'chat' ? 'crm' : 'chat');
       }, SWITCH_INTERVAL);
-      
-      // Clean up the interval when component unmounts
-      return () => clearInterval(interval);
     }, SWITCH_INTERVAL);
     
-    // Clean up the initial timer if component unmounts before it fires
-    return () => clearTimeout(timer);
-  }, []);
+    // Clean up both timers when component unmounts or language changes
+    return () => {
+      if (intervalId) clearInterval(intervalId);
+      if (timerId) clearTimeout(timerId);
+    };
+  }, [language]); // Re-initialize the timer when language changes
 
   return (
     <div className="relative w-full h-[500px]">
-      {/* Simple display without animations */}
-      <div style={{ display: activeVisualization === 'chat' ? 'block' : 'none' }} className="h-full">
-        <ChatVisualization />
-      </div>
-      
-      <div style={{ display: activeVisualization === 'crm' ? 'block' : 'none' }} className="h-full">
-        <MinimalCrmVisualization />
-      </div>
+      {/* Use key prop to ensure complete unmount/remount when visualization or language changes */}
+      {activeVisualization === 'chat' ? (
+        <div key={`chat-${language}`} className="h-full">
+          <ChatVisualization key={`chat-viz-${language}`} />
+        </div>
+      ) : (
+        <div key={`crm-${language}`} className="h-full">
+          <MinimalCrmVisualization key={`crm-viz-${language}`} />
+        </div>
+      )}
     </div>
   );
 }
