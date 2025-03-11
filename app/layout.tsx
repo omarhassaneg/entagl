@@ -12,8 +12,8 @@ const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://entagl.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Entagl - AI-Powered Social Media Automation',
-  description: 'Transform your social media presence with AI-driven automation and intelligent engagement.',
+  title: 'Klinikler için Yapay Zeka ve Otomasyon – Maliyetleri Düşürün, Geliri Artırın',
+  description: 'Özel yapay zeka ve otomasyon çözümleriyle iş süreçlerinizi hızlandırın, verimliliği artırın ve gereksiz maliyetleri ortadan kaldırın.',
   keywords: 'social media automation, AI marketing, social media management, automated posting, content creation, small business marketing',
   authors: [{ name: 'Entagl' }],
   alternates: {
