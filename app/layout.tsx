@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Entagl',
-    title: 'Entagl - AI-Powered Social Media Automation',
-    description: 'Transform your social media presence with AI-driven automation and intelligent engagement.',
+    title: 'Klinikler için Yapay Zeka ve Otomasyon – Maliyetleri Düşürün, Geliri Artırın',
+    description: 'Özel yapay zeka ve otomasyon çözümleriyle iş süreçlerinizi hızlandırın, verimliliği artırın ve gereksiz maliyetleri ortadan kaldırın.',
     images: [
       {
         url: '/og-image.jpg',
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Entagl - AI-Powered Social Media Automation',
-    description: 'Transform your social media presence with AI-driven automation and intelligent engagement.',
+    title: 'Klinikler için Yapay Zeka ve Otomasyon – Maliyetleri Düşürün, Geliri Artırın',
+    description: 'Özel yapay zeka ve otomasyon çözümleriyle iş süreçlerinizi hızlandırın, verimliliği artırın ve gereksiz maliyetleri ortadan kaldırın.',
     images: ['/og-image.jpg'],
     creator: '@entagl',
   },
