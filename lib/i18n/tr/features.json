@@ -1,176 +1,175 @@
 {
   "comprehensive": {
-    "title": "Kapsamlı AI Özellikleri",
-    "subtitle": "Müşteri iletişimlerinizi otomatikleştirmek ve geliştirmek için ihtiyacınız olan her şey",
+    "title": "Modern Tıbbi Klinikler İçin AI Çözümleri",
+    "subtitle": "Klinik ve idari operasyonlarınızı düzenlemek için özel olarak tasarlanmış teknoloji",
     "stats": {
-      "availability": "Erişilebilirlik",
-      "languages": "Dil",
-      "conversations": "Aylık Görüşme",
-      "uptime": "Çalışma Süresi"
+      "availability": "7/24 Erişilebilirlik",
+      "languages": "12+ Dil",
+      "conversations": "Aylık 5.000+ Hasta Etkileşimi",
+      "uptime": "%99.9 Hizmet Süresi"
     },
     "sections": {
       "aiCommunication": {
-        "title": "AI Destekli İletişim",
-        "description": "Gelişmiş niyet algılama ile tüm kanallarda akıllı görüşmeler",
+        "title": "AI Destekli Hasta İletişimi",
+        "description": "Değerli personel zamanını tüketmeden hastalara tıbbi açıdan doğru bilgiler sunun",
         "features": [
-          "Aylık 2,500'den 40,000+ görüşmeye kadar yönetim",
-          "Sorular, rezervasyonlar ve şikayetler gibi yaygın etkileşimleri otomatikleştirme",
-          "SMART niyet algılama",
-          "AI bilgi tabanı",
-          "Sürekli kendini geliştirme"
+          "Tüm kanallarda aylık 5.000+ hasta sorusuna yanıt verin",
+          "Prosedürler, iyileşme ve finansman hakkında detaylı soruları yanıtlayın",
+          "Kapsamlı ön değerlendirmeyle konsültasyonlardan önce hastaları ön elemeye tabi tutun",
+          "AI takibi ile prosedür sonrası destek ve izleme sağlayın",
+          "Personele yalnızca insan müdahalesi gerçekten gerektiğinde bildirim gönderin"
         ]
       },
       "multichannel": {
-        "title": "Çok Kanallı Entegrasyon",
-        "description": "Müşterilerle nerede olurlarsa olsunlar, tüm platformlarda bağlantı kurun",
+        "title": "Birleşik Hasta İletişim Merkezi",
+        "description": "Birden fazla platforma dağılmış parçalı hasta bilgilerini ortadan kaldırın",
         "features": [
-          "Instagram DM Entegrasyonu",
-          "FB Messenger DM Desteği",
-          "WhatsApp DM Entegrasyonu",
-          "Telegram DM Desteği",
-          "Website Sohbet Widgetı",
-          "E-posta Entegrasyonu"
+          "Uluslararası hastalarla WhatsApp görüşmelerini merkezileştirin",
+          "E-posta iletişimlerini hasta kaydınıza entegre edin",
+          "Web sorguları ve telefon mesajlarını tek bir arayüzde toplayın",
+          "Denetim izleriyle HIPAA uyumlu görüşme kayıtlarını koruyun",
+          "Eksiksiz hasta etkileşim geçmişine saniyeler içinde erişin"
         ]
       },
       "smartFeatures": {
-        "title": "Akıllı Özellikler",
-        "description": "En son teknoloji araçlarla müşteri etkileşimini geliştirin",
+        "title": "Akıllı Klinik Yönetimi",
+        "description": "AI odaklı verimlilik araçlarıyla klinik operasyonlarınızı optimize edin",
         "features": [
-          "Çok Dilli Görüşmeler",
-          "Müşteri Bilgi Toplama",
-          "24/7/365 Erişilebilirlik",
-          "Anahtar Kelime Bazlı Görüşme Başlatıcı",
-          "AI Duraklat/Devam Et Özelliği"
+          "Çok kanallı randevu hatırlatıcıları ile iptal oranını %73 azaltın",
+          "Bekleme listesinden iptalleri dakikalar içinde otomatik olarak doldurun",
+          "Prosedür süresi modellerine dayalı olarak hekim programlarını optimize edin",
+          "Kişiselleştirilmiş prosedür öncesi ve sonrası talimatları otomatik olarak gönderin",
+          "Hasta memnuniyetini takip edin ve sürekli geri bildirim toplayın"
         ]
       },
       "teamCollaboration": {
-        "title": "Takım İş Birliği",
-        "description": "Birleşik takım platformu ile iletişimi verimli bir şekilde yönetin",
+        "title": "Klinik Dokümantasyon Dönüşümü",
+        "description": "İş gününüzü uzatan dokümantasyon yükünü ortadan kaldırın",
         "features": [
-          "Birleşik Sohbet Arayüzü",
-          "Masaüstü ve Mobil Erişim",
-          "Çoklu Kullanıcı Erişimi",
-          "Canlı Sohbet Koltukları",
-          "Görüşme Atama"
+          "Sesli dikte etmeden kapsamlı klinik notlar oluşturun",
+          "Her hasta için özelleştirilmiş standart prosedür sonrası talimatlar oluşturun",
+          "Dakikalar içinde ayrıntılı tedavi planları ve cerrahi raporlar hazırlayın",
+          "Hasta kayıtlarını birden fazla sistemde aynı anda güncelleyin",
+          "Uygun kodlama önerileriyle uyumlu dokümantasyonu sürdürün"
         ]
       },
       "businessIntegration": {
-        "title": "İş Entegrasyonu",
-        "description": "Mevcut araçlarınız ve iş akışlarınızla sorunsuz bağlantı",
+        "title": "Sorunsuz Klinik Entegrasyonu",
+        "description": "Kapsamlı bir klinik çözümü için mevcut sistemlerinizle bağlantı kurun",
         "features": [
-          "Facebook Dönüşüm Takibi",
-          "Takvim Entegrasyonu",
-          "Google Sheets Güncellemeleri",
-          "Otomatik Görev Yönetimi",
-          "Özel İş Akışı Desteği"
+          "Epic ve Cerner dahil büyük EMR/EHR sistemleriyle entegre olun",
+          "Fatura verimliliği için klinik yönetim yazılımıyla senkronize edin",
+          "Birleşik takvim yönetimi için çevrimiçi planlama platformlarına bağlanın",
+          "Kapsamlı kayıtlar oluşturmak için geçmiş hasta verilerini içe aktarın",
+          "İş zekası ve performans takibi için analitiği dışa aktarın"
         ]
       }
     }
   },
   "hero": {
-    "title": "Sosyal Medya Başarısı için",
-    "titleHighlight": "Zahmetsiz Özellikler",
-    "subtitle": "AI destekli araçlarımızın sosyal medyanızı nasıl dönüştürebileceğini ve değerli zamanınızı nasıl özgürleştirebileceğini keşfedin."
+    "title": "Kliniğinizi Bunalmış Durumdan",
+    "titleHighlight": "Optimize Edilmiş Duruma Dönüştürün",
+    "subtitle": "İdari yükü azaltmak ve hasta bakımını geliştirmek için özel olarak tasarlanmış AI çözümlerinden yararlanın."
   },
   "services": {
-    "title": "Kapsamlı AI Çözümleri",
-    "subtitle": "Sosyal medya varlığınızı otomatikleştirmek ve geliştirmek için tasarlanmış özelliklerimizi keşfedin.",
+    "title": "Tıbbi Klinikler İçin Kapsamlı AI Çözümleri",
+    "subtitle": "Uzmanlık alanınızın benzersiz zorluklarını ele almak için özel olarak tasarlanmış araçlar",
     "basic": {
-      "title": "Temel Sosyal Medya Otomasyonu",
-      "description": "AI destekli içerik oluşturma ve planlama ile sosyal medyanızı düzenleyin."
+      "title": "Hasta Katılımı Otomasyonu",
+      "description": "Tüm kanallarda 7/24 AI destekli destek ile hasta iletişimini dönüştürün."
     },
     "advanced": {
-      "title": "Gelişmiş AI Destekli Yönetim",
-      "description": "Ses özellikleri ve WhatsApp entegrasyonu ile otomasyonunuzu bir üst seviyeye taşıyın."
+      "title": "Klinik İş Akışı Optimizasyonu",
+      "description": "Akıllı planlama ve kaynak tahsisi ile operasyonları düzenleyin."
     },
     "basicAgent": {
-      "title": "7/24 AI Asistan",
-      "description": "Tüm sosyal platformlarınızda müşterilerle 7/24 etkileşimde kalın."
+      "title": "Dokümantasyon Asistanı",
+      "description": "AI tarafından oluşturulan klinik dokümantasyon ile mesai sonrası kayıt tutmayı ortadan kaldırın."
     },
     "advancedAgent": {
-      "title": "Akıllı Potansiyel Müşteri Yönetimi",
-      "description": "Otomatik olarak değerlendiren ve besleyen AI ile daha fazla potansiyel müşteriyi dönüştürün."
+      "title": "Klinik Zeka Platformu",
+      "description": "Verimliliği ve karlılığı optimize etmek için eyleme geçirilebilir içgörüler elde edin."
     },
     "features": {
-      "captions": "Markaya uygun AI tarafından oluşturulan açıklamalar.",
-      "templates": "Özelleştirilebilir gönderi şablonları.",
-      "images": "Otomatik görsel içerik oluşturma.",
-      "scheduling": "Akıllı içerik planlama.",
-      "whatsapp": "WhatsApp müşteri etkileşimi.",
-      "voice": "Ses notlarını içeriğe dönüştürün.",
-      "scripts": "Video senaryo oluşturma.",
-      "voiceover": "İçeriğiniz için AI seslendirme.",
-      "comments": "Akıllı yorum yanıtları.",
-      "dm": "7/24 DM yönetimi.",
-      "platforms": "Çoklu platform yayınlama.",
-      "availability": "Sürekli aktif varlık.",
-      "qualification": "AI potansiyel müşteri değerlendirme.",
-      "conversion": "Gelişmiş dönüşüm optimizasyonu.",
-      "crm": "Sorunsuz CRM entegrasyonu.",
-      "analytics": "Gelişmiş sosyal medya analitikleri."
+      "captions": "Prosedür bilgileri sunumu",
+      "templates": "Özelleştirilebilir tedavi protokolleri",
+      "images": "Prosedür öncesi/sonrası görselleştirme",
+      "scheduling": "Akıllı randevu optimizasyonu",
+      "whatsapp": "HIPAA uyumlu WhatsApp entegrasyonu",
+      "voice": "Ses-dokümantasyon dönüşümü",
+      "scripts": "Tedavi planı oluşturma",
+      "voiceover": "Çok dilli hasta talimatları",
+      "comments": "Otomatik takip yönetimi",
+      "dm": "7/24 özel hasta mesajlaşması",
+      "platforms": "Çok kanallı iletişim",
+      "availability": "Kesintisiz hasta desteği",
+      "qualification": "AI hasta ön değerlendirmesi",
+      "conversion": "Konsültasyon-prosedür optimizasyonu",
+      "crm": "EMR/EHR entegrasyonu",
+      "analytics": "Klinik performans metrikleri"
     }
   },
   "benefits": {
-    "title": "Neden Entagl'ı Seçmelisiniz?",
-    "subtitle": "Stresi ortadan kaldıran ve sonuçlarınızı maksimize eden AI çözümleri.",
+    "title": "Kliniğinize Somut Etki",
+    "subtitle": "Sizinki gibi tıbbi kliniklerden elde edilen verilerle desteklenen gerçek sonuçlar",
     "time": {
-      "title": "Değerli Zamandan Tasarruf",
-      "pain": "Sosyal medya yönetiminde sonsuz saatler harcamaktan bunaldınız mı?",
-      "solution": "Siz işinizi büyütmeye odaklanırken rutin görevleri AI'ye bırakın."
+      "title": "Klinik Zamanınızı Geri Kazanın",
+      "pain": "Her gününüzün yarısını hasta bakımı yerine dokümantasyonla mı geçiriyorsunuz?",
+      "solution": "AI dokümantasyon araçlarımız, hekimlerin hasta bakımı veya kişisel zaman için haftada 15+ saat kazanmasına yardımcı olur."
     },
     "money": {
-      "title": "Maliyetleri Azaltın",
-      "pain": "Ajanslara veya karmaşık araçlara para harcamaktan bıktınız mı?",
-      "solution": "Küçük işletmelere özel AI otomasyonu ile %60'a varan tasarruf sağlayın."
+      "title": "Klinik Gelirini Maksimize Edin",
+      "pain": "Randevu programınız randevuya gelmeyenler ve verimsiz rezervasyonlardan kaynaklanan boşluklarla dolu mu?",
+      "solution": "Akıllı planlama ve otomatik bekleme listesi yönetimi ile müsait randevularınızın %94'ünü doldurun."
     },
     "stress": {
-      "title": "Zahmeti Ortadan Kaldırın",
-      "pain": "Sosyal medya varlığınızı sürdürmek sizi strese sokuyor mu?",
-      "solution": "Güvenilir 7/24 AI yönetimi ile içiniz rahat olsun."
+      "title": "İdari Kaosu Ortadan Kaldırın",
+      "pain": "Hasta kayıtları kağıt dosyalar, WhatsApp ve birden fazla sistem arasında dağınık mı?",
+      "solution": "Tüm hasta bilgilerini, mevcut EMR'niz ile entegre olan güvenli, erişilebilir tek bir sistemde merkezileştirin."
     },
     "growth": {
-      "title": "Zahmetsizce Büyüyün",
-      "pain": "Sosyal medya etkinizi artırmakta zorlanıyor musunuz?",
-      "solution": "AI ile optimize edilmiş içerikle erişiminizi ve etkileşiminizi katlayın."
+      "title": "Personel Derdi Olmadan Büyüyün",
+      "pain": "Büyüme için personel istihdamı klinik finansmanınızı ve yönetim kapasitesini zorluyor mu?",
+      "solution": "İdari personel maliyetlerinizi orantılı olarak artırmadan hasta hacminizi %40 büyütün."
     }
   },
   "cases": {
-    "title": "Küçük İşletmelerden Başarı Hikayeleri",
-    "subtitle": "Sizin gibi işletmelerin Entagl ile nasıl başarıya ulaştığını görün.",
+    "title": "Sizinkine Benzer Kliniklerden Başarı Hikayeleri",
+    "subtitle": "Bu tıp profesyonellerinin çözümlerimizle operasyonlarını nasıl dönüştürdüğünü görün",
     "retail": {
-      "title": "Perakende Mağazaları",
-      "description": "Otomatik sosyal medya gönderileri ile zaman kazanan ve satışlarını artıran yerel perakendeciler.",
+      "title": "Plastik Cerrahi Merkezi",
+      "description": "Zaman dilimleri genelinde 7/24 hasta iletişimi ile mücadele eden uluslararası klinik.",
       "benefits": {
-        "retail1": "Günlük ürün tanıtım gönderileri.",
-        "retail2": "7/24 müşteri soruları yönetimi.",
-        "retail3": "Kişiselleştirilmiş promosyon kampanyaları."
+        "retail1": "5 dilde 8 ülkeden gelen soruları yanıtladı",
+        "retail2": "Otomatik hatırlatıcılarla randevu iptalleri %68 azaldı",
+        "retail3": "AI klinik notları ile dokümantasyon süresi %62 kısaldı"
       }
     },
     "cafe": {
-      "title": "Kafeler ve Kahve Dükkanları",
-      "description": "Yoğun kafe sahiplerinin müşterileriyle çevrimiçi bağlantıda kalmasına yardımcı oluyoruz.",
+      "title": "Diş Grubu Kliniği",
+      "description": "Planlama verimsizlikleri ve parçalanmış kayıtlarla karşı karşıya kalan çok lokasyonlu klinik.",
       "benefits": {
-        "cafe1": "Günlük menü ve özel teklifler güncellemeleri.",
-        "cafe2": "Yorumlara otomatik yanıtlar.",
-        "cafe3": "Anında etkinlik duyuruları."
+        "cafe1": "5 lokasyonun hasta iletişimlerini merkezileştirdi",
+        "cafe2": "Tedavi planı kabulünü %34 artırdı",
+        "cafe3": "Lokasyonlar genelinde hekim programlarını optimize etti"
       }
     },
     "salon": {
-      "title": "Güzellik Salonları",
-      "description": "Harika müşteri deneyimleri yaratmaya odaklanan salon sahiplerinin hayatını kolaylaştırıyoruz.",
+      "title": "Medikal Estetik Kliniği",
+      "description": "Konsültasyon soruları ve takiplerle bunalan yüksek hacimli klinik.",
       "benefits": {
-        "salon1": "Otomatik randevu hatırlatmaları.",
-        "salon2": "Zahmetsiz öncesi/sonrası içerik.",
-        "salon3": "Stil ilham gönderileri."
+        "salon1": "AI ile konsültasyon taleplerinin %82'sine ön değerlendirme yaptı",
+        "salon2": "Tedavi sonrası takip protokollerini otomatikleştirdi",
+        "salon3": "Tekrar prosedür rezervasyonlarını %27 artırdı"
       }
     },
     "restaurant": {
-      "title": "Restoranlar",
-      "description": "Büyük ve küçük restoranların çevrimiçi varlığını güçlendiriyoruz.",
+      "title": "Dermatoloji Kliniği",
+      "description": "Dokümantasyon yükü ve hasta eğitimi ile mücadele eden klinik.",
       "benefits": {
-        "restaurant1": "Menü öne çıkarma otomasyonu.",
-        "restaurant2": "Rezervasyon yönetimi.",
-        "restaurant3": "Profesyonel yemek fotoğrafı planlama."
+        "restaurant1": "2 dakikadan kısa sürede kapsamlı ziyaret notları oluşturdu",
+        "restaurant2": "Kişiselleştirilmiş tedavi talimatlarını otomatik olarak iletti",
+        "restaurant3": "Hasta memnuniyet puanlarını %46 iyileştirdi"
       }
     }
   }

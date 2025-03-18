@@ -1,149 +1,149 @@
 {
   "hero": {
-    "title": "Turn Conversations into Conversions with Entagl AI",
-    "subtitle": "For businesses overwhelmed by endless customer inquiries on social media and WhatsApp, Entagl AI takes over—handling conversations like a trained team member to answer questions, create tickets, manage reservations, update orders, and deliver 24/7 support seamlessly—and so much more.",
+    "title": "Free Your Medical Practice from",
+    "titleHighlight": "Administrative Burden",
+    "subtitle": "Transform scattered patient records and chaotic workflows into a streamlined AI-powered system that enhances patient care while reducing your 70-hour workweek.",
     "features": {
-      "support": "24/7 Support",
-      "multilingual": "Multilingual",
-      "aiPowered": "AI-Powered"
+      "support": "Reclaim 15+ Hours Weekly",
+      "multilingual": "Reduce No-Shows by 73%"
     }
   },
   "problems": {
-    "title": "Is Your Business Missing Opportunities?",
-    "subtitle": "Delayed responses, missed inquiries, and scattered communication channels cost your business revenue every day.",
+    "title": "The Hidden Costs of Practice Management Inefficiency",
+    "subtitle": "Your medical expertise is being wasted on administrative tasks instead of patient care.",
     "items": {
       "opportunities": {
-        "title": "Missed Opportunities",
-        "description": "Responding in hours or days leads to lost bookings and sales."
+        "title": "Documentation Overwhelm",
+        "description": "You spend 2+ hours nightly completing charts while sacrificing family time and personal well-being."
       },
       "language": {
-        "title": "Limited Language Support",
-        "description": "Customers speak multiple languages, but your team can't keep up."
+        "title": "Patient Engagement Gaps",
+        "description": "43% of patients research procedures after hours when your staff is unavailable to convert their interest."
       },
       "systems": {
-        "title": "Scattered Systems",
-        "description": "Managing inquiries across Instagram, WhatsApp, and your website is inefficient."
+        "title": "Revenue Leakage",
+        "description": "No-shows and scheduling inefficiencies cost your practice up to $150,000 annually in lost procedure revenue."
       }
     }
   },
   "solution": {
-    "title": "Meet Entagl: The AI Assistant That Works Around the Clock",
-    "subtitle": "Engage every customer, on every platform, in every language—instantly.",
+    "title": "Introducing AI Systems Designed Specifically for Medical Practices",
+    "subtitle": "Centralize your scattered patient communications and streamline administrative workflows without compromising care quality.",
     "features": {
       "chat": {
-        "title": "Unified Chat Management",
-        "description": "Manage Instagram, WhatsApp, and website inquiries in one place."
+        "title": "24/7 Patient Engagement Hub",
+        "description": "Capture every patient inquiry across WhatsApp, email, SMS, and web - even at 3AM or during complex procedures."
       },
       "availability": {
-        "title": "24/7 Availability",
-        "description": "Never miss a customer inquiry again."
+        "title": "Unified Patient Record System",
+        "description": "Eliminate information silos by integrating patient data from paper forms, WhatsApp conversations, and EMR systems."
       },
       "multilingual": {
-        "title": "Multilingual AI",
-        "description": "Communicate seamlessly in over 6 languages."
+        "title": "Intelligent Schedule Optimization",
+        "description": "Reduce no-shows by 73% with AI-powered reminders and automatically fill cancellations from your waitlist."
       },
       "cost": {
-        "title": "Cost Efficiency",
-        "description": "Scale your customer support without hiring additional staff."
+        "title": "Clinical Documentation Automation",
+        "description": "Eliminate after-hours charting with AI that converts dictation into structured clinical notes and treatment plans."
       }
     },
     "comparison": {
-      "title": "Traditional Support vs Entagl AI",
+      "title": "Traditional Practice vs. AI-Enhanced Practice",
       "traditional": {
-        "title": "Traditional Support",
+        "title": "Current Practice Challenges",
         "items": [
-          "Limited working hours",
-          "Language barriers",
-          "High operational costs",
-          "Slow response times"
+          "Spending 49% of time on paperwork",
+          "Missing after-hours patient inquiries",
+          "28% average no-show rate",
+          "Information scattered across systems"
         ]
       },
       "entagl": {
-        "title": "Entagl AI",
+        "title": "With Entagl AI Solutions",
         "items": [
-          "24/7 availability",
-          "Multilingual support",
-          "Cost-effective scaling",
-          "Instant responses"
+          "Documentation time reduced by 62%",
+          "24/7 patient engagement",
+          "No-show rate below 7%",
+          "Centralized patient information"
         ]
       }
     }
   },
   "features": {
-    "title": "Why Businesses Love Entagl AI",
-    "subtitle": "Powerful features that drive real business results",
+    "title": "Comprehensive Solutions for Modern Medical Practices",
+    "subtitle": "Carefully designed to address your most significant operational challenges",
     "items": {
       "inbox": {
-        "title": "Unified Inbox",
-        "description": "Respond to inquiries from multiple channels in one place.",
-        "highlight": "Save 4+ hours daily on message management"
+        "title": "Unified Communication Hub",
+        "description": "Centralize patient conversations from WhatsApp, SMS, email, and web in one secure interface.",
+        "highlight": "Eliminate 3+ hours of message management daily"
       },
       "automation": {
-        "title": "AI Automation",
-        "description": "Handle inquiries, complaints, and bookings automatically.",
-        "highlight": "Automate up to 80% of routine interactions"
+        "title": "Clinical AI Assistant",
+        "description": "Automate routine patient inquiries about procedures, recovery, and pricing with medically-accurate responses.",
+        "highlight": "Handle 82% of patient questions automatically"
       },
       "workflows": {
-        "title": "Customizable Workflows",
-        "description": "Tailor AI responses to specific scenarios like support tickets or lead qualification.",
-        "highlight": "Boost conversion rates by 40%"
+        "title": "Custom Clinical Workflows",
+        "description": "Create automated sequences for pre-op preparation, post-procedure care, and treatment follow-ups.",
+        "highlight": "Improve treatment adherence by 47%"
       },
       "analytics": {
-        "title": "Analytics and Insights",
-        "description": "Access real-time data on customer behavior, response times, and team performance.",
-        "highlight": "Make data-driven decisions"
+        "title": "Practice Intelligence Dashboard",
+        "description": "Track consultation-to-procedure conversion rates, patient acquisition costs, and staff efficiency metrics.",
+        "highlight": "Identify revenue opportunities worth $8,500+ monthly"
       },
       "scalability": {
-        "title": "Scalability",
-        "description": "Support thousands of inquiries daily without increasing overhead.",
-        "highlight": "Save up to 50% on support costs"
+        "title": "Operational Scalability",
+        "description": "Grow your practice volume without proportionally increasing administrative staff costs.",
+        "highlight": "Support 40% more patients with existing staff"
       }
     }
   },
   "process": {
-    "title": "How We Work With You",
-    "subtitle": "Quick, seamless setup tailored to your business needs",
+    "title": "Implementation Designed for Busy Medical Professionals",
+    "subtitle": "We handle the technical details while you focus on patient care",
     "steps": {
       "consultation": {
-        "title": "Consultation",
-        "description": "Understand your processes, systems, and goals."
+        "title": "Practice Assessment",
+        "description": "We analyze your current systems, patient journey, and administrative bottlenecks."
       },
       "roadmap": {
-        "title": "Roadmap",
-        "description": "Deliver a simplified Phase 1 product within 2 weeks."
+        "title": "Custom Solution Design",
+        "description": "Your solution is tailored to your specialty, patient demographics, and existing technology."
       },
       "enhancements": {
-        "title": "Enhancements",
-        "description": "Upgrade the AI over 60 days to meet your evolving needs."
+        "title": "Integration & Migration",
+        "description": "We seamlessly connect with your EMR/EHR and centralize existing patient data."
       },
       "support": {
-        "title": "Ongoing Support",
-        "description": "Continuous monitoring, refinement, and updates."
+        "title": "Ongoing Optimization",
+        "description": "Regular refinements based on your feedback and changing practice needs."
       }
     }
   },
   "cta": {
-    "title": "Take Your Customer Engagement to the Next Level",
-    "subtitle": "Join thousands of businesses using Entagl AI to transform their customer engagement"
+    "title": "Join Leading Medical Practices Already Transforming Patient Care",
+    "subtitle": "Schedule a personalized demonstration to see exactly how our solutions integrate with your unique practice workflow"
   },
   "solutions": {
-    "title": "Custom AI Solutions Tailored to Your Business Needs",
-    "subtitle": "From streamlining customer conversations to automating complex workflows, our AI solutions are fully customized to fit your unique goals and challenges.",
-    "description": "Every business is unique, and so are our solutions. Whether you need help managing social media interactions, automating inquiries, or integrating AI into your operations, we start by understanding your needs. Schedule a free consultation, and we'll create a tailored solution just for you.",
+    "title": "Specialty-Specific Solutions for Medical Practices",
+    "subtitle": "Whether you're a plastic surgeon managing international patients or a dental practice with complex treatment sequences, our AI solutions adapt to your unique needs.",
+    "description": "We recognize that each specialty faces different challenges. Our team works closely with your practice to create a bespoke solution that addresses your specific workflow requirements, regulatory considerations, and patient expectations.",
     "features": {
-      "automation": "AI-driven automation",
-      "automationDesc": "Seamless customer interactions with intelligent automation",
-      "multilingual": "Multilingual support",
-      "multilingualDesc": "Engage a global audience in their preferred language",
-      "scalable": "Scalable solutions",
-      "scalableDesc": "Perfect for businesses of any size or complexity",
-      "integration": "System integration",
-      "integrationDesc": "Seamless integration with your CRM and eCommerce platforms",
-      "insights": "Actionable insights",
-      "insightsDesc": "Track performance and ROI with detailed analytics"
+      "automation": "Clinical Workflow Automation",
+      "automationDesc": "Streamline pre- and post-procedure protocols",
+      "multilingual": "Multilingual Patient Support",
+      "multilingualDesc": "Engage international patients in their native language",
+      "scalable": "Scalable Practice Solutions",
+      "scalableDesc": "Grow your patient volume without administrative overload",
+      "integration": "EMR/EHR Integration",
+      "integrationDesc": "Seamless connection with your existing clinical systems",
+      "insights": "Performance Analytics",
+      "insightsDesc": "Data-driven insights to optimize practice efficiency"
     },
-    "cta": "Get a Free Quote",
+    "cta": "Request Your Practice Assessment",
     "aiActive": "AI Assistant Active",
-    "aiActiveDesc": "Our AI is currently processing customer inquiries and optimizing responses based on your business rules."
+    "aiActiveDesc": "Your AI system is currently handling patient inquiries and optimizing your practice schedule."
   }
 }

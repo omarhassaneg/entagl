@@ -1,86 +1,86 @@
 {
   "features": {
-    "title": "Effortless Social Media Automation",
-    "subtitle": "No budget for agencies? Let AI handle it all—posting, engaging, and saving you time.",
+    "title": "Streamlined Medical Practice Solutions",
+    "subtitle": "Burdened by administrative overload? Let AI transform your practice operations while you focus on patient care.",
     "items": {
       "smartContent": {
-        "title": "Stress-Free Content Creation",
-        "description": "AI-crafted posts tailored to your brand voice, ready to engage your audience."
+        "title": "Effortless Clinical Documentation",
+        "description": "AI-generated clinical notes and reports that integrate with your existing EMR/EHR systems."
       },
       "analytics": {
-        "title": "Track What Matters",
-        "description": "Get clear insights into your social media performance and grow smarter."
+        "title": "Practice Performance Insights",
+        "description": "Track key metrics like patient acquisition cost, procedure conversion rates, and provider efficiency."
       },
       "scheduling": {
-        "title": "Post at the Perfect Time",
-        "description": "Automatically schedule your content for when your audience is most active."
+        "title": "Intelligent Appointment Optimization",
+        "description": "Maximize chair time with AI that reduces no-shows and fills cancellations automatically."
       }
     }
   },
   "hero": {
-    "title": "No Budget for Agencies?",
-    "titleHighlight": "Let AI Save You Time—24/7",
-    "subtitle": "Say goodbye to social media stress. Entagl creates, posts, and manages your content and DMs automatically—so you focus on growing your small business.",
+    "title": "Your Medical Expertise is Wasted on",
+    "titleHighlight": "Administrative Paperwork",
+    "subtitle": "Eliminate paperwork chaos and fragmented communication. Our AI solutions centralize patient data, automate documentation, and manage inquiries 24/7—so you can focus on delivering exceptional care.",
     "features": {
       "aiAssistance": {
-        "title": "AI That Never Sleeps",
-        "description": "Engage your audience 24/7 with AI-powered DMs, comments, and customer interactions."
+        "title": "Always-On Patient Support",
+        "description": "Engage patients across all channels with medically-accurate responses to procedure questions, even after hours."
       },
       "contentCreation": {
-        "title": "Instant, On-Brand Posts",
-        "description": "We write and post engaging captions, stories, and updates—no effort required."
+        "title": "Clinical Documentation Automation",
+        "description": "Generate comprehensive notes, treatment plans, and patient instructions without extending your workday."
       },
       "workflows": {
-        "title": "Hassle-Free Automation",
-        "description": "Set it up once and let AI keep your social media presence thriving."
+        "title": "Streamlined Clinical Workflows",
+        "description": "Automate pre/post-procedure protocols, follow-ups, and patient education for consistent care delivery."
       }
     }
   },
   "benefits": {
-    "title": "Simplify Social Media with AI",
-    "subtitle": "Stop losing time and money on manual social media management. Entagl delivers real, measurable results.",
+    "title": "Transform Your Practice with Medical AI",
+    "subtitle": "Stop losing time and revenue to administrative inefficiency. Our solutions deliver measurable operational improvements.",
     "items": {
       "aiContent": {
-        "title": "Content That Works",
-        "description": "Engaging posts tailored to your audience, delivered daily by AI."
+        "title": "Reclaim Clinical Hours",
+        "description": "Reduce documentation time by 62%, giving you back 15+ hours weekly for patient care."
       },
       "engagement": {
-        "title": "24/7 Engagement",
-        "description": "Let AI respond to DMs and comments while you focus on your business."
+        "title": "24/7 Patient Engagement",
+        "description": "Capture the 43% of patients who research procedures after hours when your staff is unavailable."
       },
       "analytics": {
-        "title": "Clear Performance Insights",
-        "description": "Understand what's working with easy-to-use analytics."
+        "title": "Revenue Protection",
+        "description": "Reduce no-shows by 73% and automatically fill cancellations to maximize procedure revenue."
       },
       "audience": {
-        "title": "Grow Your Audience",
-        "description": "Reach more customers with consistent, targeted social media activity."
+        "title": "Enhanced Patient Experience",
+        "description": "Provide immediate responses to inquiries and personalized care instructions to improve satisfaction."
       },
       "timeSaving": {
-        "title": "Save Time & Money",
-        "description": "Automate your tasks and skip the agency fees, freeing up time for what matters."
+        "title": "Operational Efficiency",
+        "description": "Centralize scattered patient data and eliminate redundant data entry across multiple systems."
       },
       "automation": {
-        "title": "Smart Automation, Big Results",
-        "description": "AI manages your presence so you can manage your business."
+        "title": "Practice Growth Without Pain",
+        "description": "Expand your patient volume by 40% without proportionally increasing administrative staff."
       }
     }
   },
   "services": {
-    "title": "Tailored AI Solutions for Small Businesses",
-    "subtitle": "Choose the perfect package to streamline your social media management."
+    "title": "Custom AI Solutions for Medical Specialties",
+    "subtitle": "Tailored implementations for plastic surgery, dental, dermatology, and other specialty practices."
   },
   "cta": {
-    "title": "Ready to Simplify Social Media?",
-    "subtitle": "Join thousands of small businesses automating their social media with Entagl."
+    "title": "Ready to Transform Your Medical Practice?",
+    "subtitle": "Join leading clinicians who have reclaimed their time and improved patient care with our AI solutions."
   },
   "testimonials": {
-    "quote1": "Entagl's AI Agents transformed our customer support, allowing us to respond to inquiries 24/7. Our efficiency has skyrocketed, and our customers are happier than ever!",
-    "author1": "John Doe",
-    "position1": "CEO, Tech Solutions",
-    "quote2": "The AI integration has revolutionized how we handle customer interactions. Response times are down 80% and satisfaction is up!",
-    "author2": "Jane Smith",
-    "position2": "CTO, Digital Solutions",
+    "quote1": "The AI documentation system has given me back 12 hours weekly that I used to spend charting after hours. Now I can see more patients and still get home to my family on time.",
+    "author1": "Dr. Sarah Chen",
+    "position1": "Plastic Surgeon, Advanced Aesthetics Center",
+    "quote2": "Our no-show rate dropped from 26% to just 5% after implementing the intelligent scheduling system. The automated waitlist filling means we rarely have gaps in our surgery schedule.",
+    "author2": "Dr. Michael Patel",
+    "position2": "Clinical Director, Premier Dental Group",
     "playVideo": "Play testimonial video",
     "previous": "Previous testimonial",
     "next": "Next testimonial"

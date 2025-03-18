@@ -1,176 +1,175 @@
 {
   "comprehensive": {
-    "title": "Comprehensive AI Features",
-    "subtitle": "Everything you need to automate and enhance your customer communications",
+    "title": "AI Solutions for Modern Medical Practices",
+    "subtitle": "Purpose-built technology to streamline your clinical and administrative operations",
     "stats": {
-      "availability": "Availability",
-      "languages": "Languages",
-      "conversations": "Monthly Conversations",
-      "uptime": "Uptime"
+      "availability": "24/7 Availability",
+      "languages": "12+ Languages",
+      "conversations": "5,000+ Monthly Patient Interactions",
+      "uptime": "99.9% Uptime"
     },
     "sections": {
       "aiCommunication": {
-        "title": "AI-Powered Communication",
-        "description": "Intelligent conversations across all channels with advanced intention detection",
+        "title": "AI-Powered Patient Communication",
+        "description": "Engage patients with medically-accurate information without consuming valuable staff time",
         "features": [
-          "Manage from 2,500 to 40,000+ conversations monthly",
-          "Automate common interactions like inquiries, bookings, and complaints",
-          "SMART intention Detection",
-          "AI Knowledge Awareness",
-          "Constant Self Improvement"
+          "Respond to 5,000+ monthly patient inquiries across all channels",
+          "Answer detailed questions about procedures, recovery, and financing",
+          "Pre-qualify patients before consultations with comprehensive intake",
+          "Provide post-procedure support and monitoring with AI follow-up",
+          "Notify staff only when human intervention is truly necessary"
         ]
       },
       "multichannel": {
-        "title": "Multichannel Integration",
-        "description": "Connect with customers wherever they are, across multiple platforms",
+        "title": "Unified Patient Communication Hub",
+        "description": "Eliminate fragmented patient information scattered across multiple platforms",
         "features": [
-          "Instagram DM Integration",
-          "FB Messenger DM Support",
-          "WhatsApp DM Integration",
-          "Telegram DM Support",
-          "Website Chat Widget",
-          "Email Integration"
+          "Centralize WhatsApp conversations with international patients",
+          "Integrate email communications into your patient record",
+          "Capture web inquiries and phone messages in one interface",
+          "Maintain HIPAA-compliant conversation records with audit trails",
+          "Access complete patient interaction history in seconds"
         ]
       },
       "smartFeatures": {
-        "title": "Smart Features",
-        "description": "Enhance customer engagement with cutting-edge tools",
+        "title": "Intelligent Practice Management",
+        "description": "Optimize your practice operations with AI-driven efficiency tools",
         "features": [
-          "Multilingual Conversations",
-          "Customer Information Collection",
-          "24/7/365 Availability",
-          "Keyword Based Conversation Starter",
-          "Pause/Resume AI Capability"
+          "Reduce no-shows by 73% with multi-channel appointment reminders",
+          "Automatically fill cancellations from waitlists within minutes",
+          "Optimize provider schedules based on procedure duration patterns",
+          "Send personalized pre- and post-procedure instructions automatically",
+          "Track patient satisfaction and gathering continuous feedback"
         ]
       },
       "teamCollaboration": {
-        "title": "Team Collaboration",
-        "description": "Efficiently manage communication with a unified team platform",
+        "title": "Clinical Documentation Transformation",
+        "description": "Eliminate the documentation burden that extends your workday",
         "features": [
-          "Unified Chat Interface",
-          "Desktop & Mobile Access",
-          "Multiple User Access",
-          "Live Chat Seats",
-          "Conversation Assignment"
+          "Generate comprehensive clinical notes from voice dictation",
+          "Create standardized post-procedure instructions customized for each patient",
+          "Produce detailed treatment plans and surgical reports in minutes",
+          "Update patient records across multiple systems simultaneously",
+          "Maintain compliant documentation with proper coding suggestions"
         ]
       },
       "businessIntegration": {
-        "title": "Business Integration",
-        "description": "Seamless connectivity with your existing tools and workflows",
+        "title": "Seamless Practice Integration",
+        "description": "Connect with your existing systems for a comprehensive practice solution",
         "features": [
-          "Facebook Conversion Tracking",
-          "Calendar Integration",
-          "Google Sheets Updates",
-          "Automated Task Management",
-          "Custom Workflow Support"
+          "Integrate with major EMR/EHR systems including Epic and Cerner",
+          "Sync with practice management software for billing efficiency",
+          "Connect with online scheduling platforms for unified calendar management",
+          "Import historical patient data to create comprehensive records",
+          "Export analytics for business intelligence and performance tracking"
         ]
       }
     }
   },
   "hero": {
-    "title": "Effortless Features for",
-    "titleHighlight": "Social Media Success",
-    "subtitle": "Discover how our AI-powered tools can transform your social media and free up your valuable time."
+    "title": "Transform Your Practice from",
+    "titleHighlight": "Overwhelmed to Optimized",
+    "subtitle": "Leverage AI solutions specifically designed for medical practices to reduce administrative burden and enhance patient care."
   },
   "services": {
-    "title": "Comprehensive AI Solutions",
-    "subtitle": "Explore our range of features designed to automate and enhance your social media presence.",
+    "title": "Comprehensive AI Solutions for Medical Practices",
+    "subtitle": "Custom-engineered tools to address the unique challenges of your specialty",
     "basic": {
-      "title": "Essential Social Media Automation",
-      "description": "Streamline your social media with AI-powered content creation and scheduling."
+      "title": "Patient Engagement Automation",
+      "description": "Transform patient communication with 24/7 AI-powered support across all channels."
     },
     "advanced": {
-      "title": "Advanced AI-Driven Management",
-      "description": "Take your automation to the next level with voice features and WhatsApp integration."
+      "title": "Clinical Workflow Optimization",
+      "description": "Streamline operations with intelligent scheduling and resource allocation."
     },
     "basicAgent": {
-      "title": "Round-the-Clock AI Agent",
-      "description": "Engage customers 24/7 across all your social platforms."
+      "title": "Documentation Assistant",
+      "description": "Eliminate after-hours charting with AI-generated clinical documentation."
     },
     "advancedAgent": {
-      "title": "Smart Lead Management",
-      "description": "Convert more leads with AI that qualifies and nurtures automatically."
+      "title": "Practice Intelligence Platform",
+      "description": "Gain actionable insights to optimize efficiency and profitability."
     },
     "features": {
-      "captions": "On-brand AI-generated captions.",
-      "templates": "Customizable post templates.",
-      "images": "Automated visual content creation.",
-      "scheduling": "Smart content scheduling.",
-      "whatsapp": "WhatsApp customer engagement.",
-      "voice": "Convert voice notes into content.",
-      "scripts": "Video script generation.",
-      "voiceover": "AI voiceovers for your content.",
-      "comments": "Intelligent comment replies.",
-      "dm": "24/7 DM handling.",
-      "platforms": "Multi-platform publishing.",
-      "availability": "Always-on presence.",
-      "qualification": "AI lead qualification.",
-      "conversion": "Enhanced conversion optimization.",
-      "crm": "Seamless CRM integration.",
-      "analytics": "Advanced social media analytics."
+      "captions": "Procedure information delivery",
+      "templates": "Customizable treatment protocols",
+      "images": "Pre/post procedure visualization",
+      "scheduling": "Intelligent appointment optimization",
+      "whatsapp": "HIPAA-compliant WhatsApp integration",
+      "voice": "Voice-to-documentation conversion",
+      "scripts": "Treatment plan generation",
+      "voiceover": "Multilingual patient instructions",
+      "comments": "Automated follow-up management",
+      "dm": "24/7 private patient messaging",
+      "platforms": "Multi-channel communication",
+      "availability": "Always-on patient support",
+      "qualification": "AI patient pre-qualification",
+      "conversion": "Consultation-to-procedure optimization",
+      "crm": "EMR/EHR integration",
+      "analytics": "Practice performance metrics"
     }
   },
   "benefits": {
-    "title": "Why Choose Entagl?",
-    "subtitle": "AI solutions that eliminate stress and maximize your results.",
+    "title": "The Tangible Impact on Your Practice",
+    "subtitle": "Real results backed by data from medical practices like yours",
     "time": {
-      "title": "Save Precious Time",
-      "pain": "Feeling overwhelmed by endless hours managing your social media?",
-      "solution": "Let AI handle routine tasks while you focus on growing your business."
+      "title": "Reclaim Your Clinical Time",
+      "pain": "Are you spending half of each day on documentation instead of patient care?",
+      "solution": "Our AI documentation tools help physicians reclaim 15+ hours weekly for patient care or personal time."
     },
     "money": {
-      "title": "Cut Costs",
-      "pain": "Tired of wasting money on agencies or complex tools?",
-      "solution": "Save up to 60% with AI automation tailored for small businesses."
+      "title": "Maximize Practice Revenue",
+      "pain": "Is your schedule plagued by gaps from no-shows and inefficient booking?",
+      "solution": "Fill 94% of your available appointments with intelligent scheduling and automated waitlist management."
     },
     "stress": {
-      "title": "Eliminate the Hassle",
-      "pain": "Stressed about keeping up with your social media presence?",
-      "solution": "Enjoy peace of mind with reliable 24/7 AI management."
+      "title": "Eliminate Administrative Chaos",
+      "pain": "Are patient records scattered across paper files, WhatsApp, and multiple systems?",
+      "solution": "Centralize all patient information in one secure, accessible system that integrates with your existing EMR."
     },
     "growth": {
-      "title": "Drive Growth Effortlessly",
-      "pain": "Struggling to expand your social media impact?",
-      "solution": "Multiply your reach and engagement with AI-optimized content."
+      "title": "Scale Without Staffing Pain",
+      "pain": "Is staffing for growth straining your practice finances and management capacity?",
+      "solution": "Grow your patient volume by 40% without proportionally increasing your administrative staff costs."
     }
   },
   "cases": {
-    "title": "Success Stories from Small Businesses",
-    "subtitle": "See how businesses like yours thrive with Entagl.",
+    "title": "Success Stories from Practices Like Yours",
+    "subtitle": "See how these medical professionals transformed their operations with our solutions",
     "retail": {
-      "title": "Retail Stores",
-      "description": "Local retailers saving time and increasing sales with automated social posts.",
+      "title": "Plastic Surgery Center",
+      "description": "International practice struggling with 24/7 patient communication across time zones.",
       "benefits": {
-        "retail1": "Daily product showcase posts.",
-        "retail2": "24/7 customer inquiry handling.",
-        "retail3": "Personalized promotional campaigns."
+        "retail1": "Handled inquiries from 8 countries in 5 languages",
+        "retail2": "Reduced no-shows by 68% with automated reminders",
+        "retail3": "Cut documentation time by 62% with AI clinical notes"
       }
     },
     "cafe": {
-      "title": "Cafes & Coffee Shops",
-      "description": "Helping busy cafe owners stay connected with their customers online.",
+      "title": "Dental Group Practice",
+      "description": "Multi-location practice facing scheduling inefficiencies and fragmented records.",
       "benefits": {
-        "cafe1": "Daily menu and specials updates.",
-        "cafe2": "Automated responses to reviews.",
-        "cafe3": "Instant event announcements."
+        "cafe1": "Centralized 5 locations' patient communications",
+        "cafe2": "Increased treatment plan acceptance by 34%",
+        "cafe3": "Optimized provider schedules across locations"
       }
     },
     "salon": {
-      "title": "Beauty Salons",
-      "description": "Making life easier for salon owners focused on creating great client experiences.",
+      "title": "Medical Aesthetics Clinic",
+      "description": "High-volume practice overwhelmed by consultation inquiries and follow-ups.",
       "benefits": {
-        "salon1": "Automated booking reminders.",
-        "salon2": "Effortless before/after content.",
-        "salon3": "Style inspiration posts."
+        "salon1": "Pre-qualified 82% of consultation requests with AI",
+        "salon2": "Automated post-treatment follow-up protocols",
+        "salon3": "Increased repeat procedure bookings by 27%"
       }
     },
     "restaurant": {
-      "title": "Restaurants",
-      "description": "Boosting online presence for restaurants big and small.",
+      "title": "Dermatology Practice",
+      "description": "Practice struggling with documentation burden and patient education.",
       "benefits": {
-        "restaurant1": "Menu highlight automation.",
-        "restaurant2": "Reservation management.",
-        "restaurant3": "Professional food photography scheduling."
+        "restaurant1": "Generated comprehensive visit notes in under 2 minutes",
+        "restaurant2": "Delivered personalized treatment instructions automatically",
+        "restaurant3": "Improved patient satisfaction scores by 46%"
       }
     }
   }

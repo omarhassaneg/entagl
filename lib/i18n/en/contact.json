@@ -1,21 +1,21 @@
 {
-  "title": "Get in Touch",
-  "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "title": "Schedule Your Practice Assessment",
+  "subtitle": "Let's discuss how our AI solutions can address your specific practice challenges. Complete the form below for a personalized consultation.",
   "phones": {
-    "title": "Call Us",
-    "description": "Feel free to call us directly at any of our offices:",
+    "title": "Speak With a Medical Solutions Specialist",
+    "description": "Prefer to talk directly? Call our dedicated healthcare team:",
     "turkey": "Turkey Office: +905462073902",
     "canada": "Canada Office: +16478304916"
   },
   "form": {
-    "firstName": "What's your first name?",
-    "email": "What's your work email?",
-    "phone": "What's your phone number?",
-    "businessName": "What's your business name?",
-    "businessWebsite": "What's your business website?",
-    "additionalInfo": "Tell us about your challenges and what you're looking for",
+    "firstName": "What's your name?",
+    "email": "What's your practice email?",
+    "phone": "What's your best contact number?",
+    "businessName": "What's your practice or clinic name?",
+    "businessWebsite": "What's your practice website?",
+    "additionalInfo": "Tell us about your current challenges (documentation burden, scheduling issues, patient communication, etc.)",
     "thankYou": "Thank you for reaching out!",
-    "confirmation": "We'll get back to you as soon as possible.",
-    "error": "Failed to submit form. Please try again."
+    "confirmation": "A medical solutions specialist will contact you within 1 business day to schedule your assessment.",
+    "error": "Failed to submit form. Please try again or call us directly."
   }
 }

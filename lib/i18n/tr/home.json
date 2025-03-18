@@ -1,86 +1,86 @@
 {
   "features": {
-    "title": "Zahmetsiz Sosyal Medya Otomasyonu",
-    "subtitle": "Ajans bütçeniz yok mu? Paylaşım, etkileşim ve zaman tasarrufu—hepsini AI'ye bırakın.",
+    "title": "Düzenlenmiş Tıbbi Klinik Çözümleri",
+    "subtitle": "İdari iş yükünden bunaldınız mı? AI, siz hasta bakımına odaklanırken klinik operasyonlarınızı dönüştürsün.",
     "items": {
       "smartContent": {
-        "title": "Stressiz İçerik Oluşturma",
-        "description": "Kitlenizi etkilemek için marka sesinize uygun AI tarafından hazırlanan gönderiler."
+        "title": "Zahmetsiz Klinik Dokümantasyon",
+        "description": "Mevcut EMR/EHR sistemlerinizle entegre olan AI tarafından oluşturulan klinik notlar ve raporlar."
       },
       "analytics": {
-        "title": "Önemli Olanı Takip Edin",
-        "description": "Sosyal medya performansınız hakkında net içgörüler edinin ve daha akıllıca büyüyün."
+        "title": "Klinik Performans İçgörüleri",
+        "description": "Hasta edinme maliyeti, prosedür dönüşüm oranları ve hekim verimliliği gibi önemli metrikleri takip edin."
       },
       "scheduling": {
-        "title": "Mükemmel Zamanda Paylaşın",
-        "description": "İçeriğinizi kitlenizin en aktif olduğu zamanlarda otomatik olarak planlayın."
+        "title": "Akıllı Randevu Optimizasyonu",
+        "description": "AI ile iptal oranlarını azaltıp boş randevuları otomatik olarak doldurarak klinik zamanınızı maksimize edin."
       }
     }
   },
   "hero": {
-    "title": "Ajans Bütçeniz Yok mu?",
-    "titleHighlight": "AI ile 7/24 Zamandan Tasarruf Edin",
-    "subtitle": "Sosyal medya stresine veda edin. Entagl içeriğinizi ve DM'lerinizi otomatik olarak oluşturur, paylaşır ve yönetir—böylece siz küçük işletmenizi büyütmeye odaklanabilirsiniz.",
+    "title": "İdari Yük Hasta Bakımınızı",
+    "titleHighlight": "Sınırlıyor mu?",
+    "subtitle": "Kâğıt kargaşasını ve parçalanmış iletişimi ortadan kaldırın. AI çözümlerimiz hasta verilerini merkezileştirir, dokümantasyonu otomatikleştirir ve sorgulamaları 7/24 yönetir - böylece siz olağanüstü bakım sunmaya odaklanabilirsiniz.",
     "features": {
       "aiAssistance": {
-        "title": "Asla Uyumayan AI",
-        "description": "AI destekli DM'ler, yorumlar ve müşteri etkileşimleri ile kitlenizle 7/24 iletişimde kalın."
+        "title": "Kesintisiz Hasta Desteği",
+        "description": "Hastalara prosedürler hakkında tıbbi açıdan doğru yanıtlarla mesai saatleri dışında bile tüm kanallarda ulaşın."
       },
       "contentCreation": {
-        "title": "Anında, Markaya Uygun Gönderiler",
-        "description": "Çaba harcamadan ilgi çekici açıklamalar, hikayeler ve güncellemeler yazıp paylaşıyoruz."
+        "title": "Klinik Dokümantasyon Otomasyonu",
+        "description": "İş gününüzü uzatmadan kapsamlı notlar, tedavi planları ve hasta talimatları oluşturun."
       },
       "workflows": {
-        "title": "Zahmetsiz Otomasyon",
-        "description": "Bir kez ayarlayın ve AI'nin sosyal medya varlığınızı canlı tutmasına izin verin."
+        "title": "Düzenlenmiş Klinik İş Akışları",
+        "description": "Tutarlı bakım sunumu için ameliyat öncesi/sonrası protokolleri, takipler ve hasta eğitimini otomatikleştirin."
       }
     }
   },
   "benefits": {
-    "title": "AI ile Sosyal Medyayı Basitleştirin",
-    "subtitle": "Manuel sosyal medya yönetiminde zaman ve para kaybetmeyi bırakın. Entagl gerçek, ölçülebilir sonuçlar sunar.",
+    "title": "Kliniğinizi Tıbbi AI ile Dönüştürün",
+    "subtitle": "İdari verimsizlikle zaman ve gelir kaybetmeyi bırakın. Çözümlerimiz ölçülebilir operasyonel iyileştirmeler sunar.",
     "items": {
       "aiContent": {
-        "title": "İşe Yarayan İçerik",
-        "description": "AI tarafından günlük olarak kitlenize özel hazırlanan ilgi çekici gönderiler."
+        "title": "Klinik Saatlerinizi Geri Kazanın",
+        "description": "Dokümantasyon süresini %62 azaltarak hasta bakımı için haftada 15+ saat kazanın."
       },
       "engagement": {
-        "title": "7/24 Etkileşim",
-        "description": "Siz işinize odaklanırken DM'leri ve yorumları AI'ye bırakın."
+        "title": "7/24 Hasta Etkileşimi",
+        "description": "Personelinizin müsait olmadığı mesai saatleri dışında prosedürler hakkında araştırma yapan %43 hastayı yakalayın."
       },
       "analytics": {
-        "title": "Net Performans İçgörüleri",
-        "description": "Kullanımı kolay analitiklerle neyin işe yaradığını anlayın."
+        "title": "Gelir Koruması",
+        "description": "İptal oranlarını %73 azaltın ve prosedür gelirini maksimize etmek için iptalleri otomatik olarak doldurun."
       },
       "audience": {
-        "title": "Kitlenizi Büyütün",
-        "description": "Tutarlı, hedefli sosyal medya aktivitesi ile daha fazla müşteriye ulaşın."
+        "title": "Gelişmiş Hasta Deneyimi",
+        "description": "Sorulara anında yanıt ve kişiselleştirilmiş bakım talimatları ile memnuniyeti artırın."
       },
       "timeSaving": {
-        "title": "Zaman ve Para Tasarrufu",
-        "description": "Görevlerinizi otomatikleştirin ve ajans ücretlerinden kurtulun, önemli işlere zaman ayırın."
+        "title": "Operasyonel Verimlilik",
+        "description": "Dağınık hasta verilerini merkezileştirin ve birden fazla sistemde yinelenen veri girişini ortadan kaldırın."
       },
       "automation": {
-        "title": "Akıllı Otomasyon, Büyük Sonuçlar",
-        "description": "Siz işletmenizi yönetirken AI sosyal medya varlığınızı yönetsin."
+        "title": "Sorunsuz Klinik Büyümesi",
+        "description": "İdari personeli orantılı olarak artırmadan hasta hacminizi %40 genişletin."
       }
     }
   },
   "services": {
-    "title": "Küçük İşletmelere Özel AI Çözümleri",
-    "subtitle": "Sosyal medya yönetiminizi düzenlemek için mükemmel paketi seçin."
+    "title": "Tıbbi Uzmanlıklar için Özel AI Çözümleri",
+    "subtitle": "Plastik cerrahi, diş hekimliği, dermatoloji ve diğer uzmanlık klinikleri için özel uygulamalar."
   },
   "cta": {
-    "title": "Sosyal Medyayı Basitleştirmeye Hazır mısınız?",
-    "subtitle": "Sosyal medyalarını Entagl ile otomatikleştiren binlerce küçük işletmeye katılın."
+    "title": "Tıbbi Kliniğinizi Dönüştürmeye Hazır mısınız?",
+    "subtitle": "AI çözümlerimizle zamanlarını geri kazanan ve hasta bakımını iyileştiren önde gelen klinisyenlere katılın."
   },
   "testimonials": {
-    "quote1": "Entagl'ın AI Asistanları müşteri desteğimizi dönüştürdü ve 7/24 sorulara yanıt vermemizi sağladı. Verimliliğimiz zirveye ulaştı ve müşterilerimiz her zamankinden daha mutlu!",
-    "author1": "John Doe",
-    "position1": "CEO, Tech Solutions",
-    "quote2": "AI entegrasyonu müşteri etkileşimlerimizi yönetme şeklimizi devrimleştirdi. Yanıt süreleri %80 düştü ve memnuniyet arttı!",
-    "author2": "Jane Smith",
-    "position2": "CTO, Digital Solutions",
+    "quote1": "AI dokümantasyon sistemi, eskiden mesai sonrası kayıt işlerine harcadığım haftada 12 saati geri kazandırdı. Artık daha fazla hasta görebiliyor ve yine de ailemle zamanında eve dönebiliyorum.",
+    "author1": "Dr. Sarah Chen",
+    "position1": "Plastik Cerrah, Advanced Aesthetics Center",
+    "quote2": "Akıllı planlama sistemini uyguladıktan sonra iptal oranımız %26'dan sadece %5'e düştü. Otomatik bekleme listesi doldurma özelliği, cerrahi programımızda nadiren boşluk olduğu anlamına geliyor.",
+    "author2": "Dr. Michael Patel",
+    "position2": "Klinik Direktörü, Premier Dental Group",
     "playVideo": "Referans videosunu oynat",
     "previous": "Önceki referans",
     "next": "Sonraki referans"

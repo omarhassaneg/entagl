@@ -1,149 +1,149 @@
 {
   "hero": {
-    "title": "Entagl AI ile Sohbetleri Satışa Dönüştürün",
-    "subtitle": "Sosyal medya ve WhatsApp'ta sonu gelmeyen müşteri sorularından bunalan işletmeler için Entagl AI devreye giriyor—soruları yanıtlama, bilet oluşturma, rezervasyon yönetimi, sipariş güncelleme ve 7/24 destek sağlama gibi işlemleri eğitimli bir ekip üyesi gibi yönetiyor—ve çok daha fazlası.",
+    "title": "Tıbbi Pratiğinizi",
+    "titleHighlight": "İdari Yükten Kurtarın",
+    "subtitle": "Dağınık hasta kayıtlarını ve kaotik iş akışlarını, hasta bakımını geliştirirken 70 saatlik çalışma haftanızı azaltan düzenli bir AI destekli sisteme dönüştürün.",
     "features": {
-      "support": "7/24 Destek",
-      "multilingual": "Çok Dilli",
-      "aiPowered": "AI Destekli"
+      "support": "Haftada 15+ Saat Kazanın",
+      "multilingual": "Randevu İptallerini %73 Azaltın"
     }
   },
   "problems": {
-    "title": "İşletmeniz Fırsatları Kaçırıyor mu?",
-    "subtitle": "Gecikmeli yanıtlar, kaçırılan sorular ve dağınık iletişim kanalları işletmenize her gün gelir kaybettiriyor.",
+    "title": "Klinik Yönetimi Verimsizliğinin Gizli Maliyetleri",
+    "subtitle": "Tıbbi uzmanlığınız hasta bakımı yerine idari görevlerde harcanıyor.",
     "items": {
       "opportunities": {
-        "title": "Kaçan Fırsatlar",
-        "description": "Saatler veya günler içinde yanıt vermek, rezervasyon ve satış kaybına yol açar."
+        "title": "Belgelendirme Yükü",
+        "description": "Her gece 2+ saat hasta kayıtlarını tamamlarken aile zamanınızı ve kişisel refahınızı feda ediyorsunuz."
       },
       "language": {
-        "title": "Sınırlı Dil Desteği",
-        "description": "Müşteriler birden fazla dil konuşuyor, ancak ekibiniz yetişemiyor."
+        "title": "Hasta İletişim Boşlukları",
+        "description": "Hastaların %43'ü, personelinizin müşteri kazanımı için müsait olmadığı mesai saatleri dışında prosedürler hakkında araştırma yapıyor."
       },
       "systems": {
-        "title": "Dağınık Sistemler",
-        "description": "Instagram, WhatsApp ve web siteniz üzerinden gelen soruları yönetmek verimsiz."
+        "title": "Gelir Kaybı",
+        "description": "Randevuya gelmeme ve planlamadaki verimsizlikler, kliniğinize yıllık 150.000$ kadar prosedür geliri kaybına neden oluyor."
       }
     }
   },
   "solution": {
-    "title": "Entagl ile Tanışın: 7/24 Çalışan AI Asistan",
-    "subtitle": "Her müşteriyle, her platformda, her dilde anında iletişim kurun.",
+    "title": "Tıbbi Klinikler İçin Özel Olarak Tasarlanmış AI Sistemleri",
+    "subtitle": "Dağınık hasta iletişimlerinizi merkezileştirin ve bakım kalitesinden ödün vermeden idari iş akışlarını düzenleyin.",
     "features": {
       "chat": {
-        "title": "Birleşik Sohbet Yönetimi",
-        "description": "Instagram, WhatsApp ve web sitesi sorularını tek bir yerden yönetin."
+        "title": "7/24 Hasta Etkileşim Merkezi",
+        "description": "WhatsApp, e-posta, SMS ve web üzerinden gelen tüm hasta sorularını yakalayın - gece 3'te veya karmaşık prosedürler sırasında bile."
       },
       "availability": {
-        "title": "7/24 Erişilebilirlik",
-        "description": "Artık hiçbir müşteri sorusunu kaçırmayın."
+        "title": "Birleşik Hasta Kayıt Sistemi",
+        "description": "Kağıt formlar, WhatsApp konuşmaları ve EMR sistemlerindeki hasta verilerini entegre ederek bilgi silolarını ortadan kaldırın."
       },
       "multilingual": {
-        "title": "Çok Dilli AI",
-        "description": "6'dan fazla dilde sorunsuz iletişim kurun."
+        "title": "Akıllı Randevu Optimizasyonu",
+        "description": "AI destekli hatırlatıcılarla randevu iptallerini %73 azaltın ve iptalleri bekleme listenizden otomatik olarak doldurun."
       },
       "cost": {
-        "title": "Maliyet Verimliliği",
-        "description": "Ek personel almadan müşteri desteğinizi ölçeklendirin."
+        "title": "Klinik Belgelendirme Otomasyonu",
+        "description": "Dikte edilen metinleri yapılandırılmış klinik notlara ve tedavi planlarına dönüştüren AI ile mesai sonrası belgelendirmeyi ortadan kaldırın."
       }
     },
     "comparison": {
-      "title": "Geleneksel Destek vs Entagl AI",
+      "title": "Geleneksel Klinik vs. AI Destekli Klinik",
       "traditional": {
-        "title": "Geleneksel Destek",
+        "title": "Mevcut Klinik Zorlukları",
         "items": [
-          "Sınırlı çalışma saatleri",
-          "Dil engelleri",
-          "Yüksek operasyonel maliyetler",
-          "Yavaş yanıt süreleri"
+          "Zamanın %49'unu evrak işlerinde harcamak",
+          "Mesai dışı hasta sorularını kaçırmak",
+          "Ortalama %28 randevu kaçırma oranı",
+          "Bilgilerin farklı sistemlerde dağınık olması"
         ]
       },
       "entagl": {
-        "title": "Entagl AI",
+        "title": "Entagl AI Çözümleri İle",
         "items": [
-          "7/24 erişilebilirlik",
-          "Çok dilli destek",
-          "Uygun maliyetli ölçeklendirme",
-          "Anında yanıtlar"
+          "Belgelendirme süresi %62 azaldı",
+          "7/24 hasta etkileşimi",
+          "%7'nin altında randevu kaçırma oranı",
+          "Merkezi hasta bilgileri"
         ]
       }
     }
   },
   "features": {
-    "title": "İşletmeler Neden Entagl AI'yi Seviyor",
-    "subtitle": "Gerçek iş sonuçları sağlayan güçlü özellikler",
+    "title": "Modern Tıbbi Klinikler İçin Kapsamlı Çözümler",
+    "subtitle": "En önemli operasyonel zorluklarınızı çözmek için özenle tasarlandı",
     "items": {
       "inbox": {
-        "title": "Birleşik Gelen Kutusu",
-        "description": "Birden fazla kanaldan gelen soruları tek bir yerden yanıtlayın.",
-        "highlight": "Mesaj yönetiminde günde 4+ saat tasarruf edin"
+        "title": "Birleşik İletişim Merkezi",
+        "description": "WhatsApp, SMS, e-posta ve web'deki hasta konuşmalarını tek bir güvenli arayüzde merkezileştirin.",
+        "highlight": "Günlük 3+ saat mesaj yönetimini ortadan kaldırın"
       },
       "automation": {
-        "title": "AI Otomasyonu",
-        "description": "Soruları, şikayetleri ve rezervasyonları otomatik olarak yönetin.",
-        "highlight": "Rutin etkileşimlerin %80'ine kadar otomatikleştirin"
+        "title": "Klinik AI Asistanı",
+        "description": "Prosedürler, iyileşme ve fiyatlandırma hakkındaki rutin hasta sorularını tıbbi açıdan doğru yanıtlarla otomatikleştirin.",
+        "highlight": "Hasta sorularının %82'sini otomatik olarak yanıtlayın"
       },
       "workflows": {
-        "title": "Özelleştirilebilir İş Akışları",
-        "description": "AI yanıtlarını destek bileti veya potansiyel müşteri değerlendirmesi gibi özel senaryolara göre uyarlayın.",
-        "highlight": "Dönüşüm oranlarını %40 artırın"
+        "title": "Özel Klinik İş Akışları",
+        "description": "Ameliyat öncesi hazırlık, prosedür sonrası bakım ve tedavi takipleri için otomatik sekanslar oluşturun.",
+        "highlight": "Tedaviye uyumu %47 artırın"
       },
       "analytics": {
-        "title": "Analitik ve İçgörüler",
-        "description": "Müşteri davranışı, yanıt süreleri ve ekip performansı hakkında gerçek zamanlı verilere erişin.",
-        "highlight": "Veri odaklı kararlar alın"
+        "title": "Klinik Zeka Panosu",
+        "description": "Konsültasyon-prosedür dönüşüm oranlarını, hasta edinme maliyetlerini ve personel verimliliği metriklerini takip edin.",
+        "highlight": "Aylık 8.500$+ değerinde gelir fırsatları tanımlayın"
       },
       "scalability": {
-        "title": "Ölçeklenebilirlik",
-        "description": "Ek maliyet olmadan günlük binlerce soruyu destekleyin.",
-        "highlight": "Destek maliyetlerinde %50'ye varan tasarruf"
+        "title": "Operasyonel Ölçeklenebilirlik",
+        "description": "İdari personel maliyetlerini orantılı olarak artırmadan klinik hacminizi büyütün.",
+        "highlight": "Mevcut personelle %40 daha fazla hastaya hizmet verin"
       }
     }
   },
   "process": {
-    "title": "Sizinle Nasıl Çalışıyoruz",
-    "subtitle": "İşletme ihtiyaçlarınıza özel hızlı ve sorunsuz kurulum",
+    "title": "Meşgul Tıp Uzmanları İçin Tasarlanmış Uygulama",
+    "subtitle": "Siz hasta bakımına odaklanırken biz teknik detayları hallediyoruz",
     "steps": {
       "consultation": {
-        "title": "Danışmanlık",
-        "description": "Süreçlerinizi, sistemlerinizi ve hedeflerinizi anlayın."
+        "title": "Klinik Değerlendirmesi",
+        "description": "Mevcut sistemlerinizi, hasta yolculuğunuzu ve idari dar boğazlarınızı analiz ediyoruz."
       },
       "roadmap": {
-        "title": "Yol Haritası",
-        "description": "2 hafta içinde basitleştirilmiş Faz 1 ürününü teslim edin."
+        "title": "Özel Çözüm Tasarımı",
+        "description": "Çözümünüz uzmanlık alanınıza, hasta demografinize ve mevcut teknolojinize göre uyarlanır."
       },
       "enhancements": {
-        "title": "Geliştirmeler",
-        "description": "Değişen ihtiyaçlarınızı karşılamak için AI'yi 60 gün boyunca geliştirin."
+        "title": "Entegrasyon ve Geçiş",
+        "description": "EMR/EHR sisteminizle sorunsuz bir şekilde bağlantı kurar ve mevcut hasta verilerinizi merkezileştiriz."
       },
       "support": {
-        "title": "Sürekli Destek",
-        "description": "Sürekli izleme, iyileştirme ve güncellemeler."
+        "title": "Sürekli Optimizasyon",
+        "description": "Geri bildirimlerinize ve değişen klinik ihtiyaçlarınıza göre düzenli iyileştirmeler."
       }
     }
   },
   "cta": {
-    "title": "Müşteri Etkileşiminizi Bir Üst Seviyeye Taşıyın",
-    "subtitle": "Müşteri etkileşimlerini dönüştürmek için Entagl AI'yi kullanan binlerce işletmeye katılın"
+    "title": "Hasta Bakımını Dönüştüren Önde Gelen Tıbbi Kliniklere Katılın",
+    "subtitle": "Çözümlerimizin benzersiz klinik iş akışınıza nasıl entegre olduğunu görmek için kişiselleştirilmiş bir demo planlayın"
   },
   "solutions": {
-    "title": "İşletme İhtiyaçlarınıza Özel AI Çözümleri",
-    "subtitle": "Müşteri görüşmelerinin düzenlenmesinden karmaşık iş akışlarının otomatikleştirilmesine kadar, AI çözümlerimiz benzersiz hedeflerinize ve zorluklarınıza göre tamamen özelleştirilmiştir.",
-    "description": "Her işletme benzersizdir ve çözümlerimiz de öyle. Sosyal medya etkileşimlerini yönetme, soruları otomatikleştirme veya AI'yi operasyonlarınıza entegre etme konusunda yardıma ihtiyacınız olsun, önce ihtiyaçlarınızı anlayarak başlıyoruz. Ücretsiz bir danışmanlık planlayın, size özel bir çözüm oluşturalım.",
+    "title": "Tıbbi Klinikler İçin Uzmanlığa Özel Çözümler",
+    "subtitle": "İster uluslararası hastaları yöneten bir plastik cerrah olun, ister karmaşık tedavi sekansları olan bir diş kliniği olun, AI çözümlerimiz benzersiz ihtiyaçlarınıza uyum sağlar.",
+    "description": "Her uzmanlık alanının farklı zorluklarla karşılaştığını biliyoruz. Ekibimiz, özel iş akışı gereksinimlerinizi, düzenleyici hususlarınızı ve hasta beklentilerinizi karşılayan özel bir çözüm oluşturmak için kliniğinizle yakın çalışır.",
     "features": {
-      "automation": "AI destekli otomasyon",
-      "automationDesc": "Akıllı otomasyon ile sorunsuz müşteri etkileşimleri",
-      "multilingual": "Çok dilli destek",
-      "multilingualDesc": "Global kitlenizle tercih ettikleri dilde iletişim kurun",
-      "scalable": "Ölçeklenebilir çözümler",
-      "scalableDesc": "Her boyut ve karmaşıklıktaki işletmeler için mükemmel",
-      "integration": "Sistem entegrasyonu",
-      "integrationDesc": "CRM ve e-Ticaret platformlarınızla sorunsuz entegrasyon",
-      "insights": "Uygulanabilir içgörüler",
-      "insightsDesc": "Detaylı analitiklerle performans ve ROI'yi takip edin"
+      "automation": "Klinik İş Akışı Otomasyonu",
+      "automationDesc": "Ameliyat öncesi ve sonrası protokolleri düzenleyin",
+      "multilingual": "Çok Dilli Hasta Desteği",
+      "multilingualDesc": "Uluslararası hastalarla ana dillerinde iletişim kurun",
+      "scalable": "Ölçeklenebilir Klinik Çözümleri",
+      "scalableDesc": "İdari aşırı yük olmadan hasta hacminizi artırın",
+      "integration": "EMR/EHR Entegrasyonu",
+      "integrationDesc": "Mevcut klinik sistemlerinizle sorunsuz bağlantı",
+      "insights": "Performans Analitiği",
+      "insightsDesc": "Klinik verimliliğini optimize etmek için veri odaklı içgörüler"
     },
-    "cta": "Ücretsiz Teklif Alın",
-    "aiActive": "AI Asistan Aktif",
-    "aiActiveDesc": "AI'miz şu anda müşteri sorularını işliyor ve işletme kurallarınıza göre yanıtları optimize ediyor."
+    "cta": "Klinik Değerlendirmenizi İsteyin",
+    "aiActive": "Tıbbi AI Asistanı Aktif",
+    "aiActiveDesc": "AI sisteminiz şu anda hasta sorularını yanıtlıyor ve klinik programınızı optimize ediyor."
   }
 }

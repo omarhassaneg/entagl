@@ -17,50 +17,38 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
       <div className="absolute inset-0 bg-gradient-to-r from-background to-background/50" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="space-y-8">
-            {language === 'en' ? (
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                Turn Conversations into{' '}
-                <span className="bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent">Conversions</span>
-                {' '}with Entagl AI
-              </h1>
-            ) : (
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                {t('landing.hero.title')}
-              </h1>
-            )}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+              <span>{t('landing.hero.title')}</span>{' '}
+              <div className="bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent inline-block">
+                {t('landing.hero.titleHighlight')}
+              </div>
+            </h1>
             <p className="text-xl text-muted-foreground">
               {t('landing.hero.subtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="max-w-sm">
               <Button size="lg" className="group" asChild>
                 <Link href="/demo">
                   {t('common.scheduleDemo')}
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline">
-                {t('common.learnMore')}
-              </Button>
             </div>
-            <div className="flex gap-8">
-              <div className="flex items-center gap-2">
-                <Clock className="h-5 w-5 text-teal-500" />
-                <span className="text-sm">{t('landing.hero.features.support')}</span>
+            <div className="flex flex-col gap-4 mt-8">
+              <div className="flex items-center gap-3 bg-muted/60 px-4 py-2 rounded-md border border-border/30 max-w-xs">
+                <Clock className="h-5 w-5 flex-shrink-0 text-teal-500" />
+                <span className="font-medium">{t('landing.hero.features.support')}</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Globe className="h-5 w-5 text-blue-500" />
-                <span className="text-sm">{t('landing.hero.features.multilingual')}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <MessageSquare className="h-5 w-5 text-purple-500" />
-                <span className="text-sm">{t('landing.hero.features.aiPowered')}</span>
+              <div className="flex items-center gap-3 bg-muted/60 px-4 py-2 rounded-md border border-border/30 max-w-xs">
+                <Globe className="h-5 w-5 flex-shrink-0 text-blue-500" />
+                <span className="font-medium">{t('landing.hero.features.multilingual')}</span>
               </div>
             </div>
           </motion.div>
