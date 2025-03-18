@@ -25,57 +25,57 @@ export function JourneyVisualization() {
     {
       type: 'customer',
       icon: MessageSquare,
-      message: "Hi! I'm interested in your services",
+      message: "Hello, I'd like to schedule a consultation for my knee pain",
       delay: 0
     },
     {
       type: 'ai',
       icon: Bot,
-      message: "Hello! I'd be happy to help. To better assist you, could you share your name?",
+      message: "Thank you for reaching out. Could you share when you first noticed the symptoms?",
       delay: 1
     },
     {
       type: 'customer',
       icon: User,
-      message: "I'm Sarah",
+      message: "About 3 weeks ago after running",
       delay: 2
     },
     {
       type: 'ai',
       icon: Bot,
-      message: "Nice to meet you Sarah! What's the best email to reach you?",
+      message: "Have you had any previous injuries or treatments for this?",
       delay: 3
     },
     {
       type: 'customer',
       icon: User,
-      message: "sarah@email.com",
+      message: "No previous injuries",
       delay: 4
     },
     {
       type: 'ai',
       icon: Bot,
-      message: "Thanks! And your phone number for updates?",
+      message: "Please confirm your name and preferred appointment time",
       delay: 5
     },
     {
       type: 'customer',
       icon: User,
-      message: "+1234567890",
+      message: "John Doe, preferably next Wednesday",
       delay: 6
     },
     {
       type: 'system',
       icon: Database,
-      message: "Customer data saved",
-      details: "Name, email, and phone collected",
+      message: "Medical information saved",
+      details: "Symptoms history and patient details recorded",
       delay: 7
     },
     {
       type: 'system',
       icon: Mail,
-      message: "Automated follow-up scheduled",
-      details: "Welcome email + Special offer",
+      message: "Appointment scheduled",
+      details: "Pre-consultation forms sent via email",
       delay: 8
     }
   ];
