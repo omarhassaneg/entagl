@@ -140,7 +140,7 @@ export function MinimalCrmVisualization() {
       if (!isActive) return;
       sequence[animationStep]();
       setAnimationStep((prev) => (prev + 1) % sequence.length);
-    }, 2000); // 2 seconds per step
+    }, 1350); // ~1.35 seconds per step (1.5x faster than original 2 seconds)
 
     // More comprehensive cleanup
     return () => {
@@ -193,7 +193,7 @@ export function MinimalCrmVisualization() {
                     ? 'rgba(59, 130, 246, 0.1)'
                     : 'var(--background)'
                 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.2 }}
                 className={`rounded-lg p-3 border cursor-pointer ${
                   selectedPatient === patient.id ? 'border-primary' : 'border-transparent'
                 }`}
@@ -227,13 +227,13 @@ export function MinimalCrmVisualization() {
                 className="flex items-center gap-3"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.2 }}
               >
                 <motion.div
                   className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-medium"
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
-                  transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                  transition={{ type: "spring", stiffness: 750, damping: 35 }}
                 >
                   {selectedPatientData.name.split(' ').map(n => n[0]).join('')}
                 </motion.div>
@@ -250,7 +250,7 @@ export function MinimalCrmVisualization() {
                 className="border-t pt-3"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: 0.1 }}
+                transition={{ duration: 0.2, delay: 0.07 }}
               >
                 <h4 className="text-sm font-medium flex items-center gap-2 mb-2">
                   <Clipboard className="h-4 w-4 text-primary" />
@@ -261,7 +261,7 @@ export function MinimalCrmVisualization() {
                     className="flex justify-between"
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.3, delay: 0.2 }}
+                    transition={{ duration: 0.2, delay: 0.13 }}
                   >
                     <span className="text-muted-foreground">{t.condition}</span>
                     <span>{selectedPatientData.condition}</span>
@@ -270,7 +270,7 @@ export function MinimalCrmVisualization() {
                     className="flex justify-between"
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.3, delay: 0.3 }}
+                    transition={{ duration: 0.2, delay: 0.2 }}
                   >
                     <span className="text-muted-foreground">{t.lastVisit}</span>
                     <span>{selectedPatientData.lastVisit}</span>
@@ -282,7 +282,7 @@ export function MinimalCrmVisualization() {
                 className="border-t pt-3"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: 0.4 }}
+                transition={{ duration: 0.2, delay: 0.27 }}
               >
                 <h4 className="text-sm font-medium flex items-center gap-2 mb-2">
                   <FileText className="h-4 w-4 text-primary" />
@@ -294,7 +294,7 @@ export function MinimalCrmVisualization() {
                       key={`${language}-image-${image}`}
                       initial={{ scale: 0, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      transition={{ duration: 0.3, delay: 0.5 + index * 0.1 }}
+                      transition={{ duration: 0.2, delay: 0.33 + index * 0.07 }}
                       className="bg-muted/50 rounded p-2 text-center"
                     >
                       <div className="bg-primary/10 rounded h-12 flex items-center justify-center mb-1">
@@ -310,7 +310,7 @@ export function MinimalCrmVisualization() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.2 }}
               className="h-full flex items-center justify-center text-center p-6"
             >
               <div className="space-y-2">
