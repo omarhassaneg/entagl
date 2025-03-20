@@ -76,8 +76,6 @@ export default function RootLayout({
   return (
     <html lang="tr" suppressHydrationWarning>
       <head>
-        <link rel="stylesheet" href="/cal-styles.css" />
-        <script src="/cal-dark-mode-fix.js" defer></script>
         <script src="/cal-embed.js" defer></script>
       </head>
       <body className={inter.className}>
