@@ -20,6 +20,9 @@ export function CTASection() {
           size="lg"
           variant="secondary"
           className="group bg-white text-teal-500 hover:bg-white/90"
+          data-cal-link="entagl/45min-online"
+          data-cal-namespace="45min-online"
+          data-cal-config='{"layout":"month_view","theme":"light"}'
         >
           {t('common.getStartedNow')}
           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

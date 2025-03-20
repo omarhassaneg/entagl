@@ -33,13 +33,23 @@ export function FinalCTA() {
           <h2 className="text-3xl md:text-4xl font-bold">{t('landing.cta.title')}</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">{t('landing.cta.subtitle')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="group" asChild>
-              <Link href="/demo">
-                {t('common.scheduleDemo')}
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
+            <Button 
+              size="lg" 
+              className="group"
+              data-cal-link="entagl/45min-online"
+              data-cal-namespace="45min-online"
+              data-cal-config='{"layout":"month_view","theme":"light"}'
+            >
+              {t('common.scheduleDemo')}
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline">
+            <Button 
+              size="lg" 
+              variant="outline"
+              data-cal-link="entagl/45min-online"
+              data-cal-namespace="45min-online"
+              data-cal-config='{"layout":"month_view","theme":"light"}'
+            >
               {t('common.contactUs')}
             </Button>
           </div>

@@ -38,7 +38,14 @@ export function Navbar() {
             <NavLinks />
             <LanguageSelector />
             <ThemeToggle />
-            <Button variant="default">{t('common.getStarted')}</Button>
+            <Button 
+              variant="default"
+              data-cal-link="entagl/45min-online"
+              data-cal-namespace="45min-online"
+              data-cal-config='{"layout":"month_view","theme":"light"}'
+            >
+              {t('common.getStarted')}
+            </Button>
           </div>
 
           {/* Mobile menu button */}

@@ -1,0 +1,67 @@
+/* Cal.com Dark Mode Styles */
+
+/* Target the main popup container - this is the white rectangle */
+html.dark .cal-embed-popup,
+html.dark div[data-cal-embed-popup],
+html.dark div[data-cal-namespace],
+html.dark div[class*="cal-embed"],
+html.dark div[class*="Cal__"],
+html.dark div[class*="cal-embed-popup"],
+html.dark div[data-testid="overlay"] {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Target all Cal.com iframes to make them transparent in dark mode */
+html.dark iframe[class*="cal-embed"],
+html.dark iframe[src*="cal.com"],
+html.dark .cal-embed-popup iframe,
+html.dark div[data-cal-namespace] iframe {
+  background-color: transparent !important;
+}
+
+/* Target the overlay */
+html.dark div[class*="cal-embed-popup__overlay"],
+html.dark div[data-testid="overlay"],
+html.dark .cal-embed__overlay,
+html.dark .Cal__Overlay,
+html.dark div[class*="Overlay"] {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+/* Absolute blanket selector to catch any white backgrounds */
+html.dark *[class*="cal"],
+html.dark *[class*="Cal"],
+html.dark *[data-cal-embed],
+html.dark *[data-cal-namespace] {
+  background-color: transparent !important;
+}
+
+/* Fix specific elements that might need color */
+html.dark .Cal__Day,
+html.dark .Cal__MonthHeader,
+html.dark .Cal__Event,
+html.dark .Cal__TimeSlot,
+html.dark .Cal__Button {
+  background-color: rgba(30, 41, 59, 0.7) !important;
+  color: white !important;
+}
+
+html.dark .Cal__TimeSlot:hover {
+  background-color: rgba(59, 130, 246, 0.5) !important;
+}
+
+/* Ensure text elements are visible */
+html.dark .Cal__Text,
+html.dark .Cal__Header,
+html.dark .Cal__Title,
+html.dark [class*="cal-"] {
+  color: white !important;
+}
+
+/* Add important inline styles with JavaScript to handle dynamic content */
+:root {
+  --cal-embed-popup-background: transparent;
+  --cal-embed-popup-shadow: none;
+}

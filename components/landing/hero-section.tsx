@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Clock, Globe, MessageSquare } from 'lucide-react';
 import { useTranslations } from '@/lib/hooks/use-translations';
-import Link from 'next/link';
 import { useLanguage } from '@/components/providers/language-provider';
 import { SimpleSwitcher } from './simple-switcher';
 
@@ -34,11 +33,15 @@ export function HeroSection() {
               {t('landing.hero.subtitle')}
             </p>
             <div className="max-w-sm">
-              <Button size="lg" className="group" asChild>
-                <Link href="/demo">
-                  {t('common.scheduleDemo')}
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
+              <Button 
+                size="lg" 
+                className="group"
+                data-cal-link="entagl/45min-online"
+                data-cal-namespace="45min-online"
+                data-cal-config='{"layout":"month_view","theme":"light"}'
+              >
+                {t('common.scheduleDemo')}
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
             <div className="flex flex-col gap-4 mt-8">
