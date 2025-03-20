@@ -23,10 +23,10 @@ const conversationScenarios = {
       icon: MessageSquare,
       color: 'bg-green-500',
       messages: [
-        { text: "Hi! I'd like to make a dinner reservation", isAI: false },
-        { text: "I'll help you with that right away! What time would you prefer?", isAI: true },
-        { text: "Around 8 PM for 4 people", isAI: false },
-        { text: "Perfect! I've confirmed a table for 4 at 8 PM. Would you like me to send you the confirmation details?", isAI: true }
+        { text: "Hi! I have a question about my upcoming rhinoplasty", isAI: false },
+        { text: "Hello! I'm happy to help. What would you like to know?", isAI: true },
+        { text: "What should I do to prepare for the surgery?", isAI: false },
+        { text: "Here's our pre-op checklist: 1) Stop smoking 2 weeks before, 2) Avoid certain medications, 3) Arrange for someone to drive you home. Would you like me to send the full guide?", isAI: true }
       ]
     },
     {
@@ -34,10 +34,10 @@ const conversationScenarios = {
       icon: Instagram,
       color: 'bg-pink-500',
       messages: [
-        { text: "Do you have any appointments available tomorrow?", isAI: false },
-        { text: "Let me check our schedule. We have slots at 2 PM and 4 PM tomorrow.", isAI: true },
-        { text: "2 PM works for me!", isAI: false },
-        { text: "Great! I've booked you for 2 PM tomorrow. I'll send you a confirmation message with all the details.", isAI: true }
+        { text: "Do you have any openings for a consultation this week?", isAI: false },
+        { text: "Let me check... We have openings on Tuesday at 2 PM or Thursday at 10 AM. Would either work for you?", isAI: true },
+        { text: "Thursday at 10 AM works!", isAI: false },
+        { text: "Great! I've booked your consultation. You'll receive a confirmation with all details. Let me know if you have any other questions!", isAI: true }
       ]
     },
     {
@@ -45,10 +45,10 @@ const conversationScenarios = {
       icon: Mail,
       color: 'bg-blue-500',
       messages: [
-        { text: "I need to track my order #12345", isAI: false },
-        { text: "I've found your order. It's currently out for delivery.", isAI: true },
-        { text: "What's the estimated delivery time?", isAI: false },
-        { text: "Your package will arrive between 2-4 PM today. Would you like me to send you the tracking link?", isAI: true }
+        { text: "I'm experiencing some swelling 3 days post-op. Is this normal?", isAI: false },
+        { text: "Some swelling is normal after surgery. Is it accompanied by severe pain or fever?", isAI: true },
+        { text: "No fever, just mild discomfort", isAI: false },
+        { text: "That's expected. Keep your head elevated and use cold compresses. If symptoms worsen, contact us immediately. Would you like me to send post-op care instructions?", isAI: true }
       ]
     }
   ],
@@ -58,10 +58,10 @@ const conversationScenarios = {
       icon: MessageSquare,
       color: 'bg-green-500',
       messages: [
-        { text: "Merhaba! Akşam yemeği için rezervasyon yaptırmak istiyorum", isAI: false },
-        { text: "Size hemen yardımcı olayım! Hangi saati tercih edersiniz?", isAI: true },
-        { text: "Akşam 8 civarı, 4 kişi için", isAI: false },
-        { text: "Harika! 4 kişilik masanızı saat 20:00 için onayladım. Rezervasyon detaylarını gönderebilir miyim?", isAI: true }
+        { text: "Merhaba, yaklaşan rinoplasti ameliyatım hakkında bir sorum var", isAI: false },
+        { text: "Merhaba! Yardımcı olmaktan mutluluk duyarım. Ne sormak istemiştiniz?", isAI: true },
+        { text: "Ameliyata nasıl hazırlanmalıyım?", isAI: false },
+        { text: "İşte ameliyat öncesi kontrol listemiz: 1) 2 hafta önce sigarayı bırakın, 2) Bazı ilaçlardan kaçının, 3) Eve götürecek birini ayarlayın. Detaylı rehberi göndermemi ister misiniz?", isAI: true }
       ]
     },
     {
@@ -69,10 +69,10 @@ const conversationScenarios = {
       icon: Instagram,
       color: 'bg-pink-500',
       messages: [
-        { text: "Yarın için müsait randevunuz var mı?", isAI: false },
-        { text: "Programı kontrol edeyim. Yarın için saat 14:00 ve 16:00'da boş yerimiz var.", isAI: true },
-        { text: "14:00 bana uyar!", isAI: false },
-        { text: "Harika! Yarın saat 14:00 için randevunuzu oluşturdum. Tüm detayları içeren bir onay mesajı gönderiyorum.", isAI: true }
+        { text: "Bu hafta için danışma randevunuz var mı?", isAI: false },
+        { text: "Bakıyorum... Salı günü saat 14:00 veya Perşembe 10:00'da boş yerimiz var. Uygun mu?", isAI: true },
+        { text: "Perşembe 10:00 uygun!", isAI: false },
+        { text: "Harika! Randevunuzu oluşturdum. Tüm detayları içeren bir onay mesajı alacaksınız. Başka sorunuz varsa bana iletin!", isAI: true }
       ]
     },
     {
@@ -80,10 +80,10 @@ const conversationScenarios = {
       icon: Mail,
       color: 'bg-blue-500',
       messages: [
-        { text: "#12345 numaralı siparişimi takip etmek istiyorum", isAI: false },
-        { text: "Siparişinizi buldum. Şu anda dağıtımda.", isAI: true },
-        { text: "Tahmini teslimat saati nedir?", isAI: false },
-        { text: "Paketiniz bugün 14:00-16:00 arasında teslim edilecek. Takip linkini göndermemi ister misiniz?", isAI: true }
+        { text: "Ameliyattan 3 gün sonra biraz şişlik var. Bu normal mi?", isAI: false },
+        { text: "Ameliyat sonrası hafif şişlik normaldir. Şiddetli ağrı veya ateş eşlik ediyor mu?", isAI: true },
+        { text: "Ateş yok, sadece hafif rahatsızlık", isAI: false },
+        { text: "Bu beklenen bir durum. Başınızı yüksekte tutun ve soğuk kompres uygulayın. Belirtiler kötüleşirse hemen bize ulaşın. Ameliyat sonrası bakım talimatlarını göndermemi ister misiniz?", isAI: true }
       ]
     }
   ],
@@ -93,10 +93,10 @@ const conversationScenarios = {
       icon: MessageSquare,
       color: 'bg-green-500',
       messages: [
-        { text: "Здравствуйте! Хочу забронировать столик на ужин", isAI: false },
-        { text: "Я помогу вам прямо сейчас! Какое время вы предпочитаете?", isAI: true },
-        { text: "Около 8 вечера на 4 человека", isAI: false },
-        { text: "Отлично! Я подтвердил столик на 4 человека на 20:00. Хотите, чтобы я отправил детали бронирования?", isAI: true }
+        { text: "Здравствуйте! У меня вопрос по поводу предстоящей ринопластики", isAI: false },
+        { text: "Здравствуйте! Рада вам помочь. Что вас интересует?", isAI: true },
+        { text: "Как мне подготовиться к операции?", isAI: false },
+        { text: "Вот наш чек-лист: 1) Прекратите курить за 2 недели, 2) Избегайте некоторых лекарств, 3) Организуйте, чтобы вас отвезли домой. Хотите, чтобы я отправил полное руководство?", isAI: true }
       ]
     },
     {
@@ -104,10 +104,10 @@ const conversationScenarios = {
       icon: Instagram,
       color: 'bg-pink-500',
       messages: [
-        { text: "Есть ли свободное время для записи на завтра?", isAI: false },
-        { text: "Сейчас проверю расписание. У нас есть свободное время в 14:00 и 16:00.", isAI: true },
-        { text: "14:00 мне подходит!", isAI: false },
-        { text: "Отлично! Я записал вас на 14:00 завтра. Сейчас отправлю сообщение с подтверждением и всеми деталями.", isAI: true }
+        { text: "Есть ли у вас свободное время для консультации на этой неделе?", isAI: false },
+        { text: "Сейчас проверю... У нас есть время во вторник в 14:00 или в четверг в 10:00. Вам подходит?", isAI: true },
+        { text: "Четверг в 10:00 подходит!", isAI: false },
+        { text: "Отлично! Я записал вас на консультацию. Вы получите подтверждение со всеми деталями. Если есть другие вопросы, дайте знать!", isAI: true }
       ]
     },
     {
@@ -115,10 +115,10 @@ const conversationScenarios = {
       icon: Mail,
       color: 'bg-blue-500',
       messages: [
-        { text: "Хочу отследить мой заказ #12345", isAI: false },
-        { text: "Я нашел ваш заказ. Он сейчас в доставке.", isAI: true },
-        { text: "Какое ожидаемое время доставки?", isAI: false },
-        { text: "Ваша посылка будет доставлена сегодня между 14:00 и 16:00. Хотите, чтобы я отправил ссылку для отслеживания?", isAI: true }
+        { text: "У меня небольшая отечность через 3 дня после операции. Это нормально?", isAI: false },
+        { text: "Небольшая отечность после операции - это нормально. Есть ли сильная боль или температура?", isAI: true },
+        { text: "Температуры нет, только легкий дискомфорт", isAI: false },
+        { text: "Это ожидаемо. Держите голову приподнятой и используйте холодные компрессы. Если симптомы ухудшатся, немедленно свяжитесь с нами. Хотите, чтобы я отправил инструкции по послеоперационному уходу?", isAI: true }
       ]
     }
   ]
