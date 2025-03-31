@@ -1,23 +1,23 @@
 {
   "hero": {
-    "title": "Tıbbi Pratiğinizi",
-    "titleHighlight": "İdari Yükten Kurtarın",
-    "subtitle": "Dağınık hasta kayıtlarını ve kaotik iş akışlarını, hasta bakımını geliştiren ve tıp uzmanlarına her hafta 15+ saat kazandıran düzenli bir AI destekli sisteme dönüştürün.",
+    "title": "Tıbbi ve idari süreçlerinizi",
+    "titleHighlight": "birbirinden ayırın",
+    "subtitle": "Yapay zeka destekli sistemlerimiz, hastalarınızın kayıtlarını ve karmaşık iş akışlarını düzenlesin ve yönetsin. Bu sayede verimliliğiniz artsın, gelirleriniz yükselsin",
     "features": {
       "support": "Haftada 15+ Saat Kazanın",
-      "multilingual": "Randevu İptallerini %73 Azaltın"
+      "multilingual": "Randevuya gelmeme oranını %73 oranında azaltınç"
     }
   },
   "problems": {
-    "title": "Klinik Yönetimi Verimsizliğinin Gizli Maliyetleri",
+    "title": "Kliniğinizde göz ardı edilen maliyetler",
     "subtitle": "Tıbbi uzmanlığınız hasta bakımı yerine idari görevlerde harcanıyor.",
     "items": {
       "opportunities": {
-        "title": "Belgelendirme Yükü",
+        "title": "Evrak Yükü",
         "description": "Her gece 2+ saat hasta kayıtlarını tamamlarken aile zamanınızı ve kişisel refahınızı feda ediyorsunuz."
       },
       "language": {
-        "title": "Hasta İletişim Boşlukları",
+        "title": "Hasta iletişimindeki eksiklikler ve yanlışlıklar",
         "description": "Hastaların %43'ü, personelinizin müşteri kazanımı için müsait olmadığı mesai saatleri dışında prosedürler hakkında araştırma yapıyor."
       },
       "systems": {
@@ -27,11 +27,11 @@
     }
   },
   "solution": {
-    "title": "Tıbbi Klinikler İçin Özel Olarak Tasarlanmış AI Sistemleri",
-    "subtitle": "Dağınık hasta iletişimlerinizi merkezileştirin ve bakım kalitesinden ödün vermeden idari iş akışlarını düzenleyin.",
+    "title": "Klinikler için özel olarak tasarlanmış Yapay Zeka Sistemleri",
+    "subtitle": "Tüm hastalarınızla iletişimlerinizi tek bir yerden yönetin, hizmet kalitenizden ödün vermeden idari iş akışlarınızı kolayca kontrol edin",
     "features": {
       "chat": {
-        "title": "7/24 Hasta Etkileşim Merkezi",
+        "title": "7/24 Hasta İletişim Merkezi",
         "description": "WhatsApp, e-posta, SMS ve web üzerinden gelen tüm hasta sorularını yakalayın - gece 3'te veya karmaşık prosedürler sırasında bile."
       },
       "availability": {
@@ -43,7 +43,7 @@
         "description": "AI destekli hatırlatıcılarla randevu iptallerini %73 azaltın ve iptalleri bekleme listenizden otomatik olarak doldurun."
       },
       "cost": {
-        "title": "Klinik Belgelendirme Otomasyonu",
+        "title": "Hasta dosyalarınızı otomatize edin",
         "description": "Dikte edilen metinleri yapılandırılmış klinik notlara ve tedavi planlarına dönüştüren AI ile mesai sonrası belgelendirmeyi ortadan kaldırın."
       }
     },
