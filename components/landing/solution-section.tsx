@@ -109,7 +109,7 @@ export function SolutionSection() {
       chat: {
         patient: "Hasta",
         patientMessage: "Merhaba, işlem sonrası biraz rahatsızlık hissediyorum. Bu normal mi?",
-        doctorTitle: "Dr. Demir Yapay Zeka Asistan)",
+        doctorTitle: "Dr. Demir Yapay Zeka Asistan",
         doctorMessage: "24-48 saat boyunca hafif rahatsızlık normaldir. Şiddetli ağrı veya kanama olursa lütfen hemen bizimle iletişime geçin.",
         todayAt: "Bugün"
       },

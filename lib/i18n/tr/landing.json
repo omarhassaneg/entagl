@@ -5,7 +5,7 @@
     "subtitle": "Yapay zeka destekli sistemlerimiz, hastalarınızın kayıtlarını ve karmaşık iş akışlarını düzenlesin ve yönetsin. Bu sayede verimliliğiniz artsın, gelirleriniz yükselsin",
     "features": {
       "support": "Haftada 15+ Saat Kazanın",
-      "multilingual": "Randevuya gelmeme oranını %73 oranında azaltınç"
+      "multilingual": "Randevuya gelmeme oranını %73 oranında azaltın"
     }
   },
   "problems": {
@@ -143,7 +143,7 @@
       "insightsDesc": "Klinik verimliliğini optimize etmek için veri odaklı içgörüler"
     },
     "cta": "Klinik Değerlendirmenizi İsteyin",
-    "aiActive": "Tıbbi AI Asistanı Aktif",
+    "aiActive": "Tıbbi Yapay Zeka Asistanı Aktif",
     "aiActiveDesc": "AI sisteminiz şu anda hasta sorularını yanıtlıyor ve klinik programınızı optimize ediyor."
   }
 }
