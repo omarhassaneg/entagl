@@ -63,7 +63,7 @@ export function FeaturesSection() {
 
   const stats = [
     { value: "24/7", label: t('features.comprehensive.stats.availability') },
-    { value: "6+", label: t('features.comprehensive.stats.languages') },
+    { value: "12+", label: t('features.comprehensive.stats.languages') },
     { value: "40,000+", label: t('features.comprehensive.stats.conversations') },
     { value: "99.9%", label: t('features.comprehensive.stats.uptime') }
   ];

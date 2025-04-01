@@ -3,10 +3,10 @@
     "title": "Modern Tıbbi Klinikler İçin Yapay Zeka Çözümleri",
     "subtitle": "Klinik ve idari operasyonlarınızı düzenlemek için özel olarak tasarlanmış teknoloji",
     "stats": {
-      "availability": "7/24 Erişilebilirlik",
-      "languages": "12+ Dil",
-      "conversations": "Aylık 5.000+ Hasta Etkileşimi",
-      "uptime": "%99.9 Hizmet Süresi"
+      "availability": "Erişilebilirlik",
+      "languages": "Dil",
+      "conversations": "Aylık Hasta Etkileşimi",
+      "uptime": "Hizmet Süresi"
     },
     "sections": {
       "aiCommunication": {

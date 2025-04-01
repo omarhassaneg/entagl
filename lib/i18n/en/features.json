@@ -3,10 +3,10 @@
     "title": "AI Solutions for Modern Medical Practices",
     "subtitle": "Purpose-built technology to streamline your clinical and administrative operations",
     "stats": {
-      "availability": "24/7 Availability",
-      "languages": "12+ Languages",
-      "conversations": "5,000+ Monthly Patient Interactions",
-      "uptime": "99.9% Uptime"
+      "availability": "Availability",
+      "languages": "Languages",
+      "conversations": "Monthly Patient Interactions",
+      "uptime": "Uptime"
     },
     "sections": {
       "aiCommunication": {
