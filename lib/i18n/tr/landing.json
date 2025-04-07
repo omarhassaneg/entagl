@@ -1,50 +1,51 @@
 {
   "hero": {
-    "title": "kaka ve idari süreçlerinizi",
-    "titleHighlight": "birbirinden ayırın",
-    "subtitle": "Yapay zeka destekli sistemlerimiz, hastalarınızın kayıtlarını ve karmaşık iş akışlarını düzenlesin ve yönetsin. Bu sayede verimliliğiniz artsın, gelirleriniz yükselsin",
+    "title": "İdari ve tıbbi süreçlerinizi",
+    "titleHighlight": "birbirinden ayırın!",
+    "subtitle": "Yapay zeka destekli sistemlerimiz sayesinde, hastalarınızın kayıtlarını ve iş akışlarınızı düzenleyin ve yönetin. Böylece, verimliliğiniz artsın, gelirleriniz yükselsin!",
     "features": {
       "support": "Haftada 15+ Saat Kazanın",
       "multilingual": "Randevuya gelmeme oranını %73 oranında azaltın"
     }
   },
   "problems": {
-    "title": "Kliniğinizde göz ardı edilen maliyetler",
-    "subtitle": "Tıbbi uzmanlığınız hasta bakımı yerine idari görevlerde harcanıyor.",
+    "title": "Kliniğinizdeki Gereksiz Maliyetleri Azaltın",
+    "subtitle": "Bırakın idari işlemlerinizi biz halledelim, siz hastalarınıza odaklanın.",
     "items": {
       "opportunities": {
         "title": "Evrak Yükü",
-        "description": "Her gece 2+ saat hasta kayıtlarını tamamlarken aile zamanınızı ve kişisel refahınızı feda ediyorsunuz."
+        "description": "İdari işlerden kurtulun."
       },
       "language": {
-        "title": "Hasta iletişimindeki eksiklikler ve yanlışlıklar",
-        "description": "Hastaların %43'ü, personelinizin müşteri kazanımı için müsait olmadığı mesai saatleri dışında prosedürler hakkında araştırma yapıyor."
+        "title": "İletişimdeki Eksiklikler ve Fırsat Kaybı
+",
+        "description": "Hastaların %43'ü, mesai saatleri dışında bilgi almak için araştırma yapıyor. Bu saatlerde personelinizin ulaşılabilir olmaması, bazı fırsatların kaçmasına yol açabilir."
       },
       "systems": {
         "title": "Gelir Kaybı",
-        "description": "Randevuya gelmeme ve planlamadaki verimsizlikler, kliniğinize yıllık 150.000$ kadar prosedür geliri kaybına neden oluyor."
+        "description": "Randevuya gelmeme ve hatalı planlamalar, ciddi gelir kayıplarına yol açabiliyor. Verimli bir yönetim ve etkili bir planlama ile bu kayıpları önlemek mümkün."
       }
     }
   },
   "solution": {
-    "title": "Klinikler için özel olarak tasarlanmış Yapay Zeka Sistemleri",
-    "subtitle": "Tüm hastalarınızla iletişimlerinizi tek bir yerden yönetin, hizmet kalitenizden ödün vermeden idari iş akışlarınızı kolayca kontrol edin",
+    "title": "Klinikler İçin Özel Olarak Tasarlanmış Yapay Zeka Sistemleri",
+    "subtitle": "Tüm hastalarınızla olan iletişimi tek bir platformdan yönetin, hizmet kalitesinden ödün vermeden idari iş akışlarınızı kolaylıkla kontrol edin.",
     "features": {
       "chat": {
         "title": "7/24 Hasta İletişim Merkezi",
-        "description": "WhatsApp, e-posta, SMS ve web üzerinden gelen tüm hasta sorularını yakalayın - gece 3'te veya karmaşık prosedürler sırasında bile."
+        "description": "WhatsApp, E-posta, SMS ve web üzerinden gelen tüm hasta sorularını yakalayın."
       },
       "availability": {
         "title": "Birleşik Hasta Kayıt Sistemi",
-        "description": "Kağıt formlar, WhatsApp konuşmaları ve EMR sistemlerindeki hasta verilerini entegre ederek bilgi silolarını ortadan kaldırın."
+        "description": "Kağıt formlar, WhatsApp görüşmeleri ve EMR sistemlerindeki hasta verilerini bir araya getirerek bilgi dağınıklığını ortadan kaldırın"
       },
       "multilingual": {
         "title": "Akıllı Randevu Optimizasyonu",
-        "description": "AI destekli hatırlatıcılarla randevu iptallerini %73 azaltın ve iptalleri bekleme listenizden otomatik olarak doldurun."
+        "description": "Yapay zeka destekli hatırlatıcılarla randevu iptallerini %73 oranında azaltın ve iptallerin ardından bekleme listenizden otomatik olarak yeni randevular ekleyin."
       },
       "cost": {
-        "title": "Hasta dosyalarınızı otomatize edin",
-        "description": "Dikte edilen metinleri yapılandırılmış klinik notlara ve tedavi planlarına dönüştüren AI ile mesai sonrası belgelendirmeyi ortadan kaldırın."
+        "title": "Hasta Dosyalarınızı Otomatikleştirin",
+        "description": "Yapay zeka ile sesli notları düzenli klinik kayıtlara ve tedavi planlarına dönüştürerek, mesai sonrasına sarkan işlemleri ortadan kaldırın."
       }
     },
     "comparison": {

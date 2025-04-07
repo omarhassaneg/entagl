@@ -1,7 +1,7 @@
 {
   "comprehensive": {
     "title": "Modern Tıbbi Klinikler İçin Yapay Zeka Çözümleri",
-    "subtitle": "Klinik ve idari operasyonlarınızı düzenlemek için özel olarak tasarlanmış teknoloji",
+    "subtitle": "Klinik ve idari operasyonlarınızı düzenlemek amacıyla özel olarak geliştirilmiş teknolojiler.",
     "stats": {
       "availability": "Erişilebilirlik",
       "languages": "Dil",
@@ -10,8 +10,8 @@
     },
     "sections": {
       "aiCommunication": {
-        "title": "AI Destekli Hasta İletişimi",
-        "description": "Değerli personel zamanını tüketmeden hastalara tıbbi açıdan doğru bilgiler sunun",
+        "title": "Yapay Zeka Destekli Hasta İletişimi",
+        "description": "Personel zamanını verimli kullanarak, hastalara tıbbi açıdan doğru ve güvenilir bilgiler sunun.",
         "features": [
           "Tüm kanallarda aylık 5.000+ hasta sorusuna yanıt verin",
           "Prosedürler, iyileşme ve finansman hakkında detaylı soruları yanıtlayın",
@@ -22,7 +22,7 @@
       },
       "multichannel": {
         "title": "Birleşik Hasta İletişim Merkezi",
-        "description": "Birden fazla platforma dağılmış parçalı hasta bilgilerini ortadan kaldırın",
+        "description": "Farklı platformlarda dağılmış hasta bilgilerini birleştirerek, merkezi bir sistemde toplayın.",
         "features": [
           "Uluslararası hastalarla WhatsApp görüşmelerini merkezileştirin",
           "E-posta iletişimlerini hasta kaydınıza entegre edin",
@@ -33,7 +33,7 @@
       },
       "smartFeatures": {
         "title": "Akıllı Klinik Yönetimi",
-        "description": "AI odaklı verimlilik araçlarıyla klinik operasyonlarınızı optimize edin",
+        "description": "Yapay zeka odaklı verimlilik araçlarıyla klinik operasyonlarınızı daha verimli hale getirin.",
         "features": [
           "Çok kanallı randevu hatırlatıcıları ile iptal oranını %73 azaltın",
           "Bekleme listesinden iptalleri dakikalar içinde otomatik olarak doldurun",
@@ -43,8 +43,8 @@
         ]
       },
       "teamCollaboration": {
-        "title": "Klinik Dokümantasyon Dönüşümü",
-        "description": "İş gününüzü uzatan dokümantasyon yükünü ortadan kaldırın",
+        "title": "Klinik Kayıt Süreçlerinin Dönüşümü",
+        "description": "Belgeleme yükünü ortadan kaldırarak iş gününüzü uzatmadan süreçlerinizi hızlandırın.",
         "features": [
           "Sesli dikte etmeden kapsamlı klinik notlar oluşturun",
           "Her hasta için özelleştirilmiş standart prosedür sonrası talimatlar oluşturun",
@@ -54,8 +54,8 @@
         ]
       },
       "businessIntegration": {
-        "title": "Sorunsuz Klinik Entegrasyonu",
-        "description": "Kapsamlı bir klinik çözümü için mevcut sistemlerinizle bağlantı kurun",
+        "title": "Kesintisiz Klinik Entegrasyonu",
+        "description": "Mevcut sistemlerinizle sorunsuz bir şekilde bağlantı kurarak kapsamlı bir klinik çözüm elde edin.",
         "features": [
           "Epic ve Cerner dahil büyük EMR/EHR sistemleriyle entegre olun",
           "Fatura verimliliği için klinik yönetim yazılımıyla senkronize edin",
