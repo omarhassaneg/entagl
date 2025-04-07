@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "İdari ve tıbbi süreçlerinizi",
-    "titleHighlight": "birbirinden ayırın!",
+    "title": "İdari ve Tıbbi süreçlerinizi",
+    "titleHighlight": "Birbirinden Ayırın!",
     "subtitle": "Yapay zeka destekli sistemlerimiz sayesinde, hastalarınızın kayıtlarını ve iş akışlarınızı düzenleyin ve yönetin. Böylece, verimliliğiniz artsın, gelirleriniz yükselsin!",
     "features": {
       "support": "Haftada 15+ Saat Kazanın",
@@ -17,8 +17,7 @@
         "description": "İdari işlerden kurtulun."
       },
       "language": {
-        "title": "İletişimdeki Eksiklikler ve Fırsat Kaybı
-",
+        "title": "İletişimdeki Eksiklikler ve Fırsat Kaybı",
         "description": "Hastaların %43'ü, mesai saatleri dışında bilgi almak için araştırma yapıyor. Bu saatlerde personelinizin ulaşılabilir olmaması, bazı fırsatların kaçmasına yol açabilir."
       },
       "systems": {
