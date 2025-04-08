@@ -1,149 +1,149 @@
 {
   "hero": {
-    "title": "Tıbbi ve idari süreçlerinizi",
-    "titleHighlight": "birbirinden ayırın",
-    "subtitle": "Yapay zeka destekli sistemlerimiz, hastalarınızın kayıtlarını ve karmaşık iş akışlarını düzenlesin ve yönetsin. Bu sayede verimliliğiniz artsın, gelirleriniz yükselsin",
+    "title": "İşletmenizin En Büyük Zaman Kaybını",
+    "titleHighlight": "Gelir Kaynaklarına Dönüştürün",
+    "subtitle": "Çoğu işletme, otomatikleştirilebilecek işlemleri manuel olarak yapıyor. Tekrarlayan işleri devralan özel yapay zeka sistemleri kuruyoruz—böylece ekibiniz işletmeyi gerçekten büyüten işlere odaklanabilir.",
     "features": {
-      "support": "Haftada 15+ Saat Kazanın",
-      "multilingual": "Randevuya gelmeme oranını %73 oranında azaltın"
+      "support": "Personel Zamanından %50 Tasarruf Edin",
+      "multilingual": "Müşteri Dönüşüm Oranlarını Üçe Katlayın"
     }
   },
   "problems": {
-    "title": "Kliniğinizde göz ardı edilen maliyetler",
-    "subtitle": "Tıbbi uzmanlığınız hasta bakımı yerine idari görevlerde harcanıyor.",
+    "title": "Manuel İş Süreçlerinin Gizli Maliyeti",
+    "subtitle": "Yetenekli çalışanlarınız büyüme faaliyetleri yerine tekrarlayan görevlerde değerli zamanlarını harcıyorlar.",
     "items": {
       "opportunities": {
-        "title": "Evrak Yükü",
-        "description": "Her gece 2+ saat hasta kayıtlarını tamamlarken aile zamanınızı ve kişisel refahınızı feda ediyorsunuz."
+        "title": "Operasyonel Verimsizlik",
+        "description": "Ekibiniz, iş gününün %50'sini doğrudan gelir üretmeyen tekrarlayan görevlerde harcıyor."
       },
       "language": {
-        "title": "Hasta iletişimindeki eksiklikler ve yanlışlıklar",
-        "description": "Hastaların %43'ü, personelinizin müşteri kazanımı için müsait olmadığı mesai saatleri dışında prosedürler hakkında araştırma yapıyor."
+        "title": "Kaçırılan Fırsatlar",
+        "description": "Potansiyel müşterilerin %42'si, onları dönüştürecek kimsenin olmadığı mesai saatleri dışında sizinle iletişime geçiyor."
       },
       "systems": {
         "title": "Gelir Kaybı",
-        "description": "Randevuya gelmeme ve planlamadaki verimsizlikler, kliniğinize yıllık 150.000$ kadar prosedür geliri kaybına neden oluyor."
+        "description": "Manuel hatalar ve tutarsız takipler, ortalama bir işletmeye yıllık 125.000$ kayıp gelire mal oluyor."
       }
     }
   },
   "solution": {
-    "title": "Klinikler için özel olarak tasarlanmış Yapay Zeka Sistemleri",
-    "subtitle": "Tüm hastalarınızla iletişimlerinizi tek bir yerden yönetin, hizmet kalitenizden ödün vermeden idari iş akışlarınızı kolayca kontrol edin",
+    "title": "Tekrarlayan İşleri Ortadan Kaldıran Özel Yapay Zeka Sistemleri",
+    "subtitle": "Operasyonlarınızı analiz eder, neyin zaman kaybettirdiğini belirler ve ekibinizin büyümeye odaklanabilmesi için devralacak yapay zeka kurarız.",
     "features": {
       "chat": {
-        "title": "7/24 Hasta İletişim Merkezi",
-        "description": "WhatsApp, e-posta, SMS ve web üzerinden gelen tüm hasta sorularını yakalayın - gece 3'te veya karmaşık prosedürler sırasında bile."
+        "title": "7/24 Müşteri Etkileşim Merkezi",
+        "description": "Ekibiniz diğer önceliklerle ilgilenirken veya gece 3'te bile tüm kanallardan gelen her potansiyel müşteriyi yakalayın."
       },
       "availability": {
-        "title": "Birleşik Hasta Kayıt Sistemi",
-        "description": "Kağıt formlar, WhatsApp konuşmaları ve EMR sistemlerindeki hasta verilerini entegre ederek bilgi silolarını ortadan kaldırın."
+        "title": "Birleşik Bilgi Sistemi",
+        "description": "E-postalar, mesajlar, formlar ve mevcut iş sistemlerinden bilgileri entegre ederek veri silolarını ortadan kaldırın."
       },
       "multilingual": {
-        "title": "Akıllı Randevu Optimizasyonu",
-        "description": "AI destekli hatırlatıcılarla randevu iptallerini %73 azaltın ve iptalleri bekleme listenizden otomatik olarak doldurun."
+        "title": "Akıllı Süreç Otomasyonu",
+        "description": "Yapay zeka destekli iş akışları ve önceliklendirilmiş görev yönetimi ile takip hatalarını %73 azaltın."
       },
       "cost": {
-        "title": "Hasta dosyalarınızı otomatize edin",
-        "description": "Dikte edilen metinleri yapılandırılmış klinik notlara ve tedavi planlarına dönüştüren AI ile mesai sonrası belgelendirmeyi ortadan kaldırın."
+        "title": "Belgelendirme Otomasyonu",
+        "description": "Konuşmaları ve girdileri yapılandırılmış iş belgelerine dönüştüren yapay zeka ile idari süreyi %62 azaltın."
       }
     },
     "comparison": {
-      "title": "Geleneksel Klinik vs. AI Destekli Klinik",
+      "title": "Geleneksel İşletme vs. AI Destekli İşletme",
       "traditional": {
-        "title": "Mevcut Klinik Zorlukları",
+        "title": "Mevcut İşletme Zorlukları",
         "items": [
-          "Zamanın %49'unu evrak işlerinde harcamak",
-          "Mesai dışı hasta sorularını kaçırmak",
-          "Ortalama %28 randevu kaçırma oranı",
+          "Zamanın %49'unu idari işlerde harcamak",
+          "Mesai dışı müşteri sorularını kaçırmak",
+          "Ortalama %28 takip başarısızlık oranı",
           "Bilgilerin farklı sistemlerde dağınık olması"
         ]
       },
       "entagl": {
         "title": "Entagl AI Çözümleri İle",
         "items": [
-          "Belgelendirme süresi %62 azaldı",
-          "7/24 hasta etkileşimi",
-          "%7'nin altında randevu kaçırma oranı",
-          "Merkezi hasta bilgileri"
+          "İdari süre %62 azaldı",
+          "7/24 müşteri etkileşimi",
+          "%7'nin altında takip başarısızlık oranı",
+          "Merkezi iş bilgileri"
         ]
       }
     }
   },
   "features": {
-    "title": "Modern Tıbbi Klinikler İçin Kapsamlı Çözümler",
+    "title": "Modern İşletmeler İçin Kapsamlı Çözümler",
     "subtitle": "En önemli operasyonel zorluklarınızı çözmek için özenle tasarlandı",
     "items": {
       "inbox": {
         "title": "Birleşik İletişim Merkezi",
-        "description": "WhatsApp, SMS, e-posta ve web'deki hasta konuşmalarını tek bir güvenli arayüzde merkezileştirin.",
+        "description": "WhatsApp, SMS, e-posta ve web'deki müşteri konuşmalarını tek bir güvenli arayüzde merkezileştirin.",
         "highlight": "Günlük 3+ saat mesaj yönetimini ortadan kaldırın"
       },
       "automation": {
-        "title": "Klinik AI Asistanı",
-        "description": "Prosedürler, iyileşme ve fiyatlandırma hakkındaki rutin hasta sorularını tıbbi açıdan doğru yanıtlarla otomatikleştirin.",
-        "highlight": "Hasta sorularının %82'sini otomatik olarak yanıtlayın"
+        "title": "İşletme AI Asistanı",
+        "description": "Ürünler, hizmetler ve fiyatlandırma hakkındaki rutin müşteri sorularını doğru yanıtlarla otomatikleştirin.",
+        "highlight": "Müşteri sorularının %82'sini otomatik olarak yanıtlayın"
       },
       "workflows": {
-        "title": "Özel Klinik İş Akışları",
-        "description": "Ameliyat öncesi hazırlık, prosedür sonrası bakım ve tedavi takipleri için otomatik sekanslar oluşturun.",
-        "highlight": "Tedaviye uyumu %47 artırın"
+        "title": "Özel Otomasyon İş Akışları",
+        "description": "Potansiyel müşteri yetiştirme, müşteri entegrasyonu ve takip işlemleri için otomatik sekanslar oluşturun.",
+        "highlight": "Takip başarısını %47 artırın"
       },
       "analytics": {
-        "title": "Klinik Zeka Panosu",
-        "description": "Konsültasyon-prosedür dönüşüm oranlarını, hasta edinme maliyetlerini ve personel verimliliği metriklerini takip edin.",
+        "title": "İşletme Zeka Panosu",
+        "description": "Potansiyel müşteri dönüşüm oranlarını, müşteri edinme maliyetlerini ve personel verimliliği metriklerini takip edin.",
         "highlight": "Aylık 8.500$+ değerinde gelir fırsatları tanımlayın"
       },
       "scalability": {
         "title": "Operasyonel Ölçeklenebilirlik",
-        "description": "İdari personel maliyetlerini orantılı olarak artırmadan klinik hacminizi büyütün.",
-        "highlight": "Mevcut personelle %40 daha fazla hastaya hizmet verin"
+        "description": "İdari personel maliyetlerini orantılı olarak artırmadan işletme hacminizi büyütün.",
+        "highlight": "Mevcut personelle %40 daha fazla müşteriye hizmet verin"
       }
     }
   },
   "process": {
-    "title": "Meşgul Tıp Uzmanları İçin Tasarlanmış Uygulama",
-    "subtitle": "Siz hasta bakımına odaklanırken biz teknik detayları hallediyoruz",
+    "title": "Meşgul İş Liderleri İçin Tasarlanmış Uygulama",
+    "subtitle": "Siz işletmenizi yönetmeye odaklanırken biz teknik detayları hallediyoruz",
     "steps": {
       "consultation": {
-        "title": "Klinik Değerlendirmesi",
-        "description": "Mevcut sistemlerinizi, hasta yolculuğunuzu ve idari dar boğazlarınızı analiz ediyoruz."
+        "title": "İşletme Değerlendirmesi",
+        "description": "Mevcut sistemlerinizi, müşteri yolculuğunuzu ve idari dar boğazlarınızı analiz ediyoruz."
       },
       "roadmap": {
         "title": "Özel Çözüm Tasarımı",
-        "description": "Çözümünüz uzmanlık alanınıza, hasta demografinize ve mevcut teknolojinize göre uyarlanır."
+        "description": "Çözümünüz sektörünüze, müşteri ihtiyaçlarınıza ve mevcut teknolojinize göre uyarlanır."
       },
       "enhancements": {
         "title": "Entegrasyon ve Geçiş",
-        "description": "EMR/EHR sisteminizle sorunsuz bir şekilde bağlantı kurar ve mevcut hasta verilerinizi merkezileştiriz."
+        "description": "Mevcut sistemlerinizle sorunsuz bir şekilde bağlantı kurar ve iş verilerinizi merkezileştiriz."
       },
       "support": {
         "title": "Sürekli Optimizasyon",
-        "description": "Geri bildirimlerinize ve değişen klinik ihtiyaçlarınıza göre düzenli iyileştirmeler."
+        "description": "Geri bildirimlerinize ve değişen işletme ihtiyaçlarınıza göre düzenli iyileştirmeler."
       }
     }
   },
   "cta": {
-    "title": "Hasta Bakımını Dönüştüren Önde Gelen Tıbbi Kliniklere Katılın",
-    "subtitle": "Çözümlerimizin benzersiz klinik iş akışınıza nasıl entegre olduğunu görmek için kişiselleştirilmiş bir demo planlayın"
+    "title": "Personel Zamanından %50 Tasarruf Eden Öncü İşletmelere Katılın",
+    "subtitle": "Ortalama olarak, müşterilerimiz sadece birkaç önemli süreci düzene koyarak personel zamanının %50'sini tasarruf ediyor ve müşteri dönüşümlerini veya tekrar eden müşterilerini üçe katlıyor."
   },
   "solutions": {
-    "title": "Tıbbi Klinikler İçin Uzmanlığa Özel Çözümler",
-    "subtitle": "İster uluslararası hastaları yöneten bir plastik cerrah olun, ister karmaşık tedavi sekansları olan bir diş kliniği olun, AI çözümlerimiz benzersiz ihtiyaçlarınıza uyum sağlar.",
-    "description": "Her uzmanlık alanının farklı zorluklarla karşılaştığını biliyoruz. Ekibimiz, özel iş akışı gereksinimlerinizi, düzenleyici hususlarınızı ve hasta beklentilerinizi karşılayan özel bir çözüm oluşturmak için kliniğinizle yakın çalışır.",
+    "title": "Tüm Sektörler İçin Özel Çözümler",
+    "subtitle": "İster envanter yöneten bir perakende işletmesi olun, ister karmaşık müşteri etkileşimleri olan bir hizmet şirketi olun, AI çözümlerimiz benzersiz ihtiyaçlarınıza uyum sağlar.",
+    "description": "Her sektörün farklı zorluklarla karşılaştığını biliyoruz. Ekibimiz, özel iş akışı gereksinimlerinizi, düzenleyici hususlarınızı ve müşteri beklentilerinizi karşılayan özel bir çözüm oluşturmak için işletmenizle yakın çalışır.",
     "features": {
-      "automation": "Klinik İş Akışı Otomasyonu",
-      "automationDesc": "Ameliyat öncesi ve sonrası protokolleri düzenleyin",
-      "multilingual": "Çok Dilli Hasta Desteği",
-      "multilingualDesc": "Uluslararası hastalarla ana dillerinde iletişim kurun",
-      "scalable": "Ölçeklenebilir Klinik Çözümleri",
-      "scalableDesc": "İdari aşırı yük olmadan hasta hacminizi artırın",
-      "integration": "EMR/EHR Entegrasyonu",
-      "integrationDesc": "Mevcut klinik sistemlerinizle sorunsuz bağlantı",
+      "automation": "İş Akışı Otomasyonu",
+      "automationDesc": "Satış öncesi ve sonrası süreçleri düzenleyin",
+      "multilingual": "Çok Dilli Müşteri Desteği",
+      "multilingualDesc": "Uluslararası müşterilerle ana dillerinde iletişim kurun",
+      "scalable": "Ölçeklenebilir İşletme Çözümleri",
+      "scalableDesc": "İdari aşırı yük olmadan müşteri hacminizi artırın",
+      "integration": "Sistem Entegrasyonu",
+      "integrationDesc": "Mevcut işletme sistemlerinizle sorunsuz bağlantı",
       "insights": "Performans Analitiği",
-      "insightsDesc": "Klinik verimliliğini optimize etmek için veri odaklı içgörüler"
+      "insightsDesc": "İşletme verimliliğini optimize etmek için veri odaklı içgörüler"
     },
-    "cta": "Klinik Değerlendirmenizi İsteyin",
-    "aiActive": "Tıbbi Yapay Zeka Asistanı Aktif",
-    "aiActiveDesc": "AI sisteminiz şu anda hasta sorularını yanıtlıyor ve klinik programınızı optimize ediyor."
+    "cta": "Ücretsiz Otomasyon Değerlendirmenizi Alın",
+    "aiActive": "Yapay Zeka Asistanı Aktif",
+    "aiActiveDesc": "AI sisteminiz şu anda müşteri sorularını yanıtlıyor ve işletme operasyonlarınızı optimize ediyor."
   }
 }

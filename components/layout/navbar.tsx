@@ -9,16 +9,27 @@ import { Button } from '@/components/ui/button';
 import { NAV_ITEMS } from '@/lib/constants';
 import { LanguageSelector } from '@/components/layout/language-selector';
 import { useTranslations } from '@/lib/hooks/use-translations';
+import { useLanguage } from '@/components/providers/language-provider';
+import { usePathname } from 'next/navigation';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   const { t } = useTranslations();
+  const { language } = useLanguage();
+  const pathname = usePathname();
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const getLocalizedHref = (href: string) => {
+    if (href.startsWith('/')) {
+      return `/${language}${href}`;
+    }
+    return href;
+  };
 
   if (!mounted) return null;
 
@@ -27,7 +38,9 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
-            <Logo />
+            <Link href={`/${language}`}>
+              <Logo />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -35,7 +48,7 @@ export function Navbar() {
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                href={getLocalizedHref(item.href)}
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 {t(`nav.${item.title.toLowerCase()}`)}
@@ -79,7 +92,7 @@ export function Navbar() {
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                href={getLocalizedHref(item.href)}
                 className="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-foreground"
                 onClick={() => setIsOpen(false)}
               >

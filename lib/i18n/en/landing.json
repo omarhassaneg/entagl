@@ -1,149 +1,149 @@
 {
   "hero": {
-    "title": "Free Your Medical Practice from",
-    "titleHighlight": "Administrative Burden",
-    "subtitle": "Transform scattered patient records and chaotic workflows into a streamlined AI-powered system that enhances patient care and saves medical professionals 15+ hours every week.",
+    "title": "Turn Your Business's Biggest Time Wasters Into",
+    "titleHighlight": "Revenue Generators",
+    "subtitle": "Most businesses are doing things manually that could be automated. We build custom AI systems that take over the repetitive stuff—so your team can focus on what actually grows the business.",
     "features": {
-      "support": "Reclaim 15+ Hours Weekly",
-      "multilingual": "Reduce No-Shows by 73%"
+      "support": "Save 50% of Staff Time",
+      "multilingual": "Triple Customer Conversion Rates"
     }
   },
   "problems": {
-    "title": "The Hidden Costs of Practice Management Inefficiency",
-    "subtitle": "Your medical expertise is being wasted on administrative tasks instead of patient care.",
+    "title": "The Hidden Cost of Manual Business Processes",
+    "subtitle": "Your skilled employees are wasting valuable time on repetitive tasks instead of growth activities.",
     "items": {
       "opportunities": {
-        "title": "Documentation Overwhelm",
-        "description": "You spend 2+ hours nightly completing charts while sacrificing family time and personal well-being."
+        "title": "Operational Inefficiency",
+        "description": "Your team spends 50% of their workday on repetitive tasks that don't directly generate revenue."
       },
       "language": {
-        "title": "Patient Engagement Gaps",
-        "description": "43% of patients research procedures after hours when your staff is unavailable to convert their interest."
+        "title": "Missed Opportunities",
+        "description": "42% of potential leads contact you after hours when no one is available to convert them."
       },
       "systems": {
         "title": "Revenue Leakage",
-        "description": "No-shows and scheduling inefficiencies cost your practice up to $150,000 annually in lost procedure revenue."
+        "description": "Manual errors and inconsistent follow-ups cost the average business $125,000 annually in lost revenue."
       }
     }
   },
   "solution": {
-    "title": "Introducing AI Systems Designed Specifically for Medical Practices",
-    "subtitle": "Centralize your scattered patient communications and streamline administrative workflows without compromising care quality.",
+    "title": "Custom AI Systems That Eliminate Repetitive Work",
+    "subtitle": "We analyze your operations, identify what's wasting time, and build AI that takes over—so your team can focus on growth.",
     "features": {
       "chat": {
-        "title": "24/7 Patient Engagement Hub",
-        "description": "Capture every patient inquiry across WhatsApp, email, SMS, and web - even at 3AM or during complex procedures."
+        "title": "24/7 Customer Engagement Hub",
+        "description": "Capture every lead and inquiry across all channels—even at 3AM or when your team is handling other priorities."
       },
       "availability": {
-        "title": "Unified Patient Record System",
-        "description": "Eliminate information silos by integrating patient data from paper forms, WhatsApp conversations, and EMR systems."
+        "title": "Unified Information System",
+        "description": "Eliminate data silos by integrating information from emails, messages, forms, and existing business systems."
       },
       "multilingual": {
-        "title": "Intelligent Schedule Optimization",
-        "description": "Reduce no-shows by 73% with AI-powered reminders and automatically fill cancellations from your waitlist."
+        "title": "Intelligent Process Automation",
+        "description": "Reduce follow-up failures by 73% with AI-powered workflows and prioritized task management."
       },
       "cost": {
-        "title": "Clinical Documentation Automation",
-        "description": "Eliminate after-hours charting with AI that converts dictation into structured clinical notes and treatment plans."
+        "title": "Documentation Automation",
+        "description": "Cut admin time by 62% with AI that converts conversations and input into structured business documents."
       }
     },
     "comparison": {
-      "title": "Traditional Practice vs. AI-Enhanced Practice",
+      "title": "Traditional Business vs. AI-Enhanced Business",
       "traditional": {
-        "title": "Current Practice Challenges",
+        "title": "Current Business Challenges",
         "items": [
-          "Spending 49% of time on paperwork",
-          "Missing after-hours patient inquiries",
-          "28% average no-show rate",
+          "Spending 49% of time on administrative work",
+          "Missing after-hours customer inquiries",
+          "28% average follow-up failure rate",
           "Information scattered across systems"
         ]
       },
       "entagl": {
         "title": "With Entagl AI Solutions",
         "items": [
-          "Documentation time reduced by 62%",
-          "24/7 patient engagement",
-          "No-show rate below 7%",
-          "Centralized patient information"
+          "Administrative time reduced by 62%",
+          "24/7 customer engagement",
+          "Follow-up failure rate below 7%",
+          "Centralized business information"
         ]
       }
     }
   },
   "features": {
-    "title": "Comprehensive Solutions for Modern Medical Practices",
+    "title": "Comprehensive Solutions for Modern Businesses",
     "subtitle": "Carefully designed to address your most significant operational challenges",
     "items": {
       "inbox": {
         "title": "Unified Communication Hub",
-        "description": "Centralize patient conversations from WhatsApp, SMS, email, and web in one secure interface.",
+        "description": "Centralize customer conversations from WhatsApp, SMS, email, and web in one secure interface.",
         "highlight": "Eliminate 3+ hours of message management daily"
       },
       "automation": {
-        "title": "Clinical AI Assistant",
-        "description": "Automate routine patient inquiries about procedures, recovery, and pricing with medically-accurate responses.",
-        "highlight": "Handle 82% of patient questions automatically"
+        "title": "Business AI Assistant",
+        "description": "Automate routine customer inquiries about products, services, and pricing with accurate responses.",
+        "highlight": "Handle 82% of customer questions automatically"
       },
       "workflows": {
-        "title": "Custom Clinical Workflows",
-        "description": "Create automated sequences for pre-op preparation, post-procedure care, and treatment follow-ups.",
-        "highlight": "Improve treatment adherence by 47%"
+        "title": "Custom Automation Workflows",
+        "description": "Create automated sequences for lead nurturing, customer onboarding, and follow-ups.",
+        "highlight": "Improve follow-through by 47%"
       },
       "analytics": {
-        "title": "Practice Intelligence Dashboard",
-        "description": "Track consultation-to-procedure conversion rates, patient acquisition costs, and staff efficiency metrics.",
+        "title": "Business Intelligence Dashboard",
+        "description": "Track lead-to-conversion rates, customer acquisition costs, and staff efficiency metrics.",
         "highlight": "Identify revenue opportunities worth $8,500+ monthly"
       },
       "scalability": {
         "title": "Operational Scalability",
-        "description": "Grow your practice volume without proportionally increasing administrative staff costs.",
-        "highlight": "Support 40% more patients with existing staff"
+        "description": "Grow your business volume without proportionally increasing administrative staff costs.",
+        "highlight": "Support 40% more customers with existing staff"
       }
     }
   },
   "process": {
-    "title": "Implementation Designed for Busy Medical Professionals",
-    "subtitle": "We handle the technical details while you focus on patient care",
+    "title": "Implementation Designed for Busy Business Leaders",
+    "subtitle": "We handle the technical details while you focus on running your business",
     "steps": {
       "consultation": {
-        "title": "Practice Assessment",
-        "description": "We analyze your current systems, patient journey, and administrative bottlenecks."
+        "title": "Business Assessment",
+        "description": "We analyze your current systems, customer journey, and administrative bottlenecks."
       },
       "roadmap": {
         "title": "Custom Solution Design",
-        "description": "Your solution is tailored to your specialty, patient demographics, and existing technology."
+        "description": "Your solution is tailored to your industry, customer needs, and existing technology."
       },
       "enhancements": {
         "title": "Integration & Migration",
-        "description": "We seamlessly connect with your EMR/EHR and centralize existing patient data."
+        "description": "We seamlessly connect with your existing systems and centralize your business data."
       },
       "support": {
         "title": "Ongoing Optimization",
-        "description": "Regular refinements based on your feedback and changing practice needs."
+        "description": "Regular refinements based on your feedback and changing business needs."
       }
     }
   },
   "cta": {
-    "title": "Join Leading Medical Practices Already Transforming Patient Care",
-    "subtitle": "Schedule a personalized demonstration to see exactly how our solutions integrate with your unique practice workflow"
+    "title": "Join Leading Businesses Already Saving 50% of Staff Time",
+    "subtitle": "On average, our clients save 50% of staff time and triple their lead conversions or repeat customers—just by streamlining a few key processes."
   },
   "solutions": {
-    "title": "Specialty-Specific Solutions for Medical Practices",
-    "subtitle": "Whether you're a plastic surgeon managing international patients or a dental practice with complex treatment sequences, our AI solutions adapt to your unique needs.",
-    "description": "We recognize that each specialty faces different challenges. Our team works closely with your practice to create a bespoke solution that addresses your specific workflow requirements, regulatory considerations, and patient expectations.",
+    "title": "Industry-Specific Solutions for All Businesses",
+    "subtitle": "Whether you're a retail business managing inventory or a service company with complex client interactions, our AI solutions adapt to your unique needs.",
+    "description": "We recognize that each industry faces different challenges. Our team works closely with your business to create a bespoke solution that addresses your specific workflow requirements, regulatory considerations, and customer expectations.",
     "features": {
-      "automation": "Clinical Workflow Automation",
-      "automationDesc": "Streamline pre- and post-procedure protocols",
-      "multilingual": "Multilingual Patient Support",
-      "multilingualDesc": "Engage international patients in their native language",
-      "scalable": "Scalable Practice Solutions",
-      "scalableDesc": "Grow your patient volume without administrative overload",
-      "integration": "EMR/EHR Integration",
-      "integrationDesc": "Seamless connection with your existing clinical systems",
+      "automation": "Business Workflow Automation",
+      "automationDesc": "Streamline pre- and post-sale processes",
+      "multilingual": "Multilingual Customer Support",
+      "multilingualDesc": "Engage international customers in their native language",
+      "scalable": "Scalable Business Solutions",
+      "scalableDesc": "Grow your customer volume without administrative overload",
+      "integration": "System Integration",
+      "integrationDesc": "Seamless connection with your existing business systems",
       "insights": "Performance Analytics",
-      "insightsDesc": "Data-driven insights to optimize practice efficiency"
+      "insightsDesc": "Data-driven insights to optimize business efficiency"
     },
-    "cta": "Request Your Practice Assessment",
+    "cta": "Get Your Free Automation Assessment",
     "aiActive": "AI Assistant Active",
-    "aiActiveDesc": "Your AI system is currently handling patient inquiries and optimizing your practice schedule."
+    "aiActiveDesc": "Your AI system is currently handling customer inquiries and optimizing your business operations."
   }
 }
