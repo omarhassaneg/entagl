@@ -30,35 +30,33 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const isInitialRender = useRef(true);
   const previousLanguage = useRef<string | null>(null);
 
-  // Initial language detection from URL or user preference
+  // Initial language detection from URL
   useEffect(() => {
-    const initLanguage = async () => {
-      try {
-        // First check URL for language
-        const urlLang = pathname.split('/')[1];
-        if (LANGUAGES.some((l) => l.code === urlLang)) {
-          setLanguageState(urlLang);
-          document.documentElement.lang = urlLang;
-          previousLanguage.current = urlLang;
-        } else {
-          // If no valid language in URL, detect user language
-          const detectedLanguage = await detectUserLanguage();
-          if (LANGUAGES.some((l) => l.code === detectedLanguage)) {
-            setLanguageState(detectedLanguage);
-            document.documentElement.lang = detectedLanguage;
-            previousLanguage.current = detectedLanguage;
-            // Redirect to the detected language path
-            const newPath = pathname === '/' ? `/${detectedLanguage}` : `/${detectedLanguage}${pathname}`;
-            router.replace(newPath);
-          }
-        }
-      } finally {
-        setIsLoading(false);
-        isInitialRender.current = false;
+    if (isInitialRender.current) {
+      const urlLang = pathname.split('/')[1];
+      if (LANGUAGES.some((l) => l.code === urlLang)) {
+        setLanguageState(urlLang);
+        document.documentElement.lang = urlLang;
+        previousLanguage.current = urlLang;
+        document.cookie = `NEXT_LOCALE=${urlLang}; path=/; max-age=31536000`;
       }
-    };
-    initLanguage();
-  }, [pathname, router]);
+      setIsLoading(false);
+      isInitialRender.current = false;
+    }
+  }, [pathname]);
+
+  // Handle language changes from URL
+  useEffect(() => {
+    if (!isInitialRender.current) {
+      const urlLang = pathname.split('/')[1];
+      if (LANGUAGES.some((l) => l.code === urlLang) && urlLang !== language) {
+        setLanguageState(urlLang);
+        document.documentElement.lang = urlLang;
+        previousLanguage.current = urlLang;
+        document.cookie = `NEXT_LOCALE=${urlLang}; path=/; max-age=31536000`;
+      }
+    }
+  }, [pathname, language]);
 
   // Create a function to safely update language with URL change
   const safeSetLanguage = useMemo(() => (lang: string) => {
@@ -67,26 +65,21 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         globalLanguageKey++;
         setLanguageKey(globalLanguageKey);
         
+        // Set language state and cookie
         setLanguageState(lang);
         document.documentElement.lang = lang;
+        document.cookie = `NEXT_LOCALE=${lang}; path=/; max-age=31536000`;
         previousLanguage.current = lang;
         
         // Update URL to reflect language change
-        const currentPathParts = pathname.split('/');
-        if (currentPathParts[1] && LANGUAGES.some((l) => l.code === currentPathParts[1])) {
-          currentPathParts[1] = lang;
+        const currentPathParts = pathname.split('/').filter(Boolean);
+        if (currentPathParts[0] && LANGUAGES.some((l) => l.code === currentPathParts[0])) {
+          currentPathParts[0] = lang;
         } else {
-          currentPathParts.splice(1, 0, lang);
+          currentPathParts.unshift(lang);
         }
-        const newPath = currentPathParts.join('/') || `/${lang}`;
+        const newPath = `/${currentPathParts.join('/')}`;
         router.push(newPath);
-
-        if (typeof window !== 'undefined') {
-          const highestTimeoutId = window.setTimeout(() => {}, 0);
-          for (let i = 1; i < highestTimeoutId; i++) {
-            window.clearTimeout(i);
-          }
-        }
       } catch (error) {
         console.error("Error changing language:", error);
         if (previousLanguage.current) {

@@ -25,6 +25,9 @@ export function Navbar() {
   }, []);
 
   const getLocalizedHref = (href: string) => {
+    if (href === '/') {
+      return `/${language}`;
+    }
     if (href.startsWith('/')) {
       return `/${language}${href}`;
     }
@@ -37,8 +40,8 @@ export function Navbar() {
     <nav className="fixed top-0 z-50 w-full bg-background/80 backdrop-blur-lg border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex">
-            <Link href={`/${language}`}>
+          <div className="flex items-center">
+            <Link href={getLocalizedHref('/')}>
               <Logo />
             </Link>
           </div>

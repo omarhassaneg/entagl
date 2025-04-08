@@ -30,6 +30,15 @@ function getLocale(request: NextRequest) {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
   
+  // If it's the root path, redirect to the preferred language
+  if (pathname === '/') {
+    const locale = getLocale(request)
+    request.nextUrl.pathname = `/${locale}`
+    const response = NextResponse.redirect(request.nextUrl)
+    response.cookies.set('NEXT_LOCALE', locale)
+    return response
+  }
+
   // Skip if the request is for an asset, API route, or already has a locale
   if (
     pathname.startsWith('/_next') ||
