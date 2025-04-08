@@ -1,7 +1,7 @@
 {
   "comprehensive": {
     "title": "Modern Tıbbi Klinikler İçin Yapay Zeka Çözümleri",
-    "subtitle": "Klinik ve idari operasyonlarınızı düzenlemek amacıyla özel olarak geliştirilmiş teknolojiler.",
+    "subtitle": "Klinik ve idari operasyonlarınızı düzenlemek amacıyla özel olarak geliştirilmiş teknolojiler",
     "stats": {
       "availability": "Erişilebilirlik",
       "languages": "Dil",
@@ -22,7 +22,7 @@
       },
       "multichannel": {
         "title": "Birleşik Hasta İletişim Merkezi",
-        "description": "Farklı platformlarda dağılmış hasta bilgilerini birleştirerek, merkezi bir sistemde toplayın.",
+        "description": "Farklı platformlarda dağılmış hasta bilgilerini birleştirerek, merkezi bir sistemde toplayın",
         "features": [
           "Uluslararası hastalarla WhatsApp görüşmelerini merkezileştirin",
           "E-posta iletişimlerini hasta kaydınıza entegre edin",
@@ -33,7 +33,7 @@
       },
       "smartFeatures": {
         "title": "Akıllı Klinik Yönetimi",
-        "description": "Yapay zeka odaklı verimlilik araçlarıyla klinik operasyonlarınızı daha verimli hale getirin.",
+        "description": "Yapay zeka odaklı verimlilik araçlarıyla klinik operasyonlarınızı daha verimli hale getirin",
         "features": [
           "Çok kanallı randevu hatırlatıcıları ile iptal oranını %73 azaltın",
           "Bekleme listesinden iptalleri dakikalar içinde otomatik olarak doldurun",
@@ -44,7 +44,7 @@
       },
       "teamCollaboration": {
         "title": "Klinik Kayıt Süreçlerinin Dönüşümü",
-        "description": "Belgeleme yükünü ortadan kaldırarak iş gününüzü uzatmadan süreçlerinizi hızlandırın.",
+        "description": "Belgeleme yükünü ortadan kaldırarak iş gününüzü uzatmadan süreçlerinizi hızlandırın",
         "features": [
           "Sesli dikte etmeden kapsamlı klinik notlar oluşturun",
           "Her hasta için özelleştirilmiş standart prosedür sonrası talimatlar oluşturun",
@@ -55,7 +55,7 @@
       },
       "businessIntegration": {
         "title": "Kesintisiz Klinik Entegrasyonu",
-        "description": "Mevcut sistemlerinizle sorunsuz bir şekilde bağlantı kurarak kapsamlı bir klinik çözüm elde edin.",
+        "description": "Mevcut sistemlerinizle sorunsuz bir şekilde bağlantı kurarak kapsamlı bir klinik çözüm elde edin",
         "features": [
           "Epic ve Cerner dahil büyük EMR/EHR sistemleriyle entegre olun",
           "Fatura verimliliği için klinik yönetim yazılımıyla senkronize edin",

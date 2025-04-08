@@ -6,7 +6,8 @@
     "features": {
       "support": "Haftada 15+ Saat Kazanın",
       "multilingual": "Randevuya gelmeme oranını %73 oranında azaltın"
-    }
+    },
+    "cta": "Ücretsiz değerlendirme randevusu alın"
   },
   "problems": {
     "title": "Kliniğinizdeki Gereksiz Maliyetleri Azaltın",
@@ -48,55 +49,50 @@
       }
     },
     "comparison": {
-      "title": "Geleneksel Klinik vs. AI Destekli Klinik",
+      "title": "Geleneksel İşletme vs. AI Destekli İşletme",
       "traditional": {
-        "title": "Mevcut Klinik Zorlukları",
+        "title": "Mevcut İşletme Zorlukları",
         "items": [
-          "Zamanın %49'unu evrak işlerinde harcamak",
-          "Mesai dışı hasta sorularını kaçırmak",
-          "Ortalama %28 randevu kaçırma oranı",
+          "Zamanın %49'unu idari işlerde harcamak",
+          "Mesai dışı müşteri sorularını kaçırmak",
+          "Ortalama %28 takip başarısızlık oranı",
           "Bilgilerin farklı sistemlerde dağınık olması"
         ]
       },
       "entagl": {
         "title": "Entagl AI Çözümleri İle",
         "items": [
-          "Belgelendirme süresi %62 azaldı",
-          "7/24 hasta etkileşimi",
-          "%7'nin altında randevu kaçırma oranı",
-          "Merkezi hasta bilgileri"
+          "İdari süre %62 azaldı",
+          "7/24 müşteri etkileşimi",
+          "%7'nin altında takip başarısızlık oranı",
+          "Merkezi iş bilgileri"
         ]
       }
     }
   },
   "features": {
-    "title": "Modern Tıbbi Klinikler İçin Kapsamlı Çözümler",
+    "title": "Modern İşletmeler İçin Kapsamlı Çözümler",
     "subtitle": "En önemli operasyonel zorluklarınızı çözmek için özenle tasarlandı",
     "items": {
-      "inbox": {
-        "title": "Birleşik İletişim Merkezi",
-        "description": "WhatsApp, SMS, e-posta ve web'deki hasta konuşmalarını tek bir güvenli arayüzde merkezileştirin.",
-        "highlight": "Günlük 3+ saat mesaj yönetimini ortadan kaldırın"
+      "ai_assistant": {
+        "title": "Yapay Zeka Destekli Hasta İletişimi",
+        "description": "Personel zamanını verimli kullanarak, hastalara tıbbi açıdan doğru ve güvenilir bilgiler sunun."
       },
-      "automation": {
-        "title": "Klinik AI Asistanı",
-        "description": "Prosedürler, iyileşme ve fiyatlandırma hakkındaki rutin hasta sorularını tıbbi açıdan doğru yanıtlarla otomatikleştirin.",
-        "highlight": "Hasta sorularının %82'sini otomatik olarak yanıtlayın"
+      "unified_comms": {
+        "title": "Birleşik Hasta İletişim Merkezi",
+        "description": "Farklı platformlarda dağılmış hasta bilgilerini birleştirerek, merkezi bir sistemde toplayın."
       },
-      "workflows": {
-        "title": "Özel Klinik İş Akışları",
-        "description": "Ameliyat öncesi hazırlık, prosedür sonrası bakım ve tedavi takipleri için otomatik sekanslar oluşturun.",
-        "highlight": "Tedaviye uyumu %47 artırın"
+      "smart_management": {
+        "title": "Akıllı Klinik Yönetimi",
+        "description": "Yapay zeka odaklı verimlilik araçlarıyla klinik operasyonlarınızı daha verimli hale getirin."
       },
-      "analytics": {
-        "title": "Klinik Zeka Panosu",
-        "description": "Konsültasyon-prosedür dönüşüm oranlarını, hasta edinme maliyetlerini ve personel verimliliği metriklerini takip edin.",
-        "highlight": "Aylık 8.500$+ değerinde gelir fırsatları tanımlayın"
+      "documentation": {
+        "title": "Klinik Kayıt Süreçlerinin Dönüşümü",
+        "description": "Belgeleme yükünü ortadan kaldırarak iş gününüzü uzatmadan süreçlerinizi hızlandırın."
       },
-      "scalability": {
-        "title": "Operasyonel Ölçeklenebilirlik",
-        "description": "İdari personel maliyetlerini orantılı olarak artırmadan klinik hacminizi büyütün.",
-        "highlight": "Mevcut personelle %40 daha fazla hastaya hizmet verin"
+      "integration": {
+        "title": "Kesintisiz Klinik Entegrasyonu",
+        "description": "Mevcut sistemlerinizle sorunsuz bir şekilde bağlantı kurarak kapsamlı bir klinik çözüm elde edin."
       }
     }
   },
@@ -142,8 +138,8 @@
       "insights": "Performans Analitiği",
       "insightsDesc": "Klinik verimliliğini optimize etmek için veri odaklı içgörüler"
     },
-    "cta": "Klinik Değerlendirmenizi İsteyin",
-    "aiActive": "Tıbbi Yapay Zeka Asistanı Aktif",
-    "aiActiveDesc": "AI sisteminiz şu anda hasta sorularını yanıtlıyor ve klinik programınızı optimize ediyor."
+    "cta": "Ücretsiz değerlendirme randevusu alın",
+    "aiActive": "Yapay Zeka Asistanı Aktif",
+    "aiActiveDesc": "AI sisteminiz şu anda müşteri sorularını yanıtlıyor ve işletme operasyonlarınızı optimize ediyor."
   }
 }
