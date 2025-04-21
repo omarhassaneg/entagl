@@ -39,11 +39,12 @@ export function middleware(request: NextRequest) {
     return response
   }
 
-  // Skip if the request is for an asset, API route, or already has a locale
+  // Skip if the request is for an asset, API route, already has a locale, or is for the Sanity Studio
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
     pathname.startsWith('/static') ||
+    pathname.startsWith('/studio') ||
     pathname.includes('.') ||
     pathname === '/favicon.ico' ||
     locales.some(locale => pathname.startsWith(`/${locale}`))
@@ -71,7 +72,8 @@ export const config = {
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
      * - public folder
+     * - studio (Sanity Studio)
      */
-    '/((?!api|_next/static|_next/image|favicon.ico|public/).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|public|studio).*)',
   ],
 } 
