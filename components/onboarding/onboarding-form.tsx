@@ -387,6 +387,7 @@ export function OnboardingForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isInitializing, setIsInitializing] = useState(true);
   const hasHydratedRef = useRef(false);
+  const formTopRef = useRef<HTMLDivElement>(null);
 
   const totalSteps = 9;
 
@@ -485,8 +486,8 @@ export function OnboardingForm() {
                   country: entry?.country ?? 'local',
                   dates: Array.isArray(entry?.dates)
                     ? (entry.dates as unknown[]).filter(
-                        (date): date is string => typeof date === 'string' && date.length > 0
-                      )
+                      (date): date is string => typeof date === 'string' && date.length > 0
+                    )
                     : [],
                 }))
                 .filter((entry) => entry.dates.length > 0);
@@ -571,6 +572,16 @@ export function OnboardingForm() {
     }
   }, [formData, currentStep, storageKey, userIp]);
 
+  // Auto-scroll to top when step changes
+  useEffect(() => {
+    if (formTopRef.current) {
+      formTopRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }, [currentStep]);
+
   const stepTitles = useMemo(
     () => [
       t('onboarding.steps.identity.title'),
@@ -617,9 +628,9 @@ export function OnboardingForm() {
         items: prev.services.items.map((item) =>
           item.id === id
             ? {
-                ...item,
-                ...updates,
-              }
+              ...item,
+              ...updates,
+            }
             : item
         ),
       },
@@ -660,9 +671,9 @@ export function OnboardingForm() {
         socials: prev.contact.socials.map((item) =>
           item.id === id
             ? {
-                ...item,
-                ...updates,
-              }
+              ...item,
+              ...updates,
+            }
             : item
         ),
       },
@@ -719,9 +730,9 @@ export function OnboardingForm() {
         publicHolidays: prev.operational.publicHolidays.map((entry) =>
           entry.id === id
             ? {
-                ...entry,
-                ...updates,
-              }
+              ...entry,
+              ...updates,
+            }
             : entry
         ),
       },
@@ -862,9 +873,11 @@ export function OnboardingForm() {
             title={t('onboarding.steps.identity.title')}
             description={t('onboarding.steps.identity.description')}
           >
-            <div className="grid gap-6">
+            <div className="grid gap-4 sm:gap-6">
               <div className="grid gap-2">
-                <Label htmlFor="doctor-name">{t('onboarding.steps.identity.fields.doctorName')}</Label>
+                <Label htmlFor="doctor-name" className="text-sm font-medium">
+                  {t('onboarding.steps.identity.fields.doctorName')}
+                </Label>
                 <Input
                   id="doctor-name"
                   value={formData.identity.doctorName}
@@ -878,10 +891,13 @@ export function OnboardingForm() {
                     }))
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.doctorName')}
+                  className="min-h-[44px]"
                 />
               </div>
               <div className="grid gap-2">
-                <Label htmlFor="assistant-name">{t('onboarding.steps.identity.fields.assistantName')}</Label>
+                <Label htmlFor="assistant-name" className="text-sm font-medium">
+                  {t('onboarding.steps.identity.fields.assistantName')}
+                </Label>
                 <Input
                   id="assistant-name"
                   value={formData.identity.assistantName}
@@ -895,10 +911,13 @@ export function OnboardingForm() {
                     }))
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.assistantName')}
+                  className="min-h-[44px]"
                 />
               </div>
               <div className="grid gap-2">
-                <Label htmlFor="clinic-name">{t('onboarding.steps.identity.fields.clinicName')}</Label>
+                <Label htmlFor="clinic-name" className="text-sm font-medium">
+                  {t('onboarding.steps.identity.fields.clinicName')}
+                </Label>
                 <Input
                   id="clinic-name"
                   value={formData.identity.clinicName}
@@ -912,12 +931,15 @@ export function OnboardingForm() {
                     }))
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.clinicName')}
+                  className="min-h-[44px]"
                 />
               </div>
 
-              <div className="grid gap-2">
-                <Label>{t('onboarding.steps.identity.fields.specialties')}</Label>
-                <div className="flex gap-2">
+              <div className="grid gap-3">
+                <Label className="text-sm font-medium">
+                  {t('onboarding.steps.identity.fields.specialties')}
+                </Label>
+                <div className="flex flex-col sm:flex-row gap-2">
                   <Input
                     value={specialtyInput}
                     onChange={(event) => setSpecialtyInput(event.target.value)}
@@ -928,8 +950,13 @@ export function OnboardingForm() {
                         handleSpecialtyAdd();
                       }
                     }}
+                    className="min-h-[44px] flex-1"
                   />
-                  <Button type="button" onClick={handleSpecialtyAdd}>
+                  <Button
+                    type="button"
+                    onClick={handleSpecialtyAdd}
+                    className="min-h-[44px] w-full sm:w-auto whitespace-nowrap"
+                  >
                     <Plus className="h-4 w-4 mr-2" />
                     {t('onboarding.buttons.addSpecialty')}
                   </Button>
@@ -939,14 +966,14 @@ export function OnboardingForm() {
                     {formData.identity.specialties.map((specialty, index) => (
                       <div
                         key={`${specialty}-${index}`}
-                        className="flex items-center gap-2 rounded-full bg-muted px-3 py-1 text-sm"
+                        className="flex items-center gap-2 rounded-full bg-muted px-3 py-2 text-sm"
                       >
                         <span>{specialty}</span>
                         <Button
                           type="button"
                           variant="ghost"
                           size="icon"
-                          className="h-5 w-5"
+                          className="h-5 w-5 hover:bg-destructive/10 hover:text-destructive"
                           onClick={() => handleSpecialtyRemove(index)}
                         >
                           <Trash className="h-3 w-3" />
@@ -958,7 +985,9 @@ export function OnboardingForm() {
               </div>
 
               <div className="grid gap-2">
-                <Label htmlFor="primary-service">{t('onboarding.steps.identity.fields.primaryService')}</Label>
+                <Label htmlFor="primary-service" className="text-sm font-medium">
+                  {t('onboarding.steps.identity.fields.primaryService')}
+                </Label>
                 <Input
                   id="primary-service"
                   value={formData.identity.primaryService}
@@ -972,6 +1001,7 @@ export function OnboardingForm() {
                     }))
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.primaryService')}
+                  className="min-h-[44px]"
                 />
               </div>
             </div>
@@ -983,9 +1013,11 @@ export function OnboardingForm() {
             title={t('onboarding.steps.brand.title')}
             description={t('onboarding.steps.brand.description')}
           >
-            <div className="grid gap-6">
+            <div className="grid gap-4 sm:gap-6">
               <div className="grid gap-3">
-                <Label>{t('onboarding.steps.brand.fields.characterStyle')}</Label>
+                <Label className="text-sm font-medium">
+                  {t('onboarding.steps.brand.fields.characterStyle')}
+                </Label>
                 <Select
                   value={formData.brand.characterStyle}
                   onValueChange={(value) =>
@@ -998,7 +1030,7 @@ export function OnboardingForm() {
                     }))
                   }
                 >
-                  <SelectTrigger>
+                  <SelectTrigger className="min-h-[44px]">
                     <SelectValue placeholder={t('onboarding.steps.brand.placeholders.characterStyle')} />
                   </SelectTrigger>
                   <SelectContent>
@@ -1022,12 +1054,15 @@ export function OnboardingForm() {
                       }))
                     }
                     placeholder={t('onboarding.steps.brand.placeholders.otherCharacterStyle')}
+                    className="min-h-[44px]"
                   />
                 )}
               </div>
 
               <div className="grid gap-3">
-                <Label>{t('onboarding.steps.brand.fields.tone')}</Label>
+                <Label className="text-sm font-medium">
+                  {t('onboarding.steps.brand.fields.tone')}
+                </Label>
                 <RadioGroup
                   value={formData.brand.tone}
                   onValueChange={(value) =>
@@ -1039,21 +1074,21 @@ export function OnboardingForm() {
                       },
                     }))
                   }
-                  className="grid gap-3 md:grid-cols-3"
+                  className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
                 >
                   {toneOptions.map((tone) => (
                     <Label
                       key={tone}
                       className={cn(
-                        'flex cursor-pointer flex-col gap-2 rounded-lg border p-4',
+                        'flex cursor-pointer flex-col gap-2 rounded-lg border p-3 sm:p-4 min-h-[44px] transition-colors',
                         formData.brand.tone === tone && 'border-primary bg-primary/5'
                       )}
                     >
                       <RadioGroupItem value={tone} className="sr-only" />
-                      <span className="font-medium">
+                      <span className="font-medium text-sm sm:text-base">
                         {t(`onboarding.steps.brand.options.tone.${tone}`)}
                       </span>
-                      <span className="text-sm text-muted-foreground">
+                      <span className="text-xs sm:text-sm text-muted-foreground">
                         {t(`onboarding.steps.brand.options.toneDescriptions.${tone}`)}
                       </span>
                     </Label>
@@ -1122,7 +1157,7 @@ export function OnboardingForm() {
                   {formData.services.items.map((service, index) => (
                     <div key={service.id} className="space-y-4 rounded-lg border p-4">
                       <div className="flex items-start justify-between gap-4">
-                        <div>
+                        <div className="flex-1 min-w-0">
                           <h3 className="text-base font-semibold">
                             {t('onboarding.steps.services.labels.service')} #{index + 1}
                           </h3>
@@ -1136,12 +1171,13 @@ export function OnboardingForm() {
                             variant="ghost"
                             size="icon"
                             onClick={() => removeServiceItem(service.id)}
+                            className="flex-shrink-0 hover:bg-destructive/10 hover:text-destructive"
                           >
                             <Trash className="h-4 w-4" />
                           </Button>
                         )}
                       </div>
-                      <div className="grid gap-4 md:grid-cols-2">
+                      <div className="grid gap-4 sm:grid-cols-2">
                         <div className="grid gap-2">
                           <Label>{t('onboarding.steps.services.fields.name')}</Label>
                           <Input
@@ -1150,11 +1186,12 @@ export function OnboardingForm() {
                               updateServiceItem(service.id, { name: event.target.value })
                             }
                             placeholder={t('onboarding.steps.services.placeholders.name')}
+                            className="min-h-[44px]"
                           />
                         </div>
                         <div className="grid gap-2">
                           <Label>{t('onboarding.steps.services.fields.duration')}</Label>
-                          <div className="flex gap-2">
+                          <div className="flex flex-col sm:flex-row gap-2">
                             <Input
                               type="number"
                               min={0}
@@ -1163,6 +1200,7 @@ export function OnboardingForm() {
                                 updateServiceItem(service.id, { duration: event.target.value })
                               }
                               placeholder={t('onboarding.steps.services.placeholders.duration')}
+                              className="min-h-[44px] flex-1"
                             />
                             <Select
                               value={service.durationUnit}
@@ -1170,7 +1208,7 @@ export function OnboardingForm() {
                                 updateServiceItem(service.id, { durationUnit: value })
                               }
                             >
-                              <SelectTrigger className="w-[140px]">
+                              <SelectTrigger className="w-full sm:w-[140px] min-h-[44px]">
                                 <SelectValue />
                               </SelectTrigger>
                               <SelectContent>
@@ -1185,7 +1223,7 @@ export function OnboardingForm() {
                         </div>
                         <div className="grid gap-2">
                           <Label>{t('onboarding.steps.services.fields.price')}</Label>
-                          <div className="flex gap-2">
+                          <div className="flex flex-col sm:flex-row gap-2">
                             <Input
                               type="number"
                               min={0}
@@ -1194,6 +1232,7 @@ export function OnboardingForm() {
                                 updateServiceItem(service.id, { price: event.target.value })
                               }
                               placeholder={t('onboarding.steps.services.placeholders.price')}
+                              className="min-h-[44px] flex-1"
                             />
                             <Select
                               value={service.currency}
@@ -1201,7 +1240,7 @@ export function OnboardingForm() {
                                 updateServiceItem(service.id, { currency: value })
                               }
                             >
-                              <SelectTrigger className="w-[140px]">
+                              <SelectTrigger className="w-full sm:w-[140px] min-h-[44px]">
                                 <SelectValue />
                               </SelectTrigger>
                               <SelectContent>
@@ -1240,7 +1279,11 @@ export function OnboardingForm() {
                   ))}
                 </div>
               </ScrollArea>
-              <Button type="button" onClick={addServiceItem}>
+              <Button
+                type="button"
+                onClick={addServiceItem}
+                className="w-full sm:w-auto min-h-[44px]"
+              >
                 <Plus className="h-4 w-4 mr-2" />
                 {t('onboarding.buttons.addService')}
               </Button>
@@ -1507,7 +1550,7 @@ export function OnboardingForm() {
                               value={holiday.country}
                               onValueChange={(value) => updateHolidayEntry(holiday.id, { country: value })}
                             >
-                              <SelectTrigger>
+                              <SelectTrigger className="min-h-[44px]">
                                 <SelectValue placeholder={t('onboarding.steps.operational.placeholders.holidayCountry')} />
                               </SelectTrigger>
                               <SelectContent>
@@ -1546,8 +1589,8 @@ export function OnboardingForm() {
                                 <CalendarIcon className="mr-2 h-4 w-4" />
                                 {holiday.dates.length
                                   ? holiday.dates
-                                      .map((dateString) => format(new Date(dateString), 'PPP'))
-                                      .join(', ')
+                                    .map((dateString) => format(new Date(dateString), 'PPP'))
+                                    .join(', ')
                                   : t('onboarding.steps.operational.placeholders.holidayDates')}
                               </Button>
                             </PopoverTrigger>
@@ -1699,7 +1742,7 @@ export function OnboardingForm() {
                           updateSocialLink(social.id, { platform: value })
                         }
                       >
-                        <SelectTrigger>
+                        <SelectTrigger className="min-h-[44px]">
                           <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
@@ -2070,7 +2113,7 @@ export function OnboardingForm() {
                       className={cn(
                         'flex cursor-pointer flex-col gap-1 rounded-lg border p-4',
                         formData.languageCulture.defaultLanguage === value &&
-                          'border-primary bg-primary/5'
+                        'border-primary bg-primary/5'
                       )}
                     >
                       <RadioGroupItem value={value} className="sr-only" />
@@ -2131,7 +2174,7 @@ export function OnboardingForm() {
                     }))
                   }
                 >
-                  <SelectTrigger>
+                  <SelectTrigger className="min-h-[44px]">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
@@ -2153,7 +2196,7 @@ export function OnboardingForm() {
             title={t('onboarding.steps.channels.title')}
             description={t('onboarding.steps.channels.description')}
           >
-          <div className="grid gap-6">
+            <div className="grid gap-6">
               <CheckboxGroup
                 title={t('onboarding.steps.channels.fields.aiAgentChannels')}
                 description={t('onboarding.steps.channels.hints.aiAgentChannels')}
@@ -2297,26 +2340,36 @@ export function OnboardingForm() {
     );
   }
 
+
+
+  const handleNextStep = () => {
+    setCurrentStep((prev) => Math.min(prev + 1, totalSteps - 1));
+  };
+
+  const handlePrevStep = () => {
+    setCurrentStep((prev) => Math.max(prev - 1, 0));
+  };
+
   return (
-    <div className="space-y-8">
-      <div className="rounded-lg border p-6">
+    <div className="space-y-6 sm:space-y-8" ref={formTopRef}>
+      <div className="rounded-lg border p-4 sm:p-6">
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <div>
-            <p className="text-sm uppercase tracking-wide text-muted-foreground">
+          <div className="space-y-1">
+            <p className="text-xs sm:text-sm uppercase tracking-wide text-muted-foreground">
               {t('onboarding.labels.progress')}
             </p>
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-xl sm:text-2xl font-semibold leading-tight">
               {stepTitles[currentStep]}
             </h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs sm:text-sm text-muted-foreground">
               {t('onboarding.labels.step')} {currentStep + 1}{' '}
               {t('onboarding.labels.of')} {totalSteps}
             </p>
           </div>
           <div className="w-full md:w-64">
             <div className="w-full bg-secondary rounded-full h-2">
-              <div 
-                className="bg-primary h-2 rounded-full transition-all" 
+              <div
+                className="bg-primary h-2 rounded-full transition-all duration-300"
                 style={{ width: `${((currentStep + 1) / totalSteps) * 100}%` }}
               />
             </div>
@@ -2326,26 +2379,33 @@ export function OnboardingForm() {
 
       {renderStep()}
 
-      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-        <div className="flex gap-3">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
           <Button
             type="button"
             variant="outline"
-            onClick={() => setCurrentStep((prev) => Math.max(prev - 1, 0))}
+            onClick={handlePrevStep}
             disabled={currentStep === 0 || isSubmitting}
+            className="w-full sm:w-auto min-h-[44px]"
           >
             {t('onboarding.buttons.back')}
           </Button>
           {currentStep < totalSteps - 1 ? (
             <Button
               type="button"
-              onClick={() => setCurrentStep((prev) => Math.min(prev + 1, totalSteps - 1))}
+              onClick={handleNextStep}
               disabled={isSubmitting}
+              className="w-full sm:w-auto min-h-[44px]"
             >
               {t('onboarding.buttons.next')}
             </Button>
           ) : (
-            <Button type="button" onClick={handleSubmit} disabled={isSubmitting}>
+            <Button
+              type="button"
+              onClick={handleSubmit}
+              disabled={isSubmitting}
+              className="w-full sm:w-auto min-h-[44px]"
+            >
               {isSubmitting ? (
                 <span className="flex items-center gap-2">
                   <Loader2 className="h-4 w-4 animate-spin" />
@@ -2373,11 +2433,15 @@ function StepCard({
 }) {
   return (
     <Card className="border-primary/10 shadow-sm">
-      <CardHeader className="space-y-1">
-        <CardTitle>{title}</CardTitle>
-        {description ? <CardDescription>{description}</CardDescription> : null}
+      <CardHeader className="space-y-2 p-4 sm:p-6">
+        <CardTitle className="text-lg sm:text-xl">{title}</CardTitle>
+        {description ? (
+          <CardDescription className="text-sm sm:text-base leading-relaxed">
+            {description}
+          </CardDescription>
+        ) : null}
       </CardHeader>
-      <CardContent className="space-y-4">{children}</CardContent>
+      <CardContent className="space-y-4 sm:space-y-6 p-4 sm:p-6 pt-0">{children}</CardContent>
     </Card>
   );
 }
@@ -2397,15 +2461,16 @@ function CheckboxRow({
     <label
       htmlFor={id}
       className={cn(
-        'flex cursor-pointer items-center justify-between gap-3 rounded-lg border p-3 transition-colors',
+        'flex cursor-pointer items-center justify-between gap-3 rounded-lg border p-3 sm:p-4 transition-colors min-h-[44px]',
         checked ? 'border-primary bg-primary/5' : 'hover:bg-muted'
       )}
     >
-      <span>{label}</span>
+      <span className="text-sm sm:text-base flex-1 min-w-0">{label}</span>
       <Checkbox
         id={id}
         checked={checked}
         onCheckedChange={(value) => onCheckedChange(Boolean(value))}
+        className="flex-shrink-0"
       />
     </label>
   );
@@ -2432,9 +2497,11 @@ function CheckboxGroup({
     <div className="space-y-4">
       <div>
         <Label className="text-base font-medium">{title}</Label>
-        {description ? <p className="text-sm text-muted-foreground">{description}</p> : null}
+        {description ? (
+          <p className="text-sm text-muted-foreground mt-1 leading-relaxed">{description}</p>
+        ) : null}
       </div>
-      <div className="grid gap-3 md:grid-cols-2">
+      <div className="grid gap-3 sm:grid-cols-2">
         {options.map((option) => {
           const labelKey = `${translationPrefix}.${option}.label`;
           const fallbackKey = `${translationPrefix}.${option}`;
@@ -2449,18 +2516,21 @@ function CheckboxGroup({
             <label
               key={option}
               className={cn(
-                'flex cursor-pointer items-start gap-3 rounded-lg border p-4 transition-colors',
+                'flex cursor-pointer items-start gap-3 rounded-lg border p-3 sm:p-4 transition-colors min-h-[44px]',
                 values.includes(option) ? 'border-primary bg-primary/5' : 'hover:bg-muted'
               )}
             >
               <Checkbox
                 checked={values.includes(option)}
                 onCheckedChange={() => onToggle(option)}
+                className="mt-0.5"
               />
-              <div>
-                <span className="font-medium">{label}</span>
+              <div className="flex-1 min-w-0">
+                <span className="font-medium text-sm sm:text-base block">{label}</span>
                 {description ? (
-                  <p className="text-sm text-muted-foreground">{description}</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground mt-1 leading-relaxed">
+                    {description}
+                  </p>
                 ) : null}
               </div>
             </label>

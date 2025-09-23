@@ -9,21 +9,21 @@ export default function OnboardingPage() {
   const { t } = useTranslations();
 
   return (
-    <div className="min-h-screen py-24">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen py-12 sm:py-16 lg:py-24">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-16 text-center"
+          className="mb-8 sm:mb-12 lg:mb-16 text-center"
         >
-          <span className="mb-4 inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium text-primary">
+          <span className="mb-3 sm:mb-4 inline-flex items-center rounded-full border px-3 py-1 text-xs sm:text-sm font-medium text-primary">
             {t('onboarding.hero.badge')}
           </span>
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">
+          <h1 className="mb-3 sm:mb-4 text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
             {t('onboarding.hero.title')}
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+          <p className="mx-auto max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
             {t('onboarding.hero.subtitle')}
           </p>
         </motion.div>
