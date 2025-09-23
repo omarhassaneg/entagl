@@ -447,13 +447,15 @@ export function OnboardingForm() {
             mergedLanguageCulture.defaultLanguage = mergedLanguageCulture.languages[0];
           }
 
-          const incomingOperational = incoming.operational ?? {};
+          const incomingOperational = incoming.operational as
+            | Partial<OnboardingFormData['operational']>
+            | undefined;
           const mergedOperational = {
             ...DEFAULT_FORM_DATA.operational,
-            ...incomingOperational,
+            ...(incomingOperational ?? {}),
           };
 
-          const rawHolidays = incomingOperational.publicHolidays;
+          const rawHolidays = incomingOperational?.publicHolidays;
           if (Array.isArray(rawHolidays)) {
             if (rawHolidays.length > 0 && typeof rawHolidays[0] === 'string') {
               mergedOperational.publicHolidays = [
