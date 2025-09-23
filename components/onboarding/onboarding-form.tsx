@@ -365,6 +365,9 @@ const holidayCountryOptions = [
   'other',
 ];
 
+const isStringArray = (value: unknown[]): value is string[] =>
+  value.every((item) => typeof item === 'string');
+
 const createId = (prefix: string) => {
   if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
     return `${prefix}-${crypto.randomUUID()}`;
@@ -457,24 +460,33 @@ export function OnboardingForm() {
 
           const rawHolidays = incomingOperational?.publicHolidays;
           if (Array.isArray(rawHolidays)) {
-            if (
-              rawHolidays.length > 0 &&
-              typeof rawHolidays[0] === 'string'
-            ) {
-              mergedOperational.publicHolidays = [
-                {
-                  id: createId('holiday'),
-                  country: 'local',
-                  dates: (rawHolidays as string[]).filter((value): value is string => Boolean(value)),
-                },
-              ];
+            const rawArray = rawHolidays as unknown[];
+
+            if (isStringArray(rawArray)) {
+              const filtered = rawArray.filter((value) => value && value.length > 0);
+              if (filtered.length > 0) {
+                mergedOperational.publicHolidays = [
+                  {
+                    id: createId('holiday'),
+                    country: 'local',
+                    dates: filtered,
+                  },
+                ];
+              }
             } else {
-              mergedOperational.publicHolidays = (rawHolidays as Partial<HolidayEntry>[])
+              const entryArray = rawArray.filter(
+                (entry): entry is Partial<HolidayEntry> =>
+                  typeof entry === 'object' && entry !== null
+              );
+
+              mergedOperational.publicHolidays = entryArray
                 .map((entry) => ({
                   id: entry?.id ?? createId('holiday'),
                   country: entry?.country ?? 'local',
                   dates: Array.isArray(entry?.dates)
-                    ? (entry!.dates as string[]).filter(Boolean)
+                    ? (entry.dates as unknown[]).filter(
+                        (date): date is string => typeof date === 'string' && date.length > 0
+                      )
                     : [],
                 }))
                 .filter((entry) => entry.dates.length > 0);
