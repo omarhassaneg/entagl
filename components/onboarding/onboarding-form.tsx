@@ -457,12 +457,15 @@ export function OnboardingForm() {
 
           const rawHolidays = incomingOperational?.publicHolidays;
           if (Array.isArray(rawHolidays)) {
-            if (rawHolidays.length > 0 && typeof rawHolidays[0] === 'string') {
+            if (
+              rawHolidays.length > 0 &&
+              typeof rawHolidays[0] === 'string'
+            ) {
               mergedOperational.publicHolidays = [
                 {
                   id: createId('holiday'),
                   country: 'local',
-                  dates: (rawHolidays as string[]).filter(Boolean),
+                  dates: (rawHolidays as string[]).filter((value): value is string => Boolean(value)),
                 },
               ];
             } else {
