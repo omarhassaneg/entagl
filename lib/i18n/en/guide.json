@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "badge": "Channel readiness",
+    "title": "Checklist before activating AI on your channels",
+    "subtitle": "WhatsApp and Instagram automation rely on verified business assets and up-to-date customer touchpoints. Use this guide to confirm you are ready—or let us handle the setup for you."
+  },
+  "sections": {
+    "website": {
+      "title": "Publish an accurate website",
+      "description": "Meta requires a live website that matches the business information shared with customers and policy reviewers.",
+      "points": {
+        "1": "Ensure services, pricing, and contact details are current.",
+        "2": "Include legal pages (privacy policy, terms) that reference your company name.",
+        "3": "If you do not have a site, our team can launch one for you in days."
+      },
+      "cta": "Need a website? We'll build and launch it for you."
+    },
+    "meta": {
+      "title": "Verify your Meta business",
+      "description": "A Meta Business Portfolio with completed verification is required for WhatsApp Business API access.",
+      "points": {
+        "1": "Submit official documents that match your business legal name.",
+        "2": "Add your website domain and verify it inside Business Manager.",
+        "3": "If verification is pending or denied, we can manage the escalation with Meta on your behalf."
+      },
+      "cta": "We assist with Meta Business verification end-to-end."
+    },
+    "whatsapp": {
+      "title": "Prepare a dedicated WhatsApp number",
+      "description": "The WhatsApp Business API cannot reuse a number that is already active on WhatsApp or WhatsApp Business.",
+      "points": {
+        "1": "Purchase or port a fresh phone number exclusively for the AI assistant.",
+        "2": "Keep the number powered on and capable of receiving SMS or voice calls for verification.",
+        "3": "We can source and configure a virtual number if you do not have one available."
+      }
+    },
+    "instagram": {
+      "title": "Switch Instagram to a professional account",
+      "description": "Instagram DM automation requires a Professional (Business or Creator) profile linked to your Meta Business Portfolio.",
+      "points": {
+        "1": "Convert the profile to Professional inside Instagram settings.",
+        "2": "Link the profile to the verified Meta Business account.",
+        "3": "Confirm messaging is enabled for connected tools."
+      }
+    },
+    "support": {
+      "title": "No problem if you are missing steps",
+      "description": "Our onboarding team can close the gaps quickly—website builds, Meta verification, number provisioning, and compliance checks.",
+      "cta": "Talk to us and we will prepare everything for you."
+    }
+  }
+}

@@ -8,6 +8,8 @@ import enServices from './en/services.json';
 import enBlog from './en/blog.json';
 import enPricing from './en/pricing.json';
 import enContact from './en/contact.json';
+import enOnboarding from './en/onboarding.json';
+import enGuide from './en/guide.json';
 
 import trCommon from './tr/common.json';
 import trNav from './tr/nav.json';
@@ -19,6 +21,8 @@ import trServices from './tr/services.json';
 import trBlog from './tr/blog.json';
 import trPricing from './tr/pricing.json';
 import trContact from './tr/contact.json';
+import trOnboarding from './tr/onboarding.json';
+import trGuide from './tr/guide.json';
 
 import ruCommon from './ru/common.json';
 import ruNav from './ru/nav.json';
@@ -30,6 +34,8 @@ import ruServices from './ru/services.json';
 import ruBlog from './ru/blog.json';
 import ruPricing from './ru/pricing.json';
 import ruContact from './ru/contact.json';
+import ruOnboarding from './ru/onboarding.json';
+import ruGuide from './ru/guide.json';
 
 const en = {
   common: enCommon,
@@ -42,6 +48,8 @@ const en = {
   blog: enBlog,
   pricing: enPricing,
   contact: enContact,
+  onboarding: enOnboarding,
+  guide: enGuide,
 };
 
 const tr = {
@@ -55,6 +63,8 @@ const tr = {
   blog: trBlog,
   pricing: trPricing,
   contact: trContact,
+  onboarding: trOnboarding,
+  guide: trGuide,
 };
 
 const ru = {
@@ -68,6 +78,8 @@ const ru = {
   blog: ruBlog,
   pricing: ruPricing,
   contact: ruContact,
+  onboarding: ruOnboarding,
+  guide: ruGuide,
 };
 
 const translations = {

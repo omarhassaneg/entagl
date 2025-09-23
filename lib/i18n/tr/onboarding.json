@@ -1,0 +1,456 @@
+{
+  "hero": {
+    "badge": "Müşteri onboarding",
+    "title": "Klinik yapınızı dakikalar içinde paylaşın",
+    "subtitle": "Klinik kimliğinizi, ses tonunuzu ve operasyonlarınızı kaydedin; yapay zekâ temsilcinizi size özel kuralım."
+  },
+  "labels": {
+    "progress": "Aktif adım",
+    "step": "Adım",
+    "of": "/"
+  },
+  "buttons": {
+    "addSpecialty": "Yeni uzmanlık ekle",
+    "addService": "Yeni hizmet ekle",
+    "addSocialLink": "Yeni bağlantı ekle",
+    "addHoliday": "Tatil takvimi ekle",
+    "back": "Geri",
+    "next": "İleri",
+    "submit": "Onboarding'i gönder",
+    "submitting": "Gönderiliyor..."
+  },
+  "fields": {
+    "duration": {
+      "minutes": "Dakika",
+      "hours": "Saat"
+    }
+  },
+  "toast": {
+    "success": {
+      "title": "Bilgiler alındı",
+      "description": "Teşekkürler! Ekibimiz cevaplarınızı inceleyip kısa sürede dönüş yapacak."
+    },
+    "error": {
+      "title": "Gönderim gerçekleşmedi",
+      "description": "Form gönderilirken bir hata oluştu. Lütfen biraz sonra tekrar deneyin."
+    }
+  },
+  "steps": {
+    "identity": {
+      "title": "Doktor / Klinik kimliği",
+      "description": "Kimi temsil ettiğimizi söyleyin; yanıtlarımız sizin ekibinizi yansıtsın.",
+      "fields": {
+        "doctorName": "Doktor adı",
+        "assistantName": "Asistan adı",
+        "clinicName": "Klinik adı",
+        "specialties": "Klinik uzmanlıkları",
+        "primaryService": "İmza hizmet"
+      },
+      "placeholders": {
+        "doctorName": "Dr. Ece Yılmaz",
+        "assistantName": "Asistan Ayşe",
+        "clinicName": "Glow Aesthetics Clinic",
+        "addSpecialty": "Uzmanlık ekle (örn. Enjeksiyonlar)",
+        "primaryService": "Dudak dolgusu"
+      }
+    },
+    "brand": {
+      "title": "Marka tonu ve stil",
+      "description": "Temsilcinin kişiliğini ve emoji kurallarını tanımlayın.",
+      "fields": {
+        "characterStyle": "Karakter stili",
+        "tone": "Ton rehberi",
+        "emojiUsage": "Emoji kullanımı"
+      },
+      "placeholders": {
+        "characterStyle": "Bir persona seçin",
+        "otherCharacterStyle": "Tercih ettiğiniz ses tonunu tarif edin",
+        "emojiCustom": "Emoji veya özel ifadelerle ilgili ek notlar"
+      },
+      "options": {
+        "characterStyle": {
+          "clinic-assistant": "Klinik Asistanı, Müşteri Hizmetleri ve Satış"
+        },
+        "tone": {
+          "polished": "Zarif / Şık",
+          "casual": "Samimi / Yakın",
+          "professional": "Tamamen profesyonel"
+        },
+        "toneDescriptions": {
+          "polished": "Premium hizmeti yansıtan zarif ve rafine dil.",
+          "casual": "Sıcak, enerjik ve günlük dil kullanımı.",
+          "professional": "Güven ve uzmanlığa odaklanan klinik ifadeler."
+        },
+        "emojiUsage": {
+          "0": "Emoji yok",
+          "1": "Az kullanım 😊",
+          "2": "Duygulu kullanım ✨💉💋"
+        }
+      }
+    },
+    "services": {
+      "title": "Hizmetler ve fiyatlandırma",
+      "description": "Temsilci doğru öneriler yapabilsin diye sunduğunuz işlemleri girin.",
+      "labels": {
+        "service": "Hizmet",
+        "serviceHint": "Süre, fiyat, marka ve notlar dahil mümkün olduğunca detay paylaşın."
+      },
+      "fields": {
+        "name": "Hizmet adı",
+        "duration": "Süre",
+        "price": "Fiyat",
+        "brand": "Marka (opsiyonel)",
+        "description": "Açıklama (opsiyonel)"
+      },
+      "placeholders": {
+        "name": "Hydrafacial Signature",
+        "duration": "45",
+        "price": "250",
+        "brand": "SkinCeuticals",
+        "description": "Temizlik, soyma, ekstraksiyon, booster ve LED içerir."
+      }
+    },
+    "operational": {
+      "title": "Operasyonel bilgiler",
+      "description": "Çalışma saatlerinizi, kapalı günleri ve adresinizi kaydedin.",
+      "fields": {
+        "schedule": "Klinik çalışma saatleri",
+        "open": "Açılış",
+        "close": "Kapanış",
+        "closedDays": "Kapalı günler",
+        "location": "Klinik adresi (opsiyonel)",
+        "mapsLink": "Google Maps bağlantısı (opsiyonel)",
+        "publicHolidays": "Resmî tatiller (opsiyonel)"
+      },
+      "hints": {
+        "schedule": "Çalıştığınız günleri açıp saatleri özelleştirin.",
+        "publicHolidays": "Kapalı olduğunuz resmî tatilleri ekleyin."
+      },
+      "options": {
+        "closedDays": {
+          "saturday": "Cumartesi kapalı",
+          "sunday": "Pazar kapalı",
+          "publicHolidays": "Resmî tatillerde kapalı",
+          "other": "Diğer kapalı günler"
+        },
+        "holidayCountries": {
+          "local": "Kliniğin bulunduğu ülke",
+          "turkey": "Türkiye",
+          "usa": "Amerika Birleşik Devletleri",
+          "canada": "Kanada",
+          "uk": "Birleşik Krallık",
+          "uae": "Birleşik Arap Emirlikleri",
+          "saudi": "Suudi Arabistan",
+          "kuwait": "Kuveyt",
+          "qatar": "Katar",
+          "other": "Diğer bölge"
+        }
+      },
+      "placeholders": {
+        "closedOther": "örn. Her ayın ilk pazartesi kapalı",
+        "location": "Klinik adresinizi yazın (opsiyonel)",
+        "mapsLink": "https://maps.google.com/...",
+        "holidayCountry": "Bölge seçin",
+        "holidayDates": "Tarihleri seçin"
+      },
+      "labels": {
+        "holidayCountry": "Tatillerin geçerli olduğu ülke",
+        "holidayDates": "Tatiller"
+      },
+      "emptyState": {
+        "publicHolidays": "Henüz tatil takvimi eklenmedi."
+      },
+      "days": {
+        "monday": "Pazartesi",
+        "tuesday": "Salı",
+        "wednesday": "Çarşamba",
+        "thursday": "Perşembe",
+        "friday": "Cuma",
+        "saturday": "Cumartesi",
+        "sunday": "Pazar"
+      }
+    },
+    "contact": {
+      "title": "İletişim bilgileri",
+      "description": "Hastalar size nasıl ulaşmalı, belirtin.",
+      "fields": {
+        "landline": "Sabit hat",
+        "mobile": "Mobil",
+        "whatsapp": "WhatsApp",
+        "whatsappLink": "WhatsApp direkt linki",
+        "email": "E-posta",
+        "socials": "Sosyal medya bağlantıları"
+      },
+      "placeholders": {
+        "landline": "+90 212 000 0000",
+        "mobile": "+90 532 000 0000",
+        "whatsapp": "+90 532 000 0000",
+        "whatsappLink": "Boş bırakırsanız otomatik oluşturulur",
+        "email": "care@klinik.com",
+        "socialHandle": "@klinikadiniz veya https://..."
+      },
+      "hints": {
+        "whatsappLink": "WhatsApp numarası giriliyse bağlantı otomatik oluşur."
+      },
+      "options": {
+        "platforms": {
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "facebook": "Facebook",
+          "website": "Web sitesi",
+          "other": "Diğer"
+        }
+      }
+    },
+    "booking": {
+      "title": "Randevu ve eskalasyon",
+      "description": "Müşterilerin nasıl randevu aldığı ve ne zaman devreye girileceğini tanımlayın.",
+      "fields": {
+        "process": "Randevu süreci",
+        "handover": "Devir protokolleri",
+        "bookingTools": "Randevu araçları",
+        "consultationFlow": "Ön görüşme adımları"
+      },
+      "hints": {
+        "handover": "Hangi durumlarda insan ekibin devreye girmesi gerektiğini seçin.",
+        "bookingTools": "Temsilcinin tetiklemesi gereken araçları belirtin.",
+        "consultationFlow": "Öncesinde yapılması gereken adımları netleştirin."
+      },
+      "options": {
+        "process": {
+          "consultation-first": "Önce danışmanlık şart",
+          "same-day": "Aynı gün işlem mümkün",
+          "both": "Danışmanlık sonrası işlem"
+        },
+        "processDescriptions": {
+          "consultation-first": "Her işlemden önce değerlendirme randevusu planlanır.",
+          "same-day": "Hasta, muayene ve işlemi aynı gün alabilir.",
+          "both": "Temsilci ihtiyaca göre uygun yolu belirler."
+        },
+        "handover": {
+          "pain": {
+            "label": "Ağrı veya komplikasyon",
+            "description": "Hasta rahatsızlık bildirdiğinde ekibinize aktarın."
+          },
+          "complaints": {
+            "label": "Şikayet veya memnuniyetsizlik",
+            "description": "Olumsuz geri bildirimleri anında iletin."
+          },
+          "out-of-hours": {
+            "label": "Mesai dışı talepler",
+            "description": "Gece veya acil durum isteklerinde ekibi bilgilendirin."
+          },
+          "other": {
+            "label": "Diğer devir kuralları",
+            "description": "Ek eskalasyon senaryolarını yazın."
+          }
+        },
+        "bookingTools": {
+          "request_booking": {
+            "label": "Randevu talep formu",
+            "description": "Temsilci bilgileri toplayıp randevu isteği iletir."
+          },
+          "human_handover": {
+            "label": "Anında insan devri",
+            "description": "Gerekli durumda görüşmeyi personele aktarır."
+          },
+          "other": {
+            "label": "Diğer araçlar",
+            "description": "Kullandığınız ek otomasyonları ekleyin."
+          }
+        },
+        "consultation": {
+          "free": {
+            "label": "İlk danışmanlık ücretsiz",
+            "description": "İlk görüşmenin ücretsiz olduğunu belirtin."
+          },
+          "photos-required": {
+            "label": "Fotoğraf zorunlu",
+            "description": "Onay öncesi hastalardan fotoğraf isteyin."
+          },
+          "medical-questionnaire": {
+            "label": "Medikal anket",
+            "description": "Temsilci formu paylaşır ve toplar."
+          },
+          "other": {
+            "label": "Diğer kurallar",
+            "description": "Özel kabul şartlarını yazın."
+          }
+        }
+      },
+      "placeholders": {
+        "handoverOther": "Ek eskalasyon senaryolarını açıklayın",
+        "bookingToolsOther": "Kullandığınız özel otomasyonları yazın",
+        "consultationOther": "Özel ön görüşme gerekliliklerini belirtin"
+      }
+    },
+    "policies": {
+      "title": "Kliniğe özel politikalar",
+      "description": "Ödeme kurallarını ve kaçınılması gereken ürünleri belirtin.",
+      "fields": {
+        "paymentMethods": "Kabul edilen ödeme yöntemleri",
+        "specialRules": "Özel kurallar",
+        "restrictedProducts": "Bahsedilmemesi gereken ürünler"
+      },
+      "hints": {
+        "paymentMethods": "Temsilcinin hangi ödemeleri sunabileceğini seçin."
+      },
+      "options": {
+        "paymentMethods": {
+          "visa": {
+            "label": "Visa",
+            "description": "Visa kart ödemelerini kabul eder."
+          },
+          "mastercard": {
+            "label": "Mastercard",
+            "description": "Mastercard ile ödeme yapılabilir."
+          },
+          "amex": {
+            "label": "American Express",
+            "description": "AmEx kabul ediliyorsa belirtin."
+          },
+          "cash": {
+            "label": "Nakit",
+            "description": "Klinikte nakit ödeme mümkündür."
+          },
+          "paypal": {
+            "label": "PayPal",
+            "description": "PayPal ya da benzeri cüzdanlar kullanılabilir."
+          },
+          "bank-transfer": {
+            "label": "Havale / EFT",
+            "description": "Banka transferi seçeneği sunulur."
+          },
+          "iban-transfer": {
+            "label": "IBAN transferi",
+            "description": "IBAN bilgilerinizi paylaşarak banka havalesi alın."
+          },
+          "other": {
+            "label": "Diğer yöntemler",
+            "description": "Alternatif ödeme yollarını ekleyin."
+          }
+        }
+      },
+      "placeholders": {
+        "specialRules": "örn. Dudak dolgusunda lokal anestezi uygulanır",
+        "restrictedProducts": "Temsilcinin asla bahsetmemesi gereken markaları yazın"
+      }
+    },
+    "languageCulture": {
+      "title": "Diller ve kültürel normlar",
+      "description": "Mesajları hedef kitlenize göre uyarlayın.",
+      "fields": {
+        "languageSelection": "Desteklenen diller",
+        "defaultLanguage": "Birincil / varsayılan dil",
+        "honorifics": "Hitap biçimi",
+        "culturalTone": "Dil seviyesi"
+      },
+      "hints": {
+        "languageSelection": "Temsilcinin desteklemesini istediğiniz tüm dilleri seçin.",
+        "defaultLanguage": "Yanıtlar için ana dil olarak kullanılacak."
+      },
+      "options": {
+        "languages": {
+          "turkish": "Türkçe",
+          "english": "İngilizce",
+          "arabic": "Arapça",
+          "russian": "Rusça",
+          "spanish": "İspanyolca",
+          "german": "Almanca",
+          "french": "Fransızca",
+          "italian": "İtalyanca",
+          "polish": "Lehçe",
+          "portuguese": "Portekizce",
+          "farsi": "Farsça",
+          "other": "Diğer"
+        },
+        "honorifics": {
+          "hanim-bey": "Hanım/Bey",
+          "mr-ms": "Bay/Bayan",
+          "senor": "Señor/Señora",
+          "none": "Hitap kullanma"
+        },
+        "honorificsDescriptions": {
+          "hanim-bey": "Türkçe hanım/bey hitaplarını kullanın.",
+          "mr-ms": "Bay/Bayan ile başlamayı tercih edin.",
+          "senor": "İspanyolca hitap biçimleri tercih edilir.",
+          "none": "Resmî hitap kullanmadan konuşun."
+        },
+        "culturalTone": {
+          "formal": "Resmî",
+          "semi-formal": "Yarı resmî",
+          "casual": "Samimi"
+        }
+      },
+      "placeholders": {
+        "otherLanguage": "Diğer seçildi ise dili yazın"
+      }
+    },
+    "channels": {
+      "title": "Kanallar ve dijital varlık",
+      "description": "Temsilcinin hangi kanallarda çalışacağını ve kimin takip edeceğini belirtin.",
+      "fields": {
+        "aiAgentChannels": "Yapay zekâ kanalları",
+        "website": "Web sitesi",
+        "websiteUrl": "Web sitesi URL'si",
+        "otherPlatforms": "Diğer platformlar"
+      },
+      "hints": {
+        "aiAgentChannels": "Temsilcinin aktif olmasını istediğiniz tüm kanalları seçin.",
+        "website": "Site bağlantısının paylaşılması gerekiyorsa aktif edin.",
+        "otherPlatforms": "Ek otomasyon veya temas noktalarını listeleyin."
+      },
+      "options": {
+        "aiAgentChannels": {
+          "whatsapp": {
+            "label": "WhatsApp",
+            "description": "WhatsApp Business hattınızda çift yönlü sohbet."
+          },
+          "instagram-dm": {
+            "label": "Instagram DM",
+            "description": "Instagram mesajlarını temsilci yanıtlar."
+          },
+          "facebook-messenger": {
+            "label": "Facebook Messenger",
+            "description": "Facebook taleplerine otomatik yanıt."
+          },
+          "telegram": {
+            "label": "Telegram",
+            "description": "Telegram üzerinden destek verilir."
+          },
+          "website-chat": {
+            "label": "Web sitesi sohbeti",
+            "description": "Temsilciyi sitenize yerleştirin."
+          },
+          "other": {
+            "label": "Diğer kanal",
+            "description": "Özel mesajlaşma kanallarını ekleyin."
+          }
+        },
+        "otherPlatforms": {
+          "tiktok-dm": {
+            "label": "TikTok DM",
+            "description": "TikTok mesajlarını yönetin."
+          },
+          "email-automation": {
+            "label": "E-posta otomasyonu",
+            "description": "Takip veya nurture e-postalarını tetikler."
+          },
+          "sms": {
+            "label": "SMS",
+            "description": "SMS gönderir veya yanıtlar."
+          },
+          "other": {
+            "label": "Diğer otomasyonlar",
+            "description": "Ek dijital süreçleri belirtin."
+          }
+        }
+      },
+      "placeholders": {
+        "websiteUrl": "https://klinik.com",
+        "aiAgentOther": "Özel mesajlaşma kanallarını yazın",
+        "otherPlatformsOther": "Ek dijital süreçleri belirtin"
+      }
+    }
+  }
+}

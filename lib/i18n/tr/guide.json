@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "badge": "Kanal hazırlığı",
+    "title": "Yapay zekâyı kanallarınızda açmadan önce kontrol listesi",
+    "subtitle": "WhatsApp ve Instagram otomasyonu için doğrulanmış iş varlıkları ve güncel müşteri temas noktaları gerekir. Hazır olup olmadığınızı görmek veya süreci bize bırakmak için bu rehberi kullanın."
+  },
+  "sections": {
+    "website": {
+      "title": "Güncel bir web sitesi yayınlayın",
+      "description": "Meta, müşterilerle paylaşılan bilgilerle eşleşen canlı bir web sitesi ister.",
+      "points": {
+        "1": "Hizmetler, fiyatlar ve iletişim bilgilerinin güncel olduğundan emin olun.",
+        "2": "Şirket adınızı içeren yasal sayfalar (gizlilik politikası, kullanım koşulları) ekleyin.",
+        "3": "Henüz siteniz yoksa, ekibimiz birkaç gün içinde sizin için yayına alabilir."
+      },
+      "cta": "Web siteniz mi yok? Sizin için tasarlayıp yayına alıyoruz."
+    },
+    "meta": {
+      "title": "Meta işletmenizi doğrulayın",
+      "description": "WhatsApp Business API erişimi için doğrulanmış bir Meta İşletme Portföyü gerekir.",
+      "points": {
+        "1": "Resmî unvanınızla eşleşen şirket belgelerini yükleyin.",
+        "2": "Web site alan adınızı Business Manager içinde ekleyip doğrulayın.",
+        "3": "Doğrulama beklemede veya reddedildiyse, Meta ile süreci sizin adınıza yönetebiliriz."
+      },
+      "cta": "Meta doğrulamasını baştan sona biz üstlenebiliriz."
+    },
+    "whatsapp": {
+      "title": "WhatsApp için özel bir numara ayarlayın",
+      "description": "WhatsApp Business API, hâlihazırda WhatsApp'ta kullanılan bir numarayı tekrar kullanamaz.",
+      "points": {
+        "1": "Yalnızca yapay zekâ asistanına ait olacak yeni bir numara satın alın veya taşıyın.",
+        "2": "Doğrulama için SMS veya arama alabilecek şekilde aktif tutun.",
+        "3": "Uygun numaranız yoksa sanal numarayı biz temin edip yapılandırabiliriz."
+      }
+    },
+    "instagram": {
+      "title": "Instagram hesabını profesyonel moda alın",
+      "description": "Instagram DM otomasyonu için hesabın Meta İşletme Portföyüne bağlı Profesyonel (İşletme veya Creator) olması gerekir.",
+      "points": {
+        "1": "Instagram ayarlarından Profesyonele çevirin.",
+        "2": "Hesabı doğrulanmış Meta işletme hesabına bağlayın.",
+        "3": "Mesaj yönetiminin bağlı araçlar için aktif olduğundan emin olun."
+      }
+    },
+    "support": {
+      "title": "Eksikleriniz mi var? Sorun değil",
+      "description": "Onboarding ekibimiz web sitesi kurulumu, Meta doğrulaması, numara temini ve uyumluluk kontrollerini hızla tamamlar.",
+      "cta": "Bizimle konuşun, tüm hazırlıkları sizin için yapalım."
+    }
+  }
+}

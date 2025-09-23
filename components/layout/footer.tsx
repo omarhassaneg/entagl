@@ -17,6 +17,8 @@ export function Footer() {
         { label: t('nav.features'), href: '/features' },
         { label: t('footer.socialMediaAutomation'), href: '/social-media-automation' },
         { label: t('footer.demo'), href: '/demo' },
+        { label: t('footer.onboarding'), href: '/onboarding' },
+        { label: t('footer.guide'), href: '/guide' },
         { label: t('landing.solutions.cta'), href: '/free-quote' },
       ],
     },

@@ -1,0 +1,456 @@
+{
+  "hero": {
+    "badge": "Client onboarding",
+    "title": "Build your clinical AI brief in minutes",
+    "subtitle": "Capture the essentials of your clinic, voice, and workflows so we can tailor the agent exactly to your brand."
+  },
+  "labels": {
+    "progress": "Current step",
+    "step": "Step",
+    "of": "of"
+  },
+  "buttons": {
+    "addSpecialty": "Add another specialty",
+    "addService": "Add another service",
+    "addSocialLink": "Add another link",
+    "addHoliday": "Add holiday calendar",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit onboarding",
+    "submitting": "Sending..."
+  },
+  "fields": {
+    "duration": {
+      "minutes": "Minutes",
+      "hours": "Hours"
+    }
+  },
+  "toast": {
+    "success": {
+      "title": "Onboarding received",
+      "description": "Thanks! Our team will review your inputs and get back to you shortly."
+    },
+    "error": {
+      "title": "Submission failed",
+      "description": "Something went wrong while sending your form. Please try again in a moment."
+    }
+  },
+  "steps": {
+    "identity": {
+      "title": "Doctor / Clinic identity",
+      "description": "Tell us who we are representing so every reply reflects your team.",
+      "fields": {
+        "doctorName": "Doctor's name",
+        "assistantName": "Assistant's name",
+        "clinicName": "Clinic name",
+        "specialties": "Clinic specialties",
+        "primaryService": "Signature service"
+      },
+      "placeholders": {
+        "doctorName": "Dr. Ece Yılmaz",
+        "assistantName": "Assistant Ayşe",
+        "clinicName": "Glow Aesthetics Clinic",
+        "addSpecialty": "Add a specialty (e.g. Injectables)",
+        "primaryService": "Lip augmentation"
+      }
+    },
+    "brand": {
+      "title": "Brand voice & style",
+      "description": "Set the tone, personality, and emoji etiquette for the agent.",
+      "fields": {
+        "characterStyle": "Character style",
+        "tone": "Tone guidelines",
+        "emojiUsage": "Emoji usage rules"
+      },
+      "placeholders": {
+        "characterStyle": "Select a persona",
+        "otherCharacterStyle": "Describe the voice you prefer",
+        "emojiCustom": "Add any extra notes about emojis or signature phrases"
+      },
+      "options": {
+        "characterStyle": {
+          "clinic-assistant": "Clinic Assistant, Customer Service & Sales"
+        },
+        "tone": {
+          "polished": "Polished / Elegant",
+          "casual": "Casual / Approachable",
+          "professional": "Strictly professional"
+        },
+        "toneDescriptions": {
+          "polished": "Graceful, refined language that signals premium care.",
+          "casual": "Warm, upbeat tone with everyday language.",
+          "professional": "Clinically precise language focused on safety and expertise."
+        },
+        "emojiUsage": {
+          "0": "None",
+          "1": "Light use 😊",
+          "2": "Expressive ✨💉💋"
+        }
+      }
+    },
+    "services": {
+      "title": "Services & pricing",
+      "description": "List the treatments you offer so the agent can recommend accurately.",
+      "labels": {
+        "service": "Service",
+        "serviceHint": "Share as much as you can—add duration, price, brand, and notes."
+      },
+      "fields": {
+        "name": "Service name",
+        "duration": "Duration",
+        "price": "Price",
+        "brand": "Brand (optional)",
+        "description": "Description (optional)"
+      },
+      "placeholders": {
+        "name": "Hydrafacial Signature",
+        "duration": "45",
+        "price": "250",
+        "brand": "SkinCeuticals",
+        "description": "Includes cleanse, peel, extractions, boosters, LED."
+      }
+    },
+    "operational": {
+      "title": "Operational details",
+      "description": "Capture opening hours, closures, and how to find you.",
+      "fields": {
+        "schedule": "Clinic hours",
+        "open": "Open",
+        "close": "Close",
+        "closedDays": "Closed days",
+        "location": "Clinic location (optional)",
+        "mapsLink": "Google Maps link (optional)",
+        "publicHolidays": "Public holidays (optional)"
+      },
+      "hints": {
+        "schedule": "Toggle the days you operate and set the specific hours.",
+        "publicHolidays": "Add regional holidays so we know when you stay closed."
+      },
+      "options": {
+        "closedDays": {
+          "saturday": "Closed on Saturdays",
+          "sunday": "Closed on Sundays",
+          "publicHolidays": "Closed on public holidays",
+          "other": "Other closures"
+        },
+        "holidayCountries": {
+          "local": "Use clinic's local region",
+          "turkey": "Türkiye",
+          "usa": "United States",
+          "canada": "Canada",
+          "uk": "United Kingdom",
+          "uae": "United Arab Emirates",
+          "saudi": "Saudi Arabia",
+          "kuwait": "Kuwait",
+          "qatar": "Qatar",
+          "other": "Other region"
+        }
+      },
+      "placeholders": {
+        "closedOther": "e.g. Closed first Monday of every month",
+        "location": "Enter your clinic address (optional)",
+        "mapsLink": "https://maps.google.com/...",
+        "holidayCountry": "Select region",
+        "holidayDates": "Select holiday dates"
+      },
+      "labels": {
+        "holidayCountry": "Holiday region",
+        "holidayDates": "Holiday dates"
+      },
+      "emptyState": {
+        "publicHolidays": "No holiday calendars added yet."
+      },
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "contact": {
+      "title": "Contact information",
+      "description": "Let us know how clients should reach you.",
+      "fields": {
+        "landline": "Landline",
+        "mobile": "Mobile",
+        "whatsapp": "WhatsApp",
+        "whatsappLink": "WhatsApp direct link",
+        "email": "Email",
+        "socials": "Social media links"
+      },
+      "placeholders": {
+        "landline": "+90 212 000 0000",
+        "mobile": "+90 532 000 0000",
+        "whatsapp": "+90 532 000 0000",
+        "whatsappLink": "Auto-generated if blank",
+        "email": "care@clinic.com",
+        "socialHandle": "@clinicname or https://..."
+      },
+      "hints": {
+        "whatsappLink": "Leave blank to auto-generate from the WhatsApp number."
+      },
+      "options": {
+        "platforms": {
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "facebook": "Facebook",
+          "website": "Website",
+          "other": "Other"
+        }
+      }
+    },
+    "booking": {
+      "title": "Booking & escalation",
+      "description": "Explain how clients book and when to involve humans.",
+      "fields": {
+        "process": "Booking process",
+        "handover": "Handover protocols",
+        "bookingTools": "Booking tools",
+        "consultationFlow": "Consultation flow"
+      },
+      "hints": {
+        "handover": "Select the situations that must be escalated to your team.",
+        "bookingTools": "Choose the tools the agent should trigger or integrate with.",
+        "consultationFlow": "Clarify pre-treatment steps so the agent can guide properly."
+      },
+      "options": {
+        "process": {
+          "consultation-first": "Consultation required first",
+          "same-day": "Same-day treatment possible",
+          "both": "Consultation then immediate treatment"
+        },
+        "processDescriptions": {
+          "consultation-first": "Agent books an assessment before any procedure.",
+          "same-day": "Agent can secure an appointment and treatment together.",
+          "both": "Agent determines the right path based on client needs."
+        },
+        "handover": {
+          "pain": {
+            "label": "Pain or complication alerts",
+            "description": "Escalate whenever a client reports discomfort or adverse effects."
+          },
+          "complaints": {
+            "label": "Complaints or dissatisfaction",
+            "description": "Route negative feedback to a human instantly."
+          },
+          "out-of-hours": {
+            "label": "Out-of-hours requests",
+            "description": "Notify staff for late-night or emergency requests."
+          },
+          "other": {
+            "label": "Other handover rules",
+            "description": "Describe any additional escalation scenarios."
+          }
+        },
+        "bookingTools": {
+          "request_booking": {
+            "label": "Request booking workflow",
+            "description": "Agent collects info and submits a booking request."
+          },
+          "human_handover": {
+            "label": "Instant human handover",
+            "description": "Agent switches to a human operator when needed."
+          },
+          "other": {
+            "label": "Other tools",
+            "description": "Add custom booking automations."
+          }
+        },
+        "consultation": {
+          "free": {
+            "label": "Free first consultation",
+            "description": "Highlight that the first consult is complimentary."
+          },
+          "photos-required": {
+            "label": "Photos required",
+            "description": "Clients must send photos before approval."
+          },
+          "medical-questionnaire": {
+            "label": "Medical questionnaire",
+            "description": "Agent shares and collects your medical form."
+          },
+          "other": {
+            "label": "Other consultation rules",
+            "description": "Add any bespoke intake requirements."
+          }
+        }
+      },
+      "placeholders": {
+        "handoverOther": "Describe additional escalation scenarios",
+        "bookingToolsOther": "Add any custom booking automations",
+        "consultationOther": "Outline bespoke consultation requirements"
+      }
+    },
+    "policies": {
+      "title": "Clinic-specific policies",
+      "description": "Set payment rules and things the agent should avoid.",
+      "fields": {
+        "paymentMethods": "Accepted payment methods",
+        "specialRules": "Special rules",
+        "restrictedProducts": "Products not to mention"
+      },
+      "hints": {
+        "paymentMethods": "Let us know which payment types the agent can promote."
+      },
+      "options": {
+        "paymentMethods": {
+          "visa": {
+            "label": "Visa",
+            "description": "Clients can pay with Visa cards."
+          },
+          "mastercard": {
+            "label": "Mastercard",
+            "description": "Mastercard payments are accepted."
+          },
+          "amex": {
+            "label": "American Express",
+            "description": "Highlight if AmEx is accepted."
+          },
+          "cash": {
+            "label": "Cash",
+            "description": "Cash payments available on-site."
+          },
+          "paypal": {
+            "label": "PayPal",
+            "description": "Enable PayPal or similar wallets."
+          },
+          "bank-transfer": {
+            "label": "Bank transfer",
+            "description": "Client can pay via direct bank transfer."
+          },
+          "iban-transfer": {
+            "label": "IBAN transfer",
+            "description": "Provide IBAN details for wire transfers."
+          },
+          "other": {
+            "label": "Other methods",
+            "description": "Specify alternative payment options."
+          }
+        }
+      },
+      "placeholders": {
+        "specialRules": "e.g. Doctor applies local anesthesia for lip filler",
+        "restrictedProducts": "List brands the agent should never mention"
+      }
+    },
+    "languageCulture": {
+      "title": "Languages & cultural norms",
+      "description": "Adapt messaging for your audience.",
+      "fields": {
+        "languageSelection": "Languages supported",
+        "defaultLanguage": "Primary / default language",
+        "honorifics": "Honorifics / titles",
+        "culturalTone": "Cultural phrasing"
+      },
+      "hints": {
+        "languageSelection": "Select every language your automation should understand.",
+        "defaultLanguage": "We will treat this as the main language for replies."
+      },
+      "options": {
+        "languages": {
+          "turkish": "Turkish",
+          "english": "English",
+          "arabic": "Arabic",
+          "russian": "Russian",
+          "spanish": "Spanish",
+          "german": "German",
+          "french": "French",
+          "italian": "Italian",
+          "polish": "Polish",
+          "portuguese": "Portuguese",
+          "farsi": "Farsi",
+          "other": "Other"
+        },
+        "honorifics": {
+          "hanim-bey": "Hanım/Bey",
+          "mr-ms": "Mr./Ms.",
+          "senor": "Señor/Señora",
+          "none": "None"
+        },
+        "honorificsDescriptions": {
+          "hanim-bey": "Use Turkish honorifics such as Hanım/Bey.",
+          "mr-ms": "Default to Mr./Ms. unless otherwise specified.",
+          "senor": "Use Spanish-style honorifics.",
+          "none": "Address clients without formal titles."
+        },
+        "culturalTone": {
+          "formal": "Formal",
+          "semi-formal": "Semi-formal",
+          "casual": "Casual"
+        }
+      },
+      "placeholders": {
+        "otherLanguage": "If other, specify the language"
+      }
+    },
+    "channels": {
+      "title": "Channels & digital presence",
+      "description": "Tell the agent where it should operate and who monitors it.",
+      "fields": {
+        "aiAgentChannels": "AI agent channels",
+        "website": "Website",
+        "websiteUrl": "Website URL",
+        "otherPlatforms": "Other platforms"
+      },
+      "hints": {
+        "aiAgentChannels": "Pick every channel the agent should cover.",
+        "website": "Enable if the agent should mention or link to your site.",
+        "otherPlatforms": "Note any additional automations or touchpoints."
+      },
+      "options": {
+        "aiAgentChannels": {
+          "whatsapp": {
+            "label": "WhatsApp",
+            "description": "Two-way chat on your WhatsApp Business line."
+          },
+          "instagram-dm": {
+            "label": "Instagram DMs",
+            "description": "Agent handles Instagram direct messages."
+          },
+          "facebook-messenger": {
+            "label": "Facebook Messenger",
+            "description": "Respond to Facebook inquiries automatically."
+          },
+          "telegram": {
+            "label": "Telegram",
+            "description": "Support clients via Telegram chats."
+          },
+          "website-chat": {
+            "label": "Website chat widget",
+            "description": "Embed the agent on your website."
+          },
+          "other": {
+            "label": "Other channel",
+            "description": "Add any custom messaging channels."
+          }
+        },
+        "otherPlatforms": {
+          "tiktok-dm": {
+            "label": "TikTok DMs",
+            "description": "Handle direct messages on TikTok."
+          },
+          "email-automation": {
+            "label": "Email automation",
+            "description": "Trigger nurture or follow-up emails."
+          },
+          "sms": {
+            "label": "SMS",
+            "description": "Send or respond to SMS messages."
+          },
+          "other": {
+            "label": "Other automations",
+            "description": "Specify any additional digital workflows."
+          }
+        }
+      },
+      "placeholders": {
+        "websiteUrl": "https://clinic.com",
+        "aiAgentOther": "Add any custom messaging channels",
+        "otherPlatformsOther": "Specify additional digital workflows"
+      }
+    }
+  }
+}
