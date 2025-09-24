@@ -792,7 +792,59 @@ export function OnboardingForm() {
     });
   };
 
+  const validateCurrentStep = () => {
+    switch (currentStep) {
+      case 0: // Identity step
+        return (
+          formData.identity.doctorName.trim() !== '' &&
+          formData.identity.assistantName.trim() !== '' &&
+          formData.identity.clinicName.trim() !== '' &&
+          formData.identity.specialties.length > 0
+        );
+      case 1: // Brand step - tone guidelines mandatory
+        return formData.brand.tone !== '';
+      case 2: // Services step - at least 1 service with name, amount, duration
+        return formData.services.items.some(
+          (service) =>
+            service.name.trim() !== '' &&
+            service.price.trim() !== '' &&
+            service.duration.trim() !== ''
+        );
+      case 4: // Contact step - mobile and email mandatory
+        return (
+          formData.contact.numbers.mobile.trim() !== '' &&
+          formData.contact.email.trim() !== ''
+        );
+      default:
+        return true;
+    }
+  };
+
   const handleSubmit = async () => {
+    // Final validation before submission
+    const isValid =
+      formData.identity.doctorName.trim() !== '' &&
+      formData.identity.assistantName.trim() !== '' &&
+      formData.identity.clinicName.trim() !== '' &&
+      formData.identity.specialties.length > 0 &&
+      formData.brand.tone !== '' &&
+      formData.services.items.some(
+        (service) =>
+          service.name.trim() !== '' &&
+          service.price.trim() !== '' &&
+          service.duration.trim() !== ''
+      ) &&
+      formData.contact.numbers.mobile.trim() !== '' &&
+      formData.contact.email.trim() !== '';
+
+    if (!isValid) {
+      toast({
+        title: t('onboarding.toast.validation.title'),
+        description: t('onboarding.toast.validation.description'),
+      });
+      return;
+    }
+
     setIsSubmitting(true);
 
     const sanitizedChannels = {
@@ -876,7 +928,7 @@ export function OnboardingForm() {
             <div className="grid gap-4 sm:gap-6">
               <div className="grid gap-2">
                 <Label htmlFor="doctor-name" className="text-sm font-medium">
-                  {t('onboarding.steps.identity.fields.doctorName')}
+                  {t('onboarding.steps.identity.fields.doctorName')} <span className="text-red-500">*</span>
                 </Label>
                 <Input
                   id="doctor-name"
@@ -892,11 +944,12 @@ export function OnboardingForm() {
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.doctorName')}
                   className="min-h-[44px]"
+                  required
                 />
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="assistant-name" className="text-sm font-medium">
-                  {t('onboarding.steps.identity.fields.assistantName')}
+                  {t('onboarding.steps.identity.fields.assistantName')} <span className="text-red-500">*</span>
                 </Label>
                 <Input
                   id="assistant-name"
@@ -912,11 +965,12 @@ export function OnboardingForm() {
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.assistantName')}
                   className="min-h-[44px]"
+                  required
                 />
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="clinic-name" className="text-sm font-medium">
-                  {t('onboarding.steps.identity.fields.clinicName')}
+                  {t('onboarding.steps.identity.fields.clinicName')} <span className="text-red-500">*</span>
                 </Label>
                 <Input
                   id="clinic-name"
@@ -932,12 +986,13 @@ export function OnboardingForm() {
                   }
                   placeholder={t('onboarding.steps.identity.placeholders.clinicName')}
                   className="min-h-[44px]"
+                  required
                 />
               </div>
 
               <div className="grid gap-3">
                 <Label className="text-sm font-medium">
-                  {t('onboarding.steps.identity.fields.specialties')}
+                  {t('onboarding.steps.identity.fields.specialties')} <span className="text-red-500">*</span>
                 </Label>
                 <div className="flex flex-col sm:flex-row gap-2">
                   <Input
@@ -1061,7 +1116,7 @@ export function OnboardingForm() {
 
               <div className="grid gap-3">
                 <Label className="text-sm font-medium">
-                  {t('onboarding.steps.brand.fields.tone')}
+                  {t('onboarding.steps.brand.fields.tone')} <span className="text-red-500">*</span>
                 </Label>
                 <RadioGroup
                   value={formData.brand.tone}
@@ -1179,7 +1234,9 @@ export function OnboardingForm() {
                       </div>
                       <div className="grid gap-4 sm:grid-cols-2">
                         <div className="grid gap-2">
-                          <Label>{t('onboarding.steps.services.fields.name')}</Label>
+                          <Label className="text-sm font-medium">
+                            {t('onboarding.steps.services.fields.name')} <span className="text-red-500">*</span>
+                          </Label>
                           <Input
                             value={service.name}
                             onChange={(event) =>
@@ -1187,10 +1244,13 @@ export function OnboardingForm() {
                             }
                             placeholder={t('onboarding.steps.services.placeholders.name')}
                             className="min-h-[44px]"
+                            required
                           />
                         </div>
                         <div className="grid gap-2">
-                          <Label>{t('onboarding.steps.services.fields.duration')}</Label>
+                          <Label className="text-sm font-medium">
+                            {t('onboarding.steps.services.fields.duration')} <span className="text-red-500">*</span>
+                          </Label>
                           <div className="flex flex-col sm:flex-row gap-2">
                             <Input
                               type="number"
@@ -1201,6 +1261,7 @@ export function OnboardingForm() {
                               }
                               placeholder={t('onboarding.steps.services.placeholders.duration')}
                               className="min-h-[44px] flex-1"
+                              required
                             />
                             <Select
                               value={service.durationUnit}
@@ -1222,7 +1283,9 @@ export function OnboardingForm() {
                           </div>
                         </div>
                         <div className="grid gap-2">
-                          <Label>{t('onboarding.steps.services.fields.price')}</Label>
+                          <Label className="text-sm font-medium">
+                            {t('onboarding.steps.services.fields.price')} <span className="text-red-500">*</span>
+                          </Label>
                           <div className="flex flex-col sm:flex-row gap-2">
                             <Input
                               type="number"
@@ -1233,6 +1296,7 @@ export function OnboardingForm() {
                               }
                               placeholder={t('onboarding.steps.services.placeholders.price')}
                               className="min-h-[44px] flex-1"
+                              required
                             />
                             <Select
                               value={service.currency}
@@ -1254,18 +1318,23 @@ export function OnboardingForm() {
                           </div>
                         </div>
                         <div className="grid gap-2">
-                          <Label>{t('onboarding.steps.services.fields.brand')}</Label>
+                          <Label className="text-sm font-medium">
+                            {t('onboarding.steps.services.fields.brand')} <span className="text-muted-foreground text-xs">(optional)</span>
+                          </Label>
                           <Input
                             value={service.brand}
                             onChange={(event) =>
                               updateServiceItem(service.id, { brand: event.target.value })
                             }
                             placeholder={t('onboarding.steps.services.placeholders.brand')}
+                            className="min-h-[44px]"
                           />
                         </div>
                       </div>
                       <div className="grid gap-2">
-                        <Label>{t('onboarding.steps.services.fields.description')}</Label>
+                        <Label className="text-sm font-medium">
+                          {t('onboarding.steps.services.fields.description')} <span className="text-muted-foreground text-xs">(optional)</span>
+                        </Label>
                         <Textarea
                           value={service.description}
                           onChange={(event) =>
@@ -1649,7 +1718,9 @@ export function OnboardingForm() {
                   />
                 </div>
                 <div className="grid gap-2">
-                  <Label htmlFor="phone-mobile">{t('onboarding.steps.contact.fields.mobile')}</Label>
+                  <Label htmlFor="phone-mobile" className="text-sm font-medium">
+                    {t('onboarding.steps.contact.fields.mobile')} <span className="text-red-500">*</span>
+                  </Label>
                   <Input
                     id="phone-mobile"
                     value={formData.contact.numbers.mobile}
@@ -1666,6 +1737,8 @@ export function OnboardingForm() {
                       }))
                     }
                     placeholder={t('onboarding.steps.contact.placeholders.mobile')}
+                    className="min-h-[44px]"
+                    required
                   />
                 </div>
                 <div className="grid gap-2">
@@ -1713,7 +1786,9 @@ export function OnboardingForm() {
               </div>
 
               <div className="grid gap-2">
-                <Label htmlFor="email">{t('onboarding.steps.contact.fields.email')}</Label>
+                <Label htmlFor="email" className="text-sm font-medium">
+                  {t('onboarding.steps.contact.fields.email')} <span className="text-red-500">*</span>
+                </Label>
                 <Input
                   id="email"
                   type="email"
@@ -1728,6 +1803,8 @@ export function OnboardingForm() {
                     }))
                   }
                   placeholder={t('onboarding.steps.contact.placeholders.email')}
+                  className="min-h-[44px]"
+                  required
                 />
               </div>
 
@@ -2343,7 +2420,23 @@ export function OnboardingForm() {
 
 
   const handleNextStep = () => {
+    if (!validateCurrentStep()) {
+      toast({
+        title: t('onboarding.toast.validation.title'),
+        description: t('onboarding.toast.validation.description'),
+      });
+      return;
+    }
     setCurrentStep((prev) => Math.min(prev + 1, totalSteps - 1));
+  };
+
+  const handleDisabledNextClick = () => {
+    if (!validateCurrentStep()) {
+      toast({
+        title: t('onboarding.toast.validation.title'),
+        description: t('onboarding.toast.validation.description'),
+      });
+    }
   };
 
   const handlePrevStep = () => {
@@ -2391,14 +2484,22 @@ export function OnboardingForm() {
             {t('onboarding.buttons.back')}
           </Button>
           {currentStep < totalSteps - 1 ? (
-            <Button
-              type="button"
-              onClick={handleNextStep}
-              disabled={isSubmitting}
-              className="w-full sm:w-auto min-h-[44px]"
-            >
-              {t('onboarding.buttons.next')}
-            </Button>
+            <div className="relative w-full sm:w-auto">
+              <Button
+                type="button"
+                onClick={validateCurrentStep() ? handleNextStep : handleDisabledNextClick}
+                disabled={isSubmitting || !validateCurrentStep()}
+                className="w-full sm:w-auto min-h-[44px]"
+              >
+                {t('onboarding.buttons.next')}
+              </Button>
+              {!validateCurrentStep() && (
+                <div
+                  className="absolute inset-0 cursor-pointer"
+                  onClick={handleDisabledNextClick}
+                />
+              )}
+            </div>
           ) : (
             <Button
               type="button"

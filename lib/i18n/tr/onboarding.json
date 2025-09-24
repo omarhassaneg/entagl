@@ -33,6 +33,10 @@
     "error": {
       "title": "Gönderim gerçekleşmedi",
       "description": "Form gönderilirken bir hata oluştu. Lütfen biraz sonra tekrar deneyin."
+    },
+    "validation": {
+      "title": "Zorunlu alanlar eksik",
+      "description": "Lütfen devam etmeden önce tüm zorunlu alanları doldurun."
     }
   },
   "steps": {

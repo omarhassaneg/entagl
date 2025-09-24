@@ -33,6 +33,10 @@
     "error": {
       "title": "Submission failed",
       "description": "Something went wrong while sending your form. Please try again in a moment."
+    },
+    "validation": {
+      "title": "Required fields missing",
+      "description": "Please fill in all required fields before proceeding."
     }
   },
   "steps": {
