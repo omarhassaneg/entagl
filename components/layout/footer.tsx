@@ -6,9 +6,13 @@ import { Logo } from './logo';
 import { useTranslations } from "@/lib/hooks/use-translations";
 import Link from 'next/link';
 import { Instagram, Phone } from "lucide-react";
+import { usePathname } from 'next/navigation';
+import { cn } from '@/lib/utils';
 
 export function Footer() {
   const { t } = useTranslations();
+  const pathname = usePathname();
+  const isOnboarding = pathname?.includes('/onboarding');
 
   const footerSections = [
     {
@@ -40,7 +44,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-background border-t">
+    <footer className={cn('bg-background border-t', isOnboarding && 'hidden md:block')}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">

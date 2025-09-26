@@ -15,6 +15,7 @@
     "addSocialLink": "Add another link",
     "addHoliday": "Add holiday calendar",
     "back": "Back",
+    "start": "Start onboarding",
     "next": "Next",
     "submit": "Submit onboarding",
     "submitting": "Sending..."
@@ -36,7 +37,8 @@
     },
     "validation": {
       "title": "Required fields missing",
-      "description": "Please fill in all required fields before proceeding."
+      "description": "Please fill in all required fields before proceeding.",
+      "missingFields": "Missing required fields: {{fields}}"
     }
   },
   "steps": {
@@ -47,15 +49,13 @@
         "doctorName": "Doctor's name",
         "assistantName": "Assistant's name",
         "clinicName": "Clinic name",
-        "specialties": "Clinic specialties",
-        "primaryService": "Signature service"
+        "specialties": "Clinic specialties"
       },
       "placeholders": {
         "doctorName": "Dr. Ece Yılmaz",
         "assistantName": "Assistant Ayşe",
         "clinicName": "Glow Aesthetics Clinic",
-        "specialties": "e.g. Dentist, Rhinoplasty Surgeon, Dermatologist",
-        "primaryService": "Lip augmentation"
+        "specialties": "e.g. Dentist, Rhinoplasty Surgeon, Dermatologist"
       }
     },
     "brand": {
@@ -178,23 +178,14 @@
       "title": "Contact information",
       "description": "Let us know how clients should reach you.",
       "fields": {
-        "landline": "Landline",
         "mobile": "Mobile",
-        "whatsapp": "WhatsApp",
-        "whatsappLink": "WhatsApp direct link",
         "email": "Email",
         "socials": "Social media links"
       },
       "placeholders": {
-        "landline": "+90 212 000 0000",
         "mobile": "+90 532 000 0000",
-        "whatsapp": "+90 532 000 0000",
-        "whatsappLink": "Auto-generated if blank",
         "email": "care@clinic.com",
         "socialHandle": "@clinicname or https://..."
-      },
-      "hints": {
-        "whatsappLink": "Leave blank to auto-generate from the WhatsApp number."
       },
       "options": {
         "platforms": {

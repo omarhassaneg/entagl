@@ -77,7 +77,6 @@ interface OnboardingFormData {
     assistantName: string;
     clinicName: string;
     specialties: string;
-    primaryService: string;
   };
   brand: {
     characterStyle: string;
@@ -104,11 +103,8 @@ interface OnboardingFormData {
   };
   contact: {
     numbers: {
-      landline: string;
       mobile: string;
-      whatsapp: string;
     };
-    whatsappLink: string;
     email: string;
     socials: SocialLinkItem[];
   };
@@ -182,7 +178,6 @@ const DEFAULT_FORM_DATA: OnboardingFormData = {
     assistantName: '',
     clinicName: '',
     specialties: '',
-    primaryService: '',
   },
   brand: {
     characterStyle: 'clinic-assistant',
@@ -214,11 +209,8 @@ const DEFAULT_FORM_DATA: OnboardingFormData = {
   },
   contact: {
     numbers: {
-      landline: '',
       mobile: '',
-      whatsapp: '',
     },
-    whatsappLink: '',
     email: '',
     socials: [
       {
@@ -785,56 +777,89 @@ export function OnboardingForm() {
     });
   };
 
-  const validateCurrentStep = () => {
-    switch (currentStep) {
-      case 0: // Identity step
-        return (
-          formData.identity.doctorName.trim() !== '' &&
-          formData.identity.assistantName.trim() !== '' &&
-          formData.identity.clinicName.trim() !== '' &&
-          formData.identity.specialties.trim() !== ''
-        );
-      case 1: // Brand step - tone guidelines mandatory
-        return formData.brand.tone !== '';
-      case 2: // Services step - at least 1 service with name, amount, duration
-        return formData.services.items.some(
+  const getMissingFieldsForStep = (step: number) => {
+    switch (step) {
+      case 0: {
+        const missing: string[] = [];
+        if (formData.identity.doctorName.trim() === '') {
+          missing.push(t('onboarding.steps.identity.fields.doctorName'));
+        }
+        if (formData.identity.assistantName.trim() === '') {
+          missing.push(t('onboarding.steps.identity.fields.assistantName'));
+        }
+        if (formData.identity.clinicName.trim() === '') {
+          missing.push(t('onboarding.steps.identity.fields.clinicName'));
+        }
+        if (formData.identity.specialties.trim() === '') {
+          missing.push(t('onboarding.steps.identity.fields.specialties'));
+        }
+        return missing;
+      }
+      case 1: {
+        return formData.brand.tone === '' ? [t('onboarding.steps.brand.fields.tone')] : [];
+      }
+      case 2: {
+        const hasCompleteService = formData.services.items.some(
           (service) =>
             service.name.trim() !== '' &&
             service.price.trim() !== '' &&
             service.duration.trim() !== ''
         );
-      case 4: // Contact step - mobile and email mandatory
-        return (
-          formData.contact.numbers.mobile.trim() !== '' &&
-          formData.contact.email.trim() !== ''
-        );
+
+        if (hasCompleteService) {
+          return [];
+        }
+
+        const firstService = formData.services.items[0];
+        const missing: string[] = [];
+        if (!firstService || firstService.name.trim() === '') {
+          missing.push(t('onboarding.steps.services.fields.name'));
+        }
+        if (!firstService || firstService.price.trim() === '') {
+          missing.push(t('onboarding.steps.services.fields.price'));
+        }
+        if (!firstService || firstService.duration.trim() === '') {
+          missing.push(t('onboarding.steps.services.fields.duration'));
+        }
+        return missing;
+      }
+      case 4: {
+        const missing: string[] = [];
+        if (formData.contact.numbers.mobile.trim() === '') {
+          missing.push(t('onboarding.steps.contact.fields.mobile'));
+        }
+        if (formData.contact.email.trim() === '') {
+          missing.push(t('onboarding.steps.contact.fields.email'));
+        }
+        return missing;
+      }
       default:
-        return true;
+        return [];
     }
   };
 
-  const handleSubmit = async () => {
-    // Final validation before submission
-    const isValid =
-      formData.identity.doctorName.trim() !== '' &&
-      formData.identity.assistantName.trim() !== '' &&
-      formData.identity.clinicName.trim() !== '' &&
-      formData.identity.specialties.trim() !== '' &&
-      formData.brand.tone !== '' &&
-      formData.services.items.some(
-        (service) =>
-          service.name.trim() !== '' &&
-          service.price.trim() !== '' &&
-          service.duration.trim() !== ''
-      ) &&
-      formData.contact.numbers.mobile.trim() !== '' &&
-      formData.contact.email.trim() !== '';
+  const notifyMissingFields = (missingFields: string[]) => {
+    if (missingFields.length === 0) {
+      return false;
+    }
 
-    if (!isValid) {
-      toast({
-        title: t('onboarding.toast.validation.title'),
-        description: t('onboarding.toast.validation.description'),
-      });
+    const fieldsList = missingFields.join(', ');
+    toast({
+      variant: 'destructive',
+      title: t('onboarding.toast.validation.title'),
+      description: `${t('onboarding.toast.validation.description')} ${fieldsList}`,
+      duration: 5000, // Show for 5 seconds on mobile
+    });
+
+    return true;
+  };
+
+  const handleSubmit = async () => {
+    const missingFields = [0, 1, 2, 4]
+      .flatMap((step) => getMissingFieldsForStep(step))
+      .filter((value, index, array) => array.indexOf(value) === index);
+
+    if (notifyMissingFields(missingFields)) {
       return;
     }
 
@@ -852,14 +877,6 @@ export function OnboardingForm() {
 
     const payload = {
       ...formData,
-      contact: {
-        ...formData.contact,
-        whatsappLink:
-          formData.contact.whatsappLink ||
-          (formData.contact.numbers.whatsapp
-            ? `https://wa.me/${formData.contact.numbers.whatsapp.replace(/\D/g, '')}`
-            : ''),
-      },
       operational: {
         ...formData.operational,
         publicHolidays: formData.operational.publicHolidays.filter(
@@ -1005,26 +1022,7 @@ export function OnboardingForm() {
                 />
               </div>
 
-              <div className="grid gap-2">
-                <Label htmlFor="primary-service" className="text-sm font-medium">
-                  {t('onboarding.steps.identity.fields.primaryService')}
-                </Label>
-                <Input
-                  id="primary-service"
-                  value={formData.identity.primaryService}
-                  onChange={(event) =>
-                    setFormData((prev) => ({
-                      ...prev,
-                      identity: {
-                        ...prev.identity,
-                        primaryService: event.target.value,
-                      },
-                    }))
-                  }
-                  placeholder={t('onboarding.steps.identity.placeholders.primaryService')}
-                  className="min-h-[44px]"
-                />
-              </div>
+
             </div>
           </StepCard>
         );
@@ -1662,93 +1660,29 @@ export function OnboardingForm() {
             description={t('onboarding.steps.contact.description')}
           >
             <div className="grid gap-6">
-              <div className="grid gap-4 md:grid-cols-3">
-                <div className="grid gap-2">
-                  <Label htmlFor="phone-landline">{t('onboarding.steps.contact.fields.landline')}</Label>
-                  <Input
-                    id="phone-landline"
-                    value={formData.contact.numbers.landline}
-                    onChange={(event) =>
-                      setFormData((prev) => ({
-                        ...prev,
-                        contact: {
-                          ...prev.contact,
-                          numbers: {
-                            ...prev.contact.numbers,
-                            landline: event.target.value,
-                          },
-                        },
-                      }))
-                    }
-                    placeholder={t('onboarding.steps.contact.placeholders.landline')}
-                  />
-                </div>
-                <div className="grid gap-2">
-                  <Label htmlFor="phone-mobile" className="text-sm font-medium">
-                    {t('onboarding.steps.contact.fields.mobile')} <span className="text-red-500">*</span>
-                  </Label>
-                  <Input
-                    id="phone-mobile"
-                    value={formData.contact.numbers.mobile}
-                    onChange={(event) =>
-                      setFormData((prev) => ({
-                        ...prev,
-                        contact: {
-                          ...prev.contact,
-                          numbers: {
-                            ...prev.contact.numbers,
-                            mobile: event.target.value,
-                          },
-                        },
-                      }))
-                    }
-                    placeholder={t('onboarding.steps.contact.placeholders.mobile')}
-                    className="min-h-[44px]"
-                    required
-                  />
-                </div>
-                <div className="grid gap-2">
-                  <Label htmlFor="phone-whatsapp">{t('onboarding.steps.contact.fields.whatsapp')}</Label>
-                  <Input
-                    id="phone-whatsapp"
-                    value={formData.contact.numbers.whatsapp}
-                    onChange={(event) =>
-                      setFormData((prev) => ({
-                        ...prev,
-                        contact: {
-                          ...prev.contact,
-                          numbers: {
-                            ...prev.contact.numbers,
-                            whatsapp: event.target.value,
-                          },
-                        },
-                      }))
-                    }
-                    placeholder={t('onboarding.steps.contact.placeholders.whatsapp')}
-                  />
-                </div>
-              </div>
-
               <div className="grid gap-2">
-                <Label htmlFor="whatsapp-link">{t('onboarding.steps.contact.fields.whatsappLink')}</Label>
+                <Label htmlFor="phone-mobile" className="text-sm font-medium">
+                  {t('onboarding.steps.contact.fields.mobile')} <span className="text-red-500">*</span>
+                </Label>
                 <Input
-                  id="whatsapp-link"
-                  type="url"
-                  value={formData.contact.whatsappLink}
+                  id="phone-mobile"
+                  value={formData.contact.numbers.mobile}
                   onChange={(event) =>
                     setFormData((prev) => ({
                       ...prev,
                       contact: {
                         ...prev.contact,
-                        whatsappLink: event.target.value,
+                        numbers: {
+                          ...prev.contact.numbers,
+                          mobile: event.target.value,
+                        },
                       },
                     }))
                   }
-                  placeholder={t('onboarding.steps.contact.placeholders.whatsappLink')}
+                  placeholder={t('onboarding.steps.contact.placeholders.mobile')}
+                  className="min-h-[44px]"
+                  required
                 />
-                <p className="text-xs text-muted-foreground">
-                  {t('onboarding.steps.contact.hints.whatsappLink')}
-                </p>
               </div>
 
               <div className="grid gap-2">
@@ -2386,23 +2320,11 @@ export function OnboardingForm() {
 
 
   const handleNextStep = () => {
-    if (!validateCurrentStep()) {
-      toast({
-        title: t('onboarding.toast.validation.title'),
-        description: t('onboarding.toast.validation.description'),
-      });
+    const missingFields = getMissingFieldsForStep(currentStep);
+    if (notifyMissingFields(missingFields)) {
       return;
     }
     setCurrentStep((prev) => Math.min(prev + 1, totalSteps - 1));
-  };
-
-  const handleDisabledNextClick = () => {
-    if (!validateCurrentStep()) {
-      toast({
-        title: t('onboarding.toast.validation.title'),
-        description: t('onboarding.toast.validation.description'),
-      });
-    }
   };
 
   const handlePrevStep = () => {
@@ -2410,14 +2332,14 @@ export function OnboardingForm() {
   };
 
   return (
-    <div className="space-y-6 sm:space-y-8" ref={formTopRef}>
-      <div className="rounded-lg border p-4 sm:p-6">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+    <div className="space-y-4 sm:space-y-6 md:space-y-8" ref={formTopRef}>
+      <div className="rounded-lg border p-3 sm:p-4 md:p-6">
+        <div className="flex flex-col gap-3 sm:gap-4 md:flex-row md:items-center md:justify-between">
           <div className="space-y-1">
             <p className="text-xs sm:text-sm uppercase tracking-wide text-muted-foreground">
               {t('onboarding.labels.progress')}
             </p>
-            <h2 className="text-xl sm:text-2xl font-semibold leading-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold leading-tight">
               {stepTitles[currentStep]}
             </h2>
             <p className="text-xs sm:text-sm text-muted-foreground">
@@ -2438,40 +2360,32 @@ export function OnboardingForm() {
 
       {renderStep()}
 
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-3 sm:gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
           <Button
             type="button"
             variant="outline"
             onClick={handlePrevStep}
             disabled={currentStep === 0 || isSubmitting}
-            className="w-full sm:w-auto min-h-[44px]"
+            className="w-full sm:w-auto min-h-[48px] text-sm sm:text-base"
           >
             {t('onboarding.buttons.back')}
           </Button>
           {currentStep < totalSteps - 1 ? (
-            <div className="relative w-full sm:w-auto">
-              <Button
-                type="button"
-                onClick={validateCurrentStep() ? handleNextStep : handleDisabledNextClick}
-                disabled={isSubmitting || !validateCurrentStep()}
-                className="w-full sm:w-auto min-h-[44px]"
-              >
-                {t('onboarding.buttons.next')}
-              </Button>
-              {!validateCurrentStep() && (
-                <div
-                  className="absolute inset-0 cursor-pointer"
-                  onClick={handleDisabledNextClick}
-                />
-              )}
-            </div>
+            <Button
+              type="button"
+              onClick={handleNextStep}
+              disabled={isSubmitting}
+              className="w-full sm:w-auto min-h-[48px] text-sm sm:text-base"
+            >
+              {t('onboarding.buttons.next')}
+            </Button>
           ) : (
             <Button
               type="button"
               onClick={handleSubmit}
               disabled={isSubmitting}
-              className="w-full sm:w-auto min-h-[44px]"
+              className="w-full sm:w-auto min-h-[48px] text-sm sm:text-base"
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-2">
@@ -2500,15 +2414,15 @@ function StepCard({
 }) {
   return (
     <Card className="border-primary/10 shadow-sm">
-      <CardHeader className="space-y-2 p-4 sm:p-6">
-        <CardTitle className="text-lg sm:text-xl">{title}</CardTitle>
+      <CardHeader className="space-y-2 p-3 sm:p-4 md:p-6">
+        <CardTitle className="text-base sm:text-lg md:text-xl">{title}</CardTitle>
         {description ? (
           <CardDescription className="text-sm sm:text-base leading-relaxed">
             {description}
           </CardDescription>
         ) : null}
       </CardHeader>
-      <CardContent className="space-y-4 sm:space-y-6 p-4 sm:p-6 pt-0">{children}</CardContent>
+      <CardContent className="space-y-4 sm:space-y-6 p-3 sm:p-4 md:p-6 pt-0">{children}</CardContent>
     </Card>
   );
 }

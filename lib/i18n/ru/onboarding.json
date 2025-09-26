@@ -15,6 +15,7 @@
     "addSocialLink": "Добавить ссылку",
     "addHoliday": "Добавить календарь праздников",
     "back": "Назад",
+    "start": "Начать онбординг",
     "next": "Далее",
     "submit": "Отправить онбординг",
     "submitting": "Отправляем..."
@@ -36,7 +37,8 @@
     },
     "validation": {
       "title": "Не заполнены обязательные поля",
-      "description": "Пожалуйста, заполните все обязательные поля перед продолжением."
+      "description": "Пожалуйста, заполните все обязательные поля перед продолжением.",
+      "missingFields": "Отсутствуют обязательные поля: {{fields}}"
     }
   },
   "steps": {
@@ -47,15 +49,13 @@
         "doctorName": "Имя доктора",
         "assistantName": "Имя ассистента",
         "clinicName": "Название клиники",
-        "specialties": "Специализации клиники",
-        "primaryService": "Флагманская услуга"
+        "specialties": "Специализации клиники"
       },
       "placeholders": {
         "doctorName": "Др. Айше Йылмаз",
         "assistantName": "Ассистент Дильяр",
         "clinicName": "Glow Aesthetics Clinic",
-        "specialties": "напр. Стоматолог, Ринопластический хирург, Дерматолог",
-        "primaryService": "Контурная пластика губ"
+        "specialties": "напр. Стоматолог, Ринопластический хирург, Дерматолог"
       }
     },
     "brand": {
@@ -178,23 +178,14 @@
       "title": "Контакты",
       "description": "Как клиенту связаться с вами?",
       "fields": {
-        "landline": "Городской номер",
         "mobile": "Мобильный",
-        "whatsapp": "WhatsApp",
-        "whatsappLink": "Прямая ссылка WhatsApp",
         "email": "Email",
         "socials": "Социальные сети"
       },
       "placeholders": {
-        "landline": "+90 212 000 0000",
         "mobile": "+90 532 000 0000",
-        "whatsapp": "+90 532 000 0000",
-        "whatsappLink": "Заполнится автоматически",
         "email": "care@clinic.com",
         "socialHandle": "@clinicname или https://..."
-      },
-      "hints": {
-        "whatsappLink": "Оставьте поле пустым, чтобы сформировать ссылку из номера."
       },
       "options": {
         "platforms": {

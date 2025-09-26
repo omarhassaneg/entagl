@@ -15,6 +15,7 @@
     "addSocialLink": "Yeni bağlantı ekle",
     "addHoliday": "Tatil takvimi ekle",
     "back": "Geri",
+    "start": "Onboardingi başlat",
     "next": "İleri",
     "submit": "Onboarding'i gönder",
     "submitting": "Gönderiliyor..."
@@ -36,7 +37,8 @@
     },
     "validation": {
       "title": "Zorunlu alanlar eksik",
-      "description": "Lütfen devam etmeden önce tüm zorunlu alanları doldurun."
+      "description": "Lütfen devam etmeden önce tüm zorunlu alanları doldurun.",
+      "missingFields": "Eksik zorunlu alanlar: {{fields}}"
     }
   },
   "steps": {
@@ -47,15 +49,13 @@
         "doctorName": "Doktor adı",
         "assistantName": "Asistan adı",
         "clinicName": "Klinik adı",
-        "specialties": "Klinik uzmanlıkları",
-        "primaryService": "İmza hizmet"
+        "specialties": "Klinik uzmanlıkları"
       },
       "placeholders": {
         "doctorName": "Dr. Ece Yılmaz",
         "assistantName": "Asistan Ayşe",
         "clinicName": "Glow Aesthetics Clinic",
-        "specialties": "örn. Diş Hekimi, Rinoplasti Cerrahı, Dermatolog",
-        "primaryService": "Dudak dolgusu"
+        "specialties": "örn. Diş Hekimi, Rinoplasti Cerrahı, Dermatolog"
       }
     },
     "brand": {
@@ -178,23 +178,14 @@
       "title": "İletişim bilgileri",
       "description": "Hastalar size nasıl ulaşmalı, belirtin.",
       "fields": {
-        "landline": "Sabit hat",
         "mobile": "Mobil",
-        "whatsapp": "WhatsApp",
-        "whatsappLink": "WhatsApp direkt linki",
         "email": "E-posta",
         "socials": "Sosyal medya bağlantıları"
       },
       "placeholders": {
-        "landline": "+90 212 000 0000",
         "mobile": "+90 532 000 0000",
-        "whatsapp": "+90 532 000 0000",
-        "whatsappLink": "Boş bırakırsanız otomatik oluşturulur",
         "email": "care@klinik.com",
         "socialHandle": "@klinikadiniz veya https://..."
-      },
-      "hints": {
-        "whatsappLink": "WhatsApp numarası giriliyse bağlantı otomatik oluşur."
       },
       "options": {
         "platforms": {

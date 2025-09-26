@@ -1,37 +1,53 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 import { OnboardingForm } from '@/components/onboarding/onboarding-form';
-import { useTranslations } from '@/lib/hooks/use-translations';
+import { cn } from '@/lib/utils';
 
 export default function OnboardingPage() {
-  const { t } = useTranslations();
+  const [isMobile, setIsMobile] = useState(false);
+
+  const containerClasses = cn(
+    'min-h-screen mx-auto w-full',
+    isMobile ? 'px-2 py-2' : 'px-4 sm:px-6 lg:px-8 py-4 md:py-12 lg:py-16'
+  );
+
+  const contentClasses = cn(
+    'mx-auto flex w-full flex-col md:max-w-5xl'
+  );
+
+  // Detect mobile device on mount
+  useEffect(() => {
+    const checkIsMobile = () => {
+      if (typeof window !== 'undefined') {
+        const isMobileDevice = window.innerWidth < 768; // md breakpoint
+        setIsMobile(isMobileDevice);
+      }
+    };
+
+    checkIsMobile();
+    
+    // Listen for resize events
+    const handleResize = () => {
+      checkIsMobile();
+    };
+    
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
+  }, []);
 
   return (
-    <div className="min-h-screen py-24">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+    <div className={containerClasses}>
+      <div className={contentClasses}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="mb-16 text-center"
-        >
-          <span className="mb-4 inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium text-primary">
-            {t('onboarding.hero.badge')}
-          </span>
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">
-            {t('onboarding.hero.title')}
-          </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            {t('onboarding.hero.subtitle')}
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.98 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, delay: 0.1 }}
+          transition={{ duration: 0.4 }}
+          className="flex-1"
         >
           <OnboardingForm />
         </motion.div>

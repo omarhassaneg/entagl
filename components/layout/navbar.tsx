@@ -11,6 +11,7 @@ import { LanguageSelector } from '@/components/layout/language-selector';
 import { useTranslations } from '@/lib/hooks/use-translations';
 import { useLanguage } from '@/components/providers/language-provider';
 import { usePathname } from 'next/navigation';
+import { cn } from '@/lib/utils';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ export function Navbar() {
   const { t } = useTranslations();
   const { language } = useLanguage();
   const pathname = usePathname();
+  const isOnboarding = pathname?.includes('/onboarding');
 
   useEffect(() => {
     setMounted(true);
@@ -37,7 +39,12 @@ export function Navbar() {
   if (!mounted) return null;
 
   return (
-    <nav className="fixed top-0 z-50 w-full bg-background/80 backdrop-blur-lg border-b">
+    <nav
+      className={cn(
+        'fixed top-0 z-50 w-full bg-background/80 backdrop-blur-lg border-b',
+        isOnboarding && 'hidden md:block'
+      )}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
