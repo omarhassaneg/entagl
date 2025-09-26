@@ -54,7 +54,7 @@
         "doctorName": "Dr. Ece Yılmaz",
         "assistantName": "Assistant Ayşe",
         "clinicName": "Glow Aesthetics Clinic",
-        "addSpecialty": "Add a specialty (e.g. Injectables)",
+        "specialties": "e.g. Dentist, Rhinoplasty Surgeon, Dermatologist",
         "primaryService": "Lip augmentation"
       }
     },

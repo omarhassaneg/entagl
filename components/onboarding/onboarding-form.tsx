@@ -76,7 +76,7 @@ interface OnboardingFormData {
     doctorName: string;
     assistantName: string;
     clinicName: string;
-    specialties: string[];
+    specialties: string;
     primaryService: string;
   };
   brand: {
@@ -181,7 +181,7 @@ const DEFAULT_FORM_DATA: OnboardingFormData = {
     doctorName: '',
     assistantName: '',
     clinicName: '',
-    specialties: [],
+    specialties: '',
     primaryService: '',
   },
   brand: {
@@ -383,7 +383,7 @@ export function OnboardingForm() {
   const [currentStep, setCurrentStep] = useState(0);
   const [storageKey, setStorageKey] = useState<string>(STORAGE_BASE_KEY);
   const [userIp, setUserIp] = useState<string | null>(null);
-  const [specialtyInput, setSpecialtyInput] = useState('');
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isInitializing, setIsInitializing] = useState(true);
   const hasHydratedRef = useRef(false);
@@ -539,9 +539,23 @@ export function OnboardingForm() {
             mergedChannels.otherPlatformsOther = '';
           }
 
+          // Handle specialties conversion from array to string for backward compatibility
+          const mergedIdentity = {
+            ...DEFAULT_FORM_DATA.identity,
+            ...(incoming.identity ?? {}),
+          };
+
+          // Convert specialties from array to string if needed
+          if (Array.isArray(mergedIdentity.specialties)) {
+            mergedIdentity.specialties = (mergedIdentity.specialties as string[]).join(', ');
+          } else if (typeof mergedIdentity.specialties !== 'string') {
+            mergedIdentity.specialties = '';
+          }
+
           setFormData({
             ...DEFAULT_FORM_DATA,
             ...incoming,
+            identity: mergedIdentity,
             operational: mergedOperational,
             languageCulture: mergedLanguageCulture,
             booking: mergedBooking,
@@ -597,28 +611,7 @@ export function OnboardingForm() {
     [t]
   );
 
-  const handleSpecialtyAdd = () => {
-    const trimmed = specialtyInput.trim();
-    if (!trimmed) return;
-    setFormData((prev) => ({
-      ...prev,
-      identity: {
-        ...prev.identity,
-        specialties: [...prev.identity.specialties, trimmed],
-      },
-    }));
-    setSpecialtyInput('');
-  };
 
-  const handleSpecialtyRemove = (index: number) => {
-    setFormData((prev) => ({
-      ...prev,
-      identity: {
-        ...prev.identity,
-        specialties: prev.identity.specialties.filter((_, i) => i !== index),
-      },
-    }));
-  };
 
   const updateServiceItem = (id: string, updates: Partial<ServiceItem>) => {
     setFormData((prev) => ({
@@ -799,7 +792,7 @@ export function OnboardingForm() {
           formData.identity.doctorName.trim() !== '' &&
           formData.identity.assistantName.trim() !== '' &&
           formData.identity.clinicName.trim() !== '' &&
-          formData.identity.specialties.length > 0
+          formData.identity.specialties.trim() !== ''
         );
       case 1: // Brand step - tone guidelines mandatory
         return formData.brand.tone !== '';
@@ -826,7 +819,7 @@ export function OnboardingForm() {
       formData.identity.doctorName.trim() !== '' &&
       formData.identity.assistantName.trim() !== '' &&
       formData.identity.clinicName.trim() !== '' &&
-      formData.identity.specialties.length > 0 &&
+      formData.identity.specialties.trim() !== '' &&
       formData.brand.tone !== '' &&
       formData.services.items.some(
         (service) =>
@@ -990,53 +983,26 @@ export function OnboardingForm() {
                 />
               </div>
 
-              <div className="grid gap-3">
-                <Label className="text-sm font-medium">
+              <div className="grid gap-2">
+                <Label htmlFor="specialties" className="text-sm font-medium">
                   {t('onboarding.steps.identity.fields.specialties')} <span className="text-red-500">*</span>
                 </Label>
-                <div className="flex flex-col sm:flex-row gap-2">
-                  <Input
-                    value={specialtyInput}
-                    onChange={(event) => setSpecialtyInput(event.target.value)}
-                    placeholder={t('onboarding.steps.identity.placeholders.addSpecialty')}
-                    onKeyDown={(event) => {
-                      if (event.key === 'Enter') {
-                        event.preventDefault();
-                        handleSpecialtyAdd();
-                      }
-                    }}
-                    className="min-h-[44px] flex-1"
-                  />
-                  <Button
-                    type="button"
-                    onClick={handleSpecialtyAdd}
-                    className="min-h-[44px] w-full sm:w-auto whitespace-nowrap"
-                  >
-                    <Plus className="h-4 w-4 mr-2" />
-                    {t('onboarding.buttons.addSpecialty')}
-                  </Button>
-                </div>
-                {formData.identity.specialties.length > 0 && (
-                  <div className="flex flex-wrap gap-2">
-                    {formData.identity.specialties.map((specialty, index) => (
-                      <div
-                        key={`${specialty}-${index}`}
-                        className="flex items-center gap-2 rounded-full bg-muted px-3 py-2 text-sm"
-                      >
-                        <span>{specialty}</span>
-                        <Button
-                          type="button"
-                          variant="ghost"
-                          size="icon"
-                          className="h-5 w-5 hover:bg-destructive/10 hover:text-destructive"
-                          onClick={() => handleSpecialtyRemove(index)}
-                        >
-                          <Trash className="h-3 w-3" />
-                        </Button>
-                      </div>
-                    ))}
-                  </div>
-                )}
+                <Input
+                  id="specialties"
+                  value={formData.identity.specialties}
+                  onChange={(event) =>
+                    setFormData((prev) => ({
+                      ...prev,
+                      identity: {
+                        ...prev.identity,
+                        specialties: event.target.value,
+                      },
+                    }))
+                  }
+                  placeholder={t('onboarding.steps.identity.placeholders.specialties')}
+                  className="min-h-[44px]"
+                  required
+                />
               </div>
 
               <div className="grid gap-2">

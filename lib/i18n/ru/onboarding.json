@@ -54,7 +54,7 @@
         "doctorName": "Др. Айше Йылмаз",
         "assistantName": "Ассистент Дильяр",
         "clinicName": "Glow Aesthetics Clinic",
-        "addSpecialty": "Добавьте специализацию (например, Инъекции)",
+        "specialties": "напр. Стоматолог, Ринопластический хирург, Дерматолог",
         "primaryService": "Контурная пластика губ"
       }
     },

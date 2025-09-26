@@ -54,7 +54,7 @@
         "doctorName": "Dr. Ece Yılmaz",
         "assistantName": "Asistan Ayşe",
         "clinicName": "Glow Aesthetics Clinic",
-        "addSpecialty": "Uzmanlık ekle (örn. Enjeksiyonlar)",
+        "specialties": "örn. Diş Hekimi, Rinoplasti Cerrahı, Dermatolog",
         "primaryService": "Dudak dolgusu"
       }
     },
